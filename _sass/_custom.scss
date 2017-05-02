@@ -55,12 +55,20 @@ label[for="location"] {
 }
 
 .form-search {
+  > input {
+    @include margin(8px null);
+  }
+
   input[type="submit"] {
     margin-bottom: 0;
 
     @include media($medium-screen) {
       float: right;
     }
+  }
+
+  .form-help-text {
+    margin-top: 0;
   }
 }
 
