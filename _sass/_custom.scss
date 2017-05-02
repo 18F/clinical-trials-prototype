@@ -69,11 +69,25 @@ label[for="location"] {
   margin-top: 3rem;
 }
 
+@mixin advanced-search-label {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+}
+
 .search-advanced {
+  .usa-accordion-content {
+    background-color: transparent;
+  }
+
   legend {
-    font-size: 16px;
-    margin-bottom: 1rem;
-    padding-top: 2rem;
+    @include advanced-search-label;
+  }
+
+  .form-label {
+    @include advanced-search-label;
+    font-weight: $font-bold;
+    margin-top: 0;
   }
 }
 
