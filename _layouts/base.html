@@ -105,6 +105,29 @@
           <h3>239,000+ studies in 50 states and 196 countries</h3>
         </div>
       </section>
+      <section class="usa-section usa-color-bg-primary-alt-lightest">
+        <div class="usa-grid">
+          <div class="usa-width-one-half trial-info">
+            <h2>Search for a trial to participate in</h2>
+            <p>These trials are not  endorsed or regulated by NIH or the federal government. Please talk to your doctor before volunteering for a study. <a href="#">Read our Disclaimer</a> for details.</p>
+          </div>
+          <div class="usa-width-one-half">
+            <form class="form-search" action="">
+              <label for="keyword">Search by keyword</label>
+              <input id="keyword" name="input-type-text" type="text">
+              <p>Search by condition, drug, intervention, or NCT number</p>
+              <label for="location">Location</label>
+              <input id="location" name="input-type-text" type="text">
+              <input type="submit" value="Submit">
+            </form>
+            <a href="#">+ Advanced search</a>
+          </div>
+        </div>
+      </section>
+      <div class="usa-grid search-links">
+        <a href="#">Search on the map</a>
+        <a href="#">Browse by topic</a>
+      </div>
       <div class="usa-grid info-callouts">
         <section class="usa-width-one-third card usa-color-bg-primary-alt-lightest">
           <h3>Find a study to participate in</h3>
@@ -121,6 +144,7 @@
       </div>
     {{ content }}
     </main>
+    <footer role="contentinfo"></footer>
     <script src="{{ site.baseurl }}/assets/uswds/js/uswds.min.js"></script>
   </body>
 </html>

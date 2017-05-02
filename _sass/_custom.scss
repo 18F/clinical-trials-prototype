@@ -1,3 +1,5 @@
+// Hero ------------ //
+
 .hero {
   background-color: $color-gray-light;
 
@@ -5,6 +7,42 @@
     max-width: 750px;
   }
 }
+
+// Search ------------ //
+
+.trial-info {
+  > * {
+    max-width: 338px;
+  }
+}
+
+label[for="keyword"] {
+  @include h3();
+  font-family: $font-serif;
+  margin-top: 0;
+}
+
+label[for="location"] {
+  @include h5();
+  font-family: $font-serif;
+}
+
+.form-search {
+  input[type="submit"] {
+    margin-bottom: 0;
+
+    @include media($medium-screen) {
+      float: right;
+    }
+  }
+}
+
+.search-links {
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+// Info callouts ------------ //
 
 .info-callouts {
   @include margin(3rem null);
