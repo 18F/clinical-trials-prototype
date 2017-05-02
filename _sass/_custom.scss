@@ -1,11 +1,23 @@
 // Navigation ------------ //
 
+
 .usa-logo-text {
-  @include media($medium-screen) {
+  @include media($nav-width) {
     font-size: 3.2rem;
   }
 }
 
+.usa-navbar {
+  @include media($nav-width) {
+    height: 81px;
+  }
+}
+
+.usa-nav {
+  @include media($nav-width) {
+    padding-top: 2.4rem;
+  }
+}
 // Hero ------------ //
 
 .hero {
