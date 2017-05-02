@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ site.title }}</title>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/img/font-awesome-4.7.0/css/font-awesome.min.css">
   </head>
   <body class="">
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
@@ -118,6 +119,7 @@
               <p>Search by condition, drug, intervention, or NCT number</p>
               <label for="location">Location</label>
               <input id="location" name="input-type-text" type="text">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
               <input type="submit" value="Submit">
             </form>
             <a href="#">+ Advanced search</a>
@@ -126,8 +128,8 @@
       </section>
       {% include advanced-search.html %}
       <div class="usa-grid search-links">
-        <a href="#">Search on the map</a>
-        <a href="#">Browse by topic</a>
+        <a href="#"><i class="fa fa-map-o"></i>Search on the map</a>
+        <a href="#"><i class="fa fa-book"></i>Browse by topic</a>
       </div>
       <div class="usa-grid info-callouts">
         <section class="usa-width-one-third card usa-color-bg-primary-alt-lightest">

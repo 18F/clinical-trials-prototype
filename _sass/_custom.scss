@@ -67,6 +67,14 @@ label[for="location"] {
 .search-links {
   margin-bottom: 5rem;
   margin-top: 3rem;
+
+  > :first-child {
+    margin-right: 3.5rem;
+  }
+
+  .fa {
+    margin-right: 1rem;
+  }
 }
 
 @mixin advanced-search-label {
@@ -89,6 +97,23 @@ label[for="location"] {
     font-weight: $font-bold;
     margin-top: 0;
   }
+}
+
+.fa {
+  &:before {
+    font-size: 20px;
+  }
+}
+
+.fa-map-marker {
+  left: 13px;
+  position: relative;
+  top: -35px;
+
+}
+
+input[id="location"] {
+  padding-left: 30px;
 }
 
 // Info callouts ------------ //
