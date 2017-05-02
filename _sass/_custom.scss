@@ -1,0 +1,42 @@
+.hero {
+  background-color: $color-gray-light;
+
+  h2 {
+    max-width: 750px;
+  }
+}
+
+.info-callouts {
+  @include margin(3rem null);
+}
+
+.card {
+  padding: 3rem;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  @include media($medium-screen) {
+    min-height: 230px;
+  }
+}
+
+.usa-color-bg-primary-alt-lightest {
+  background-color: $color-primary-alt-lightest;
+}
+
+.usa-color-bg-gray-dark {
+  background-color: $color-gray-dark;
+  color: $color-white;
+}
+
+.usa-color-bg-primary {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
