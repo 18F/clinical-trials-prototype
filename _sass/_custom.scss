@@ -1,3 +1,11 @@
+// Navigation ------------ //
+
+.usa-logo-text {
+  @include media($medium-screen) {
+    font-size: 3.2rem;
+  }
+}
+
 // Hero ------------ //
 
 .hero {
