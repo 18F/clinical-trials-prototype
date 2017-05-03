@@ -180,3 +180,15 @@ input[id="location"] {
   background-color: $color-gray-lightest;
 }
 
+// Checkbox and radio fixes
+.usa-fieldset-inputs {
+  li {
+    position: relative;
+  }
+}
+
+[type=checkbox],
+[type=radio] {
+  cursor: pointer;
+  height: auto;
+}
