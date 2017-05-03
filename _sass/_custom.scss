@@ -20,3 +20,15 @@ form [type=submit] {
     border: none;
   }
 }
+
+.form-search {
+  label {
+    margin-top: 13px;
+  }
+}
+
+// Alignment fix on select box clear
+button.clearFieldIE {
+  margin-bottom: 4px;
+  margin-top: 3px;
+}
