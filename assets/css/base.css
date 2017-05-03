@@ -1387,6 +1387,7 @@ button.clearField, button.clearFieldIE {
   border-radius: 0 3px 3px 0;
   font-size:small;
   margin: 4px 3px 3px 0;
+  width: initial;
 }
 
 /* The following five styles enable <select> tags to resize properly when inside a fieldset */
