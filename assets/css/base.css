@@ -49,7 +49,7 @@ html
 
 body
 {
-    background: #205493;
+    background: #205493 !important;
 }
 
 /*body, p, td, tr, input, select, textarea, li, legend, div
@@ -84,7 +84,6 @@ a img
 h1
 {
     color: #990000;
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 22px;
     font-weight: normal;
     margin: 0 0 18px 0;
@@ -179,7 +178,6 @@ legend > span {
   margin-bottom:1px;
   font-size:1.35em;
     color: #990000;
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: normal;
     margin:0;
 
@@ -1361,31 +1359,6 @@ li.facet {
   font-weight: bold;
   color: #1a3d85;
 }
-
-input.applyFacet, input.searchButton
-{
-    background-color: #dbf0db; /* Green */
-    border: 1px solid black;
-    border-radius: 4px;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    padding: 2px 8px;
-    cursor: pointer;
-}
-
-
-input.searchButton
-{
-  opacity: 0.3;
-}
-
-input.searchButton:hover
-{
-  background-color: lightgrey;
-}
-
 
 /* <input placeholder> styles */
 /* Different browsers have diff specs */

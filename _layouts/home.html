@@ -34,7 +34,7 @@
            <link href="{{ site.currenturl }}/beta/html/ct3/css/target-IE7-and-below.css" rel="stylesheet" type="text/css">
     <![endif]-->
 
-    <link href="{{ site.currenturl }}/beta/html/ct3/css/homepage.css?v=b" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/homepage.css" />
 
     <link rel="stylesheet" type="text/css" href="{{ site.currenturl }}/beta/html/ct3/css/extensionsMgr.css" />
 
@@ -570,7 +570,7 @@ $(document).ready(function() {
               style="opacity:1.0;margin-right:2em;" tabindex="6"
               onclick="$('#RecruitingStudies').val('a');showWorking();"
               title="Search for currently recruiting studies using the above fields"/>
-            <input name="SearchAll" value="Search all studies" type="submit"  tabindex="7" class="searchButton searchButtonAlternate"
+            <input class="usa-button usa-button-outline" name="SearchAll" value="Search all studies" type="submit"  tabindex="7" class="searchButton searchButtonAlternate"
               onclick="$('#RecruitingStudies').val(' ');showWorking();"
               title="Search all studies using the above fields"/>
             <a href="javascript:gotoAdvSearchURL();" title="Go to the Advanced Search page" tabindex="8"
