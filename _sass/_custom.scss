@@ -96,6 +96,18 @@ label[for="location"] {
     background-color: transparent;
   }
 
+  .usa-width-one-third {
+    @include media($medium-screen) {
+      height: 870px;
+    }
+
+    &:nth-child(-n+2) {
+      @include media($medium-screen) {
+        border-right: 1px solid $color-gray-light;
+      }
+    }
+  }
+
   legend {
     @include advanced-search-label;
   }
@@ -105,6 +117,10 @@ label[for="location"] {
     font-weight: $font-bold;
     margin-top: 0;
   }
+}
+
+select[id="age-group"] {
+  max-width: 212px;
 }
 
 .fa {
