@@ -82,233 +82,244 @@
 
 <body class="js">
   <div id="skip"> <a href="#home-search-box">Skip to Main Content</a> </div>
+  <!-- Gov banner BEGIN -->
+  <div class="usa-banner">
+    <div class="usa-accordion">
+      <header class="usa-banner-header">
+        <div class="usa-grid usa-banner-inner">
+          <p><b>IMPORTANT</b>: Listing of a study on this site does not reflect endorsement by the National Institutes of Health. Talk with a trusted healthcare professional before volunteering for a study. <a href="/beta/about-site/disclaimer">Read more...</a></p>
+        </div>
+      </header>
+    </div>
+  </div>
+  <!-- Gov banner END -->
 
   <div id="wrapper">
 
-    <div id="header" style="float:left;">
-      <a href="{{ site.currenturl }}/beta/home" style="border-style:none;box-shadow:none;"><img src='{{ site.currenturl }}/beta/html/ct3/images/ct.gov-logo-beta.png' alt='ClinicalTrials.gov' style='max-width:100%;' />
-      </a>
-      <br />
-    </div>
-    <div id="hamburger" class="w3-hide-medium w3-hide-large" style="float:right;border-width:0;display:block;margin-left:1em;padding:4px;" title="Show menus">
-      <img src="{{ site.currenturl }}/beta/html/ct3/images/hamburgerMenuIcon.png" alt="ClinicalTrials.gov Menu" style="max-width:30px;cursor:pointer;" onclick="$('#global-nav-popupMenu').toggle();" />
-    </div>
-    <div id="global-nav-popupMenu" class="w3-hide-medium w3-hide-large w3-modal w3-center" style="display:none;">
-      <div id="global-nav-popupMenu-content" class="w3-modal-content">
-        <div class="w3-container">
-          <span onclick="$('#global-nav-popupMenu').hide();" class="w3-closebtn">&times;</span>
-          <ul class="sf-menu sf-vertical">
-            <li class="first"><a href="{{ site.currenturl }}/beta/search/index">Find Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Find Studies Menu"></a>
-              <ul>
-                <li><a href="/beta/home">New Search</a>
-                </li>
-                <li><a href="/beta/search/advanced">Advanced Search</a>
-                </li>
-                <li><a href="/beta/search/browse?brwse=cond_cat">See Studies by Topic</a>
-                </li>
-                <li><a href="/beta/search/map">See Studies on Map</a>
-                </li>
-                <li class="new-group"><a href="/beta/help/how-find/index">How to Search</a>
-                </li>
-                <li><a href="/beta/help/how-use-search-results">How to Use Search Results</a>
-                </li>
-                <li><a href="/beta/help/how-find/find-study-results">How to Find Results of Studies</a>
-                </li>
-                <li><a href="/beta/help/how-read-study">How to Read a Study Record</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="/beta/about-studies">About Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="About Studies Menu"></a>
-              <ul>
-                <li><a href="/beta/about-studies/learn">Learn About Studies</a>
-                </li>
-                <li><a href="/beta/about-studies/other-sites">Other Sites About Studies</a>
-                </li>
-                <li><a href="/beta/about-studies/glossary">Glossary of Common Site Terms</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="/beta/manage-recs">Submit Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Submit Studies Menu"></a>
-              <ul>
-                <li><a href="/beta/manage-recs/background">Why Should I Register and Submit Results?</a>
-                </li>
-                <li><a href="/beta/manage-recs/fdaaa">FDAAA 801 Requirements</a>
-                </li>
-                <li class="new-group"><a href="/beta/manage-recs/how-apply">How to Apply for an Account</a>
-                </li>
-                <li><a href="/beta/manage-recs/how-register">How to Register Your Study</a>
-                </li>
-                <li><a href="/beta/manage-recs/how-edit">How to Edit Your Study Record</a>
-                </li>
-                <li><a href="/beta/manage-recs/how-report">How to Submit Your Results</a>
-                </li>
-                <li class="new-group"><a href="/beta/manage-recs/faq">Frequently Asked Questions</a>
-                </li>
-                <li><a href="/beta/manage-recs/resources">Support Materials</a>
-                </li>
-                <li><a href="/beta/manage-recs/present">Training Materials</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="/beta/resources">Resources<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Resources Menu"></a>
-              <ul>
-                <li><a href="/beta/resources/pubs">Selected Publications</a>
-                </li>
-                <li><a href="/beta/resources/alert">Clinical Alerts and Advisories</a>
-                </li>
-                <li><a href="/beta/resources/rss">RSS Feeds</a>
-                </li>
-                <li class="new-group"><a href="/beta/resources/trends">Trends, Charts, and Maps</a>
-                </li>
-                <li><a href="/beta/resources/download">Downloading Content for Analysis</a>
-                </li>
-              </ul>
-            </li>
-            <li class="last"><a href="/beta/about-site">About Site<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="About Site Menu"></a>
-              <ul>
-                <li class="new-group"><a href="/beta/about-site/background">ClinicalTrials.gov Background</a>
-                </li>
-                <li><a href="/beta/about-site/results">About the Results Database</a>
-                </li>
-                <li><a href="/beta/about-site/history">History, Policies, and Laws</a>
-                </li>
-                <li><a href="/beta/about-site/for-media">Media/Press Resources</a>
-                </li>
-                <li class="new-group"><a href="/beta/about-site/link-to">Linking to This Site</a>
-                </li>
-                <li><a href="/beta/about-site/terms-conditions">Terms and Conditions</a>
-                </li>
-                <li><a href="/beta/about-site/disclaimer">Disclaimer</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+    <header id="header" role="banner">
+      <div class="usa-grid">
+        <a class="logo" href="{{ site.currenturl }}/beta/home" style="border-style:none;box-shadow:none;">
+          <img class="logo-img" src='{{ site.currenturl }}/beta/html/ct3/images/ct.gov-logo-beta.png' alt='ClinicalTrials.gov' style='max-width:100%;' />
+        </a>
+        <br />
+
+        <div id="hamburger" class="w3-hide-medium w3-hide-large" style="float:right;border-width:0;display:block;margin-left:1em;padding:4px;" title="Show menus">
+          <img src="{{ site.currenturl }}/beta/html/ct3/images/hamburgerMenuIcon.png" alt="ClinicalTrials.gov Menu" style="max-width:30px;cursor:pointer;" onclick="$('#global-nav-popupMenu').toggle();" />
         </div>
+        <div id="global-nav-popupMenu" class="w3-hide-medium w3-hide-large w3-modal w3-center" style="display:none;">
+          <div id="global-nav-popupMenu-content" class="w3-modal-content">
+            <div class="w3-container">
+              <span onclick="$('#global-nav-popupMenu').hide();" class="w3-closebtn">&times;</span>
+              <ul class="sf-menu sf-vertical">
+                <li class="first"><a href="{{ site.currenturl }}/beta/search/index">Find Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Find Studies Menu"></a>
+                  <ul>
+                    <li><a href="/beta/home">New Search</a>
+                    </li>
+                    <li><a href="/beta/search/advanced">Advanced Search</a>
+                    </li>
+                    <li><a href="/beta/search/browse?brwse=cond_cat">See Studies by Topic</a>
+                    </li>
+                    <li><a href="/beta/search/map">See Studies on Map</a>
+                    </li>
+                    <li class="new-group"><a href="/beta/help/how-find/index">How to Search</a>
+                    </li>
+                    <li><a href="/beta/help/how-use-search-results">How to Use Search Results</a>
+                    </li>
+                    <li><a href="/beta/help/how-find/find-study-results">How to Find Results of Studies</a>
+                    </li>
+                    <li><a href="/beta/help/how-read-study">How to Read a Study Record</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="/beta/about-studies">About Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="About Studies Menu"></a>
+                  <ul>
+                    <li><a href="/beta/about-studies/learn">Learn About Studies</a>
+                    </li>
+                    <li><a href="/beta/about-studies/other-sites">Other Sites About Studies</a>
+                    </li>
+                    <li><a href="/beta/about-studies/glossary">Glossary of Common Site Terms</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="/beta/manage-recs">Submit Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Submit Studies Menu"></a>
+                  <ul>
+                    <li><a href="/beta/manage-recs/background">Why Should I Register and Submit Results?</a>
+                    </li>
+                    <li><a href="/beta/manage-recs/fdaaa">FDAAA 801 Requirements</a>
+                    </li>
+                    <li class="new-group"><a href="/beta/manage-recs/how-apply">How to Apply for an Account</a>
+                    </li>
+                    <li><a href="/beta/manage-recs/how-register">How to Register Your Study</a>
+                    </li>
+                    <li><a href="/beta/manage-recs/how-edit">How to Edit Your Study Record</a>
+                    </li>
+                    <li><a href="/beta/manage-recs/how-report">How to Submit Your Results</a>
+                    </li>
+                    <li class="new-group"><a href="/beta/manage-recs/faq">Frequently Asked Questions</a>
+                    </li>
+                    <li><a href="/beta/manage-recs/resources">Support Materials</a>
+                    </li>
+                    <li><a href="/beta/manage-recs/present">Training Materials</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="/beta/resources">Resources<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Resources Menu"></a>
+                  <ul>
+                    <li><a href="/beta/resources/pubs">Selected Publications</a>
+                    </li>
+                    <li><a href="/beta/resources/alert">Clinical Alerts and Advisories</a>
+                    </li>
+                    <li><a href="/beta/resources/rss">RSS Feeds</a>
+                    </li>
+                    <li class="new-group"><a href="/beta/resources/trends">Trends, Charts, and Maps</a>
+                    </li>
+                    <li><a href="/beta/resources/download">Downloading Content for Analysis</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="last"><a href="/beta/about-site">About Site<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="About Site Menu"></a>
+                  <ul>
+                    <li class="new-group"><a href="/beta/about-site/background">ClinicalTrials.gov Background</a>
+                    </li>
+                    <li><a href="/beta/about-site/results">About the Results Database</a>
+                    </li>
+                    <li><a href="/beta/about-site/history">History, Policies, and Laws</a>
+                    </li>
+                    <li><a href="/beta/about-site/for-media">Media/Press Resources</a>
+                    </li>
+                    <li class="new-group"><a href="/beta/about-site/link-to">Linking to This Site</a>
+                    </li>
+                    <li><a href="/beta/about-site/terms-conditions">Terms and Conditions</a>
+                    </li>
+                    <li><a href="/beta/about-site/disclaimer">Disclaimer</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="savedStudies" style="float:right;border:1px solid #ccc;padding:4px 8px;">
+          <div id="cart" style="cursor:pointer;" onclick="location.href=('{{ site.currenturl }}/beta/results'+cartToURL()); showWorking();">
+            <a id="open-cart-link" onclick="location.href=('{{ site.currenturl }}/beta/results'+cartToURL()); showWorking(); return false;" title="Show previously saved studies.">Saved Studies</a>
+          </div>
+          <div id="cart-disabled" style="color:lightgrey;">
+            <span title="There are no saved studies to show. You can save studies to visit later from the search results page">Saved Studies (0)</span>
+          </div>
+        </div>
+        <a class="leave-beta-site" href="https://clinicaltrials.gov">Leave beta test site</a>
+        <div style="clear:right;text-align:right;padding-top:1ex;font-size:small;">
+          <a href="https://survey.foreseeresults.com/survey/display?cid=WyHFr2m0PoaGCBUsi00QIQ==&sid=link-ct" target="_blank">Give us feedback</a>
+        </div>
+
+        <script type="text/javascript" src="{{ site.currenturl }}/beta/html/ct3/js/cart.js"></script>
+        <noscript></noscript>
+
       </div>
-    </div>
 
-    <div id="savedStudies" style="float:right;border:1px solid #ccc;padding:4px 8px;">
-      <div id="cart" style="cursor:pointer;" onclick="location.href=('{{ site.currenturl }}/beta/results'+cartToURL()); showWorking();">
-        <a id="open-cart-link" onclick="location.href=('{{ site.currenturl }}/beta/results'+cartToURL()); showWorking(); return false;" title="Show previously saved studies.">Saved Studies</a>
-      </div>
-      <div id="cart-disabled" style="color:lightgrey;">
-        <span title="There are no saved studies to show. You can save studies to visit later from the search results page">Saved Studies (0)</span>
-      </div>
-    </div>
-    <div style="clear:right;text-align:right;padding-top:1ex;font-size:small;">
-      <a href="https://survey.foreseeresults.com/survey/display?cid=WyHFr2m0PoaGCBUsi00QIQ==&sid=link-ct" target="_blank">Give us feedback</a>
-    </div>
-    <script type="text/javascript" src="{{ site.currenturl }}/beta/html/ct3/js/cart.js"></script>
-    <noscript></noscript>
-    <a class="leave-beta-site" href="https://clinicaltrials.gov">Leave beta test site</a>
-
-    <p>
-      <b>IMPORTANT</b>: Listing of a study on this site does not reflect endorsement by the National Institutes of Health. Talk with a trusted healthcare professional before volunteering for a study. <a href="/beta/about-site/disclaimer">Read more...</a>
-    </p>
-
-
-    <div id="global-nav" class="w3-hide-small">
-      <ul class="sf-menu sf-vertical">
-        <li class="first"><a href="{{ site.currenturl }}/beta/search/index">Find Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Find Studies Menu"></a>
-          <ul>
-            <li><a href="/beta/home">New Search</a>
-            </li>
-            <li><a href="/beta/search/advanced">Advanced Search</a>
-            </li>
-            <li><a href="/beta/search/browse?brwse=cond_cat">See Studies by Topic</a>
-            </li>
-            <li><a href="/beta/search/map">See Studies on Map</a>
-            </li>
-            <li class="new-group"><a href="/beta/help/how-find/index">How to Search</a>
-            </li>
-            <li><a href="/beta/help/how-use-search-results">How to Use Search Results</a>
-            </li>
-            <li><a href="/beta/help/how-find/find-study-results">How to Find Results of Studies</a>
-            </li>
-            <li><a href="/beta/help/how-read-study">How to Read a Study Record</a>
-            </li>
-          </ul>
-        </li>
-        <li><a href="/beta/about-studies">About Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="About Studies Menu"></a>
-          <ul>
-            <li><a href="/beta/about-studies/learn">Learn About Studies</a>
-            </li>
-            <li><a href="/beta/about-studies/other-sites">Other Sites About Studies</a>
-            </li>
-            <li><a href="/beta/about-studies/glossary">Glossary of Common Site Terms</a>
-            </li>
-          </ul>
-        </li>
-        <li><a href="/beta/manage-recs">Submit Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Submit Studies Menu"></a>
-          <ul>
-            <li><a href="/beta/manage-recs/background">Why Should I Register and Submit Results?</a>
-            </li>
-            <li><a href="/beta/manage-recs/fdaaa">FDAAA 801 Requirements</a>
-            </li>
-            <li class="new-group"><a href="/beta/manage-recs/how-apply">How to Apply for an Account</a>
-            </li>
-            <li><a href="/beta/manage-recs/how-register">How to Register Your Study</a>
-            </li>
-            <li><a href="/beta/manage-recs/how-edit">How to Edit Your Study Record</a>
-            </li>
-            <li><a href="/beta/manage-recs/how-report">How to Submit Your Results</a>
-            </li>
-            <li class="new-group"><a href="/beta/manage-recs/faq">Frequently Asked Questions</a>
-            </li>
-            <li><a href="/beta/manage-recs/resources">Support Materials</a>
-            </li>
-            <li><a href="/beta/manage-recs/present">Training Materials</a>
-            </li>
-          </ul>
-        </li>
-        <li><a href="/beta/resources">Resources<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Resources Menu"></a>
-          <ul>
-            <li><a href="/beta/resources/pubs">Selected Publications</a>
-            </li>
-            <li><a href="/beta/resources/alert">Clinical Alerts and Advisories</a>
-            </li>
-            <li><a href="/beta/resources/rss">RSS Feeds</a>
-            </li>
-            <li class="new-group"><a href="/beta/resources/trends">Trends, Charts, and Maps</a>
-            </li>
-            <li><a href="/beta/resources/download">Downloading Content for Analysis</a>
-            </li>
-          </ul>
-        </li>
-        <li class="last"><a href="/beta/about-site">About Site<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="About Site Menu"></a>
-          <ul>
-            <li class="new-group"><a href="/beta/about-site/background">ClinicalTrials.gov Background</a>
-            </li>
-            <li><a href="/beta/about-site/results">About the Results Database</a>
-            </li>
-            <li><a href="/beta/about-site/history">History, Policies, and Laws</a>
-            </li>
-            <li><a href="/beta/about-site/for-media">Media/Press Resources</a>
-            </li>
-            <li class="new-group"><a href="/beta/about-site/link-to">Linking to This Site</a>
-            </li>
-            <li><a href="/beta/about-site/terms-conditions">Terms and Conditions</a>
-            </li>
-            <li><a href="/beta/about-site/disclaimer">Disclaimer</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <div style="clear:both;"></div>
-    </div>
+      <nav id="global-nav" class="w3-hide-small">
+        <ul class="sf-menu sf-vertical usa-grid">
+          <li class="first"><a href="{{ site.currenturl }}/beta/search/index">Find Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Find Studies Menu"></a>
+            <ul>
+              <li><a href="/beta/home">New Search</a>
+              </li>
+              <li><a href="/beta/search/advanced">Advanced Search</a>
+              </li>
+              <li><a href="/beta/search/browse?brwse=cond_cat">See Studies by Topic</a>
+              </li>
+              <li><a href="/beta/search/map">See Studies on Map</a>
+              </li>
+              <li class="new-group"><a href="/beta/help/how-find/index">How to Search</a>
+              </li>
+              <li><a href="/beta/help/how-use-search-results">How to Use Search Results</a>
+              </li>
+              <li><a href="/beta/help/how-find/find-study-results">How to Find Results of Studies</a>
+              </li>
+              <li><a href="/beta/help/how-read-study">How to Read a Study Record</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="/beta/about-studies">About Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="About Studies Menu"></a>
+            <ul>
+              <li><a href="/beta/about-studies/learn">Learn About Studies</a>
+              </li>
+              <li><a href="/beta/about-studies/other-sites">Other Sites About Studies</a>
+              </li>
+              <li><a href="/beta/about-studies/glossary">Glossary of Common Site Terms</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="/beta/manage-recs">Submit Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Submit Studies Menu"></a>
+            <ul>
+              <li><a href="/beta/manage-recs/background">Why Should I Register and Submit Results?</a>
+              </li>
+              <li><a href="/beta/manage-recs/fdaaa">FDAAA 801 Requirements</a>
+              </li>
+              <li class="new-group"><a href="/beta/manage-recs/how-apply">How to Apply for an Account</a>
+              </li>
+              <li><a href="/beta/manage-recs/how-register">How to Register Your Study</a>
+              </li>
+              <li><a href="/beta/manage-recs/how-edit">How to Edit Your Study Record</a>
+              </li>
+              <li><a href="/beta/manage-recs/how-report">How to Submit Your Results</a>
+              </li>
+              <li class="new-group"><a href="/beta/manage-recs/faq">Frequently Asked Questions</a>
+              </li>
+              <li><a href="/beta/manage-recs/resources">Support Materials</a>
+              </li>
+              <li><a href="/beta/manage-recs/present">Training Materials</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="/beta/resources">Resources<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Resources Menu"></a>
+            <ul>
+              <li><a href="/beta/resources/pubs">Selected Publications</a>
+              </li>
+              <li><a href="/beta/resources/alert">Clinical Alerts and Advisories</a>
+              </li>
+              <li><a href="/beta/resources/rss">RSS Feeds</a>
+              </li>
+              <li class="new-group"><a href="/beta/resources/trends">Trends, Charts, and Maps</a>
+              </li>
+              <li><a href="/beta/resources/download">Downloading Content for Analysis</a>
+              </li>
+            </ul>
+          </li>
+          <li class="last"><a href="/beta/about-site">About Site<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="About Site Menu"></a>
+            <ul>
+              <li class="new-group"><a href="/beta/about-site/background">ClinicalTrials.gov Background</a>
+              </li>
+              <li><a href="/beta/about-site/results">About the Results Database</a>
+              </li>
+              <li><a href="/beta/about-site/history">History, Policies, and Laws</a>
+              </li>
+              <li><a href="/beta/about-site/for-media">Media/Press Resources</a>
+              </li>
+              <li class="new-group"><a href="/beta/about-site/link-to">Linking to This Site</a>
+              </li>
+              <li><a href="/beta/about-site/terms-conditions">Terms and Conditions</a>
+              </li>
+              <li><a href="/beta/about-site/disclaimer">Disclaimer</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div style="clear:both;"></div>
+      </nav>
+    </header>
     <div style="clear:both;"></div>
 
-    <div class="w3-row">
+    <div class="usa-grid">
       <div id="tools-data" class="w3-container">
-        <div>ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world.
-        </div>
-        <p>
-        </p>
+        <h2>ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world.
+        </h2>
       </div>
 
     </div>
 
-    <div id="main-content" class="w3-row">
+    <div id="main-content" class="usa-grid">
 
       <div id="primary-box" class="w3-col l8">
         <script type="text/javascript">
@@ -353,7 +364,8 @@
 
             <div class="w3-row w3-padding-4" title="Name of a Disease  or Medical Condition. Known synonyms automatically included">
               <label for="home-search-condition-query"><a href="/beta/help/conditions_instr" title="Help for Conditions search field" onclick="openPopupWindow('/beta/help/conditions_instr',1000); return false;">Condition / Disease</a>: </label>
-              <input id="home-search-condition-query" name="cond" tabindex="1" autofocus maxlength="250" type="text" style="width:100%;" placeholder='e.g. breast cancer'>
+              <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
+              <input id="home-search-condition-query" name="cond" tabindex="1" autofocus maxlength="250" type="text">
               <div style="display:none" id="home-search-condition-ExtensionsId">
                 <ul>
                   <li>&nbsp;</li>
@@ -367,7 +379,8 @@
 
             <div class="w3-row w3-padding-4" title="Other terms such as an NCT number, radiation, drug name, investigator name">
               <label for="home-search-other-query"><a href="/beta/help/search_terms" title="Help for the Keyword field" onclick="openPopupWindow('/beta/help/search_terms',1000); return false;">Keyword</a>: </label>
-              <input id="home-search-other-query" name="term" tabindex="3" maxlength="250" type="text" style="width:100%;" placeholder='e.g., treatment, NCT number, or investigator name'>
+              <span class="usa-form-hint">Search by condition, drug, intervention, or NCT number</span>
+              <input id="home-search-other-query" name="term" tabindex="3" maxlength="250" type="text">
             </div>
 
             <div class="w3-row w3-padding-4" title="Country with at least one study trial location">
@@ -634,8 +647,8 @@
             </div>
 
             <div class="w3-row w3-padding-4" title="Perform a search">
-              <input name="SearchRecruiting" id="SearchRecruiting" value="Find a study to participate in" type="submit" class="searchButton" tabindex="6" onclick="$('#RecruitingStudies').val('a');showWorking();" title="Search for currently recruiting studies using the above fields" />
-              <input class="usa-button usa-button-outline" name="SearchAll" value="Search all studies" type="submit" tabindex="7" class="searchButton searchButtonAlternate" onclick="$('#RecruitingStudies').val(' ');showWorking();" title="Search all studies using the above fields" />
+              <input name="SearchRecruiting" id="SearchRecruiting" value="Submit" type="submit" class="searchButton" tabindex="6" onclick="$('#RecruitingStudies').val('a');showWorking();" title="Search for currently recruiting studies using the above fields" />
+              <!-- <input class="usa-button usa-button-outline" name="SearchAll" value="Search all studies" type="submit" tabindex="7" class="searchButton searchButtonAlternate" onclick="$('#RecruitingStudies').val(' ');showWorking();" title="Search all studies using the above fields" /> -->
               <a href="javascript:gotoAdvSearchURL();" title="Go to the Advanced Search page" tabindex="8" style="white-space:nowrap;padding-top:1ex;">Advanced Search</a>
               <input name="recrs" id="RecruitingStudies" type="hidden" />
             </div>
@@ -682,7 +695,7 @@
 
         </div>
         <div class="w3-container w3-center" id="graph">
-          <h2 style="text-align:center;">Recruiting Study Locations</h2>
+          <h2 class="h5" style="text-align:center;">Recruiting Study Locations</h2>
           <div class="w3-container w3-center" style="display:inline-flex;">
             <table class="w3-table" id="homepie" style="width:100%;">
               <caption style="display:none">Legend for Recruiting Study location pie chart image</caption>

@@ -1,11 +1,35 @@
-body {
-  background-color: $color-primary-darker;
+// Typography
+
+.h1 {
+  @include h1();
+}
+
+.h2 {
+  @include h2();
+}
+
+.h3 {
+  @include h3();
+}
+
+.h4 {
+  @include h4();
+}
+
+.h5 {
+  @include h5();
+}
+
+.h6 {
+  @include h6();
 }
 
 .leave-beta-site {
   display: inline-block;
   font-weight: bold;
   background-color: #ffffaa;
+  float: right;
+  margin-right: 10px;
 }
 
 form [type=submit] {
@@ -31,4 +55,20 @@ form [type=submit] {
 button.clearFieldIE {
   margin-bottom: 4px;
   margin-top: 3px;
+}
+
+.sf-menu {
+  float: none;
+}
+
+ul.sf-menu {
+  @include margin(null auto);
+}
+
+.logo {
+  float: left;
+}
+
+.logo-img {
+  margin-top: 3rem;
 }
