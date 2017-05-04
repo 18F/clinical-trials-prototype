@@ -172,3 +172,9 @@ ul.sf-menu {
 .fa-exclamation-circle {
   margin-right: 2px;
 }
+
+.usa-banner {
+  @include media($small-screen) {
+    @include padding(4px null);
+  }
+}
