@@ -1,4 +1,4 @@
-// Typography
+// Typography ------- //
 
 .h1 {
   @include h1();
@@ -86,4 +86,26 @@ ul.sf-menu {
 
 [role="contentinfo"] {
   background-color: $color-gray-dark;
+  color: $color-white;
+
+  ul {
+    list-style: none;
+
+    a {
+      font-size: $h5-font-size;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  a {
+    color: $color-white;
+
+    &:hover {
+      color: $color-gray-lighter;
+    }
+  }
 }
