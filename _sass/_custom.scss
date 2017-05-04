@@ -45,7 +45,6 @@ form [type=submit] {
   }
 }
 
-
 .legend-study-status {
   font-size: $base-font-size;
   font-weight: $font-normal;
@@ -114,4 +113,58 @@ ul.sf-menu {
   @include media($medium-screen) {
     font-size: 3.2rem;
   }
+}
+
+// Search
+.section-search {
+  margin-top: 4rem;
+}
+
+// Info callouts ------------ //
+
+.info-callouts {
+  @include margin(3rem null);
+}
+
+.card {
+  padding: 3rem;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  @include media($medium-screen) {
+    min-height: 272px;
+  }
+}
+
+.usa-color-bg-primary-alt-lightest {
+  background-color: $color-primary-alt-lightest;
+}
+
+.usa-color-bg-gray-dark {
+  background-color: $color-gray-dark;
+  color: $color-white;
+
+  a {
+    color: $color-white;
+  }
+}
+
+.usa-color-bg-primary {
+  background-color: $color-primary;
+  color: $color-white;
+
+
+  a {
+    color: $color-white;
+  }
+}
+
+.usa-color-bg-gray-lightest {
+  background-color: $color-gray-lightest;
 }
