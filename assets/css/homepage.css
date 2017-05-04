@@ -13,9 +13,6 @@ h2, h3
     margin-top: 0px;
     padding-top: 0px;
   padding-left:0px;
-  color: #333333;
-    background-color:white;
-    font-weight: bold;
 }
 
 h2 + p
@@ -162,10 +159,7 @@ h2 + p
     padding-left: 0;
     }
 
-#tools-data
-{
-    padding: 18px 10px 0;
-}
+
 
 /*
 div#graph

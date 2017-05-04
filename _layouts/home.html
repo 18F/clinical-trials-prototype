@@ -311,15 +311,15 @@
     </header>
     <div style="clear:both;"></div>
 
-    <div class="usa-grid">
-      <div id="tools-data" class="w3-container">
+    <section class="usa-section hero">
+      <div class="usa-grid" id="tools-data">
         <h2>ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world.
         </h2>
       </div>
 
-    </div>
+    </section>
 
-    <div id="main-content" class="usa-grid">
+    <div id="main-content" class="usa-grid usa-section">
 
       <div id="primary-box" class="w3-col l8">
         <script type="text/javascript">
@@ -362,7 +362,7 @@
             <legend style="background-color:white;border-radius:8px;padding:2px;"><span>Search</span>
             </legend>
 
-            <div class="w3-row w3-padding-4" title="Name of a Disease  or Medical Condition. Known synonyms automatically included">
+            <div title="Name of a Disease  or Medical Condition. Known synonyms automatically included">
               <label for="home-search-condition-query"><a href="/beta/help/conditions_instr" title="Help for Conditions search field" onclick="openPopupWindow('/beta/help/conditions_instr',1000); return false;">Condition / Disease</a>: </label>
               <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
               <input id="home-search-condition-query" name="cond" tabindex="1" autofocus maxlength="250" type="text">
@@ -377,13 +377,13 @@
               <noscript></noscript>
             </div>
 
-            <div class="w3-row w3-padding-4" title="Other terms such as an NCT number, radiation, drug name, investigator name">
+            <div title="Other terms such as an NCT number, radiation, drug name, investigator name">
               <label for="home-search-other-query"><a href="/beta/help/search_terms" title="Help for the Keyword field" onclick="openPopupWindow('/beta/help/search_terms',1000); return false;">Keyword</a>: </label>
               <span class="usa-form-hint">Search by condition, drug, intervention, or NCT number</span>
               <input id="home-search-other-query" name="term" tabindex="3" maxlength="250" type="text">
             </div>
 
-            <div class="w3-row w3-padding-4" title="Country with at least one study trial location">
+            <div title="Country with at least one study trial location">
               <label for="Country1"><a href="/beta/help/country_state" title="Help for Country search field" onclick="openPopupWindowShortWidth('/beta/help/country_state',1000); return false;">Location: Country</a>: </label>
               <select name="cntry1" id="Country1" tabindex="4">
                 <option value="" selected="selected"></option>
@@ -586,7 +586,7 @@
               </select>
             </div>
 
-            <div class="w3-row w3-padding-4" title="State name (United States only) for a study trial location" id="StateRow" style="display:none;">
+            <div title="State name (United States only) for a study trial location" id="StateRow" style="display:none;">
               <div class="w3-col m3 w3-right-align small-left">
                 <label for="State1"><a href="/beta/help/country_state" title="Help for State search field" onclick="openPopupWindowShortWidth('/beta/help/country_state',1000); return false;">State</a>: </label>
               </div>
@@ -646,7 +646,21 @@
               </select>
             </div>
 
-            <div class="w3-row w3-padding-4" title="Perform a search">
+            <fieldset class="usa-fieldset-inputs">
+              <legend class="legend-study-status">Study status</legend>
+              <ul class="usa-unstyled-list">
+                <li>
+                  <input id="stanton" type="radio" checked name="historical-figures-2" value="stanton">
+                  <label for="stanton">Recruiting</label>
+                </li>
+                <li>
+                  <input id="anthony" type="radio" name="historical-figures-2" value="anthony">
+                  <label for="anthony">Not recruting</label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <div title="Perform a search">
               <input name="SearchRecruiting" id="SearchRecruiting" value="Submit" type="submit" class="searchButton" tabindex="6" onclick="$('#RecruitingStudies').val('a');showWorking();" title="Search for currently recruiting studies using the above fields" />
               <!-- <input class="usa-button usa-button-outline" name="SearchAll" value="Search all studies" type="submit" tabindex="7" class="searchButton searchButtonAlternate" onclick="$('#RecruitingStudies').val(' ');showWorking();" title="Search all studies using the above fields" /> -->
               <a href="javascript:gotoAdvSearchURL();" title="Go to the Advanced Search page" tabindex="8" style="white-space:nowrap;padding-top:1ex;">Advanced Search</a>
@@ -744,7 +758,7 @@
     </div>
 
 
-    <div id="footer-menu">
+    <footer id="footer-menu" role="contentinfo">
       <ul class="horz-list">
         <li><a href="/beta/home" style="white-space:nowrap">Home</a>
         </li>
@@ -759,33 +773,32 @@
         <li><a href="https://support.nlm.nih.gov/ics/support/KBList.asp?folderID=146?style=classic&amp;deptID=28054&amp;category=clinicaltrials.gov&amp;hd_url=https%3A%2F%2Fclinicaltrials.gov%2Fbeta%2Fhome" style="white-space:nowrap" onclick="openNewWindow('https://support.nlm.nih.gov/ics/support/KBList.asp?folderID=146?style=classic&amp;deptID=28054&amp;category=clinicaltrials.gov&amp;hd_url=https%3A%2F%2Fclinicaltrials.gov%2Fbeta%2Fhome'); return false">Customer Support</a>
         </li>
       </ul>
-    </div>
-
-  </div>
-  <div id="fine-print">
-    <ul class="horz-list">
-      <li><a title="NLM copyright information - opens new window" href="https://www.nlm.nih.gov/copyright.html" onclick="openNewWindow('https://www.nlm.nih.gov/copyright.html'); return false">Copyright</a>
-      </li>
-      <li><a title="NLM privacy policy - opens new window" href="https://www.nlm.nih.gov/privacy.html" onclick="openNewWindow('https://www.nlm.nih.gov/privacy.html'); return false">Privacy</a>
-      </li>
-      <li><a title="NLM accessibility - opens new window" href="https://www.nlm.nih.gov/accessibility.html" onclick="openNewWindow('https://www.nlm.nih.gov/accessibility.html'); return false">Accessibility</a>
-      </li>
-      <li><a title="NLM viewers and players - opens new window" href="https://www.nlm.nih.gov/plugins.html" onclick="openNewWindow('https://www.nlm.nih.gov/plugins.html'); return false">Viewers and Players</a>
-      </li>
-      <li><a title="NIH Freedom of Information Act office - opens new window" href="https://www.nih.gov/icd/od/foia/index.htm" onclick="openNewWindow('https://www.nih.gov/icd/od/foia/index.htm'); return false">Freedom of Information Act</a>
-      </li>
-      <li class="last-item"><a title="USA.gov - opens new window" href="https://www.usa.gov/" onclick="openNewWindow('https://www.usa.gov/'); return false">USA.gov</a>
-      </li>
-    </ul>
-    <ul class="horz-list">
-      <li><a title="U.S. National Library of Medicine - opens new window" href="https://www.nlm.nih.gov/" onclick="openNewWindow('https://www.nlm.nih.gov/'); return false">U.S. National Library of Medicine</a>
-      </li>
-      <li><a title="U.S. National Institutes of Health - opens new window" href="https://www.nih.gov/" onclick="openNewWindow('https://www.nih.gov/'); return false">U.S. National Institutes of Health</a>
-      </li>
-      <li class="last-item"><a title="U.S. Department of Health and Human Services - opens new window" href="https://www.hhs.gov/" onclick="openNewWindow('https://www.hhs.gov/'); return false">
-            U.S. Department of Health and Human Services</a>
-      </li>
-    </ul>
+      <div id="fine-print">
+        <ul class="horz-list">
+          <li><a title="NLM copyright information - opens new window" href="https://www.nlm.nih.gov/copyright.html" onclick="openNewWindow('https://www.nlm.nih.gov/copyright.html'); return false">Copyright</a>
+          </li>
+          <li><a title="NLM privacy policy - opens new window" href="https://www.nlm.nih.gov/privacy.html" onclick="openNewWindow('https://www.nlm.nih.gov/privacy.html'); return false">Privacy</a>
+          </li>
+          <li><a title="NLM accessibility - opens new window" href="https://www.nlm.nih.gov/accessibility.html" onclick="openNewWindow('https://www.nlm.nih.gov/accessibility.html'); return false">Accessibility</a>
+          </li>
+          <li><a title="NLM viewers and players - opens new window" href="https://www.nlm.nih.gov/plugins.html" onclick="openNewWindow('https://www.nlm.nih.gov/plugins.html'); return false">Viewers and Players</a>
+          </li>
+          <li><a title="NIH Freedom of Information Act office - opens new window" href="https://www.nih.gov/icd/od/foia/index.htm" onclick="openNewWindow('https://www.nih.gov/icd/od/foia/index.htm'); return false">Freedom of Information Act</a>
+          </li>
+          <li class="last-item"><a title="USA.gov - opens new window" href="https://www.usa.gov/" onclick="openNewWindow('https://www.usa.gov/'); return false">USA.gov</a>
+          </li>
+        </ul>
+        <ul class="horz-list">
+          <li><a title="U.S. National Library of Medicine - opens new window" href="https://www.nlm.nih.gov/" onclick="openNewWindow('https://www.nlm.nih.gov/'); return false">U.S. National Library of Medicine</a>
+          </li>
+          <li><a title="U.S. National Institutes of Health - opens new window" href="https://www.nih.gov/" onclick="openNewWindow('https://www.nih.gov/'); return false">U.S. National Institutes of Health</a>
+          </li>
+          <li class="last-item"><a title="U.S. Department of Health and Human Services - opens new window" href="https://www.hhs.gov/" onclick="openNewWindow('https://www.hhs.gov/'); return false">
+                U.S. Department of Health and Human Services</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </div>
 
   <script type="text/javascript" src="{{ site.currenturl }}/beta/html/ct3/js/instrumentNCBIBaseJS.min.js"></script>

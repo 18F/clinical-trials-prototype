@@ -45,10 +45,12 @@ form [type=submit] {
   }
 }
 
-.form-search {
-  label {
-    margin-top: 13px;
-  }
+
+.legend-study-status {
+  font-size: $base-font-size;
+  font-weight: $font-normal;
+  margin-bottom: 0.2em;
+  padding-top: 3rem;
 }
 
 // Alignment fix on select box clear
@@ -71,4 +73,13 @@ ul.sf-menu {
 
 .logo-img {
   margin-top: 3rem;
+}
+
+.hero {
+  background-color: $color-primary-darker;
+  color: $color-white;
+}
+
+[role="contentinfo"] {
+  background-color: $color-gray-dark;
 }
