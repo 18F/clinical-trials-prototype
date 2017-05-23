@@ -192,3 +192,30 @@ input[id="location"] {
   cursor: pointer;
   height: auto;
 }
+
+// Study detail ---------- //
+
+// TODO: fix in USWDS
+.usa-width-five-twelfths {
+  @include media($medium-screen) {
+    margin-right: 0;
+  }
+}
+
+// TODO: fix in USWDS
+td,
+th {
+  vertical-align: initial;
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.page-links {
+  float: right;
+}
