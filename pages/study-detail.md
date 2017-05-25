@@ -4,12 +4,25 @@ permalink: /study-detail/
 class: study-detail
 ---
 
+<nav class="submenu">
+  <div class="usa-grid">
+    <ul class="breadcrumbs usa-unstyled-list">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Search results</a>
+      </li>
+      <li>Study details</li>
+    </ul>
+  </div>
+</nav>
 <div class="usa-grid usa-serif">
-  <div class="page-links">
+  <div class="study_details-page_links">
     <a href="#">Save this study</a>
     <a href="#">Print</a>
   </div>
-  <div class="usa-width-seven-twelfths">
+  <div class="study_details-intro usa-width-seven-twelfths">
     <h2>Use of Mobile Apps for Those With PTSD and Their Partners</h2>
     <h3>Currently recruiting in Palo Alto, CA</h3>
     <p>

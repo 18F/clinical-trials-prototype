@@ -223,7 +223,8 @@ th {
   vertical-align: initial;
 }
 
-.page-links {
+.study_details-page_links {
+  @include padding(2rem null);
   float: right;
 }
 
@@ -255,3 +256,27 @@ hr {
   }
 }
 
+.study_details-intro {
+  @include clip-margins;
+  clear: right;
+}
+
+.submenu {
+  @include padding(1.5rem null);
+  border-bottom: 1px solid $color-gray-light;
+}
+
+.breadcrumbs {
+  li {
+    display: inline-block;
+
+    &:not(:last-child):after {
+      @include margin(null 5px);
+      content: ">";
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
