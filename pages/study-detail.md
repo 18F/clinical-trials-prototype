@@ -4,7 +4,7 @@ permalink: /study-detail/
 class: study-detail
 ---
 
-<div class="usa-grid">
+<div class="usa-grid usa-serif">
   <div class="page-links">
     <a href="#">Save this study</a>
     <a href="#">Print</a>
@@ -20,7 +20,7 @@ class: study-detail
     <a href="#">Check trial eligibility</a>
   </div>
   <div class="usa-width-five-twelfths">
-    <aside class="aside-contact">
+    <aside class="box usa-color-bg-gold-lightest">
       <h3>Contact:</h3>
       <p>
         Jason Owen, PhD
@@ -34,7 +34,7 @@ class: study-detail
     </aside>
   </div>
 </div>
-<div class="usa-grid">
+<div class="usa-grid usa-serif">
   <hr>
   <aside class="usa-width-one-fourth sticky">
     <ul class="usa-sidenav-list">
@@ -205,7 +205,7 @@ class: study-detail
     <h2 id="contact-information">Contacts</h2>
     <p>Be make sure you meet the eligibility requirements before contacting the owner of the trial by phone or email. Please refer to this study by its ClinicalTrials.gov identifier: <b>NCT02780635</b></p>
 
-    <div class="aside-contact">
+    <div class="box usa-color-bg-gold-lightest">
       <p>
         Jason Owen, PhD
         <br>

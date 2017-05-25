@@ -180,6 +180,10 @@ input[id="location"] {
   background-color: $color-gray-lightest;
 }
 
+.usa-color-bg-gold-lightest {
+  background-color: $color-gold-lightest;
+}
+
 // Checkbox and radio fixes
 .usa-fieldset-inputs {
   li {
@@ -202,11 +206,7 @@ input[id="location"] {
   }
 }
 
-// TODO: fix in USWDS
-td,
-th {
-  vertical-align: initial;
-
+@mixin clip-margins {
   :first-child {
     margin-top: 0;
   }
@@ -214,6 +214,13 @@ th {
   :last-child {
     margin-bottom: 0;
   }
+}
+
+// TODO: fix in USWDS
+td,
+th {
+  @include clip-margins;
+  vertical-align: initial;
 }
 
 .page-links {
@@ -226,3 +233,25 @@ th {
     top: 0;
   }
 }
+
+// could call it a .divider
+hr {
+  margin-bottom: 6rem;
+  margin-top: 6rem !important;
+}
+
+.box {
+  @include clip-margins;
+  padding: 2rem;
+}
+
+.usa-serif {
+  p,
+  a,
+  li,
+  span {
+    font-size: 1.5rem;
+    line-height: 1.7em;
+  }
+}
+
