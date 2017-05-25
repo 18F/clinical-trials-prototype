@@ -276,6 +276,7 @@ hr {
   li {
     color: $color-gray;
     display: inline-block;
+    font-size: 1.5rem;
 
     &:not(:last-child):after {
       @include margin(null 5px);
