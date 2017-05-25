@@ -1,3 +1,25 @@
+// Mixins --------- //
+
+@mixin clip-margins {
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Grid --------- //
+
+// Fix usa-width-five-twelfths by removing right margin
+// TODO: fix in USWDS
+.usa-width-five-twelfths {
+  @include media($medium-screen) {
+    margin-right: 0;
+  }
+}
+
 // Typography ------------ //
 
 .h5 {
@@ -9,7 +31,51 @@
     max-width: $text-max-width;
   }
 }
-usa-accordion-bordered
+
+.usa-serif {
+  p,
+  a,
+  li,
+  span {
+    font-size: 1.5rem;
+    line-height: 1.7em;
+  }
+}
+
+// Horizontal rule -------- //
+
+// could call it a .divider
+hr {
+  border-bottom: 0;
+  border-top: 1px solid $color-gray-light;
+  margin-bottom: 6rem;
+  margin-top: 6rem !important;
+}
+
+// Table ------------ //
+
+// TODO: fix in USWDS
+td,
+th {
+  @include clip-margins; // Remove top and bottom margins in table cells
+  vertical-align: initial; // Align table cell text on top not middle
+}
+
+// Checkbox and radio buttons ------ //
+
+// Bug fixes
+.usa-fieldset-inputs {
+  li {
+    position: relative;
+  }
+}
+
+[type=checkbox],
+[type=radio] {
+  cursor: pointer;
+  height: auto;
+}
+
 // Navigation ------------ //
 
 .usa-logo-text {
@@ -88,6 +154,10 @@ label[for="location"] {
 
   .fa {
     margin-right: 1rem;
+
+    &:before {
+      font-size: 20px;
+    }
   }
 }
 
@@ -129,12 +199,6 @@ select[id="age-group"] {
   max-width: 212px;
 }
 
-.fa {
-  &:before {
-    font-size: 20px;
-  }
-}
-
 .fa-map-marker {
   left: 13px;
   position: relative;
@@ -168,6 +232,8 @@ input[id="location"] {
   }
 }
 
+// Colors ------- //
+
 .usa-color-bg-primary-alt-lightest {
   background-color: $color-primary-alt-lightest;
 }
@@ -190,81 +256,55 @@ input[id="location"] {
   background-color: $color-gold-lightest;
 }
 
-// Checkbox and radio fixes
-.usa-fieldset-inputs {
-  li {
-    position: relative;
-  }
+.usa-color-green {
+  color: $color-green;
 }
 
-[type=checkbox],
-[type=radio] {
-  cursor: pointer;
-  height: auto;
-}
-
-// Study detail ---------- //
-
-// TODO: fix in USWDS
-.usa-width-five-twelfths {
-  @include media($medium-screen) {
-    margin-right: 0;
-  }
-}
-
-@mixin clip-margins {
-  :first-child {
-    margin-top: 0;
-  }
-
-  :last-child {
-    margin-bottom: 0;
-  }
-}
-
-// TODO: fix in USWDS
-td,
-th {
-  @include clip-margins;
-  vertical-align: initial;
-}
+///////////////////////////////////
+// Study detail page ---------- //
+/////////////////////////////////
 
 .study_detail-page_links {
   @include padding(2rem null);
   float: right;
+
+  a {
+    font-family: $font-sans;
+    font-weight: $font-bold;
+    text-decoration: none;
+  }
+
+  .fa {
+    color: $color-gray;
+    font-size: $base-font-size;
+    margin-right: 6px;
+  }
 }
+
+.divider-vertical {
+  border-right: 1px solid $color-gray-light;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+
+.study_detail-intro {
+  @include clip-margins;
+  clear: right;
+
+  h3 {
+    .fa {
+      margin-right: 4px;
+    }
+  }
+}
+
+// Breadcrumb navigation -------- //
 
 .sticky {
   @include media($large-screen) {
     position: sticky;
     top: 0;
   }
-}
-
-// could call it a .divider
-hr {
-  margin-bottom: 6rem;
-  margin-top: 6rem !important;
-}
-
-.box {
-  @include clip-margins;
-  padding: 2rem;
-}
-
-.usa-serif {
-  p,
-  a,
-  li,
-  span {
-    font-size: 1.5rem;
-    line-height: 1.7em;
-  }
-}
-
-.study_detail-intro {
-  @include clip-margins;
-  clear: right;
 }
 
 .submenu {
@@ -287,4 +327,9 @@ hr {
   a {
     text-decoration: none;
   }
+}
+
+.box {
+  @include clip-margins;
+  padding: 2rem;
 }

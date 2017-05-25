@@ -19,12 +19,22 @@ class: study-detail
 </nav>
 <div class="usa-grid usa-serif">
   <div class="study_detail-page_links">
-    <a href="#">Save this study</a>
-    <a href="#">Print</a>
+    <a href="#">
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      Save this study
+    </a>
+    <span class="divider-vertical"></span>
+    <a href="#">
+      <i class="fa fa-print" aria-hidden="true"></i>
+      Print
+    </a>
   </div>
   <div class="study_detail-intro usa-width-seven-twelfths">
     <h2>Use of Mobile Apps for Those With PTSD and Their Partners</h2>
-    <h3>Currently recruiting in Palo Alto, CA</h3>
+    <h3 class="usa-color-green">
+      <i class="fa fa-check-circle" aria-hidden="true"></i>
+      Currently recruiting in Palo Alto, CA
+    </h3>
     <p>
       Sponsored by VA Palo Alto Health Care System
       <br>
@@ -34,16 +44,16 @@ class: study-detail
   </div>
   <div class="usa-width-five-twelfths">
     <aside class="box usa-color-bg-gold-lightest">
-      <h3>Contact:</h3>
-      <p>
+      <h4>Contact:</h4>
+      <span>
         Jason Owen, PhD
         <br>
         (650) 493-5000 ext 23478
         <br>
         <a href="#">jason.owen@va.gov</a>
-      </p>
-      <h3>ClinicalTrials.gov Identifier:</h3>
-      <p>NCT02780635</p>
+      </span>
+      <h4>ClinicalTrials.gov Identifier:</h4>
+      <span>NCT02780635</span>
     </aside>
   </div>
 </div>
