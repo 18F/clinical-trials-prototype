@@ -219,3 +219,10 @@ th {
 .page-links {
   float: right;
 }
+
+.sticky {
+  @include media($large-screen) {
+    position: sticky;
+    top: 0;
+  }
+}
