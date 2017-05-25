@@ -18,11 +18,11 @@ class: study-detail
   </div>
 </nav>
 <div class="usa-grid usa-serif">
-  <div class="study_details-page_links">
+  <div class="study_detail-page_links">
     <a href="#">Save this study</a>
     <a href="#">Print</a>
   </div>
-  <div class="study_details-intro usa-width-seven-twelfths">
+  <div class="study_detail-intro usa-width-seven-twelfths">
     <h2>Use of Mobile Apps for Those With PTSD and Their Partners</h2>
     <h3>Currently recruiting in Palo Alto, CA</h3>
     <p>

@@ -223,7 +223,7 @@ th {
   vertical-align: initial;
 }
 
-.study_details-page_links {
+.study_detail-page_links {
   @include padding(2rem null);
   float: right;
 }
@@ -256,7 +256,7 @@ hr {
   }
 }
 
-.study_details-intro {
+.study_detail-intro {
   @include clip-margins;
   clear: right;
 }
