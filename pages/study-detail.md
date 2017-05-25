@@ -104,7 +104,7 @@ class: study-detail
       </li>
     </ul>
   </aside>
-  <div class="usa-width-three-fourths">
+  <div class="usa-width-three-fourths usa-content">
     <h2 id="overview">Overview</h2>
     <h3 id="purpose">Purpose</h3>
     <table>
@@ -217,7 +217,6 @@ class: study-detail
     <hr>
     <h2 id="contact-information">Contacts</h2>
     <p>Be make sure you meet the eligibility requirements before contacting the owner of the trial by phone or email. Please refer to this study by its ClinicalTrials.gov identifier: <b>NCT02780635</b></p>
-
     <div class="box usa-color-bg-gold-lightest">
       <p>
         Jason Owen, PhD
@@ -245,6 +244,8 @@ class: study-detail
       <li><b>Last Updated:</b> May 24, 2016</li>
     </ul>
     <p>If you are the owner of this study and want to submit a correction, please email <a href="#">nlm@info.nlm.gov</a>.</p>
+    <h3 id="sponsors">Sponsors and collaborators</h3>
+    <p>VA Palo Alto Health Care System</p>
     <h3 id="keywords">Keywords provided by sponsor</h3>
     <p><a href="#">family</a>, <a href="#">caregiving</a>, <a href="#">ptsd</a>, <a href="#">couples</a></p>
     <h3 id="external-health-links">MedlinePlus external health links</h3>

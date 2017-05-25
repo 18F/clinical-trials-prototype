@@ -4,6 +4,12 @@
   @include h5;
 }
 
+.usa-content {
+  ul:not(.usa-accordion):not(.usa-accordion-bordered) {
+    max-width: $text-max-width;
+  }
+}
+usa-accordion-bordered
 // Navigation ------------ //
 
 .usa-logo-text {
