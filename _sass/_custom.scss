@@ -298,10 +298,26 @@ input[id="location"] {
   }
 }
 
+.study_detail-main {
+  .usa-width-one-fourth {
+    @include media($medium-screen) {
+      margin-right: 0;
+      padding-right: 4rem;
+      width: 250px;
+    }
+  }
+
+  .usa-width-three-fourths {
+    @include media($medium-screen) {
+      width: calc(100% - 250px);
+    }
+  }
+}
+
 // Breadcrumb navigation -------- //
 
 .sticky {
-  @include media($large-screen) {
+  @include media($medium-screen) {
     position: sticky;
     top: 0;
   }

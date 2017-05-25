@@ -57,7 +57,7 @@ class: study-detail
     </aside>
   </div>
 </div>
-<div class="usa-grid usa-serif">
+<div class="usa-grid usa-serif study_detail-main">
   <hr>
   <aside class="usa-width-one-fourth sticky">
     <ul class="usa-sidenav-list">
