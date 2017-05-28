@@ -40,7 +40,7 @@ class: study-detail
       <br>
       <em>Verified May 24, 2016</em>
     </p>
-    <a href="#">Check trial eligibility</a>
+    <a class="study_detail-link-eligibility" href="#">Check trial eligibility</a>
   </div>
   <div class="usa-width-five-twelfths">
     <aside class="box usa-color-bg-gold-lightest">

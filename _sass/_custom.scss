@@ -288,7 +288,10 @@ input[id="location"] {
 }
 
 .study_detail-intro {
-  @include clip-margins;
+  @include media($medium-screen) {
+    @include clip-margins;
+  }
+
   clear: right;
 
   h3 {
@@ -314,10 +317,17 @@ input[id="location"] {
   }
 }
 
+.study_detail-link-eligibility {
+  display: block;
+  margin-bottom: 1em;
+}
+
 // Breadcrumb navigation -------- //
 
 .sticky {
   @include media($medium-screen) {
+    max-height: 100vh;
+    overflow: auto;
     position: sticky;
     top: 0;
   }
