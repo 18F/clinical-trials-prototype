@@ -305,14 +305,17 @@ input[id="location"] {
   .usa-width-one-fourth {
     @include media($medium-screen) {
       margin-right: 0;
-      padding-right: 4rem;
-      width: 250px;
+      padding-right: 1rem;
+      // width: 250px;
+      @include span-columns(3);
     }
   }
 
   .usa-width-three-fourths {
     @include media($medium-screen) {
-      width: calc(100% - 250px);
+      padding-left: 1rem;
+      // width: calc(100% - 250px);
+      @include span-columns(9);
     }
   }
 }
@@ -344,9 +347,20 @@ input[id="location"] {
     display: inline-block;
     font-size: 1.5rem;
 
+
+
     &:not(:last-child):after {
       @include margin(null 5px);
-      content: ">";
+      background-image: url('#{$image-path}/alerts/angle-arrow-down.png');
+      background-image: url('#{$image-path}/angle-arrow-down.svg');
+      background-repeat: no-repeat;
+      background-position: right 0 center;
+      background-size: 100%;
+      display: inline-block;
+      content: '';
+      height: 1rem;
+      width: 1rem;
+      transform: rotate(-90deg);
     }
   }
 
