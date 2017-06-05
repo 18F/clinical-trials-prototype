@@ -7,5 +7,6 @@ $output-bourbon-deprecation-warnings: false !default;
 $font-path: '../uswds/fonts';
 $image-path: '../uswds/img';
 
-@import "lib/uswds/all";
+// TODO: use USWDS selectively
+// @import "lib/uswds/all";
 @import "all";

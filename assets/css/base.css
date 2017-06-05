@@ -6,8 +6,8 @@
 
 @media only screen and (max-device-width: 1024px) {
         body { -webkit-text-size-adjust:100%;
-     -ms-text-size-adjust:100%;
-     -moz-text-size-adjust:100%}
+         -ms-text-size-adjust:100%;
+         -moz-text-size-adjust:100%}
 } /*/mediaquery*/
 
 /* From Draft U.S. Web Design Standards */
@@ -36,7 +36,7 @@ input:focus, textarea:focus, select:focus, a:focus {
 
 .hidden
 {
-  display: none;
+    display: none;
 }
 
 /* BASE HTML ELEMENTS */
@@ -52,28 +52,47 @@ body
     background: #205493;
 }
 
-/*body, p, td, tr, input, select, textarea, li, legend, div
+body, p, td, tr, input, select, textarea, li, legend, div
 {
     font:14px/1.4em arial, 'Nimbus Sans L', sans-serif;
 }
-*/
+
 p
 {
     margin: 12px 0;
 }
 
+/* ORIG
 a, a:visited, .sf-menu a, .sf-menu a:hover
 {
     color: #1a3d85;
     text-decoration: none;
 }
-a.lowercase
-{
-    text-transform: lowercase;
-}
 a:hover
 {
     border-bottom: 1px dotted;
+}
+*/
+
+/* Styles from https://beta.fec.gov */
+a:active,
+a:hover
+{
+    border-bottom-color: #36bdbb;
+}
+
+a {
+    border-bottom: 1px dotted #112e51;
+    color: #1a3d85;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.1s linear;
+}
+
+/* End from beta.tec.gov */
+a.lowercase
+{
+    text-transform: lowercase;
 }
 
 a img
@@ -84,6 +103,7 @@ a img
 h1
 {
     color: #990000;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 22px;
     font-weight: normal;
     margin: 0 0 18px 0;
@@ -122,8 +142,8 @@ div.index h2
     margin-bottom: 0px;
     padding-bottom: 0px;
     margin-top: 24px;
-  background-color:#FFFFFF;
-  padding-left:0px;
+    background-color:#FFFFFF;
+    padding-left:0px;
 }
 
 
@@ -175,9 +195,10 @@ ul.horz-list > li
 
 /* home page and search results fieldsets */
 legend > span {
-  margin-bottom:1px;
-  font-size:1.35em;
+    margin-bottom:1px;
+    font-size:1.35em;
     color: #990000;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: normal;
     margin:0;
 
@@ -196,9 +217,9 @@ legend > span {
     margin:8px auto;
     background-color: #fff;
     padding: 14px 18px;
-  max-width: none;
-  width: 99%;
-  box-sizing: border-box;
+    max-width: 1200px;
+    width: 99%;
+    box-sizing: border-box;
 }
 
 #news_alert
@@ -428,20 +449,20 @@ img {
 
 /* So tables don't extend past window edge */
 div.table_cover {
-  overflow-x: auto;
-  overflow-y: hidden;
-  width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
 }
 
 /* Force our right aligned labels to left align with on small screen */
 /* Note: This class MUST be listed in the div class directive after any w3-right-align */
 @media (max-width:600px)
 {
-  div.small-left
-  {
-    text-align:left!important;
-    white-space:nowrap!important;
-  }
+    div.small-left
+    {
+        text-align:left!important;
+        white-space:nowrap!important;
+    }
 }
 
 /* messes up pulldown menus when they are stacked
@@ -506,7 +527,7 @@ ul.sf-menu li.new-group
 /* must match color in .sf-menu a:hover, .sf-menu a.focus, .sf-menu a:active next*/
 .sf-menu li:hover,
 .sf-menu li.sfHover {
-  background-color: #e1eaf4;
+    background-color: #e1eaf4;
 }
 
 .sf-menu a:hover, .sf-menu a.focus, .sf-menu a:active
@@ -522,6 +543,11 @@ ul.sf-menu li.new-group
     color: #333;
 }
 
+ul.sf-menu > li > a
+{
+    border-top: 0;
+    border-bottom: 0;
+}
 
 /* BREADCRUMB */
 
@@ -687,13 +713,13 @@ a#close
 
 div.results-summary
 {
-  font-size:large;
-  text-align:center;
+    font-size:large;
+    text-align:center;
 }
 
 div.results-nav
 {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 /* Footer */
 
@@ -756,15 +782,21 @@ div.results-nav
     padding-right: 13px;
     border-right: 1px solid #999;
     font-size: 11px;
-  font-family: "Merriweather";
-  font-weight: 400;
-  font-size: 12px;
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-size: 12px;
 }
 
 #fine-print li a
 {
     color: white;
     white-space: nowrap;
+    border-bottom-color: white;
+}
+
+#fine-print a:hover
+{
+    border-bottom-color: #36bdbb;
 }
 
 #fine-print li.last-item
@@ -793,8 +825,8 @@ div.results-nav
 #footer-logos a:hover,
 #footer-logos a:visited
 {
-  text-decoration:none;
-  border:none;
+    text-decoration:none;
+    border:none;
 }
 */
 
@@ -841,7 +873,7 @@ div.results-nav
 #local-menu li.current
 {
     color: #5e5955;
-  font-weight: bold;
+    font-weight: bold;
 }
 
 #local-menu li.new-group
@@ -1005,7 +1037,7 @@ ul#alpha-nav-new li.current {
 }
 ul#glossary-nav a, ul#glossary-nav a:hover , ul#alpha-nav-new a , ul#alpha-nav-new a:hover  {
         border: none;
-    font-weight:bold;
+        font-weight:bold;
 }
 ul#glossary-nav li:hover , ul#alpha-nav-new li.link:hover {
         background-color: #D1DFEE;
@@ -1026,7 +1058,7 @@ h2.glossarydl {
 }
 /* Other formatting */
 #Advanced_Search_Field_Definitions p {
-  margin-top: 1.5em;
+    margin-top: 1.5em;
 }
 
 span.hit_org {
@@ -1068,7 +1100,7 @@ img.quicktour {
         border:none;
         margin-left: 10px;
         vertical-align:middle;
-  margin-top:5px;
+    margin-top:5px;
 }
 
 /* MANAGE STUDY RECORDS FORMATS */
@@ -1087,8 +1119,8 @@ div.rp-question-num, div.rp-question-content
     padding-bottom: 2px;
     padding-top: 2px;
     margin-top: 24px;
-  background-color:#EAEAEA;
-  padding-left:5px;
+    background-color:#EAEAEA;
+    padding-left:5px;
 }
 div.rp-question-num
 {
@@ -1127,18 +1159,18 @@ li.orgtype ul.alpha-nav li.nodt:hover , h2.orgtype ul.alpha-nav li.nodt:hover {
 
 /* SELECTED PUBLICATION */
 p.selected-pub {
-  margin-top:25px;
+    margin-top:25px;
 }
 
 /* PAGE LAST REVIEWED */
 #page-last-reviewed
 {
-  float:right;
+    float:right;
     text-align: right;
     margin-right: 54px;
     margin-top: 12px;
     font-size: 12px;
-  color: #606060;
+    color: #606060;
 }
 
 /* TO TOP */
@@ -1169,10 +1201,10 @@ p.selected-pub {
 
 /* TABLE STYLING (for existing tables */
 table#recruit_pielegend {
-  float:left;
-  margin-left: 10px ;
-  margin-top:  40px ;
-  margin-right: 10px;
+    float:left;
+    margin-left: 10px ;
+    margin-top:  40px ;
+    margin-right: 10px;
 }
 table#study_pielegend {
     float:left;
@@ -1181,8 +1213,8 @@ table#study_pielegend {
     margin-right: 10px;
 }
 table#study_pielegend td ,table#recruit_pielegend td {
-  font-size: 20px;
-  white-space:nowrap;
+    font-size: 20px;
+    white-space:nowrap;
 }
 
 table.data_table td, table.data_table th
@@ -1220,15 +1252,15 @@ table.CT_table td, table.CT_table th {
 
 #tab-body
 {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-color: #f6f6f6; /* Same as Search Parameters Fieldset */
-  border-color: -moz-use-text-color lightgray lightgray;
-  border-width: 0 1px 1px;
-  clear: both;
-  padding: 0 2px;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f6f6f6; /* Same as Search Parameters Fieldset */
+    border-color: -moz-use-text-color lightgray lightgray;
+    border-width: 0 1px 1px;
+    clear: both;
+    padding: 0 2px;
 }
 
 ul#tab-links
@@ -1318,7 +1350,7 @@ ul#tab-links li#howtoread
  /* filter: alpha(opacity=100); */
  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; */
  /* for IE 7-8, dims background but leaves buttons and links enabled */
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#c0ffffff', endColorstr='#c0ffffff');
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#c0ffffff', endColorstr='#c0ffffff');
   /* nothing has worked for IE 5 (emulator won't do IE 6??) */
 }
 
@@ -1332,8 +1364,8 @@ ul#tab-links li#howtoread
     left: 50%;
     transform: translate(-50%, -50%);
 
-  overflow-x:hidden; -ms-overflow-x: hidden;
-  overflow-y:hidden;-ms-overflow-y: hidden;
+    overflow-x:hidden; -ms-overflow-x: hidden;
+    overflow-y:hidden;-ms-overflow-y: hidden;
 }
 
 /* For Open and Closed studies checkboxes on Search Results and Advanced/Modify Search pages */
@@ -1342,52 +1374,124 @@ li.facet {
   list-style: none;
 }
 
+@media (max-width:768px)
+{
+    .facetCB, .facetLegendCB, .facetRB
+    {
+        font-size: 85%;
+    }
+}
+
 .facetCB, .facetLegendCB, .facetRB
 {
-  font-size:  85%;
-  padding-left: 0;
+    padding-left: 0;
 }
 
 .facetCB, .facetRB
 {
-  font-weight: 400;
-  line-height: 19px;
+    font-weight: 400;
+    line-height: 19px;
 }
 
 .facetLegendCB
 {
-  font-weight: bold;
-  color: #1a3d85;
+    font-weight: bold;
+    color: #1a3d85;
+}
+
+.filter:hover
+{
+  border-bottom: 1px dotted;
+  cursor: pointer;
+}
+
+
+
+input.applyFacet, input.searchButton
+{
+    background-color: #dbf0db; /* Green */
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+input.searchButton
+{
+    opacity: 0.3;
+    font-size: larger;
+    padding: 1ex 1em;
+    font-weight: bold;
+}
+
+input.searchButton:hover
+{
+    background-color: lightgrey;
+}
+
+input.textInputField,
+select.selectInputField
+{
+    width: 100%;
+    max-width: 46rem;
+    margin-right: 0;
+    font-size: larger;
+}
+
+input.textInputField
+{
+    padding: 0.85ex 0.35em;
+}
+
+select.selectInputField
+{
+    padding: 1ex 0.35em;
+}
+
+/* Style for div containing a label and an InputField */
+div.inputFieldLabel
+{
+    padding-top: 9px;
+    font-weight: bold;
+    font-size: initial;
 }
 
 /* <input placeholder> styles */
 /* Different browsers have diff specs */
 
 ::-webkit-input-placeholder { /* Chrome */
-  color: lightgrey;
+  color: grey;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: lightgrey;
+  color: grey;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: lightgrey;
+  color: grey;
   opacity: 1;
 }
 :-moz-placeholder { /* Firefox 4 - 18 */
-  color: lightgrey;
+  color: grey;
   opacity: 1;
 }
 
+
+
 /* Styles for the X buttons after various input fields, used for clearing the field */
 button.clearField {
-  display:none;
+    display:none;
 }
 
 button.clearField, button.clearFieldIE {
-  border-radius: 0 3px 3px 0;
-  font-size:small;
-  margin: 4px 3px 3px 0;
-  width: initial;
+    font-size:large;
+/*
+    border-radius: 0 3px 3px 0;
+    margin: 4px 3px 3px 0;
+*/
+    width: initial;
 }
 
 /* The following five styles enable <select> tags to resize properly when inside a fieldset */
@@ -1397,13 +1501,22 @@ button.clearField, button.clearFieldIE {
     }
 }
 
+/* Handle Safari select height issue */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {
+        -webkit-appearance: menulist-button !important;
+        line-height:38px !important;
+    }
+}
+
+
 fieldset {
-  min-width: 0;
+    min-width: 0;
 }
 
 /* Hacks to enable IE to enable selection lists to resize properly within fieldsets */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  /* IE10+ CSS styles go here */
+    /* IE10+ CSS styles go here */
     fieldset select {
         width: 100%;
     }
@@ -1418,19 +1531,42 @@ fieldset {
 
 /* apply to all ie from 8 and below */
 @media screen\9 {
-  fieldset select {
-    width: 100%;
-  }
+    fieldset select {
+        width: 100%;
+    }
 }
 
 /* Chrome and Safari (Any) */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  fieldset select {
-    width: 100%;
-  }
+    fieldset select {
+        width: 100%;
+    }
 }
 
 div#hamburger:hover
 {
-  background-color: lightgrey;
+    background-color: lightgrey;
+}
+
+button.savedStudiesEnabled,
+button.savedStudiesDisabled
+{
+    background-color: white;
+    padding: 1ex 1em;
+    border-radius: 4px;
+}
+
+button.savedStudiesEnabled
+{
+    border: 1px solid black;
+}
+
+button.savedStudiesEnabled:hover
+{
+    background-color: lightgrey;
+}
+
+button.savedStudiesDisabled
+{
+    border: 1px solid lightgrey;
 }

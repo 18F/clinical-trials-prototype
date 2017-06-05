@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="{{ site.currenturl }}/beta/html/ct3/css/w3-ct.css" type="text/css" />
 
   <!-- New CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/custom.css">
   <!--[if lt IE 9]>
   <link rel="stylesheet" href="{{ site.currenturl }}/beta/html/ct3/css/w3-ct-oldIE.css" type="text/css" />
   <![endif]-->
@@ -73,22 +73,86 @@
 <body class="js">
 <div id="skip"> <a href="#home-search-box">Skip to Main Content</a> </div>
 
-<div id="wrapper">
+<script type="text/javascript" src="/beta/html/ct3/jquery/js/jquery.min.js"></script><noscript></noscript>
+<script type="text/javascript">
+  var RetractableBannerStateProperty = 'CT_NewsBannerState';
 
-  <div id="header" style="float:left;"> <a href="{{ site.currenturl }}/beta/home" style="border-style:none;box-shadow:none;"><img src='{{ site.currenturl }}/beta/html/ct3/images/ct.gov-logo-beta.png' alt='ClinicalTrials.gov' style='max-width:100%;' /></a><br />
+  ToggleBanner = function()
+    {
+        var theAccordion = $('#retractableBanner');
+        if (theAccordion.css("display") == "none") {
+            $('#showMore').css('visibility', 'hidden');
+          } else {
+            $('#showMore').css('visibility', 'visible');
+          }
+        theAccordion.slideToggle({
+            duration: 'fast',
+            start: function(){
+                      if (typeof FuncReAlign !== 'undefined') {
+                $( "table.fixedHeader-floating" ).hide();
+              }
+      },
+            done: function(){
+              if (theAccordion.css("display") == "none") {
+                rememberRetractableBannerState('hide');
+              } else {
+                rememberRetractableBannerState('show');
+              }
+              if (typeof FuncReAlign !== 'undefined') {
+                  FuncReAlign();
+                $( "table.fixedHeader-floating" ).show();
+              }
+            }
+    });
+    };
+
+  var rememberRetractableBannerState = function(newState) {
+    try {
+      sessionStorage.setItem(RetractableBannerStateProperty, newState);
+    } catch (e) {}
+  };
+
+  $(window).ready(function(){
+    try {
+      var retractableBannerState = sessionStorage.getItem(RetractableBannerStateProperty);
+              if (retractableBannerState === null  || retractableBannerState === 'show') {
+        ToggleBanner();
+      }
+    } catch (e) {};
+  });
+</script><noscript></noscript>
+<div class="w3-container w3-center" style="padding:1.5ex 0.125in 0;background:#205493;color:white">
+  <div style="font-weight:bold;">This site will become the new ClinicalTrials.gov on June 19th. <a href="https://www.nlm.nih.gov/pubs/techbull/mj17/mj17_clinicaltrials_improve_usability.html" style="margin-left:1em;color:white;border-bottom-color:white;">Learn more.</a>
+    <div id="showMore" style="float:right;cursor:pointer;border-bottom:1px dotted white;" onclick="ToggleBanner();">Show more <img src="{{ site.currenturl }}/beta/html/ct3/images/show-more.png" style="width:17px;"></div>
+  </div>
+  <div id="retractableBanner" style="margin-top:1ex;display:none;">We will be updating this site in phases. This allows us to move faster and to deliver better services.
+    <div id="showLess" style="float:right;cursor:pointer;border-bottom:1px dotted white;" onclick="ToggleBanner();">Show less <img src="{{ site.currenturl }}/beta/html/ct3/images/show-less.png" style="width:17px;"></div>
+  </div>
+</div>
+<div id="wrapper" style="padding-top:0;">  <div id="longAlert" class="w3-hide-small" style="background-color:papayawhip;font-size:small;margin-bottom:1.5ex;">
+  <img src="{{ site.currenturl }}/beta/html/ct3/images/warning.png" alt="ClinicalTrials.gov Menu" style="max-width:0.8rem;cursor:pointer;"/>
+    <b>IMPORTANT</b>: Listing of a study on this site does not reflect endorsement by the National Institutes of Health. Talk with a trusted healthcare professional before volunteering for a study.  <a href="/beta/about-site/disclaimer">Read more...</a>
+</div>
+<div id="shortAlert" class="w3-hide-medium w3-hide-large" style="background-color:papayawhip;font-size:small;margin-bottom:1.5ex;">
+  <img src="{{ site.currenturl }}/beta/html/ct3/images/warning.png" alt="ClinicalTrials.gov Menu" style="max-width:0.8rem;cursor:pointer;"/>
+    <b>IMPORTANT</b>: Talk with a trusted healthcare professional before volunteering for a study. <a href="/beta/about-site/disclaimer">Read more...</a>
+</div>
+
+
+  <div id="header" style="float:left;"> <a href="/beta/home" style="border-style:none;box-shadow:none;"><img src='{{ site.currenturl }}/beta/html/ct3/images/ct.gov-logo-beta.png' alt='ClinicalTrials.gov' style='max-width:100%;' /></a><br />
     </div>
           <div id="hamburger" class="w3-hide-medium w3-hide-large" style="float:right;border-width:0;display:block;margin-left:1em;padding:4px;"
       title="Show menus">
       <img src="{{ site.currenturl }}/beta/html/ct3/images/hamburgerMenuIcon.png" alt="ClinicalTrials.gov Menu" style="max-width:30px;cursor:pointer;"
        onclick="$('#global-nav-popupMenu').toggle();"/>
     </div>
-    <div id="global-nav-popupMenu" class="w3-hide-medium w3-hide-large w3-modal w3-center" style="display:none;">
-      <div id="global-nav-popupMenu-content" class="w3-modal-content">
+    <div id="global-nav-popupMenu" class="w3-hide-medium w3-hide-large w3-modal w3-center"
+       style="display:none;" onclick="$('#global-nav-popupMenu').hide();">      <div id="global-nav-popupMenu-content" class="w3-modal-content">
         <div class="w3-container">
             <span onclick="$('#global-nav-popupMenu').hide();"
               class="w3-closebtn">&times;</span>
           <ul class="sf-menu sf-vertical">
-                  <li class="first"><a href="{{ site.currenturl }}/beta/search/index">Find Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Find Studies Menu"></a>
+                  <li class="first"><a href="{{ site.currenturl }}/beta/search/index">Find Studies<img src="/beta/html/ct3/images/pulldown.png" alt="Find Studies Menu"></a>
       <ul>
                       <li                  ><a                  href="/beta/home">New Search</a></li>
                       <li                  ><a         href="/beta/search/advanced">Advanced Search</a></li>
@@ -145,27 +209,26 @@
         </div>
       </div>
 
-      <div id="savedStudies" style="float:right;border:1px solid #ccc;padding:4px 8px;">        <div id="cart" style="cursor:pointer;" onclick="location.href=('{{ site.currenturl }}/beta/results'+cartToURL()); showWorking();">
-                    <a id="open-cart-link" onclick="location.href=('{{ site.currenturl }}/beta/results'+cartToURL()); showWorking(); return false;"
-        title="Show previously saved studies.">Saved Studies</a>
-      </div>
-      <div id="cart-disabled" style="color:lightgrey;">
-                    <span title="There are no saved studies to show. You can save studies to visit later from the search results page">Saved Studies (0)</span>
-      </div>
+      <div id="savedStudies" style="float:right;padding:4px 8px;">        <div id="cart" style="cursor:pointer; display: none;" onclick="location.href=('/beta/results'+cartToURL()); showWorking();">
+        <button class="savedStudiesEnabled" id="open-cart-link" type="button"
+          onclick="location.href=('/beta/results'+cartToURL()); showWorking();"
+          title="Show previously saved studies.">Saved Studies</button>
+        </div>
+      <button class="savedStudiesDisabled" id="cart-disabled" type="button" disabled
+        title="There are no saved studies to show. You can save studies to visit later from the search results page">Saved Studies (0)</button>
     </div>
-    <div style="clear:right;text-align:right;padding-top:1ex;font-size:small;">
-      <a href="https://survey.foreseeresults.com/survey/display?cid=WyHFr2m0PoaGCBUsi00QIQ==&sid=link-ct" target="_blank">Give us feedback</a></div>
-    <script type="text/javascript" src="{{ site.currenturl }}/beta/html/ct3/js/cart.js"></script><noscript></noscript>
-    <a class="leave-beta-site" href="https://clinicaltrials.gov">Leave beta test site</a>
 
-<p>
-  <b>IMPORTANT</b>: Listing of a study on this site does not reflect endorsement by the National Institutes of Health. Talk with a trusted healthcare professional before volunteering for a study. <a href="/beta/about-site/disclaimer">Read more...</a>
-</p>
+    <div style="clear:right;text-align:right;padding-top:1ex;padding-right:8px;font-size:small;">
+      <a href="https://survey.foreseeresults.com/survey/display?cid=WyHFr2m0PoaGCBUsi00QIQ==&sid=link-ct" target="_blank">Give us feedback</a></div>
+    <script type="text/javascript" src="/beta/html/ct3/js/cart.js"></script><noscript></noscript>
+    <span style="display:inline-block;font-weight:bold; background-color:#ffffaa;">
+<a href="https://clinicaltrials.gov">Leave beta test site</a>
+</span>
 
 
 <div id="global-nav" class="w3-hide-small">
   <ul class="sf-menu sf-vertical">
-      <li class="first"><a href="{{ site.currenturl }}/beta/search/index">Find Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Find Studies Menu"></a>
+      <li class="first"><a href="/beta/search/index">Find Studies<img src="{{ site.currenturl }}/beta/html/ct3/images/pulldown.png" alt="Find Studies Menu"></a>
       <ul>
                       <li                  ><a                  href="/beta/home">New Search</a></li>
                       <li                  ><a         href="/beta/search/advanced">Advanced Search</a></li>
@@ -222,15 +285,20 @@
 </div>
 <div style="clear:both;"></div>
 
-<div class="w3-row">
-  <div id="tools-data" class="w3-container">
-  <div>ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of
-        human participants conducted around the world.
-    </div>
-    <p>
-    </p>
+
+
+<div class="w3-hide-small welcome"><h1 class="welcome" style="padding:0;padding-right:35%;">
+  ClinicalTrials.gov is a registry and results database of publicly
+  and privately supported clinical studies of human participants conducted around the world.</h1>
 </div>
 
+
+
+
+<div class="w3-row">
+    <div id="tools-data" class="w3-container w3-hide-medium w3-hide-large" style="padding:1ex 0.125in;background:#205493;color:white">
+  ClinicalTrials.gov is a registry and results database of publicly and privately supported clinical studies of human participants conducted around the world.
+</div>
 </div>
 
 <div id="main-content" class="w3-row">
@@ -255,11 +323,18 @@ $(document).ready(function() {
       $( "#StateRow" ).hide();
     };
   });
+
+                $("input:text").keypress(function(event) {
+        if (event.keyCode == 13) {
+            event.preventDefault();
+            return false;
+        }
+    });
 });
 
   // Dynamically builds a new Advanced Search URL and loads that page
   var gotoAdvSearchURL = function() {
-    var advSearchURL = "{{ site.currenturl }}/beta/search/advanced?";
+    var advSearchURL = "/beta/search/advanced?";
     var params  = new Object();
     params.cond   = $("input#home-search-condition-query").val();
     params.term   = $("input#home-search-other-query").val();
@@ -271,34 +346,38 @@ $(document).ready(function() {
   };
 </script><noscript></noscript>
 
-    <form class="form-search" method="get" action="{{ site.currenturl }}/beta/results">
-      <fieldset class="w3-container" style="border-radius:8px;margin-top:6px;border:1px solid lightgrey;background-color:#f6f6f6;">
-        <legend style="background-color:white;border-radius:8px;padding:2px;"><span>Search</span></legend>
-
-        <div class="w3-row w3-padding-4" title="Name of a Disease  or Medical Condition. Known synonyms automatically included">
-          <div class="w3-col m3 w3-right-align small-left"><label for="home-search-condition-query"><a href="/beta/help/conditions_instr" title="Help for Conditions search field" onclick="openPopupWindow('/beta/help/conditions_instr',1000); return false;">Condition / Disease</a>: </label></div>
+    <form method="get" action="/beta/results">
+      <fieldset class="w3-container" style="border-radius:8px;margin-top:6px;border:1px solid lightgrey;background-color:#f6f6f6;" title="All fields optional">
+        <legend style="background-color:white;border-radius:8px;padding:2px;font-size:larger"><span>Search <span style="font-size:x-small;">(all fields optional)</span></span></legend>
+        <div class="w3-row w3-padding-8" title="Name of a Disease  or Medical Condition. Known synonyms automatically included">
+          <div class="w3-col m3 w3-right-align small-left inputFieldLabel"><label for="home-search-condition-query"><a href="/beta/help/conditions_instr" title="Help for Conditions search field"
+            onclick="openPopupWindow('/beta/help/conditions_instr',1000); return false;">Condition / Disease</a>: </label>
+          </div>
           <div class="w3-col m9 w3-left-align" style="display:inline-flex;padding-left:0.5em;">
-            <input id="home-search-condition-query" name="cond" tabindex="1" autofocus maxlength="250" type="text" style="width:100%;" placeholder='e.g. breast cancer'>
+            <input id="home-search-condition-query" class="textInputField" name="cond" tabindex="1" maxlength="250" type="text"
+              placeholder='e.g. breast cancer'>
             <button class="clearField" type="button" title="Clear the Condition/Disease field" onclick="$('#home-search-condition-query').val('');">x</button>
               <div style="display:none" id="home-search-condition-ExtensionsId"><ul><li>&nbsp;</li></ul></div>
               <script type="text/javascript"> new ExtensionsMgr("home-search-condition-query","home-search-condition-ExtensionsId","/beta/rpc/extend/cond","cond"); </script><noscript></noscript>
           </div>
         </div>
-
-        <div class="w3-row w3-padding-4" title="Other terms such as an NCT number, radiation, drug name, investigator name">
-            <div class="w3-col m3 w3-right-align small-left"><label for="home-search-other-query"><a href="/beta/help/search_terms" title="Help for the Keyword field" onclick="openPopupWindow('/beta/help/search_terms',1000); return false;">Keyword</a>: </label></div>
+        <div class="w3-row w3-padding-8" title="Other terms such as an NCT number, drug name, investigator name">
+            <div class="w3-col m3 w3-right-align small-left inputFieldLabel"><label for="home-search-other-query"><a href="/beta/help/search_terms" title="Help for the Other Terms field"
+              onclick="openPopupWindow('/beta/help/search_terms',1000); return false;">Other Terms</a>: </label>
+            </div>
             <div class="w3-col m9 w3-left-align" style="display:inline-flex;padding-left:0.5em;">
-              <input id="home-search-other-query" name="term" tabindex="3" maxlength="250" type="text" style="width:100%;" placeholder='e.g., treatment, NCT number, or investigator name'>
-            <button class="clearField" type="button" title="Clear the Keyword field" onclick="$('#home-search-other-query').val('');">x</button>
+              <input id="home-search-other-query" class="textInputField" name="term" tabindex="3" maxlength="250" type="text" style="width:100%;"
+                placeholder='e.g., NCT number, drug name, investigator name'>
+            <button class="clearField" type="button" title="Clear the Other Terms field" onclick="$('#home-search-other-query').val('');">x</button>
           </div>
         </div>
 
-        <div class="w3-row w3-padding-4" title="Country with at least one study trial location">
-          <div class="w3-col m3 w3-right-align small-left">
-              <label for="Country1"><a href="/beta/help/country_state" title="Help for Country search field" onclick="openPopupWindowShortWidth('/beta/help/country_state',1000); return false;">Location: Country</a>: </label>
+        <div class="w3-row w3-padding-8" title="Country with at least one study trial location">
+          <div class="w3-col m3 w3-right-align small-left inputFieldLabel">
+              <label for="Country1"><a href="/beta/help/country_state" title="Help for Country search field" onclick="openPopupWindowShortWidth('/beta/help/country_state',1000); return false;">Country</a>: </label>
           </div>
           <div class="w3-col m9 w3-left-align" style="display:inline-flex;padding-left:0.5em;">
-              <select name="cntry1" id="Country1" tabindex="4">
+              <select id="Country1" class="selectInputField" name="cntry1" tabindex="4" style="width:100%;">
                                   <option value=""  selected="selected"  ></option>
                                     <option value="NA:US"  >United States</option>
                                     <option value="SS:AF"  >Afghanistan</option>
@@ -501,12 +580,12 @@ $(document).ready(function() {
             </div>
         </div>
 
-        <div class="w3-row w3-padding-4" title="State name (United States only) for a study trial location" id="StateRow" style="display:none;">
-          <div class="w3-col m3 w3-right-align small-left">
+        <div class="w3-row w3-padding-8" title="State name (United States only) for a study trial location" id="StateRow" style="display:none;">
+          <div class="w3-col m3 w3-right-align small-left inputFieldLabel">
             <label for="State1"><a href="/beta/help/country_state" title="Help for State search field" onclick="openPopupWindowShortWidth('/beta/help/country_state',1000); return false;">State</a>: </label>
           </div>
           <div class="w3-col m9 w3-left-align" style="display:inline-flex;padding-left:0.5em;">
-            <select name="state1" id="State1" tabindex="5">
+            <select id="State1" class="selectInputField" name="state1" tabindex="5" style="width:100%;">
                             <option value=""  selected="selected"  ></option>
                             <option value="NA:US:AL"  >Alabama</option>
                             <option value="NA:US:AK"  >Alaska</option>
@@ -564,20 +643,21 @@ $(document).ready(function() {
           </div>
         </div>
 
-        <div class="w3-row w3-padding-4" title="Perform a search">
-          <div class="w3-col w3-center" style="margin:1.5ex 1em;">
+        <div class="w3-row w3-padding-8" title="Perform a search">
+          <div class="w3-col w3-center" style="padding:1.5ex 1em;">
             <input name="SearchRecruiting" id="SearchRecruiting" value="Find a study to participate in" type="submit" class="searchButton"
               tabindex="6"
               onclick="$('#RecruitingStudies').val('a');showWorking();"
               title="Search for currently recruiting studies using the above fields"/>
-            <input class="usa-button usa-button-outline" name="SearchAll" value="Search all studies" type="submit"  tabindex="7" class="searchButton searchButtonAlternate"
-              onclick="$('#RecruitingStudies').val(' ');showWorking();"
+            <input name="SearchAll" value="Search all studies" type="submit" class="searchButton searchButtonAlternate"
+                tabindex="7"
+              onclick="showWorking();"
               title="Search all studies using the above fields"/>
             <a href="javascript:gotoAdvSearchURL();" title="Go to the Advanced Search page" tabindex="8"
-              style="white-space:nowrap;padding-top:1ex;">Advanced Search</a>
-            <input name="recrs" id="RecruitingStudies" type="hidden"/>
+              style="white-space:nowrap;margin-top:1ex;font-size:larger;">Advanced Search</a>
           </div>
         </div>
+                <input name="recrs" id="RecruitingStudies" type="hidden"/>
 
       </fieldset>
         </form>
@@ -596,69 +676,76 @@ $(document).ready(function() {
 
 <div id="workingDim" class="dim" style="display:none;">
   <div id="workingIndicator" class="workingBox" style="text-align:center;vertical-align:middle;">
-    <img alt="Working..." src="{{ site.currenturl }}/beta/html/ct3/images/working.gif" height="48" >
+    <img alt="Working..." src="/beta/html/ct3/images/working.gif" height="48" >
   </div>
 </div>
 
-<script type="text/javascript" src="{{ site.currenturl }}/beta/html/ct3/js/working.js"></script><noscript></noscript>
+<script type="text/javascript" src="/beta/html/ct3/js/working.js"></script><noscript></noscript>
 
-      <div class="w3-center">
-    <a href="/beta/help/for-patient"  title="Additional information for patients and families" style="margin-right:2em;white-space:nowrap;">For Patients and Families</a>
-    <a href="/beta/help/for-researcher" title="Additional information for researchers" style="margin-right:2em;white-space:nowrap;">For Researchers</a>
-    <a href="/beta/help/for-manager" title="Additional information for study record managers" style="white-space:nowrap;">For Study Record Managers</a>
-</div>
     </div>
     <div id="home-recruiting-locations" class="w3-col l4">
       <div class="w3-container" style="margin:auto;">
       <div id="trial-count">
-    <p>The database currently lists <span class="highlight">243,492 studies</span> with locations in all 50 States and in <span class="highlight">200 countries</span>.</p>
+    <p>The database currently lists <span class="highlight">246,355 studies</span> with locations in all 50 States and in <span class="highlight">200 countries</span>.</p>
 </div>
 
     </div>
-    <div class="w3-container w3-center" id="graph">
-      <h2 style="text-align:center;">Recruiting Study Locations</h2>
+    <div class="w3-container w3-center w3-hide-small" id="graph">
+      <h2 style="display:block;text-align:center;margin:4px;">Recruiting Study Locations</h2>
       <div class="w3-container w3-center" style="display:inline-flex;">
-            <table class="w3-table" id="homepie" style="width:100%;">
-          <caption style="display:none">Legend for Recruiting Study location pie chart image</caption>
-          <thead>
-              <tr style="display:none">
-                <th scope="col">Pie Chart<th>
-                <th scope="col">Pie Color</th>
-                <th scope="col">Location</th>
-              </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td rowspan="4" style="vertical-align:middle;">
-            <img
-            src="{{ site.currenturl }}/beta/resources/trends/location-count-recruit-pie-sm"
-            alt="Recruiting Study Location Count Pie Chart" />
-          </td>
-          <td></td>
-          <td></td>
-        </tr>
-                                    <tr>
-                    <td><img style="margin:0 0;width:10px;height:16px;" src="{{ site.currenturl }}/beta/html/ct3/images/D86E80.png" alt="color"/></td>
-                    <td class="w3-left-align">Non-U.S. only (56%)</td>
+                <table class="w3-table" id="homepie" style="width:100%;">
+              <caption style="display:none">Legend for Recruiting Study location pie chart image</caption>
+              <thead>
+                  <tr style="display:none">
+                    <th scope="col">Pie Chart<th>
+                    <th scope="col">Pie Color</th>
+                    <th scope="col">Location</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="4" style="vertical-align:middle;">
+                <img
+                src="{{ site.currenturl }}/beta/resources/trends/location-count-recruit-pie-sm"
+                alt="Recruiting Study Location Count Pie Chart" />
+              </td>
+              <td></td>
+              <td></td>
             </tr>
-                                                    <tr>
-                    <td><img style="margin:0 0;width:10px;height:16px;" src="{{ site.currenturl }}/beta/html/ct3/images/8374B0.png" alt="color"/></td>
-                    <td class="w3-left-align">U.S. only (38%)</td>
-            </tr>
-                                                    <tr>
-                    <td><img style="margin:0 0;width:10px;height:16px;" src="{{ site.currenturl }}/beta/html/ct3/images/ECB85C.png" alt="color"/></td>
-                    <td class="w3-left-align">Both U.S. and non-U.S. (5%)</td>
-            </tr>
-                                                            </tbody>
-          </table>
+                                                <tr>
+                        <td><img style="margin:0 0;width:10px;height:16px;" src="{{ site.currenturl }}/beta/html/ct3/images/D86E80.png" alt="color"/></td>
+                        <td class="w3-left-align">Non-U.S. only (56%)</td>
+                </tr>
+                                                                    <tr>
+                        <td><img style="margin:0 0;width:10px;height:16px;" src="{{ site.currenturl }}/beta/html/ct3/images/8374B0.png" alt="color"/></td>
+                        <td class="w3-left-align">U.S. only (38%)</td>
+                </tr>
+                                                                    <tr>
+                        <td><img style="margin:0 0;width:10px;height:16px;" src="{{ site.currenturl }}/beta/html/ct3/images/ECB85C.png" alt="color"/></td>
+                        <td class="w3-left-align">Both U.S. and non-U.S. (5%)</td>
+                </tr>
+                                                                                </tbody>
+            </table>
       </div>
-    <div id="pielegend" style="text-align:center;margin-bottom:6px;">42,149 recruiting studies (May 02, 2017)</div>
+      <div id="pielegend" class="w3-hide-small" style="text-align:center;margin-bottom:6px;">42,802 recruiting studies (June 04, 2017)</div>
     </div>
-    <div style="padding-top:2ex;padding-bottom:1ex;text-align:center;">
-        <a href="/beta/manage-recs/present#FinalRuleWebinar">
-                Final Rule Webinar Series
-        </a>
-      </div>
+
+      <hr style="margin-left:12px;">
+  <h3 class="w3-center">More Information</h3>
+  <div class="w3-container w3-center">
+    <div class="w3-row"
+      style="border:1px solid lightgrey;margin:0.5ex auto;padding:0.5rem;background-color:#ecf2f8;white-space:nowrap;text-align:left;max-width: 15rem;">
+      <a href="/beta/help/for-patient" title="Additional information for patients and families">For Patients and Families</a>
+    </div>
+    <div class="w3-row"
+      style="border:1px solid lightgrey;margin:0.5ex auto;padding:0.5rem;background-color:#ecf2f8;white-space:nowrap;text-align:left;max-width: 15rem;">
+<a href="/beta/help/for-researcher" title="Additional information for researchers" style="margin-right:2em;white-space:nowrap;">For Researchers</a>
+    </div>
+    <div class="w3-row"
+      style="border:1px solid lightgrey;margin:0.5ex auto;padding:0.5rem;background-color:#ecf2f8;white-space:nowrap;text-align:left;max-width: 15rem;">
+<a href="/beta/help/for-manager" title="Additional information for study record managers" style="white-space:nowrap;">For Study Record Managers</a>
+    </div>
+  </div>
     </div>
 </div>
 
@@ -701,7 +788,7 @@ $(document).ready(function() {
     </ul>
 </div>
 
-    <script type="text/javascript" src="{{ site.currenturl }}/beta/html/ct3/js/instrumentNCBIBaseJS.min.js"></script><noscript></noscript>
+    <script type="text/javascript" src="/beta/html/ct3/js/instrumentNCBIBaseJS.min.js"></script><noscript></noscript>
 
 </body>
 </html>
