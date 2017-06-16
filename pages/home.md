@@ -16,14 +16,14 @@ permalink: /
       <p>These trials are not  endorsed or regulated by NIH or the federal government. Please talk to your doctor before volunteering for a study. <a href="#">Read our Disclaimer</a> for details.</p>
     </div>
     <div class="usa-width-one-half">
-      <form class="form-search" action="">
+      <form class="form-search" action="{{ site.baseurl }}/search-results/">
         <label for="keyword">Search by keyword</label>
         <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
-        <input id="keyword" name="input-type-text" type="text">
+        <input id="keyword" name="keyword" type="text">
         <p class="form-help-text">Search by condition, drug, intervention, or NCT number</p>
         <label for="location">Location</label>
         <span class="usa-form-hint">For example: Anywhere, USA</span>
-        <input id="location" name="input-type-text" type="text">
+        <input id="location" name="location" type="text">
         <i class="fa fa-map-marker" aria-hidden="true"></i>
         <a href="#">+ Advanced search</a>
         <input type="submit" value="Submit">
