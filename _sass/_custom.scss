@@ -42,6 +42,11 @@
   }
 }
 
+legend {
+  font-size: $base-font-size;
+  margin-bottom: .5em;
+}
+
 // Horizontal rule -------- //
 
 // could call it a .divider
@@ -372,4 +377,177 @@ input[id="location"] {
 .box {
   @include clip-margins;
   padding: 2rem;
+}
+
+.usa-grid {
+  .search_results-search form {
+    @include margin(1rem null);
+  }
+}
+
+.search_results-search {
+  @include padding(1rem null);
+  border-bottom: 1px solid $color-gray-light;
+
+  form {
+    * {
+      @include media($medium-screen) {
+        display: inline;
+      }
+    }
+  }
+
+  input {
+    @include media($medium-screen) {
+      width: 24.5%;
+    }
+  }
+
+  button {
+    @include media($medium-screen) {
+      height: 44px;
+      margin-left: 1rem;
+      margin-top: 0;
+    }
+  }
+}
+
+.search_results-info {
+  @include padding(2rem null);
+  border-bottom: 1px solid $color-gray-light;
+  display: flex;
+  position: relative;
+
+  @include media($medium-screen) {
+    padding-left: 3rem;
+  }
+
+  &:after {
+    content: '';
+    border-bottom: 1px solid $color-gray-light;
+    display: block;
+    height: 101%;
+    position: absolute;
+    top: 0;
+    width: 1000%;
+    left: 100%;
+  }
+}
+
+.form-sort {
+  @include media($medium-screen) {
+    float: right;
+    width: 167px;
+  }
+
+  label {
+    margin-top: 0;
+  }
+}
+
+.search_results-search-heading {
+  @include h3;
+  font-family: $font-serif;
+}
+
+.search_results-search-heading:first-of-type {
+  margin-right: 8px;
+}
+
+.search_results-search-heading:last-of-type {
+  @include margin(null 1rem);
+}
+
+.search_result-metadata {
+  display: inline;
+  font-weight: $font-bold;
+  font-size: $small-font-size;
+  margin-right: 3rem;
+}
+
+.study-status-recruiting {
+  color: $color-green;
+}
+
+.study-status-suspended {
+  color: $color-secondary;
+}
+
+.study-status-enrolling {
+  color: #A77914;
+}
+
+.search_results {
+  li {
+    padding: 3rem;
+
+    &:nth-of-type(even) {
+      background-color: $color-gray-lightest;
+      position: relative;
+
+      &:after {
+        background-color: $color-gray-lightest;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 1000%;
+        left: 100%;
+      }
+    }
+  }
+}
+
+.link-subscribe {
+  font-size: $small-font-size;
+}
+
+.search_result {
+  @include clip-margins;
+
+  .usa-label {
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+}
+
+.search_result-heading {
+  font-family: $font-sans;
+  margin-top: 0;
+}
+
+.search_results-filter {
+  padding-top: 4rem;
+
+  @include media($medium-screen) {
+    border-right: 1px solid $color-gray-light;
+    margin-right: 0;
+  }
+
+  fieldset {
+    margin-top: 30px;
+
+    li:last-child {
+      label {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  h5 {
+    margin-top: 4rem;
+  }
+
+  .form-label {
+    font-weight: $font-bold;
+  }
+}
+
+.search-term-highlight {
+  font-weight: $font-bold;
+}
+
+.search-snippet {
+  font-size: $small-font-size;
 }
