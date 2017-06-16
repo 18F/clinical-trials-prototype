@@ -54,23 +54,23 @@ class: search-results
       <li>
         <article class="search_result">
           <h3 class="search_result-heading">
-            <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related PTSD</a>
+            <a href="{{ site.baseurl }}/study-detail/">Use of Mobile Apps for Those With PTSD and Their Partners</a>
           </h3>
-          <p class="search-snippet">This study is designed to test <span class="search-term-highlight">PTSD</span> in veterans through a range of modalities including ... this effects TNX-102 SL in Patients With Military-related <span class="search-term-highlight">PTSD</span>.</p>
+          <p class="search-snippet">The usual group for the treatment of Post Traumatic Stress Disorder (<span class="search-term-highlight">PTSD</span>) symptoms ... High-Frequency Repetetive Transcranial Stimulation in <span class="search-term-highlight">PTSD</span>.</p>
           <p>Condition: PTSD</p>
           <p class="search_result-metadata study-status-recruiting">Recruiting</p>
-          <p class="search_result-metadata">Type: Behavioral</p>
+          <p class="search_result-metadata">Type: Device</p>
         </article>
       </li>
       <li>
         <article class="search_result">
           <h3 class="search_result-heading">
-            <a href="javascript:void(0);">Use of Mobile Apps for Those With PTSD and Their Partners</a>
+            <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related PTSD</a>
           </h3>
-          <p class="search-snippet">The usual group for the treatment of Post Traumatic Stress Disorder (<span class="search-term-highlight">PTSD</span>) symptoms ... High-Frequency Repetetive Transcranial Stimulation in <span class="search-term-highlight">PTSD</span></p>
+          <p class="search-snippet">This study is designed to test <span class="search-term-highlight">PTSD</span> in veterans through a range of modalities including ... this effects TNX-102 SL in Patients With Military-related <span class="search-term-highlight">PTSD</span>.</p>
           <p>Condition: PTSD</p>
           <p class="search_result-metadata study-status-suspended">Suspended</p>
-          <p class="search_result-metadata">Type: Device</p>
+          <p class="search_result-metadata">Type: Behavioral</p>
         </article>
       </li>
       <li>
