@@ -34,9 +34,7 @@ class: search-results
   <div class="usa-width-two-thirds">
     <div class="search_results-info">
       <div class="usa-width-one-half">
-        <p>
-          <strong>Showing 16 out of 16 results</strong>
-        </p>
+        <p>Showing 16 out of 16 results</p>
         <a class="link-subscribe" href="javascript:void(0);">Subscribe to updates on this search</a>
       </div>
       <div class="usa-width-one-half">
