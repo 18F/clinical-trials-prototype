@@ -22,6 +22,10 @@
 
 // Typography ------------ //
 
+a {
+  text-decoration-skip: ink;
+}
+
 .h5 {
   @include h5;
 }
@@ -387,7 +391,7 @@ input[id="location"] {
 
 .search_results-search {
   @include padding(3rem null);
-  background-color: #add8e6;
+  background-color: $color-primary-darker;
 
   form {
     * {
@@ -424,18 +428,33 @@ input[id="location"] {
 }
 
 .form-sort {
+  font-size: $small-font-size;
+  position: absolute;
+  right: 0;
+  top: -6px;
+
   @include media($medium-screen) {
-    float: right;
-    width: 167px;
+    margin-right: 50px;
+    width: 127px;
   }
 
   label {
-    margin-top: 0;
+    margin-left: -70px;
+    margin-top: 9px;
+    position: absolute;
+  }
+
+  select {
+    @include padding(0 0 0 null);
+    font-size: $small-font-size;
+    height: 35px;
+    margin: 0;
   }
 }
 
 .search_results-search-heading {
   @include h3;
+  color: $color-white;
   font-family: $font-serif;
 }
 
@@ -492,7 +511,16 @@ input[id="location"] {
 
 .search_result-heading {
   font-family: $font-sans;
+  font-size: 2.4rem;
   margin-top: 0;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .search_results-filter {
@@ -523,4 +551,16 @@ input[id="location"] {
 
 .search-snippet {
   font-size: $small-font-size;
+}
+
+.search-results-number {
+  display: inline-block;
+  font-size: $small-font-size;
+  margin-bottom: 0;
+}
+
+.search_results-submenu {
+  .usa-grid {
+    position: relative;
+  }
 }

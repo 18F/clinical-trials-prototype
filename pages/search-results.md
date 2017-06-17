@@ -4,18 +4,6 @@ permalink: /search-results/
 class: search-results
 ---
 
-<nav class="submenu">
-  <div class="usa-grid">
-    <ul class="breadcrumbs usa-unstyled-list">
-      <li>
-        <a href="#">Home</a>
-      </li>
-      <li>
-        Search results
-      </li>
-    </ul>
-  </div>
-</nav>
 <div class="search_results-search">
   <form class="usa-grid" action="">
     <p class="search_results-search-heading">Showing 16 results for:</p>
@@ -24,30 +12,43 @@ class: search-results
     <p class="search_results-search-heading">near</p>
     <label class="usa-sr-only" for="search_field-location">Location</label>
     <input id="search_field-location" name="input-type-text" type="text" value="Palo Alto, CA">
-    <button>Modify search</button>
+    <button class="usa-button-primary-alt">Modify search</button>
   </form>
 </div>
+<nav class="submenu search_results-submenu">
+  <div class="usa-grid">
+    <p class="search-results-number">1-16 out of 230 results for <b>“PTSD”</b> in <b>“Palo Alto, CA”</b></p>
+    <form class="form-sort" action="">
+      <label for="options">Sorted by:</label>
+      <select name="options" id="options">
+        <option value="value1">Most relevant</option>
+        <option value="value2">Newest</option>
+        <option value="value3">Oldest</option>
+      </select>
+    </form>
+    <!-- <ul class="breadcrumbs usa-unstyled-list">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        Search results
+      </li>
+    </ul> -->
+  </div>
+</nav>
 <div class="usa-grid">
   <aside class="search_results-filter usa-width-one-fourth">
     {% include search-results-filter.html %}
   </aside>
   <div class="usa-width-three-fourths">
-    <div class="search_results-info">
+<!--     <div class="search_results-info">
       <div class="usa-width-one-half">
         <p>Showing 16 out of 16 results</p>
         <a class="link-subscribe" href="javascript:void(0);">Subscribe to updates on this search</a>
       </div>
       <div class="usa-width-one-half">
-        <form class="form-sort" action="">
-          <label for="options">Sorted by:</label>
-          <select name="options" id="options">
-            <option value="value1">Most relevant</option>
-            <option value="value2">Newest</option>
-            <option value="value3">Oldest</option>
-          </select>
-        </form>
       </div>
-    </div>
+    </div> -->
     <ol class="search_results usa-unstyled-list">
       <li>
         <article class="search_result">
@@ -107,7 +108,7 @@ class: search-results
         <article class="search_result">
           <span class="usa-label">New</span>
           <h3 class="search_result-heading">
-            <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder ׂ(PTSD)</a>
+            <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (PTSD)</a>
           </h3>
           <p>Condition: PTSD</p>
           <p class="search_result-metadata study-status-recruiting">Recruiting</p>
