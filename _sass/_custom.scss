@@ -386,8 +386,8 @@ input[id="location"] {
 }
 
 .search_results-search {
-  @include padding(1rem null);
-  border-bottom: 1px solid $color-gray-light;
+  @include padding(3rem null);
+  background-color: #add8e6;
 
   form {
     * {
@@ -420,17 +420,6 @@ input[id="location"] {
 
   @include media($medium-screen) {
     padding-left: 3rem;
-  }
-
-  &:after {
-    content: '';
-    border-bottom: 1px solid $color-gray-light;
-    display: block;
-    height: 101%;
-    position: absolute;
-    top: 0;
-    width: 1000%;
-    left: 100%;
   }
 }
 
@@ -484,17 +473,6 @@ input[id="location"] {
     &:nth-of-type(even) {
       background-color: $color-gray-lightest;
       position: relative;
-
-      &:after {
-        background-color: $color-gray-lightest;
-        content: '';
-        display: block;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        width: 1000%;
-        left: 100%;
-      }
     }
   }
 }
@@ -519,11 +497,6 @@ input[id="location"] {
 
 .search_results-filter {
   padding-top: 4rem;
-
-  @include media($medium-screen) {
-    border-right: 1px solid $color-gray-light;
-    margin-right: 0;
-  }
 
   fieldset {
     margin-top: 30px;

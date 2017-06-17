@@ -28,10 +28,10 @@ class: search-results
   </form>
 </div>
 <div class="usa-grid">
-  <aside class="search_results-filter usa-width-one-third">
+  <aside class="search_results-filter usa-width-one-fourth">
     {% include search-results-filter.html %}
   </aside>
-  <div class="usa-width-two-thirds">
+  <div class="usa-width-three-fourths">
     <div class="search_results-info">
       <div class="usa-width-one-half">
         <p>Showing 16 out of 16 results</p>
