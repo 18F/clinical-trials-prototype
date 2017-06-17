@@ -8,10 +8,10 @@ class: study-detail
   <div class="usa-grid">
     <ul class="breadcrumbs usa-unstyled-list">
       <li>
-        <a href="#">Home</a>
+        <a href="{{ site.baseurl }}/">Home</a>
       </li>
       <li>
-        <a href="#">Search results</a>
+        <a href="{{ site.baseurl }}/search-results/">Search results</a>
       </li>
       <li>Study details</li>
     </ul>

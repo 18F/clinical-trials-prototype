@@ -392,18 +392,20 @@ input[id="location"] {
 .search_results-search {
   @include padding(3rem null);
   background-color: $color-primary-darker;
+  color: $color-white;
 
-  form {
-    * {
-      @include media($medium-screen) {
-        display: inline;
-      }
+  label {
+    font-family: $font-serif;
+    font-weight: $font-bold;
+
+    @include media($medium-screen) {
+      margin-top: 0;
     }
   }
 
   input {
     @include media($medium-screen) {
-      width: 24.5%;
+      width: 27rem;
     }
   }
 
@@ -414,6 +416,10 @@ input[id="location"] {
       margin-top: 0;
     }
   }
+}
+
+[for=search_field-condition] {
+  margin-top: 0
 }
 
 .search_results-info {
@@ -507,6 +513,10 @@ input[id="location"] {
     display: inline-block;
     margin-bottom: 1rem;
   }
+
+  p {
+    @include margin(0.8rem null);
+  }
 }
 
 .search_result-heading {
@@ -524,6 +534,7 @@ input[id="location"] {
 }
 
 .search_results-filter {
+  font-size: $small-font-size;
   padding-top: 4rem;
 
   fieldset {
@@ -536,12 +547,21 @@ input[id="location"] {
     }
   }
 
+  legend {
+    font-size: $small-font-size;
+  }
+
   h5 {
     margin-top: 4rem;
   }
 
   .form-label {
+    font-size: $small-font-size;
     font-weight: $font-bold;
+  }
+
+  select {
+    font-size: $small-font-size;
   }
 }
 
@@ -562,5 +582,17 @@ input[id="location"] {
 .search_results-submenu {
   .usa-grid {
     position: relative;
+  }
+}
+
+.search_results-search-block {
+  @include media($medium-screen) {
+    display: inline-block;
+  }
+
+  &:first-of-type {
+    @include media($medium-screen) {
+      margin-right: 10px;
+    }
   }
 }

@@ -6,12 +6,17 @@ class: search-results
 
 <div class="search_results-search">
   <form class="usa-grid" action="">
-    <p class="search_results-search-heading">Showing 16 results for:</p>
-    <label class="usa-sr-only" for="search_field-condition">Condition</label>
-    <input id="search_field-condition" name="input-type-text" type="text" value="PTSD">
-    <p class="search_results-search-heading">near</p>
-    <label class="usa-sr-only" for="search_field-location">Location</label>
-    <input id="search_field-location" name="input-type-text" type="text" value="Palo Alto, CA">
+    <!-- <p class="search_results-search-heading">Showing 16 results for:</p> -->
+    <div class="search_results-search-block">
+      <label class="" for="search_field-condition">Condition</label>
+      <input id="search_field-condition" name="input-type-text" type="text" value="PTSD">
+    </div>
+
+    <div class="search_results-search-block">
+      <!-- <p class="search_results-search-heading">near</p> -->
+      <label class="" for="search_field-location">Location</label>
+      <input id="search_field-location" name="input-type-text" type="text" value="Palo Alto, CA">
+    </div>
     <button class="usa-button-primary-alt">Modify search</button>
   </form>
 </div>
