@@ -24,7 +24,7 @@ class: search-results
   <div class="usa-grid">
     <p class="search-results-number">1-16 out of 230 results for <b>“PTSD”</b> in <b>“Palo Alto, CA”</b></p>
     <form class="form-sort" action="">
-      <label for="options">Sorted by:</label>
+      <label for="options">Sort by</label>
       <select name="options" id="options">
         <option value="value1">Most relevant</option>
         <option value="value2">Newest</option>
@@ -72,7 +72,7 @@ class: search-results
             <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related PTSD</a>
           </h3>
           <p class="search-snippet">This study is designed to test <span class="search-term-highlight">PTSD</span> in veterans through a range of modalities including ... this effects TNX-102 SL in Patients With Military-related <span class="search-term-highlight">PTSD</span>.</p>
-          <p>Condition: PTSD</p>
+          <p>Condition: PTSD, Depression</p>
           <p class="search_result-metadata study-status-suspended">Suspended</p>
           <p class="search_result-metadata">Type: Behavioral</p>
         </article>
@@ -104,7 +104,7 @@ class: search-results
           <h3 class="search_result-heading">
             <a href="javascript:void(0);">Intensive Weekend Retreat Multi-Couple Group Therapy for PTSD</a>
           </h3>
-          <p>Condition: PTSD</p>
+          <p>Condition: PTSD, Substance Abuse</p>
           <p class="search_result-metadata study-status-suspended">Terminated</p>
           <p class="search_result-metadata">Type: Device</p>
         </article>
@@ -115,7 +115,7 @@ class: search-results
           <h3 class="search_result-heading">
             <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (PTSD)</a>
           </h3>
-          <p>Condition: PTSD</p>
+          <p>Condition: PTSD, Depression</p>
           <p class="search_result-metadata study-status-recruiting">Recruiting</p>
           <p class="search_result-metadata">Type: Other</p>
         </article>
