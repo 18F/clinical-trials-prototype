@@ -356,8 +356,6 @@ input[id="location"] {
     display: inline-block;
     font-size: 1.5rem;
 
-
-
     &:not(:last-child):after {
       @include margin(null 5px);
       background-image: url('#{$image-path}/alerts/angle-arrow-down.png');
@@ -384,12 +382,12 @@ input[id="location"] {
 }
 
 .usa-grid {
-  .search_results-search form {
+  .search_result-search form {
     @include margin(1rem null);
   }
 }
 
-.search_results-search {
+.search_result-search {
   @include padding(3rem null);
   background-color: $color-primary-darker;
   color: $color-white;
@@ -491,7 +489,7 @@ input[id="location"] {
   color: #A77914;
 }
 
-.search_results {
+.search_result-list {
   li {
     padding: 3rem;
 
@@ -506,8 +504,10 @@ input[id="location"] {
   font-size: $small-font-size;
 }
 
-.search_result {
-  @include clip-margins;
+.search_result-item {
+  article {
+    @include clip-margins;
+  }
 
   .usa-label {
     display: inline-block;
@@ -533,7 +533,7 @@ input[id="location"] {
   }
 }
 
-.search_results-filter {
+.search_result-filter {
   font-size: $small-font-size;
   padding-top: 4rem;
 
@@ -569,23 +569,23 @@ input[id="location"] {
   font-weight: $font-bold;
 }
 
-.search-snippet {
+.search_result-snippet {
   font-size: $small-font-size;
 }
 
-.search-results-number {
+.search_result-count {
   display: inline-block;
   font-size: $small-font-size;
   margin-bottom: 0;
 }
 
-.search_results-submenu {
+.search_result-info_bar {
   .usa-grid {
     position: relative;
   }
 }
 
-.search_results-search-block {
+.search_result-search-item {
   @include media($medium-screen) {
     display: inline-block;
   }
