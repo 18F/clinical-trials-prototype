@@ -410,8 +410,9 @@ input[id="location"] {
   button {
     @include media($medium-screen) {
       height: 44px;
+      margin-bottom: 4px !important;
       margin-left: 1rem;
-      margin-top: 0;
+      vertical-align: bottom;
     }
   }
 }
