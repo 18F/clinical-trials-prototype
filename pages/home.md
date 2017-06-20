@@ -40,13 +40,16 @@ permalink: /
   <section class="usa-width-one-third card usa-color-bg-primary-alt-lightest">
     <h3>Find a study to participate in</h3>
     <p>Search for studies near you that are looking for participants.</p>
+    <p><a href="#">Learn more</a></p>
   </section>
   <section class="usa-width-one-third card usa-color-bg-gray-dark">
     <h3>Browse our comprehensive database</h3>
     <p>Explore over 239,000 studies by topic, condition, NTC number, or location.</p>
+    <p><a class="link-white" href="#">Learn more</a></p>
   </section>
   <section class="usa-width-one-third card usa-color-bg-primary">
     <h3>Submit or edit a study record</h3>
     <p>Add a study listing, update a study, or add study results.</p>
+    <p><a class="link-white" href="#">Learn more</a></p>
   </section>
 </div>

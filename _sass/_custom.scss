@@ -26,6 +26,10 @@ a {
   text-decoration-skip: ink;
 }
 
+.link-white {
+  color: $color-white;
+}
+
 .h5 {
   @include h5;
 }
