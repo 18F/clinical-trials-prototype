@@ -67,8 +67,7 @@ permalink: /
               <option value="200" selected="selected">200 miles</option>
             </select>
           </div>
-          <input type="submit" value="Submit">
-
+          <input type="submit" value="Search">
         </fieldset>
       </form>
     </div>
