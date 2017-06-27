@@ -16,7 +16,7 @@ permalink: /
       <p>These trials are not  endorsed or regulated by NIH or the federal government. Please talk to your doctor before volunteering for a study. <a href="#">Read our Disclaimer</a> for details.</p>
     </div>
     <div class="usa-width-one-half">
-      <form class="form-search" action="{{ site.baseurl }}/search-results/">
+<!--       <form class="form-search" action="{{ site.baseurl }}/search-results/">
         <label for="keyword">Search by keyword</label>
         <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
         <input id="keyword" name="keyword" type="text">
@@ -27,6 +27,48 @@ permalink: /
         <i class="fa fa-map-marker" aria-hidden="true"></i>
         <a href="#">+ Advanced search</a>
         <input type="submit" value="Submit">
+      </form> -->
+      <form action="{{ site.baseurl }}/search-results/">
+        <fieldset class="fieldset-search" title="All fields optional">
+          <legend class="search-legend usa-sr-only">Search for studies which are:</legend>
+          <fieldset class="usa-fieldset-inputs">
+            <legend class="legend-study-status">Study status:</legend>
+            <ul class="usa-unstyled-list">
+              <li>
+                <input id="study-recruiting" type="radio" checked name="study-status" value="stanton">
+                <label for="study-recruiting">Currently recruiting</label>
+              </li>
+              <li>
+                <input id="study-closed" type="radio" name="study-status" value="anthony">
+                <label for="study-closed">Closed (not recruiting)</label>
+              </li>
+              <li>
+                <input id="study-all" type="radio" name="study-status" value="anthony">
+                <label for="study-all">All studies (closed or recruiting)</label>
+              </li>
+            </ul>
+          </fieldset>
+          <label for="input-type-text">Condition / Disease</label>
+          <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
+          <input id="input-type-text" name="input-type-text" type="text">
+          <label for="input-type-text">Keywords</label>
+          <span class="usa-form-hint">For example: NCT number, drug name, investigator name</span>
+          <input id="input-type-text" name="input-type-text" type="text">
+          <div class="usa-input-grid usa-input-grid-medium">
+            <label for="city">Location</label>
+            <input id="city" name="city" type="text">
+          </div>
+          <div class="usa-input-grid usa-input-grid-small">
+            <label for="state">Distance</label>
+            <select id="state" name="state">
+              <option value="50">50 miles</option>
+              <option value="100">100 miles</option>
+              <option value="200">200 miles</option>
+            </select>
+          </div>
+          <input type="submit" value="Submit">
+
+        </fieldset>
       </form>
     </div>
   </div>
