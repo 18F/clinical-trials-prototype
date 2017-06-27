@@ -145,6 +145,10 @@ label[for="location"] {
     @include h5();
     font-family: $font-serif;
   }
+
+  input {
+    max-width: initial;
+  }
 }
 
 .form-search {
