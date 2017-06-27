@@ -36,11 +36,11 @@ permalink: /
             <ul class="usa-unstyled-list">
               <li>
                 <input id="study-recruiting" type="radio" checked name="study-status" value="stanton">
-                <label class="label-radio" for="study-recruiting">Currently recruiting</label>
+                <label class="label-radio" for="study-recruiting">Open studies (recruiting participants)</label>
               </li>
               <li>
                 <input id="study-closed" type="radio" name="study-status" value="anthony">
-                <label class="label-radio" for="study-closed">Closed (not recruiting)</label>
+                <label class="label-radio" for="study-closed">Closed studies (not recruiting participants) </label>
               </li>
               <li>
                 <input id="study-all" type="radio" name="study-status" value="anthony">
