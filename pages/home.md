@@ -28,7 +28,7 @@ permalink: /
         <a href="#">+ Advanced search</a>
         <input type="submit" value="Submit">
       </form> -->
-      <form action="{{ site.baseurl }}/search-results/">
+      <form class="form-search-new" action="{{ site.baseurl }}/search-results/">
         <fieldset class="fieldset-search" title="All fields optional">
           <legend class="search-legend usa-sr-only">Search for studies which are:</legend>
           <fieldset class="usa-fieldset-inputs">
@@ -36,15 +36,15 @@ permalink: /
             <ul class="usa-unstyled-list">
               <li>
                 <input id="study-recruiting" type="radio" checked name="study-status" value="stanton">
-                <label for="study-recruiting">Currently recruiting</label>
+                <label class="label-radio" for="study-recruiting">Currently recruiting</label>
               </li>
               <li>
                 <input id="study-closed" type="radio" name="study-status" value="anthony">
-                <label for="study-closed">Closed (not recruiting)</label>
+                <label class="label-radio" for="study-closed">Closed (not recruiting)</label>
               </li>
               <li>
                 <input id="study-all" type="radio" name="study-status" value="anthony">
-                <label for="study-all">All studies (closed or recruiting)</label>
+                <label class="label-radio" for="study-all">All studies (closed or recruiting)</label>
               </li>
             </ul>
           </fieldset>
@@ -56,14 +56,15 @@ permalink: /
           <input id="input-type-text" name="input-type-text" type="text">
           <div class="usa-input-grid usa-input-grid-medium">
             <label for="city">Location</label>
-            <input id="city" name="city" type="text">
+            <input id="location" name="location" type="text">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
           </div>
           <div class="usa-input-grid usa-input-grid-small">
             <label for="state">Distance</label>
             <select id="state" name="state">
               <option value="50">50 miles</option>
               <option value="100">100 miles</option>
-              <option value="200">200 miles</option>
+              <option value="200" selected="selected">200 miles</option>
             </select>
           </div>
           <input type="submit" value="Submit">

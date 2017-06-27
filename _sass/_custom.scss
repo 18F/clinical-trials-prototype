@@ -139,6 +139,14 @@ label[for="location"] {
   font-family: $font-serif;
 }
 
+.form-search-new {
+  label:not(.label-radio),
+  .legend-study-status {
+    @include h5();
+    font-family: $font-serif;
+  }
+}
+
 .form-search {
   > input {
     @include margin(8px null);
@@ -215,7 +223,7 @@ select[id="age-group"] {
 .fa-map-marker {
   left: 13px;
   position: relative;
-  top: -40px;
+  top: -34px;
 
 }
 
@@ -225,6 +233,10 @@ input[id="location"] {
 
 .legend-study-status {
   font-weight: $font-normal;
+}
+
+.usa-input-grid-medium input {
+  margin-bottom: 0;
 }
 
 // Info callouts ------------ //
