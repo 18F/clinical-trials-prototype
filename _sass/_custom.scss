@@ -140,14 +140,12 @@ label[for="location"] {
 }
 
 .form-search-new {
+  max-width: 46rem;
+
   label:not(.label-radio),
   .legend-study-status {
     @include h5();
     font-family: $font-serif;
-  }
-
-  input {
-    max-width: initial;
   }
 }
 
