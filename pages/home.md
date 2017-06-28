@@ -30,7 +30,7 @@ permalink: /
       </form> -->
       <form class="form-search-new" action="{{ site.baseurl }}/search-results/">
         <fieldset class="fieldset-search">
-          <legend class="search-legend usa-sr-only">Search for studies which are:</legend>
+          <legend class="search-legend usa-sr-only">Search for studies that are:</legend>
           <fieldset class="usa-fieldset-inputs">
             <legend class="legend-study-status"><span class="usa-sr-only">Study Status</span>Search for studies which are:</legend>
             <ul class="usa-unstyled-list">
