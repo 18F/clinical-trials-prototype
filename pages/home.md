@@ -5,15 +5,15 @@ permalink: /
 
 <section class="usa-section hero">
   <div class="usa-grid">
-    <h2>ClinicalTrials.gov is a tool for finding research studies and results from around the world.</h2>
-    <h3>239,000+ studies in 50 states and 196 countries</h3>
+    <h2>ClinicalTrials.gov is the largest online database of clinical studies conducted around the world.</h2>
+    <h3>240,000+ studies with locations in the US and 201 other countries</h3>
   </div>
 </section>
 <section class="usa-section">
   <div class="usa-grid">
     <div class="usa-width-one-half trial-info">
       <h2>Search for a trial to participate in</h2>
-      <p>These trials are not  endorsed or regulated by NIH or the federal government. Please talk to your doctor before volunteering for a study. <a href="#">Read our Disclaimer</a> for details.</p>
+      <p>ClinicalTrials.gov is a resource maintained by the US National Library of Medicine. Listing a trial does not mean it has been reviewed by the US federal government. Know <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">the risks of clinical studies</a> and talk to your a healthcare professional before volunteering for a study.</p>
     </div>
     <div class="usa-width-one-half">
 <!--       <form class="form-search" action="{{ site.baseurl }}/search-results/">
@@ -70,24 +70,62 @@ permalink: /
   </div>
 </section>
 {% include advanced-search.html %}
-<div class="usa-grid search-links">
-  <a href="#"><i class="fa fa-map-o"></i>Search on the map</a>
-  <a href="#"><i class="fa fa-book"></i>Browse by topic</a>
-</div>
 <div class="usa-grid info-callouts">
-  <section class="usa-width-one-third card usa-color-bg-primary-alt-lightest">
-    <h3>Find a study to participate in</h3>
-    <p>Search for studies near you that are looking for participants.</p>
-    <p><a href="#">Learn more</a></p>
+  <h2>What is ClinicalTrials.gov?</h2>
+  <section class="usa-width-one-third">
+    <h3>Learn about clinical studies</h3>
+    <p>Clinical studies aim to answer scientific questions and find the best ways to prevent, diagnose, or treat diseases and medical conditions. These studies involve research using human volunteers, or participants.</p>
+    <ul>
+      <li><a href="">Types of clinical studies</a></li>
+      <li><a href="#">Phases of clinical studies</a></li>
+      <li><a href="#">Who conducts clinical studies</a></li>
+      <li><a href="#">How the government is involved</a></li>
+    </ul>
   </section>
-  <section class="usa-width-one-third card usa-color-bg-gray-dark">
-    <h3>Browse our comprehensive database</h3>
-    <p>Explore over 239,000 studies by topic, condition, NTC number, or location.</p>
-    <p><a class="link-white" href="#">Learn more</a></p>
+  <section class="usa-width-one-third">
+    <h3>What you need to know</h3>
+    <p>Information on ClinicalTrials.gov is provided and updated by the sponsor or principal investigator of the clinical study. ClinicalTrials.gov is not involved in the studies themselves. </p>
+    <ul>
+      <li><a href="">Risks and benefits of clinical studies</a></li>
+      <li><a href="">How participants are protected </a></li>
+      <li><a href="">How to read the study record</a></li>
+    </ul>
   </section>
-  <section class="usa-width-one-third card usa-color-bg-primary">
-    <h3>Submit or edit a study record</h3>
-    <p>Add a study listing, update a study, or add study results.</p>
-    <p><a class="link-white" href="#">Learn more</a></p>
+  <section class="usa-width-one-third">
+    <h3>Talk to your doctor</h3>
+    <p>Participating in a clinical study is an important personal decision. We encourage you to learn everything you can about the study you’re considering and discuss your options with a medical professional or other people you trust. </p>
+    <ul>
+      <li><a href="">Questions to ask</a></li>
+    </ul>
   </section>
 </div>
+<footer class="usa-footer usa-footer-big" role="contentinfo">
+  <div class="usa-grid usa-footer-return-to-top">
+    <a href="#">Return to top</a>
+  </div>
+  <div class="usa-footer-primary-section">
+    <div class="usa-grid-full">
+      <nav class="usa-footer-nav usa-width-two-thirds">
+        <h4>Additional links</h4>
+        <ul class="usa-unstyled-list usa-width-one-fourth">
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+        </ul>
+        <ul class="usa-unstyled-list usa-width-one-fourth">
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+        </ul>
+        <ul class="usa-unstyled-list usa-width-one-fourth">
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+          <li><a href="javascript:void(0);">Secondary link</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
