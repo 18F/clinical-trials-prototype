@@ -32,7 +32,7 @@ permalink: /
         <fieldset class="fieldset-search">
           <legend class="search-legend usa-sr-only">Search for studies which are:</legend>
           <fieldset class="usa-fieldset-inputs">
-            <legend class="legend-study-status">Study status:</legend>
+            <legend class="legend-study-status"><span class="usa-sr-only">Study Status</span>Search for studies which are:</legend>
             <ul class="usa-unstyled-list">
               <li>
                 <input id="study-recruiting" type="radio" checked name="study-status" value="recruiting">
@@ -40,7 +40,7 @@ permalink: /
               </li>
               <li>
                 <input id="study-all" type="radio" name="study-status" value="all-studies">
-                <label class="label-radio" for="study-all">All studies (recruiting or closed)</label>
+                <label class="label-radio" for="study-all">All studies</label>
               </li>
             </ul>
           </fieldset>
