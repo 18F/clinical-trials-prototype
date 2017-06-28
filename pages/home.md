@@ -44,14 +44,14 @@ permalink: /
               </li>
             </ul>
           </fieldset>
-          <label for="input-type-text">Condition / Disease</label>
+          <label for="condition">Condition / Disease</label>
           <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
-          <input id="input-type-text" name="input-type-text" type="text">
-          <label for="input-type-text">Keywords</label>
+          <input id="condition" name="condition" type="text">
+          <label for="keywords">Keywords</label>
           <span class="usa-form-hint">For example: NCT number, drug name, investigator name</span>
-          <input id="input-type-text" name="input-type-text" type="text">
+          <input id="keywords" name="keywords" type="text">
           <div class="usa-input-grid usa-input-grid-medium">
-            <label for="city">Location</label>
+            <label for="location">Location</label>
             <input id="location" name="location" type="text">
             <i class="fa fa-map-marker" aria-hidden="true"></i>
           </div>
@@ -73,6 +73,7 @@ permalink: /
 <div class="usa-grid info-callouts">
   <h2>What is ClinicalTrials.gov?</h2>
   <section class="usa-width-one-third">
+    <img src="{{ site.baseurl }}/assets/img/img.png" alt="Magnifying glass">
     <h3>Learn about clinical studies</h3>
     <p>Clinical studies aim to answer scientific questions and find the best ways to prevent, diagnose, or treat diseases and medical conditions. These studies involve research using human volunteers, or participants.</p>
     <ul>
@@ -83,6 +84,7 @@ permalink: /
     </ul>
   </section>
   <section class="usa-width-one-third">
+    <img src="{{ site.baseurl }}/assets/img/img.png" alt="Clipboard">
     <h3>What you need to know</h3>
     <p>Information on ClinicalTrials.gov is provided and updated by the sponsor or principal investigator of the clinical study. ClinicalTrials.gov is not involved in the studies themselves. </p>
     <ul>
@@ -92,6 +94,7 @@ permalink: /
     </ul>
   </section>
   <section class="usa-width-one-third">
+    <img src="{{ site.baseurl }}/assets/img/img.png" alt="Phone">
     <h3>Talk to your doctor</h3>
     <p>Participating in a clinical study is an important personal decision. We encourage you to learn everything you can about the study you’re considering and discuss your options with a medical professional or other people you trust. </p>
     <ul>
