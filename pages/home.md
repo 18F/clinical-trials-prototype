@@ -29,22 +29,18 @@ permalink: /
         <input type="submit" value="Submit">
       </form> -->
       <form class="form-search-new" action="{{ site.baseurl }}/search-results/">
-        <fieldset class="fieldset-search" title="All fields optional">
+        <fieldset class="fieldset-search">
           <legend class="search-legend usa-sr-only">Search for studies which are:</legend>
           <fieldset class="usa-fieldset-inputs">
             <legend class="legend-study-status">Study status:</legend>
             <ul class="usa-unstyled-list">
               <li>
-                <input id="study-recruiting" type="radio" checked name="study-status" value="stanton">
-                <label class="label-radio" for="study-recruiting">Open studies (recruiting participants)</label>
+                <input id="study-recruiting" type="radio" checked name="study-status" value="recruiting">
+                <label class="label-radio" for="study-recruiting">Currently recruiting participants</label>
               </li>
               <li>
-                <input id="study-closed" type="radio" name="study-status" value="anthony">
-                <label class="label-radio" for="study-closed">Closed studies (not recruiting participants) </label>
-              </li>
-              <li>
-                <input id="study-all" type="radio" name="study-status" value="anthony">
-                <label class="label-radio" for="study-all">All studies (closed or recruiting)</label>
+                <input id="study-all" type="radio" name="study-status" value="all-studies">
+                <label class="label-radio" for="study-all">All studies (recruiting or closed)</label>
               </li>
             </ul>
           </fieldset>
