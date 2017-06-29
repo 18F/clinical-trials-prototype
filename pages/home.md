@@ -12,8 +12,8 @@ permalink: /
 <section class="usa-section">
   <div class="usa-grid">
     <div class="usa-width-one-half trial-info">
-      <h2>Search for a trial to participate in</h2>
-      <p>ClinicalTrials.gov is a resource maintained by the U.S. National Library of Medicine. Listing a trial does not mean it has been reviewed by the U.S. federal government. Know <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">the risks of clinical studies</a> and talk to your a healthcare professional before volunteering for a study.</p>
+      <h2>Find a study</h2>
+      <p>ClinicalTrials.gov is a resource maintained by the U.S. National Library of Medicine. Listing a study does not mean it has been reviewed by the U.S. federal government. Know <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">the risks of clinical studies</a> and talk to a medical professional before volunteering for a study.</p>
     </div>
     <div class="usa-width-one-half">
 <!--       <form class="form-search" action="{{ site.baseurl }}/search-results/">
@@ -67,12 +67,13 @@ permalink: /
             </select>
           </div>
           <input type="submit" value="Search">
+          <a href="#">Advanced Search</a>
         </fieldset>
       </form>
     </div>
   </div>
 </section>
-{% include advanced-search.html %}
+<!-- {% include advanced-search.html %} -->
 <div class="usa-grid info-callouts">
   <h2>What is ClinicalTrials.gov?</h2>
   <section class="usa-width-one-third">
@@ -105,7 +106,7 @@ permalink: /
       {% include svg/phone.svg %}
     </div>
     <h3>Talk to your doctor</h3>
-    <p>Participating in a clinical study is an important personal decision. We encourage you to learn everything you can about the study you’re considering and discuss your options with a medical professional or other people you trust. </p>
+    <p>Participating in a clinical study is an important personal decision. We encourage you to learn everything you can about studies you’re considering and discuss your options with a medical professional.</p>
     <ul>
       <li><a href="">Questions to ask</a></li>
     </ul>

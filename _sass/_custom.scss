@@ -147,6 +147,12 @@ label[for="location"] {
     @include h5();
     font-family: $font-serif;
   }
+
+  [type="submit"] {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 0;
+  }
 }
 
 .form-search {
