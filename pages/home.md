@@ -74,44 +74,46 @@ permalink: /
   </div>
 </section>
 <!-- {% include advanced-search.html %} -->
-<div class="usa-grid info-callouts">
-  <h2>What is ClinicalTrials.gov?</h2>
-  <section class="usa-width-one-third">
-    <div class="info-callouts-img">
-      {% include svg/search.svg %}
-    </div>
-    <h3>Learn about clinical studies</h3>
-    <p>Clinical studies aim to answer scientific questions and find the best ways to prevent, diagnose, or treat diseases and medical conditions. These studies involve research using human volunteers, or participants.</p>
-    <ul>
-      <li><a href="">Types of clinical studies</a></li>
-      <li><a href="#">Phases of clinical studies</a></li>
-      <li><a href="#">Who conducts clinical studies</a></li>
-      <li><a href="#">How the government is involved</a></li>
-    </ul>
-  </section>
-  <section class="usa-width-one-third">
-    <div class="info-callouts-img">
-      {% include svg/clipboard.svg %}
-    </div>
-    <h3>What you need to know</h3>
-    <p>Information on ClinicalTrials.gov is provided and updated by the sponsor or principal investigator of the clinical study. ClinicalTrials.gov is not involved in the studies themselves. </p>
-    <ul>
-      <li><a href="">Risks and benefits of clinical studies</a></li>
-      <li><a href="">How participants are protected </a></li>
-      <li><a href="">How to read the study record</a></li>
-    </ul>
-  </section>
-  <section class="usa-width-one-third">
-    <div class="info-callouts-img">
-      {% include svg/phone.svg %}
-    </div>
-    <h3>Talk to your doctor</h3>
-    <p>Participating in a clinical study is an important personal decision. We encourage you to learn everything you can about studies you’re considering and discuss your options with a medical professional.</p>
-    <ul>
-      <li><a href="">Questions to ask</a></li>
-    </ul>
-  </section>
-</div>
+<section class="usa-section info-callouts">
+  <div class="usa-grid">
+    <h2>What is ClinicalTrials.gov?</h2>
+    <section class="usa-width-one-third">
+      <div class="info-callouts-img">
+        {% include svg/search.svg %}
+      </div>
+      <h3>Learn about clinical studies</h3>
+      <p>Clinical studies aim to answer scientific questions and find the best ways to prevent, diagnose, or treat diseases and medical conditions. These studies involve research using human volunteers, or participants.</p>
+      <ul>
+        <li><a href="">Types of clinical studies</a></li>
+        <li><a href="#">Phases of clinical studies</a></li>
+        <li><a href="#">Who conducts clinical studies</a></li>
+        <li><a href="#">How the government is involved</a></li>
+      </ul>
+    </section>
+    <section class="usa-width-one-third">
+      <div class="info-callouts-img">
+        {% include svg/clipboard.svg %}
+      </div>
+      <h3>What you need to know</h3>
+      <p>Information on ClinicalTrials.gov is provided and updated by the sponsor or principal investigator of the clinical study. ClinicalTrials.gov is not involved in the studies themselves. </p>
+      <ul>
+        <li><a href="">Risks and benefits of clinical studies</a></li>
+        <li><a href="">How participants are protected </a></li>
+        <li><a href="">How to read the study record</a></li>
+      </ul>
+    </section>
+    <section class="usa-width-one-third">
+      <div class="info-callouts-img">
+        {% include svg/phone.svg %}
+      </div>
+      <h3>Talk to your doctor</h3>
+      <p>Participating in a clinical study is an important personal decision. We encourage you to learn everything you can about studies you’re considering and discuss your options with a medical professional.</p>
+      <ul>
+        <li><a href="">Questions to ask</a></li>
+      </ul>
+    </section>
+  </div>
+</section>
 <footer class="usa-footer usa-footer-big" role="contentinfo">
   <div class="usa-grid usa-footer-return-to-top">
     <a href="#">Return to top</a>
