@@ -13,7 +13,7 @@ permalink: /
   <div class="usa-grid">
     <div class="usa-width-one-half trial-info">
       <h2>Search for a trial to participate in</h2>
-      <p>ClinicalTrials.gov is a resource maintained by the US National Library of Medicine. Listing a trial does not mean it has been reviewed by the US federal government. Know <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">the risks of clinical studies</a> and talk to your a healthcare professional before volunteering for a study.</p>
+      <p>ClinicalTrials.gov is a resource maintained by the U.S. National Library of Medicine. Listing a trial does not mean it has been reviewed by the U.S. federal government. Know <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">the risks of clinical studies</a> and talk to your a healthcare professional before volunteering for a study.</p>
     </div>
     <div class="usa-width-one-half">
 <!--       <form class="form-search" action="{{ site.baseurl }}/search-results/">
@@ -56,11 +56,14 @@ permalink: /
             <i class="fa fa-map-marker" aria-hidden="true"></i>
           </div>
           <div class="usa-input-grid usa-input-grid-small">
-            <label for="state">Distance</label>
-            <select id="state" name="state">
+            <label for="distance">Distance</label>
+            <select id="distance" name="distance">
+              <option></option>
               <option value="50">50 miles</option>
               <option value="100">100 miles</option>
-              <option value="200" selected="selected">200 miles</option>
+              <option value="250">250 miles</option>
+              <option value="500">500 miles</option>
+              <option value="any">Any distance</option>
             </select>
           </div>
           <input type="submit" value="Search">
