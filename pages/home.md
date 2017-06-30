@@ -29,7 +29,7 @@ permalink: /
       </form> -->
       <form class="form-search-new" action="{{ site.baseurl }}/search-results/">
         <fieldset class="fieldset-search">
-          <legend class="search-legend">240,000+ studies with locations in the US and 201 other countries</legend>
+          <legend class="search-legend">Search through 240,000+ studies in the U.S. and 201 other countries</legend>
           <fieldset class="usa-fieldset-inputs">
             <legend class="legend-study-status"><span class="usa-sr-only">Study Status</span>Search for studies that are:</legend>
             <ul class="usa-unstyled-list">
