@@ -43,7 +43,7 @@ permalink: /
               </li>
             </ul>
           </fieldset>
-          <label for="condition">Condition / Disease</label>
+          <label for="condition">Condition or disease</label>
           <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
           <input id="condition" name="condition" type="text">
           <label for="keywords">Keywords</label>
