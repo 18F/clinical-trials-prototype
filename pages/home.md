@@ -6,7 +6,6 @@ permalink: /
 <section class="usa-section hero">
   <div class="usa-grid">
     <h2>ClinicalTrials.gov is the largest online database of clinical studies conducted around the world.</h2>
-    <h3>240,000+ studies with locations in the US and 201 other countries</h3>
   </div>
 </section>
 <section class="usa-section">
@@ -30,7 +29,7 @@ permalink: /
       </form> -->
       <form class="form-search-new" action="{{ site.baseurl }}/search-results/">
         <fieldset class="fieldset-search">
-          <legend class="search-legend usa-sr-only">Search for studies</legend>
+          <legend class="search-legend">240,000+ studies with locations in the US and 201 other countries</legend>
           <fieldset class="usa-fieldset-inputs">
             <legend class="legend-study-status"><span class="usa-sr-only">Study Status</span>Search for studies that are:</legend>
             <ul class="usa-unstyled-list">
@@ -74,13 +73,10 @@ permalink: /
   </div>
 </section>
 <!-- {% include advanced-search.html %} -->
-<section class="usa-section info-callouts">
+<section class="info-callouts">
   <div class="usa-grid">
     <h2>What is ClinicalTrials.gov?</h2>
     <section class="usa-width-one-third">
-      <div class="info-callouts-img">
-        {% include svg/search.svg %}
-      </div>
       <h3>Learn about clinical studies</h3>
       <p>Clinical studies aim to answer scientific questions and find the best ways to prevent, diagnose, or treat diseases and medical conditions. These studies involve research using human volunteers, or participants.</p>
       <ul>
@@ -91,9 +87,6 @@ permalink: /
       </ul>
     </section>
     <section class="usa-width-one-third">
-      <div class="info-callouts-img">
-        {% include svg/clipboard.svg %}
-      </div>
       <h3>What you need to know</h3>
       <p>Information on ClinicalTrials.gov is provided and updated by the sponsor or principal investigator of the clinical study. ClinicalTrials.gov is not involved in the studies themselves. </p>
       <ul>
@@ -103,9 +96,6 @@ permalink: /
       </ul>
     </section>
     <section class="usa-width-one-third">
-      <div class="info-callouts-img">
-        {% include svg/phone.svg %}
-      </div>
       <h3>Talk to your doctor</h3>
       <p>Participating in a clinical study is an important personal decision. We encourage you to learn everything you can about studies you’re considering and discuss your options with a medical professional.</p>
       <ul>

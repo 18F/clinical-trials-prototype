@@ -128,19 +128,20 @@ th {
   }
 }
 
-label[for="keyword"] {
-  @include h3();
+.search-legend {
+  @include h4;
   font-family: $font-serif;
-  margin-top: 0;
-}
-
-label[for="location"] {
-  @include h5();
-  font-family: $font-serif;
+  margin-bottom: 3rem;
 }
 
 .form-search-new {
   max-width: 46rem;
+
+  label:not(.label-radio),
+  .legend-study-status,
+  label[for="location"] {
+    font-weight: $font-bold;
+  }
 
   [type="submit"] {
     display: inline-block;
@@ -227,6 +228,7 @@ input[id="location"] {
 // Info callouts ------------ //
 
 .info-callouts {
+  margin-bottom: 3rem;
 }
 
 .info-callouts-img {
