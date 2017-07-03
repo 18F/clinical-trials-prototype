@@ -5,7 +5,7 @@ permalink: /
 
 <section class="usa-section hero">
   <div class="usa-grid">
-    <h2>ClinicalTrials.gov is the largest online database of clinical studies conducted around the world.</h2>
+    <h2>ClinicalTrials.gov is the largest online database of privately and publicly funded clinical studies conducted around the world.</h2>
   </div>
 </section>
 <section class="usa-section">
