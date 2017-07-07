@@ -168,6 +168,24 @@ th {
   }
 }
 
+.search-links {
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+
+  > :first-child {
+    margin-right: 3.5rem;
+  }
+
+  .fa {
+    color: $color-base;
+    margin-right: 1rem;
+
+    &:before {
+      font-size: 20px;
+    }
+  }
+}
+
 @mixin advanced-search-label {
   font-size: 16px;
   margin-bottom: 1rem;

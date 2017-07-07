@@ -69,6 +69,10 @@ permalink: /
           <a href="#">Advanced Search</a>
         </fieldset>
       </form>
+<!--       <div class="search-links">
+        <a href="#"><i class="fa fa-map-o"></i>Search on the map</a>
+        <a href="#"><i class="fa fa-book"></i>Browse by topic</a>
+      </div> -->
     </div>
   </div>
 </section>
@@ -77,6 +81,9 @@ permalink: /
   <div class="usa-grid">
     <h2>What is ClinicalTrials.gov?</h2>
     <section class="usa-width-one-third">
+<!--       <div class="info-callouts-img">
+        {% include svg/search.svg %}
+      </div> -->
       <h3>Learn about clinical studies</h3>
       <p>Clinical studies aim to answer scientific questions and find the best ways to prevent, diagnose, or treat diseases and medical conditions. These studies involve research using human volunteers, or participants.</p>
       <ul>
@@ -87,6 +94,9 @@ permalink: /
       </ul>
     </section>
     <section class="usa-width-one-third">
+<!--       <div class="info-callouts-img">
+        {% include svg/clipboard.svg %}
+      </div> -->
       <h3>What you need to know</h3>
       <p>Information on ClinicalTrials.gov is provided and updated by the sponsor or principal investigator of the clinical study. ClinicalTrials.gov is not involved in the studies themselves. </p>
       <ul>
@@ -96,6 +106,9 @@ permalink: /
       </ul>
     </section>
     <section class="usa-width-one-third">
+<!--       <div class="info-callouts-img">
+        {% include svg/phone.svg %}
+      </div> -->
       <h3>Talk to your doctor</h3>
       <p>Participating in a clinical study is an important personal decision. We encourage you to learn everything you can about studies you’re considering and discuss your options with a medical professional.</p>
       <ul>
