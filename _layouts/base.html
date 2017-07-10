@@ -29,9 +29,16 @@
         <div class="usa-navbar">
           <button class="usa-menu-btn">Menu</button>
           <div class="usa-logo" id="logo">
-            <em class="usa-logo-text">
+<!--             <em class="usa-logo-text">
               <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">ClinicalTrials.gov</a>
+            </em> -->
+          <a href="{{ header.href | default: site.baseurl }}/" title="Home">
+            <img class="logo-icon" src="{{ site.baseurl }}/assets/img/nih.png" alt="">
+            <em class="usa-logo-text">
+              <span class="usa-logo-text-title">U.S. National Library of Medicine</span>
+              <span class="usa-logo-text-website">ClinicalTrials.gov</span>
             </em>
+          </a>
           </div>
         </div>
         <nav role="navigation" class="usa-nav">

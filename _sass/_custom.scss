@@ -625,3 +625,65 @@ input[id="location"] {
     }
   }
 }
+
+// Logo ------- //
+
+.usa-header-basic {
+  .usa-navbar {
+    @include media($nav-width) {
+      width: 302px;
+    }
+  }
+
+  .usa-logo {
+    width: calc(100% - 58px - 1.5rem);
+
+    @include media($nav-width) {
+      // bottom: 12px;
+      width: 100%;
+    }
+
+    a {
+      @include media($nav-width) {
+        display: block;
+      }
+    }
+  }
+}
+
+.logo-icon {
+  float: left;
+  margin-right: 8px;
+  margin-top: 8px;
+  width: 40px;
+
+  @include media($nav-width) {
+    height: 36px;
+    margin-top: -1px;
+    width: auto;
+  }
+}
+
+.usa-logo-text {
+  color: #616265;
+  font-family: $helvetica;
+
+  @include media($nav-width) {
+    font-size: 15px;
+    line-height: 0.9;
+    padding-top: 10px;
+  }
+}
+
+.usa-logo-text-title {
+  font-weight: 500;
+}
+
+.usa-logo-text-website {
+  color: #20558a;
+  font-weight: $font-normal;
+
+  @include media($nav-width) {
+    font-size: 10px;
+  }
+}

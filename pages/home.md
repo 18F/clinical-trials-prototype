@@ -12,7 +12,7 @@ permalink: /
   <div class="usa-grid">
     <div class="usa-width-one-half trial-info">
       <h2>Find a study</h2>
-      <p>ClinicalTrials.gov is a resource maintained by the U.S. National Library of Medicine. Listing a study does not mean it has been reviewed by the U.S. federal government. Know <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">the risks of clinical studies</a> and talk to a medical professional before volunteering for a study.</p>
+      <p>ClinicalTrials.gov is a resource maintained by the U.S. National Library of Medicine. Listing a study does not mean it has been reviewed by the U.S. federal government. <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">Know the risks of clinical studies</a> and talk to a medical professional before volunteering for a study.</p>
     </div>
     <div class="usa-width-one-half">
 <!--       <form class="form-search" action="{{ site.baseurl }}/search-results/">
