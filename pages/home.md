@@ -15,69 +15,63 @@ permalink: /
       <p>ClinicalTrials.gov is a resource maintained by the U.S. National Library of Medicine. Listing a study does not mean it has been reviewed by the U.S. federal government. <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">Know the risks of clinical studies</a> and talk to a medical professional before volunteering for a study.</p>
     </div>
     <div class="usa-width-one-half">
-<!--       <form class="form-search" action="{{ site.baseurl }}/search-results/">
-        <label for="keyword">Search by keyword</label>
-        <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
-        <input id="keyword" name="keyword" type="text">
-        <p class="form-help-text">Search by condition, drug, intervention, or NCT number</p>
-        <label for="location">Location</label>
-        <span class="usa-form-hint">For example: Anywhere, USA</span>
-        <input id="location" name="location" type="text">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <a href="#">+ Advanced search</a>
-        <input type="submit" value="Submit">
-      </form> -->
-      <form class="form-search-new" action="{{ site.baseurl }}/search-results/">
+      <form class="form-search-home" action="{{ site.baseurl }}/search-results/">
         <fieldset class="fieldset-search">
           <legend class="search-legend">Search through 240,000+ studies in the U.S. and 201 other countries</legend>
-          <fieldset class="usa-fieldset-inputs">
-            <legend class="legend-study-status"><span class="usa-sr-only">Study Status</span>Search for studies that are:</legend>
+          <fieldset class="usa-fieldset-inputs usa-fieldset-tabs">
+            <legend class="usa-sr-only">Study Status</legend>
             <ul class="usa-unstyled-list">
               <li>
                 <input id="study-recruiting" type="radio" checked name="study-status" value="recruiting">
-                <label class="label-radio" for="study-recruiting">Currently recruiting participants</label>
+                <label class="label-radio" for="study-recruiting">Seeking participants</label>
+              </li>
+              <li>
+                <input id="study-with-results" type="radio" name="study-status" value="all-studies">
+                <label class="label-radio" for="study-with-results">With results</label>
               </li>
               <li>
                 <input id="study-all" type="radio" name="study-status" value="all-studies">
-                <label class="label-radio" for="study-all">All studies</label>
+                <label class="label-radio" for="study-all">Show me all studies</label>
               </li>
             </ul>
           </fieldset>
-          <label for="condition">Condition or disease</label>
-          <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
-          <input id="condition" name="condition" type="text">
-          <label for="keywords">Keywords</label>
-          <span class="usa-form-hint">For example: NCT number, drug name, investigator name</span>
-          <input id="keywords" name="keywords" type="text">
-          <div class="usa-input-grid usa-input-grid-medium">
-            <label for="location">Location</label>
-            <input id="location" name="location" type="text">
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <div class="form-search-home-inner">
+            <label for="condition">Condition or disease</label>
+            <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
+            <input id="condition" name="condition" type="text">
+            <label for="keywords">Additional search terms</label>
+            <span class="usa-form-hint">For example: NCT number, drug name, investigator name</span>
+            <input id="keywords" name="keywords" type="text">
+            <div class="usa-input-grid usa-input-grid-medium">
+              <label for="location">Location</label>
+              <input id="location" name="location" type="text">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <div class="usa-input-grid usa-input-grid-small">
+              <label for="distance">Distance</label>
+              <select id="distance" name="distance">
+                <option></option>
+                <option value="50">50 miles</option>
+                <option value="100">100 miles</option>
+                <option value="250">250 miles</option>
+                <option value="500">500 miles</option>
+                <option value="any">Any distance</option>
+              </select>
+            </div>
+            <input type="submit" value="Search">
+            <a href="#">Advanced Search</a>
           </div>
-          <div class="usa-input-grid usa-input-grid-small">
-            <label for="distance">Distance</label>
-            <select id="distance" name="distance">
-              <option></option>
-              <option value="50">50 miles</option>
-              <option value="100">100 miles</option>
-              <option value="250">250 miles</option>
-              <option value="500">500 miles</option>
-              <option value="any">Any distance</option>
-            </select>
-          </div>
-          <input type="submit" value="Search">
-          <a href="#">Advanced Search</a>
         </fieldset>
       </form>
-<!--       <div class="search-links">
+      <div class="search-links">
         <a href="#"><i class="fa fa-map-o"></i>Search on the map</a>
         <a href="#"><i class="fa fa-book"></i>Browse by topic</a>
-      </div> -->
+      </div>
     </div>
   </div>
 </section>
 <!-- {% include advanced-search.html %} -->
-<section class="info-callouts">
+<section class="info-callouts usa-section">
   <div class="usa-grid">
     <h2>What is ClinicalTrials.gov?</h2>
     <section class="usa-width-one-third">

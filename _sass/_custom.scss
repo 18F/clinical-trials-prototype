@@ -134,7 +134,7 @@ th {
   margin-bottom: 3rem;
 }
 
-.form-search-new {
+.form-search-home {
   max-width: 46rem;
 
   label:not(.label-radio),
@@ -148,23 +148,79 @@ th {
     margin-right: 20px;
     margin-top: 0;
   }
-}
 
-.form-search {
-  > input {
-    @include margin(8px null);
-  }
+  .usa-fieldset-tabs {
+    ul {
+      display: flex;
+    }
 
-  input[type="submit"] {
-    margin-bottom: 0;
+    li {
+      flex-direction: row;
+      text-align: center;
+      background-color: #f9f9f9;
+      font-size: 14px;
+      flex: 1;
 
-    @include media($medium-screen) {
-      float: right;
+      &:first-child {
+        .label-radio {
+          border-left: 1px solid #E4E2E0;
+        }
+      }
+
+      &:last-child {
+        .label-radio {
+          border-right: 1px solid #E4E2E0;
+        }
+      }
+    }
+
+    .label-radio::after {
+      content: "";
+      background-color: #DCE4EE;
+      position: absolute;
+      height: 5px;
+      top: -5px;
+      left: 0;
+      width: 100%;
+    }
+
+    [type=radio] + label::before,
+    [type=radio]:checked + label::before {
+      display: none;
+    }
+
+    [type=radio] + label {
+      @include padding(10px null 10px null);
+      border-right: 1px solid $color-gray-light;
+      margin-bottom: 0;
+      border-bottom: 1px solid $color-gray-light;
+    }
+
+    [type=radio]:checked + label {
+      background-color: $color-gray-lightest;
+      border-bottom-color: $color-gray-lightest;
+      font-weight: $font-bold;
+
+      &::after {
+        background-color: $color-primary;
+      }
     }
   }
 
-  .form-help-text {
+  .usa-form-hint {
+    color: $color-gray-dark;
+  }
+}
+
+.form-search-home-inner {
+  @include padding(null 2rem);
+  background-color: $color-gray-lightest;
+  border: 1px solid #E4E2E0;
+  border-top: none;
+
+  label:first-child {
     margin-top: 0;
+    padding-top: 3rem;
   }
 }
 
@@ -235,10 +291,6 @@ input[id="location"] {
   padding-left: 27px;
 }
 
-.legend-study-status {
-  font-weight: $font-normal;
-}
-
 .usa-input-grid-medium input {
   margin-bottom: 0;
 }
@@ -246,6 +298,7 @@ input[id="location"] {
 // Info callouts ------------ //
 
 .info-callouts {
+  background-color: $color-gray-lightest;
   margin-bottom: 3rem;
 }
 
@@ -267,6 +320,16 @@ input[id="location"] {
   @include media($medium-screen) {
     min-height: 230px;
   }
+}
+
+// Footer
+.usa-footer-primary-section {
+  // background-color: $color-gray-dark;
+  // color: $color-white;
+
+  // a {
+  //   color: $color-white;
+  // }
 }
 
 // Colors ------- //
