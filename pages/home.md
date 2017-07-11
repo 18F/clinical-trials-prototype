@@ -1,6 +1,7 @@
 ---
 layout: base
 permalink: /
+class: home
 ---
 
 <section class="usa-section hero">
@@ -10,11 +11,11 @@ permalink: /
 </section>
 <section class="usa-section">
   <div class="usa-grid">
-    <div class="usa-width-one-half trial-info">
+    <div class="usa-width-five-twelfths trial-info">
       <h2>Find a study</h2>
       <p>ClinicalTrials.gov is a resource maintained by the U.S. National Library of Medicine. Listing a study does not mean it has been reviewed by the U.S. federal government. <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">Know the risks of clinical studies</a> and talk to a medical professional before volunteering for a study.</p>
     </div>
-    <div class="usa-width-one-half">
+    <div class="usa-width-seven-twelfths">
       <form class="form-search-home" action="{{ site.baseurl }}/search-results/">
         <fieldset class="fieldset-search">
           <legend class="search-legend">Search through 240,000+ studies in the U.S. and 201 other countries</legend>

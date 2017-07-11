@@ -18,6 +18,10 @@
   @include media($medium-screen) {
     margin-right: 0;
   }
+
+  :first-child {
+    margin-top: 0;
+  }
 }
 
 // Typography ------------ //
@@ -120,6 +124,16 @@ th {
   }
 }
 
+
+// Home
+.page-home {
+  .usa-width-seven-twelfths {
+    @include media($medium-screen) {
+      padding-left: 4rem;
+    }
+  }
+}
+
 // Search ------------ //
 
 .trial-info {
@@ -135,8 +149,6 @@ th {
 }
 
 .form-search-home {
-  max-width: 46rem;
-
   label:not(.label-radio),
   .legend-study-status,
   label[for="location"] {
@@ -191,14 +203,16 @@ th {
 
     [type=radio] + label {
       @include padding(10px null 10px null);
-      border-right: 1px solid $color-gray-light;
-      margin-bottom: 0;
       border-bottom: 1px solid $color-gray-light;
+      border-right: 1px solid $color-gray-light;
+      color: $color-primary;
+      margin-bottom: 0;
     }
 
     [type=radio]:checked + label {
       background-color: $color-gray-lightest;
       border-bottom-color: $color-gray-lightest;
+      color: $color-base;
       font-weight: $font-bold;
 
       &::after {
@@ -208,7 +222,7 @@ th {
   }
 
   .usa-form-hint {
-    color: $color-gray-dark;
+    color: #6e6e6e; // lightest accessible gray on $color-gray-light
   }
 }
 
