@@ -12,13 +12,13 @@ class: home
 <section class="usa-section">
   <div class="usa-grid">
     <div class="usa-width-five-twelfths trial-info">
-      <h2>Find a study</h2>
-      <p>ClinicalTrials.gov is a resource maintained by the U.S. National Library of Medicine. Listing a study does not mean it has been reviewed by the U.S. federal government. <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">Know the risks of clinical studies</a> and talk to a medical professional before volunteering for a study.</p>
+      <h2>Explore more than 240,000 research studies in 201 countries</h2>
+      <p>ClinicalTrials.gov is a resource provided by the U.S. National Library of Medicine. Listing a study does not mean it has been evaluated by the U.S. federal government. <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">Know the risks of clinical studies</a> and talk to a healthcare professional before participating.</p>
     </div>
     <div class="usa-width-seven-twelfths">
       <form class="form-search-home" action="{{ site.baseurl }}/search-results/">
         <fieldset class="fieldset-search">
-          <legend class="search-legend">Search through 240,000+ studies in the U.S. and 201 other countries</legend>
+          <legend class="search-legend">Find a study</legend>
           <fieldset class="usa-fieldset-inputs usa-fieldset-tabs">
             <legend class="usa-sr-only">Study Status</legend>
             <ul class="usa-unstyled-list">
@@ -32,7 +32,7 @@ class: home
               </li>
               <li>
                 <input id="study-all" type="radio" name="study-status" value="all-studies">
-                <label class="label-radio" for="study-all">Show me all studies</label>
+                <label class="label-radio" for="study-all">Show all studies</label>
               </li>
             </ul>
           </fieldset>
@@ -81,8 +81,7 @@ class: home
       <h2>Learn about clinical studies</h2>
       <p>Clinical studies aim to answer scientific questions and find the best ways to prevent, diagnose, or treat diseases and medical conditions. These studies involve research using human volunteers, or participants.</p>
       <ul>
-        <li><a href="">Types of clinical studies</a></li>
-        <li><a href="#">Phases of clinical studies</a></li>
+        <li><a href="">Types and phases of clinical studies</a></li>
         <li><a href="#">Who conducts clinical studies</a></li>
         <li><a href="#">How the government is involved</a></li>
       </ul>
@@ -91,11 +90,11 @@ class: home
 <!--       <div class="info-callouts-img">
         {% include svg/clipboard.svg %}
       </div> -->
-      <h2>What you need to know</h2>
-      <p>Information on ClinicalTrials.gov is provided and updated by the sponsor or principal investigator of the clinical study. ClinicalTrials.gov is not involved in the studies themselves. </p>
+      <h2>Know the risks and benefits</h2>
+      <p>Information on ClinicalTrials.gov is provided and updated by the sponsor or principal investigator of the clinical study. ClinicalTrials.gov is not involved in the studies themselves.</p>
       <ul>
         <li><a href="">Risks and benefits of clinical studies</a></li>
-        <li><a href="">How participants are protected </a></li>
+        <li><a href="">How participants are protected</a></li>
         <li><a href="">How to read the study record</a></li>
       </ul>
     </section>
@@ -103,8 +102,8 @@ class: home
 <!--       <div class="info-callouts-img">
         {% include svg/phone.svg %}
       </div> -->
-      <h2>Talk to your doctor</h2>
-      <p>Participating in a clinical study is an important personal decision. We encourage you to learn everything you can about studies you’re considering and discuss your options with a medical professional.</p>
+      <h2>Talk to a healthcare professional</h2>
+      <p>Participating in a clinical study is an important personal decision. We urge  you to learn everything you can about studies you’re considering and discuss all options with a healthcare professional.</p>
       <ul>
         <li><a href="">Questions to ask</a></li>
       </ul>

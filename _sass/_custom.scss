@@ -140,6 +140,10 @@ th {
   > * {
     max-width: 338px;
   }
+
+  h2 {
+    @include h4;
+  }
 }
 
 .search-legend {
@@ -240,7 +244,6 @@ th {
 }
 
 .search-links {
-  margin-bottom: 5rem;
   margin-top: 3rem;
 
   > :first-child {
