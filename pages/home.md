@@ -41,7 +41,7 @@ class: home
             <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
             <input id="condition" name="condition" type="text">
             <label for="keywords">Additional search terms</label>
-            <span class="usa-form-hint">For example: NCT number, drug name, investigator name</span>
+            <span class="usa-form-hint">For example: NCT number, drug name, or investigator name</span>
             <input id="keywords" name="keywords" type="text">
             <div class="usa-input-grid usa-input-grid-medium">
               <label for="location">Location</label>

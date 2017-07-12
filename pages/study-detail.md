@@ -17,7 +17,7 @@ class: study-detail
     </ul>
   </div>
 </nav>
-<div class="usa-grid usa-serif">
+<div class="usa-grid">
   <div class="study_detail-page_links">
     <a href="#">
       <i class="fa fa-star-o" aria-hidden="true"></i>
@@ -30,21 +30,34 @@ class: study-detail
     </a>
   </div>
   <div class="study_detail-intro usa-width-seven-twelfths">
-    <h2>Use of Mobile Apps for Those With PTSD and Their Partners</h2>
-    <h3 class="usa-color-green">
-      <i class="fa fa-check-circle" aria-hidden="true"></i>
-      Currently recruiting in Palo Alto, CA
-    </h3>
-    <p>
-      Sponsored by VA Palo Alto Health Care System
-      <br>
-      <em>Verified May 24, 2016</em>
+    <span class="study-status usa-color-green">
+      <i class="fa fa-circle" aria-hidden="true"></i>
+      Recruiting
+    </span>
+    <h2 class="study_detail-heading">Use of Mobile Apps for Those With PTSD and Their Partners</h2>
+    <p class="study_detail-history">
+      First received: June 16, 2017,
+      Last updated: July 5, 2017,
+      Last verified: July 2017.
+      <a href="#history">History of changes</a>.
     </p>
-    <a class="study_detail-link-eligibility" href="#">Check trial eligibility</a>
+    <div class="usa-alert usa-alert-warning">
+      <div class="usa-alert-body">
+        <p class="usa-alert-text">Studies are not evaluated for safety or scientific validity by the U.S. federal government. <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">Know the risks of clinical studies</a> and talk with a healthcare provider before participating.</p>
+      </div>
+    </div>
+    <p class="study_detail-meta usa-serif">
+      <em><b>Submitted by:</b></em> VA Palo Alto Health Care System
+      <br>
+<!--       <em><b>Received:</b></em> May 24, 2016
+ -->    </p>
+    <a class="usa-button" href="#locations">View 4 locations</a>
+    <br>
+    <a class="study_detail-link-eligibility" href="#">Check trial eligibility<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
   </div>
   <div class="usa-width-five-twelfths">
-    <aside class="box usa-color-bg-gold-lightest">
-      <h4>Contact:</h4>
+    <aside class="box usa-color-bg-primary-alt-lightest usa-serif">
+      <h4>Main contact</h4>
       <span>
         Jason Owen, PhD
         <br>
@@ -52,13 +65,18 @@ class: study-detail
         <br>
         <a href="#">jason.owen@va.gov</a>
       </span>
-      <h4>ClinicalTrials.gov Identifier:</h4>
+      <h4>ClinicalTrials.gov Identifier</h4>
       <span>NCT02780635</span>
     </aside>
   </div>
 </div>
 <div class="usa-grid usa-serif study_detail-main">
   <hr>
+  <p>
+    Detail of submitter’s study
+    Advanced view
+    Study results not yet posted
+  </p>
   <aside class="usa-width-one-fourth sticky">
     <ul class="usa-sidenav-list">
       <li>
