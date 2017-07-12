@@ -51,9 +51,9 @@ class: study-detail
       <br>
 <!--       <em><b>Received:</b></em> May 24, 2016
  -->    </p>
-    <a class="usa-button" href="#locations">View 4 locations</a>
+    <a class="study_detail-button-location usa-button" href="#locations">View 4 locations</a>
     <br>
-    <a class="study_detail-link-eligibility" href="#">Check trial eligibility<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+    <a class="study_detail-link-eligibility" href="#eligibility">Check trial eligibility<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
   </div>
   <div class="usa-width-five-twelfths">
     <aside class="box usa-color-bg-primary-alt-lightest usa-serif">
@@ -74,13 +74,13 @@ class: study-detail
   <div class="usa-grid">
     <ul class="usa-grid usa-unstyled-list">
       <li>
-        <a class="study_detail-tabs-active" href="#">Detail of submitter’s study</a>
+        <a class="study_detail-tabs-active" href="#0">Detail of submitter’s study</a>
       </li>
       <li>
-        <a href="#">Advanced view</a>
+        <a href="#0">Advanced view</a>
       </li>
       <li>
-        <a href="#">Study results not yet posted</a>
+        <a href="#0">Study results not yet posted</a>
       </li>
     </ul>
   </div>

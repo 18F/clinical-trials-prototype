@@ -492,6 +492,10 @@ input[id="location"] {
   }
 }
 
+.study_detail-button-location {
+  @include margin(1rem null);
+}
+
 .study_detail-link-eligibility {
   font-size: $h5-font-size;
   font-weight: $font-bold;
