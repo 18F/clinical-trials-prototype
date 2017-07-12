@@ -132,6 +132,13 @@ th {
       padding-left: 4rem;
     }
   }
+
+  .fa-map-marker {
+    left: 13px;
+    pointer-events: none;
+    position: relative;
+    top: -34px;
+  }
 }
 
 // Search ------------ //
@@ -296,13 +303,6 @@ th {
 
 select[id="age-group"] {
   max-width: 212px;
-}
-
-.fa-map-marker {
-  left: 13px;
-  position: relative;
-  top: -34px;
-
 }
 
 input[id="location"] {
