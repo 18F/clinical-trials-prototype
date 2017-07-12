@@ -184,7 +184,7 @@ th {
     li {
       flex-direction: row;
       text-align: center;
-      background-color: #f9f9f9;
+      background-color: #f5f6f6;
       font-size: 14px;
       flex: 1;
 
@@ -224,7 +224,7 @@ th {
       margin-bottom: 0;
 
       &:hover {
-        color: $color-base;
+        color: $color-primary-darker;
       }
     }
 
@@ -515,6 +515,47 @@ input[id="location"] {
   font-size: $h6-font-size;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+.study_detail-tabs {
+  border-bottom: 1px solid $color-gray-light;
+  margin-bottom: 6rem;
+  margin-top: 70px;
+  height: 46px;
+
+  li {
+    display: inline-block;
+
+    &:first-child {
+      a {
+        border-left: 1px solid $color-gray-light;
+      }
+    }
+
+    &:last-child {
+      a {
+        border-right: 1px solid $color-gray-light;
+      }
+    }
+  }
+
+  a {
+    background-color: #f5f6f6;
+    border-bottom: 1px solid $color-gray-light;
+    border-left: 1px solid $color-gray-light;
+    border-top: 5px solid #8BA6C9;
+    margin-right: -4px;
+    padding: 23px 20px;
+    text-decoration: none;
+  }
+}
+
+a.study_detail-tabs-active {
+  background-color: $color-white;
+  border-bottom: 1px solid $color-white;
+  border-top-color: $color-primary;
+  color: $color-base;
+  font-weight: $font-bold;
 }
 
 // Breadcrumb navigation -------- //

@@ -70,13 +70,22 @@ class: study-detail
     </aside>
   </div>
 </div>
+<section class="study_detail-tabs usa-serif">
+  <div class="usa-grid">
+    <ul class="usa-grid usa-unstyled-list">
+      <li>
+        <a class="study_detail-tabs-active" href="#">Detail of submitter’s study</a>
+      </li>
+      <li>
+        <a href="#">Advanced view</a>
+      </li>
+      <li>
+        <a href="#">Study results not yet posted</a>
+      </li>
+    </ul>
+  </div>
+</section>
 <div class="usa-grid usa-serif study_detail-main">
-  <hr>
-  <p>
-    Detail of submitter’s study
-    Advanced view
-    Study results not yet posted
-  </p>
   <aside class="usa-width-one-fourth sticky">
     <ul class="usa-sidenav-list">
       <li>
