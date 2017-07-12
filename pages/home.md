@@ -65,7 +65,7 @@ class: home
         </fieldset>
       </form>
       <div class="search-links">
-        <a href="#"><i class="fa fa-map-o"></i>Search on the map</a>
+        <a href="#"><i class="fa fa-globe"></i>Search on the map</a>
         <a href="#"><i class="fa fa-book"></i>Browse by topic</a>
       </div>
     </div>
