@@ -25,7 +25,7 @@ class: study-detail-tabular-view
 <!-- field list -->
 <div class="indent1">
 
-  <table class="w3-table data_table tableStyle">
+  <table class="usa-content w3-table data_table tableStyle">
     <thead>
       <th class="header2 banner_color sectionBanner" colspan="2">Tracking Information</th>
     </thead>
