@@ -70,10 +70,18 @@ class: search-results
         </form>
       </div>
     </div>
+    <div class="usa-grid-full search_results-heading">
+      <div class="usa-width-two-thirds">
+        <p><b>Study summary</b></p>
+      </div>
+      <div class="usa-width-one-third">
+        <p><b>Intervention type</b></p>
+      </div>
+    </div>
     <ol class="search_result-list usa-unstyled-list">
       <li class="search_result-item">
         <article>
-          <div class="usa-width-three-fourths">
+          <div class="usa-width-two-thirds">
             <p class="search_result-metadata search_result-study-status study-status-recruiting">
               <i class="fa fa-circle" aria-hidden="true"></i>
               Recruiting
@@ -87,7 +95,7 @@ class: search-results
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata">Condition: PTSD</p>
           </div>
-          <div class="usa-width-one-fourth">
+          <div class="usa-width-one-third">
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>

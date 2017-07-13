@@ -707,7 +707,7 @@ a.study_detail-tabs-active {
   position: relative;
 
   @include media($medium-screen) {
-    padding-left: 3rem;
+    padding-left: 2rem;
   }
 }
 
@@ -733,6 +733,13 @@ a.study_detail-tabs-active {
     height: 35px;
     margin: 0;
   }
+}
+
+.search_results-heading {
+  @include padding(1rem null);
+  border-bottom: 1px solid $color-gray-lighter;
+  font-size: 1.5rem;
+  padding-left: 2rem;
 }
 
 .search_results-search-heading {
@@ -830,10 +837,13 @@ a.study_detail-tabs-active {
 
 .search_result-filter {
   font-size: $small-font-size;
-  padding-top: 4rem;
 
   fieldset {
     margin-top: 30px;
+
+    &:first-of-type {
+      margin-top: 15px;
+    }
 
     li:last-child {
       label {
@@ -858,6 +868,16 @@ a.study_detail-tabs-active {
   select {
     font-size: $small-font-size;
   }
+}
+
+.search_result-filter-heading {
+  border-bottom: 1px solid $color-gray-lighter;
+  height: 63px;
+  line-height: 63px;
+}
+
+.search_result-filter-input-indent {
+  margin-left: 28px;
 }
 
 .search-term-highlight {

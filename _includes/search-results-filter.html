@@ -1,18 +1,22 @@
-<h4>Filter your results</h4>
+<h4 class="search_result-filter-heading">Filter your results</h4>
 <fieldset class="usa-fieldset-inputs">
   <legend class="">Recruiting status</legend>
   <ul class="usa-unstyled-list">
     <li>
+      <input id="seeking-participants" type="checkbox" name="study" value="seeking-participants">
+      <label class="usa-color-green" for="seeking-participants">Seeking participants</label>
+    </li>
+    <li class="search_result-filter-input-indent">
       <input id="recruiting" type="checkbox" name="study" value="recruiting">
-      <label for="recruiting">Recruiting</label>
+      <label class="usa-color-green" for="recruiting">Recruiting</label>
     </li>
-    <li>
+    <li class="search_result-filter-input-indent">
       <input id="not-yet-recruiting" type="checkbox" name="study" value="not-yet-recruiting">
-      <label for="not-yet-recruiting">Not yet recruiting</label>
+      <label class="usa-color-green" for="not-yet-recruiting">Not yet recruiting</label>
     </li>
-    <li>
+    <li class="search_result-filter-input-indent">
       <input id="enrolling-by-invitation" type="checkbox" name="study" value="enrolling-by-invitation">
-      <label for="enrolling-by-invitation">Enrolling by invitation</label>
+      <label class="usa-color-green" for="enrolling-by-invitation">Enrolling by invitation</label>
     </li>
     <li>
       <input id="active-not-recruiting" type="checkbox" name="study" value="active-not-recruiting">
@@ -32,6 +36,7 @@
     </li>
   </ul>
 </fieldset>
+<hr class="hr-small">
 <fieldset class="usa-fieldset-inputs">
   <legend class="">Expanded Access</legend>
   <ul class="usa-unstyled-list">
@@ -53,6 +58,8 @@
     </li>
   </ul>
 </fieldset>
+<hr class="hr-small">
+<h5 class="">Eligibility criteria</h5>
 <label class="form-label" for="age-group">Age group</label>
 <select name="age-group" id="age-group">
   <option value="all-ages">All ages</option>
@@ -61,7 +68,7 @@
   <option value="value3">Option C</option>
 </select>
 <fieldset class="usa-fieldset-inputs">
-  <legend class="">Gender</legend>
+  <legend class="">Sex</legend>
   <ul class="usa-unstyled-list">
     <li>
       <input id="female" type="radio" name="gender" value="female">
@@ -86,8 +93,9 @@
     </li>
   </ul>
 </fieldset>
+<hr class="hr-small">
 <fieldset class="usa-fieldset-inputs">
-  <legend class="">Type</legend>
+  <legend class="">Study type</legend>
   <ul class="usa-unstyled-list">
     <li>
       <input id="interventional" type="checkbox" name="type" value="interventional">
@@ -103,6 +111,7 @@
     </li>
   </ul>
 </fieldset>
+<hr class="hr-small">
 <fieldset class="usa-fieldset-inputs">
   <legend class="">Results available</legend>
   <ul class="usa-unstyled-list">
@@ -116,8 +125,9 @@
     </li>
   </ul>
 </fieldset>
+<hr class="hr-small">
 <fieldset class="usa-fieldset-inputs">
-  <legend class="">Phase</legend>
+  <legend class="">Study phase</legend>
   <ul class="usa-unstyled-list">
     <li>
       <input id="0" type="checkbox" name="phase" value="0">
@@ -141,6 +151,7 @@
     </li>
   </ul>
 </fieldset>
+<hr class="hr-small">
 <fieldset class="usa-fieldset-inputs">
   <legend class="">Funder type</legend>
   <ul class="usa-unstyled-list">
