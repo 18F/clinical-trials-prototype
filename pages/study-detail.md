@@ -47,7 +47,7 @@ class: study-detail
       </div>
     </div>
     <p class="study_detail-meta usa-serif">
-      <em><b>Submitted by:</b></em> VA Palo Alto Health Care System
+      <em><b>Submitted by:</b></em> Latin American Cooperative Oncology Group
       <br>
 <!--       <em><b>Received:</b></em> May 24, 2016
  -->    </p>
@@ -59,11 +59,11 @@ class: study-detail
     <aside class="box usa-color-bg-primary-alt-lightest usa-serif">
       <h4>Main contact</h4>
       <span>
-        Jason Owen, PhD
+        Georgina Kafta
         <br>
-        (650) 493-5000 ext 23478
+        421-652-3159
         <br>
-        <a href="#">jason.owen@va.gov</a>
+        <a href="#">GKafta@gmail.com</a>
       </span>
       <h4>ClinicalTrials.gov Identifier</h4>
       <span>NCT02780635</span>
@@ -74,7 +74,7 @@ class: study-detail
   <div class="usa-grid">
     <ul class="usa-grid usa-unstyled-list">
       <li>
-        <a class="study_detail-tabs-active" href="#0">Detail of submitter’s study</a>
+        <a class="study_detail-tabs-active" href="#0">Study details</a>
       </li>
       <li>
         <a href="#0">Advanced view</a>
@@ -106,10 +106,7 @@ class: study-detail
         <a href="#how-to-participate">How to participate</a>
         <ul class="usa-sidenav-sub_list">
           <li>
-            <a href="#enrolling-in-a-trial">Enrolling in a trial</a>
-          </li>
-          <li>
-            <a href="#eligibility">Eligibility</a>
+            <a href="#eligibility">Eligibility requirements</a>
           </li>
           <li>
             <a href="#criteria">Criteria</a>
@@ -117,25 +114,22 @@ class: study-detail
         </ul>
       </li>
       <li>
-        <a href="#locations">Locations</a>
+        <a href="#locations">Contact and locations</a>
       </li>
       <li>
-        <a href="#contact-information">Contact information</a>
-      </li>
-      <li>
-        <a href="#study-details">Study details</a>
+        <a href="#more-information">More information</a>
         <ul class="usa-sidenav-sub_list">
           <li>
-            <a href="#history">History</a>
+            <a href="#study-numbers">Study numbers</a>
           </li>
           <li>
-            <a href="#sponsors">Sponsors</a>
+            <a href="#history">History of changes</a>
           </li>
           <li>
             <a href="#keywords">Keywords</a>
           </li>
           <li>
-            <a href="#external-health-links">External health links</a>
+            <a href="#external-health-links">MedlinePlus resources</a>
           </li>
         </ul>
       </li>
@@ -207,12 +201,6 @@ class: study-detail
     </ul>
     <hr>
     <h2 id="how-to-participate">How to participate</h2>
-    <div class="usa-alert usa-alert-info">
-      <div class="usa-alert-body">
-        <h3 class="usa-alert-heading" id="enrolling-in-a-trial">Enrolling in a trial</h3>
-        <p class="usa-alert-text">Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the contacts provided below. For general information, see <a href="#">Learn About Clinical Studies</a>.</p>
-      </div>
-    </div>
     <h3 id="eligibility">Who’s eligibile?</h3>
     <ul>
       <li><a href="#">Ages Eligible for Study:</a> 18 Years to 90 Years (Adult, Senior)</li>
@@ -242,31 +230,80 @@ class: study-detail
     <h4>Estimated Enrollment:</h4>
     <p>200</p>
     <hr>
-    <h2 id="locations">Locations</h2>
-    <h3>Currently recruiting in:</h3>
+    <h2 id="locations">Contact and locations</h2>
+    <p>To learn more about this study, you or your doctor may contact the study research staff using the contact information provided by the sponsor.</p>
+    <h4>Main contact information</h4>
+    <p>
+      Jason Owen, PhD
+      <br>
+      (650) 493-5000 ext 23478
+      <br>
+      <a href="#">jason.owen@va.gov</a>
+    </p>
+    <br>
+    <h4 class="usa-color-green">Recruiting facilities currently recruiting</h4>
     <p>
       VA Palo Alto Health Care System Menlo Park Division
       <br>
       Menlo Park, California
       <br>
       United States, 94025
+      <br>
+      <b>Contact:</b> Georgina Kafta | 421-652-3159
+    </p>
+    <hr class="hr-small">
+    <p>
+      Centro de Pesquisa do Setor de Ginecologia e Mama do Hospital
+      <br>
+      Goiânia, Goiás, Brazil
+      <br>
+      <b>Contact:</b> Geraldo Queiroz, MD
+    </p>
+    <hr class="hr-small">
+    <p>
+      Centro Regional Integrado de Oncologia (CRIO)
+      <br>
+      Passo Fundo, Rio Grande do Sul, Brazil
+      <br>
+      <b>Contact:</b> Geraldo Queiroz, MD
+    </p>
+    <hr class="hr-small">
+    <p>
+      Hospital da Cidade de Passo Fundo
+      <br>
+      Passo Fundo, Rio Grande do Sul, Brazil
+      <br>
+      <b>Contact:</b> Geraldo Queiroz, MD
+    </p>
+    <br>
+    <h4 class="usa-color-secondary">Recruiting facilities closed to recruiting</h4>
+    <p>
+      Centro de Pesquisa do Setor de Ginecologia e Mama do Hospital
+      <br>
+      Goiânia, Goiás, Brazil
+      <br>
+      <b>Contact:</b> Geraldo Queiroz, MD
+    </p>
+    <hr class="hr-small">
+    <p>
+      Centro Regional Integrado de Oncologia (CRIO)
+      <br>
+      Passo Fundo, Rio Grande do Sul, Brazil
+      <br>
+      <b>Contact:</b> Geraldo Queiroz, MD
+    </p>
+    <hr class="hr-small">
+    <p>
+      Hospital da Cidade de Passo Fundo
+      <br>
+      Passo Fundo, Rio Grande do Sul, Brazil
+      <br>
+      <b>Contact:</b> Geraldo Queiroz, MD
     </p>
     <hr>
-    <h2 id="contact-information">Contacts</h2>
-    <p>Be make sure you meet the eligibility requirements before contacting the owner of the trial by phone or email. Please refer to this study by its ClinicalTrials.gov identifier: <b>NCT02780635</b></p>
-    <div class="box usa-color-bg-gold-lightest">
-      <p>
-        Jason Owen, PhD
-        <br>
-        (650) 493-5000 ext 23478
-        <br>
-        <a href="#">jason.owen@va.gov</a>
-      </p>
-    </div>
-    <hr>
-    <h2 id="study-details">More information</h2>
+    <h2 id="more-information">More information</h2>
     <p>ClinicalTrials.gov is a registry of current and completed clinical research studies from around the world. It is managed by the National Institutes of Health, an agency of the U.S. Department of Health and Human Services that funds biomedical and behavioral research. Listing a trial on this site does not mean it is endorsed by NIH or the federal government. Please read the complete disclaimer for more details.</p>
-    <h3>Study numbers</h3>
+    <h3 id="study-numbers">Study numbers</h3>
     <p>
       ClinicalTrials.gov Identifier: NCT02780635
       <br>

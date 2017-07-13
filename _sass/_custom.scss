@@ -73,6 +73,12 @@ hr {
   margin-top: 6rem !important;
 }
 
+.hr-small {
+  border-top-color: $color-gray-lighter;
+  margin-bottom: 3rem;
+  margin-top: 3rem !important;
+}
+
 // Table ------------ //
 
 // TODO: fix in USWDS
@@ -393,6 +399,10 @@ input[id="location"] {
   color: $color-green;
 }
 
+.usa-color-secondary {
+  color: $color-secondary;
+}
+
 ///////////////////////////////////
 // Study detail page ---------- //
 /////////////////////////////////
@@ -621,7 +631,7 @@ a.study_detail-tabs-active {
   color: $color-white;
 
   label {
-    font-family: $font-serif;
+    font-size: $small-font-size;
     font-weight: $font-bold;
 
     @include media($medium-screen) {
@@ -629,17 +639,19 @@ a.study_detail-tabs-active {
     }
   }
 
-  input {
-    @include media($medium-screen) {
-      width: 27rem;
-    }
-  }
-
   button {
+    background-color: #4295CD;
+
+    &:hover {
+      background-color: $color-primary;
+    }
+
     @include media($medium-screen) {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
       height: 44px;
       margin-bottom: 4px !important;
-      margin-left: 1rem;
+      margin-left: -4px;
       vertical-align: bottom;
     }
   }
@@ -651,7 +663,7 @@ a.study_detail-tabs-active {
 
 .search_results-info {
   @include padding(2rem null);
-  border-bottom: 1px solid $color-gray-light;
+  border-bottom: 1px solid $color-gray-lighter;
   display: flex;
   position: relative;
 
@@ -664,10 +676,9 @@ a.study_detail-tabs-active {
   font-size: $small-font-size;
   position: absolute;
   right: 0;
-  top: -6px;
+  top: 14px;
 
   @include media($medium-screen) {
-    margin-right: 50px;
     width: 127px;
   }
 
@@ -701,9 +712,15 @@ a.study_detail-tabs-active {
 
 .search_result-metadata {
   display: inline;
+  font-size: $h6-font-size;
+}
+
+.search_result-submitter {
+  color: $color-gray;
+}
+
+.search_result-study-status {
   font-weight: $font-bold;
-  font-size: $small-font-size;
-  margin-right: 3rem;
 }
 
 .study-status-recruiting {
@@ -719,12 +736,13 @@ a.study_detail-tabs-active {
 }
 
 .search_result-list {
-  li {
-    padding: 3rem;
+  > li {
+    border-bottom: 1px solid #F3F3F3;
+    padding: 2rem;
 
-    &:nth-of-type(even) {
-      background-color: $color-gray-lightest;
-      position: relative;
+    &:nth-of-type(odd) {
+      background-color: #FBFBFB;
+      // position: relative;
     }
   }
 }
@@ -734,13 +752,13 @@ a.study_detail-tabs-active {
 }
 
 .search_result-item {
-  article {
-    @include clip-margins;
-  }
+  display: table;
 
   .usa-label {
-    display: inline-block;
+    border-radius: 0;
+    display: table;
     margin-bottom: 1rem;
+    margin-top: -2rem;
   }
 
   p {
@@ -749,9 +767,10 @@ a.study_detail-tabs-active {
 }
 
 .search_result-heading {
+  @include margin(3px null);
   font-family: $font-sans;
-  font-size: 2.4rem;
-  margin-top: 0;
+  font-size: 2rem;
+  font-weight: $font-normal;
 
   a {
     text-decoration: none;
@@ -759,6 +778,14 @@ a.study_detail-tabs-active {
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.search_result-intervention {
+  font-size: $h6-font-size;
+
+  li {
+    list-style-type: disc;
   }
 }
 
@@ -804,26 +831,41 @@ a.study_detail-tabs-active {
 
 .search_result-count {
   display: inline-block;
-  font-size: $small-font-size;
+  font-size: 14px;
   margin-bottom: 0;
 }
 
 .search_result-info_bar {
+  @include padding(1.2rem null);
+  box-shadow: 0 0 1rem $color-gray-light;
+
   .usa-grid {
     position: relative;
   }
 }
 
-.search_result-search-item {
+.search_result-search-input {
   @include media($medium-screen) {
     display: inline-block;
+    width: 26%;
   }
 
-  &:first-of-type {
+  &:last-of-type {
     @include media($medium-screen) {
-      margin-right: 10px;
+      margin-right: 0;
     }
   }
+}
+
+.search_result-search-input-distance {
+  @include media($medium-screen) {
+    width: 12%;
+  }
+}
+
+.search_result-metadata-divider {
+  @include margin(null 3px);
+  font-size: $h6-font-size;
 }
 
 // Logo ------- //
