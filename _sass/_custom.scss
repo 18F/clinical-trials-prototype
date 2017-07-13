@@ -126,14 +126,15 @@ th {
 // Hero ------------ //
 
 .hero {
-  background-color: $color-primary-darker;
+  @include padding(5rem null);
+  background-color: $color-primary-darkest;
   color: $color-white;
-
-  h2 {
-    max-width: 750px;
-  }
 }
 
+.hero-heading {
+  font-size: 22px;
+  max-width: 750px;
+}
 
 // Home
 .page-home {
@@ -359,12 +360,50 @@ input[id="location"] {
 
 // Footer
 .usa-footer-primary-section {
-  // background-color: $color-gray-dark;
-  // color: $color-white;
+  background-color: $color-primary-darkest;
+  color: $color-white;
 
-  // a {
-  //   color: $color-white;
-  // }
+  a {
+    color: $color-primary-alt-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-primary-alt-lightest;
+      text-decoration: underline;
+    }
+  }
+}
+
+.usa-footer-big {
+  ul li {
+    line-height: 1.5;
+  }
+
+  li:not(first-child) {
+    margin-top: 0.8rem;
+  }
+}
+
+.footer-links-baseline {
+  font-size: $small-font-size;
+  margin-top: 3rem;
+
+  li {
+    display: inline;
+
+    &:not(:last-child) {
+      &:after {
+        content: "|";
+        margin-left: 5px;
+        margin-right: 2px;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  a {
+    color: $color-white;
+  }
 }
 
 // Colors ------- //

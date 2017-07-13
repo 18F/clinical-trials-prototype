@@ -4,9 +4,9 @@ permalink: /
 class: home
 ---
 
-<section class="usa-section hero">
+<section class="hero">
   <div class="usa-grid">
-    <h2>ClinicalTrials.gov is the largest online database of privately and publicly funded clinical studies conducted around the world.</h2>
+    <h2 class="hero-heading">ClinicalTrials.gov is the largest online database of privately and publicly funded clinical studies conducted around the world.</h2>
   </div>
 </section>
 <section class="usa-section">
@@ -110,35 +110,3 @@ class: home
     </section>
   </div>
 </section>
-<footer class="usa-footer usa-footer-big" role="contentinfo">
-  <div class="usa-grid usa-footer-return-to-top">
-    <a href="#">Return to top</a>
-  </div>
-  <div class="usa-footer-primary-section">
-    <div class="usa-grid-full">
-      <nav class="usa-footer-nav">
-        <h4>Additional links</h4>
-        <ul class="usa-unstyled-list usa-width-one-fourth">
-          <li><a href="javascript:void(0);">About ClinicalTrials.gov</a></li>
-          <li><a href="javascript:void(0);">About the National Library of Medicine</a></li>
-          <li><a href="javascript:void(0);">Careers</a></li>
-          <li><a href="javascript:void(0);">Contact</a></li>
-          <li><a href="javascript:void(0);">Press</a></li>
-        </ul>
-        <ul class="usa-unstyled-list usa-width-one-fourth">
-          <li><a href="javascript:void(0);">National Institute of Health</a></li>
-          <li><a href="javascript:void(0);">National Library of Medicine</a></li>
-          <li><a href="javascript:void(0);">Department of Health and Human Services</a></li>
-        </ul>
-        <ul class="usa-unstyled-list usa-width-one-fourth">
-          <li><a href="javascript:void(0);">Copyright</a></li>
-          <li><a href="javascript:void(0);">Privacy</a></li>
-          <li><a href="javascript:void(0);">Accessibility</a></li>
-          <li><a href="javascript:void(0);">USA.gov</a></li>
-          <li><a href="javascript:void(0);">Freedom of Information Act</a></li>
-          <li><a href="javascript:void(0);">Department of Health and Human Services</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</footer>
