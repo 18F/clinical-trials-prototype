@@ -30,7 +30,7 @@ class: study-detail-tabular-view
       <th class="header2 banner_color sectionBanner" colspan="2">Tracking Information</th>
     </thead>
         <tr>
-      <th class="header3 banner_color rowHeader">First Received Date&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">First Received Date&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">May 4, 2016</td>
           </tr>
         <tr>
@@ -38,7 +38,7 @@ class: study-detail-tabular-view
             <td class="body3 rowBody">June 22, 2017</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Start Date&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Start Date&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">December 2015</td>
           </tr>
         <tr>
@@ -46,7 +46,7 @@ class: study-detail-tabular-view
             <td class="body3 rowBody">December 2017 &nbsp; (Final data collection date for primary outcome measure)</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Current Primary Outcome Measures&nbsp;<sup style="color:blue"> ICMJE </sup> <br/>&nbsp;<span class="footer">(submitted:&nbsp;May 18, 2016)</span></th>
+      <th class="header3 banner_color rowHeader">Current Primary Outcome Measures&nbsp;<sup style="color:#205493"> ICMJE </sup> <br/>&nbsp;<span class="footer">(submitted:&nbsp;May 18, 2016)</span></th>
             <td class="body3 rowBody"><ul style="margin:0ex 1em; padding:0ex 0em">
 <li style="margin:1ex 0.5ex">Caregiver Burden [&nbsp;Time&nbsp;Frame:&nbsp;10 weeks&nbsp;]<div class="indent2" style="margin-top:1ex;">Montgomery Burden Interview</div></li>
 <li style="margin:1ex 0.5ex">Functional Well-Being [&nbsp;Time&nbsp;Frame:&nbsp;10 weeks&nbsp;]<div class="indent2" style="margin-top:1ex;">Partner-rated Interpersonal Well-Being Scale</div></li>
@@ -59,7 +59,7 @@ class: study-detail-tabular-view
 </td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Original Primary Outcome Measures&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Original Primary Outcome Measures&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody"><i style="color:#777777">Same as current</i></td>
           </tr>
         <tr>
@@ -67,7 +67,7 @@ class: study-detail-tabular-view
             <td class="body3 rowBody"><a href="/ct2/archive/NCT02780635" onclick="openNewWindow('/ct2/archive/NCT02780635'); return false;">Complete list of historical versions of study NCT02780635 on ClinicalTrials.gov Archive Site</a></td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Current Secondary Outcome Measures&nbsp;<sup style="color:blue"> ICMJE </sup> <br/>&nbsp;<span class="footer">(submitted:&nbsp;May 18, 2016)</span></th>
+      <th class="header3 banner_color rowHeader">Current Secondary Outcome Measures&nbsp;<sup style="color:#205493"> ICMJE </sup> <br/>&nbsp;<span class="footer">(submitted:&nbsp;May 18, 2016)</span></th>
             <td class="body3 rowBody"><ul style="margin:0ex 1em; padding:0ex 0em">
 <li style="margin:1ex 0.5ex">Emotional Intimacy [&nbsp;Time&nbsp;Frame:&nbsp;10 weeks&nbsp;]<div class="indent2" style="margin-top:1ex;">Personal Assessment of Intimacy in Relationships (PAIR) Scale</div></li>
 <li style="margin:1ex 0.5ex">Caregiving Self-Efficacy Scale [&nbsp;Time&nbsp;Frame:&nbsp;10 weeks&nbsp;]<div class="indent2" style="margin-top:1ex;">Author-constructed questionnaire</div></li>
@@ -77,15 +77,15 @@ class: study-detail-tabular-view
 </td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Original Secondary Outcome Measures&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Original Secondary Outcome Measures&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody"><i style="color:#777777">Same as current</i></td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Current Other Outcome Measures&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Current Other Outcome Measures&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="missing_color">Not Provided</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Original Other Outcome Measures&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Original Other Outcome Measures&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="missing_color">Not Provided</td>
           </tr>
     <tr>
@@ -94,11 +94,11 @@ class: study-detail-tabular-view
       </thead>
     </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Brief Title&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Brief Title&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">Use of <span class="hit_org">Mobile Apps for Those With PTSD and Their Partners</span></td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Official Title&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Official Title&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">Use of <span class="hit_org">Mobile Apps for Those With PTSD and Their Partners</span></td>
           </tr>
         <tr>
@@ -123,7 +123,7 @@ class: study-detail-tabular-view
   <p style="margin-top:0ex; margin-bottom:1ex;">Ten weeks after being randomized, Veterans and their partners will be asked to complete a follow-up survey using the Qualtrics web survey tool. Those participants who are willing to take part in a telephone interview will be contacted by telephone to participate in a 30-minute qualitative interview about the app, communication with their partner about PTSD symptoms,and suggestions for optimizing partner-based interventions using mobile apps.</p></td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Study Type&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Study Type&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">Interventional</td>
           </tr>
         <tr>
@@ -131,15 +131,15 @@ class: study-detail-tabular-view
             <td class="missing_color">Not Provided</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Study Design&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Study Design&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">Allocation: Randomized<br/>Intervention Model: Factorial Assignment<br/>Masking: No masking<br/>Primary Purpose: Treatment</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Condition&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Condition&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody"><span class="hit_inf">Ptsd</span></td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Intervention&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Intervention&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody"><ul style="margin:0ex 1em; padding:0ex 0em">
 <li style="margin:1ex 0.5ex">Behavioral: <span class="hit_inf">Mobile App</span> + Mailed Materials for managing stress associated with <span class="hit_org">PTSD</span>
 <div class="indent2" style="margin-top:0.5ex"><span class="hit_org">PTSD</span> Coach and <span class="hit_org">PTSD</span> Family Coach <span class="hit_inf">mobile apps</span> plus mailed &quot;Couples Coach&quot; intervention materials and discussion board added to <span class="hit_org">PTSD</span> Family Coach <span class="hit_inf">app</span></div></li>
@@ -181,11 +181,11 @@ class: study-detail-tabular-view
       </thead>
     </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Recruitment Status&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Recruitment Status&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody"><span class="hit_inf">Recruiting</span></td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Estimated Enrollment&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Estimated Enrollment&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">200</td>
           </tr>
         <tr>
@@ -197,7 +197,7 @@ class: study-detail-tabular-view
             <td class="body3 rowBody">December 2017 &nbsp; (Final data collection date for primary outcome measure)</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Eligibility Criteria&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Eligibility Criteria&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody"><p style="margin-top:1ex; margin-bottom:1ex;">Inclusion Criteria:</p>
   <p style="margin-top:0ex; margin-bottom:1ex;">To be eligible to participate, participants must be either a Veteran with PTSD or living with a partner who is a Veteran with PTSD.</p>
   <p style="margin-top:0ex; margin-bottom:1ex;">Veterans must be:</p>
@@ -236,7 +236,7 @@ class: study-detail-tabular-view
             <td class="body3 rowBody">No</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Contacts&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Contacts&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody"><a name="contacts"/><table class="layout_table" cellpadding="0" cellspacing="0" style="border:none;">
   <tr valign="top">
    <td style="padding:0px; margin:0ex; border:none;" nowrap>Contact: Jason Owen, PhD</td>
@@ -248,7 +248,7 @@ class: study-detail-tabular-view
 </td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Listed Location Countries&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Listed Location Countries&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">United States</td>
           </tr>
         <tr>
@@ -261,11 +261,11 @@ class: study-detail-tabular-view
       </thead>
     </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">NCT Number&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">NCT Number&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">NCT02780635</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Other Study ID Numbers&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Other Study ID Numbers&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">33003</td>
           </tr>
         <tr>
@@ -285,15 +285,15 @@ class: study-detail-tabular-view
             <td class="body3 rowBody">Jason Owen, VA Palo Alto Health Care System</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Study Sponsor&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Study Sponsor&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="body3 rowBody">VA Palo Alto Health Care System</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Collaborators&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Collaborators&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="missing_color">Not Provided</td>
           </tr>
         <tr>
-      <th class="header3 banner_color rowHeader">Investigators&nbsp;<sup style="color:blue"> ICMJE </sup> </th>
+      <th class="header3 banner_color rowHeader">Investigators&nbsp;<sup style="color:#205493"> ICMJE </sup> </th>
             <td class="missing_color">Not Provided</td>
           </tr>
         <tr>
@@ -307,7 +307,7 @@ class: study-detail-tabular-view
 
     <tr>
       <td class="header3" style="padding-left:2em" colspan="2">
-        <sup style="color:blue"> ICMJE </sup>&nbsp; &nbsp; Data element required by the
+        <sup style="color:#205493"> ICMJE </sup>&nbsp; &nbsp; Data element required by the
         <a href="http://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/clinical-trial-registration.html">
         International Committee of Medical Journal Editors</a> and the
         <a href="http://www.who.int/ictrp/network/trds/en/index.html">World Health Organization ICTRP</a>
