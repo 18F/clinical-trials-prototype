@@ -212,5 +212,18 @@ class: search-results
         </article>
       </li>
     </ol>
+<nav class="pagination" role="navigation" aria-label="Pagination">
+  <ol>
+    <li class="pagination-page"><a class="is-active" href="#0" aria-label="Page 1, Current Page" tabindex="-1">1</a></li>
+    <li class="c-page"><a class="" href="#0" aria-label="Page 2">2</a></li>
+    <li class="c-page"><a class="" href="#0" aria-label="Page 3">3</a></li>
+    <li class="c-page"><a class="" href="#0" aria-label="Page 4">4</a></li>
+    <li class="c-page"><a class="" href="#0" aria-label="Page 5">5</a></li>
+    <li class="c-page"><a class="" href="#0" aria-label="Page 6">6</a></li>
+    <li class="c-page" aria-hidden="true">…</li>
+    <li class="c-page"><a class="" href="#0" aria-label="Page 71">71</a></li>
+    <li class="c-page-next"><a href="#0" aria-label="Next Page">Next</a></li>
+  </ol>
+</nav>
   </div>
 </div>

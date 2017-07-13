@@ -927,6 +927,28 @@ a.study_detail-tabs-active {
   font-size: $h6-font-size;
 }
 
+.pagination {
+  ol {
+    list-style-type: none;
+    padding-left: 2rem;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    padding: 3px 10px;
+    text-decoration: none;
+
+    &.is-active {
+      background-color: $color-primary;
+      border-radius: 100%;
+      color: $color-white;
+    }
+  }
+}
+
 // Logo ------- //
 
 .usa-header-basic {
