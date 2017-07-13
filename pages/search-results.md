@@ -222,7 +222,7 @@ class: search-results
     <li class="c-page"><a class="" href="#0" aria-label="Page 6">6</a></li>
     <li class="c-page" aria-hidden="true">…</li>
     <li class="c-page"><a class="" href="#0" aria-label="Page 71">71</a></li>
-    <li class="c-page-next"><a href="#0" aria-label="Next Page">Next</a></li>
+    <li class="c-page-next"><a href="#0" aria-label="Next Page">Next <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
   </ol>
 </nav>
   </div>
