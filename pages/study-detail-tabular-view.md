@@ -171,7 +171,6 @@ class: study-detail-tabular-view
 
     <tr>
       <td class="header3" style="padding-left:2em" colspan="2">
-        <br/>
         * &nbsp; Includes publications given by the data provider as well as publications
         identified by ClinicalTrials.gov Identifier (NCT Number) in Medline.
       </td>
@@ -308,7 +307,6 @@ class: study-detail-tabular-view
 
     <tr>
       <td class="header3" style="padding-left:2em" colspan="2">
-        <br/>
         <sup style="color:blue"> ICMJE </sup>&nbsp; &nbsp; Data element required by the
         <a href="http://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/clinical-trial-registration.html">
         International Committee of Medical Journal Editors</a> and the
