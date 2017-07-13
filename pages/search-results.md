@@ -89,11 +89,11 @@ class: search-results
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Latin American Cooperative Oncology Group</p>
             <h3 class="search_result-heading">
-              <a href="{{ site.baseurl }}/study-detail/">Use of Mobile Apps for Those With PTSD and Their Partners</a>
+              <a href="{{ site.baseurl }}/study-detail/">Use of Mobile Apps for Those With <b>PTSD</b> and Their Partners</a>
             </h3>
             <p class="search_result-metadata">Location: Palo Alto, CA and 46 other locations</p>
             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: PTSD</p>
+            <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
             <ul class="search_result-intervention">
@@ -111,11 +111,11 @@ class: search-results
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p>
             <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related PTSD</a>
+              <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related <b>PTSD</b></a>
             </h3>
             <p class="search_result-metadata">Location: Palo Alto, CA and 46 other locations</p>
             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: PTSD, Depression</p>
+            <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
           </div>
           <div class="usa-width-one-third">
             <ul class="search_result-intervention">
@@ -132,11 +132,11 @@ class: search-results
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: The Cooper Health System</p>
             <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Yoga Online Feasibility to Reduce PTSD</a>
+              <a href="javascript:void(0);">Yoga Online Feasibility to Reduce <b>PTSD</b></a>
             </h3>
             <p class="search_result-metadata">Location: Palo Alto, CA</p>
             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: PTSD</p>
+            <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
             <ul class="search_result-intervention">
@@ -153,11 +153,11 @@ class: search-results
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Penn State University</p>
             <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Efficacy of 60-minute Versus 90-minute Sessions in Treating PTSD Using Prolonged Exposure</a>
+              <a href="javascript:void(0);">Efficacy of 60-minute Versus 90-minute Sessions in Treating <b>PTSD</b> Using Prolonged Exposure</a>
             </h3>
             <p class="search_result-metadata">Location: Palo Alto, CA</p>
             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: PTSD</p>
+            <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
             <ul class="search_result-intervention">
@@ -173,11 +173,11 @@ class: search-results
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Cedars-Sinai Medical Center</p>
             <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Intensive Weekend Retreat Multi-Couple Group Therapy for PTSD</a>
+              <a href="javascript:void(0);">Intensive Weekend Retreat Multi-Couple Group Therapy for <b>PTSD</b></a>
             </h3>
             <p class="search_result-metadata">Location: Palo Alto, CA</p>
             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: PTSD, Substance Abuse</p>
+            <p class="search_result-metadata">Condition: <b>PTSD</b>, Substance Abuse</p>
           </div>
           <div class="usa-width-one-third">
             <ul class="search_result-intervention">
@@ -196,11 +196,11 @@ class: search-results
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Humana</p>
             <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (PTSD)</a>
+              <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (<b>PTSD</b>)</a>
             </h3>
             <p class="search_result-metadata">Location: Palo Alto, CA and 2 other locations</p>
             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: PTSD, Depression</p>
+            <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
           </div>
           <div class="usa-width-one-third">
             <ul class="search_result-intervention">
