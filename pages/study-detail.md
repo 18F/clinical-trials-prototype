@@ -1,83 +1,17 @@
 ---
-layout: base
+layout: study-detail
 permalink: /study-detail/
 class: study-detail
 ---
 
-<nav class="submenu">
-  <div class="usa-grid">
-    <ul class="breadcrumbs usa-unstyled-list">
-      <li>
-        <a href="{{ site.baseurl }}/">Home</a>
-      </li>
-      <li>
-        <a href="{{ site.baseurl }}/search-results/">Search results</a>
-      </li>
-      <li>Study details</li>
-    </ul>
-  </div>
-</nav>
-<div class="usa-grid">
-  <div class="study_detail-page_links">
-    <a href="#">
-      <i class="fa fa-star-o" aria-hidden="true"></i>
-      Save this study
-    </a>
-    <span class="divider-vertical"></span>
-    <a href="#">
-      <i class="fa fa-print" aria-hidden="true"></i>
-      Print
-    </a>
-  </div>
-  <div class="study_detail-intro usa-width-seven-twelfths">
-    <span class="study-status usa-color-green">
-      <i class="fa fa-circle" aria-hidden="true"></i>
-      Recruiting
-    </span>
-    <h2 class="study_detail-heading">Use of Mobile Apps for Those With PTSD and Their Partners</h2>
-    <p class="study_detail-history">
-      First received: June 16, 2017,
-      Last updated: July 5, 2017,
-      Last verified: July 2017.
-      <a href="#history">History of changes</a>.
-    </p>
-    <div class="usa-alert usa-alert-warning">
-      <div class="usa-alert-body">
-        <p class="usa-alert-text">Studies are not evaluated for safety or scientific validity by the U.S. federal government. <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">Know the risks of clinical studies</a> and talk with a healthcare provider before participating.</p>
-      </div>
-    </div>
-    <p class="study_detail-meta usa-serif">
-      <em><b>Submitted by:</b></em> Latin American Cooperative Oncology Group
-      <br>
-<!--       <em><b>Received:</b></em> May 24, 2016
- -->    </p>
-    <a class="study_detail-button-location usa-button" href="#locations">View 4 locations</a>
-    <br>
-    <a class="study_detail-link-eligibility" href="#eligibility">Check trial eligibility<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-  </div>
-  <div class="usa-width-five-twelfths">
-    <aside class="box usa-color-bg-primary-alt-lightest usa-serif">
-      <h4>Main contact</h4>
-      <span>
-        Georgina Kafta
-        <br>
-        421-652-3159
-        <br>
-        <a href="#">GKafta@gmail.com</a>
-      </span>
-      <h4>ClinicalTrials.gov Identifier</h4>
-      <span>NCT02780635</span>
-    </aside>
-  </div>
-</div>
 <section class="study_detail-tabs usa-serif">
   <div class="usa-grid">
     <ul class="usa-grid usa-unstyled-list">
       <li>
-        <a class="study_detail-tabs-active" href="#0">Study details</a>
+        <a class="study_detail-tabs-active" href="{{ site.baseurl }}/study-detail/">Study details</a>
       </li>
       <li>
-        <a href="#0">Advanced view</a>
+        <a href="{{ site.baseurl }}/study-detail/advanced-view/">Advanced view</a>
       </li>
       <li>
         <a href="#0">Study results not yet posted</a>

@@ -953,6 +953,18 @@ a.study_detail-tabs-active {
   }
 }
 
+.page-study-detail-tabular-view {
+  thead th {
+    background-color: $color-primary-darkest;
+    color: $color-white;
+  }
+
+  th {
+    background-color: $color-gray-lightest;
+    font-weight: $font-bold;
+  }
+}
+
 // Logo ------- //
 
 .usa-header-basic {
