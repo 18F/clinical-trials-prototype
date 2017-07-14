@@ -106,26 +106,6 @@ class: search-results
       </li>
       <li class="search_result-item">
         <article>
-          <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p>
-            <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related <b>PTSD</b></a>
-            </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA and 46 other locations</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
-          </div>
-          <div class="usa-width-one-third">
-            <ul class="search_result-intervention">
-              <li>Behavioral: Personalized Attention Control Training (ACT)</li>
-            </ul>
-          </div>
-        </article>
-      </li>
-      <li class="search_result-item">
-        <article>
           <span class="usa-label tooltip-label" aria-describedby="tooltip-text-content-1" tabindex="0">New</span>
           <div class="tooltip">
             <span class="tooltip-text" id="tooltip-text-content-1" role="tooltip">Study posted within the last 30 days</span>
@@ -145,6 +125,26 @@ class: search-results
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
+            </ul>
+          </div>
+        </article>
+      </li>
+      <li class="search_result-item">
+        <article>
+          <div class="usa-width-two-thirds">
+            <p class="search_result-metadata search_result-study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
+            <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p>
+            <h3 class="search_result-heading">
+              <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related <b>PTSD</b></a>
+            </h3>
+            <p class="search_result-metadata">Location: Palo Alto, CA and 46 other locations</p>
+            <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
+          </div>
+          <div class="usa-width-one-third">
+            <ul class="search_result-intervention">
+              <li>Behavioral: Personalized Attention Control Training (ACT)</li>
             </ul>
           </div>
         </article>
