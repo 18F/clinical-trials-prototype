@@ -126,7 +126,10 @@ class: search-results
       </li>
       <li class="search_result-item">
         <article>
-          <span class="usa-label">New</span>
+          <span class="usa-label tooltip-label" aria-describedby="tooltip-text-content-1" tabindex="0">New</span>
+          <div class="tooltip">
+            <span class="tooltip-text" id="tooltip-text-content-1" role="tooltip">Study posted within the last 30 days</span>
+          </div>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata search_result-study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Enrolling by invitation</p>
             <span class="search_result-metadata-divider">|</span>
@@ -190,7 +193,10 @@ class: search-results
       </li>
       <li class="search_result-item">
         <article>
-          <span class="usa-label">New</span>
+          <span class="usa-label tooltip-label" aria-describedby="tooltip-text-content-2" tabindex="0">New</span>
+          <div class="tooltip">
+            <span class="tooltip-text" id="tooltip-text-content-2" role="tooltip">Study posted within the last 30 days</span>
+          </div>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata search_result-study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
             <span class="search_result-metadata-divider">|</span>

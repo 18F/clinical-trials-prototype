@@ -810,6 +810,7 @@ a.study_detail-tabs-active {
 
   .usa-label {
     border-radius: 0;
+    cursor: default;
     display: table;
     margin-bottom: 1rem;
     margin-top: -2rem;
@@ -1054,5 +1055,67 @@ a.study_detail-tabs-active {
 
   @include media($nav-width) {
     font-size: 10px;
+  }
+}
+
+// Custom tooltip styles -------------- //
+
+// Tooltip container
+.tooltip {
+  display: inline-block;
+  position: absolute;
+  margin-top: -34px;
+
+  .usa-label {
+    cursor: default;
+
+    &:hover,
+    &:focus {
+      .tooltip-text {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.tooltip-label {
+  &:focus,
+  &:hover {
+    + .tooltip .tooltip-text {
+      opacity: 1;
+    }
+  }
+}
+
+.tooltip-text {
+  display: none;
+
+  @include media($medium-screen) {
+    @include margin(0 null 6px null);
+    background-color: $color-gray-dark;
+    border-radius: $border-radius;
+    bottom: 100%;
+    color: $color-white;
+    display: block;
+    font-size: 14px;
+    left: 0;
+    padding: 7px 10px;
+    width: 230px;
+    opacity: 0;
+    position: absolute; // Position the tooltip text
+    transition: all 0.1s ease-in-out;
+    transition-delay: 0.1s;
+    z-index: 1;
+
+    &::after {
+      border-width: 5px;
+      border-style: solid;
+      border-color: $color-base transparent transparent transparent;
+      content: " ";
+      left: 10%;
+      margin-left: -12px;
+      position: absolute;
+      top: 100%; // At the bottom of the tooltip
+    }
   }
 }
