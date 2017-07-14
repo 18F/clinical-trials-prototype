@@ -72,10 +72,10 @@ class: search-results
     </div>
     <div class="usa-grid-full search_results-heading">
       <div class="usa-width-two-thirds">
-        <p><b>Study summary</b></p>
+        <p class="term"><b>Study summary</b></p>
       </div>
       <div class="usa-width-one-third">
-        <p><b>Intervention type</b></p>
+        <p class="term"><b>Intervention type</b></p>
       </div>
     </div>
     <ol class="search_result-list usa-unstyled-list">
