@@ -21,7 +21,7 @@ class: search-results
       <input id="search_field-condition" name="input-type-text" type="text" value="PTSD">
     </div>
     <div class="search_result-search-input">
-      <label class="" for="search_field-keyword">Additional keyword</label>
+      <label class="" for="search_field-keyword">Additional search terms</label>
       <input id="search_field-keyword" name="input-type-text" type="text" value="">
     </div>
     <div class="search_result-search-input">
