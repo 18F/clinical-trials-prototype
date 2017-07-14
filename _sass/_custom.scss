@@ -799,6 +799,10 @@ a.study_detail-tabs-active {
 
 .link-subscribe {
   font-size: $small-font-size;
+
+  i {
+    margin-right: 4px;
+  }
 }
 
 .search_result-item {

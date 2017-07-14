@@ -57,7 +57,7 @@ class: search-results
   <div class="usa-width-three-fourths">
     <div class="search_results-info">
       <div class="usa-width-one-half">
-        <a class="link-subscribe" href="javascript:void(0);">Subscribe to updates on this search</a>
+        <a class="link-subscribe" href="javascript:void(0);"><i class="fa fa-rss" aria-hidden="true"></i>Subscribe to updates on this search (RSS)</a>
       </div>
       <div class="usa-width-one-half">
         <form class="form-sort" action="">
