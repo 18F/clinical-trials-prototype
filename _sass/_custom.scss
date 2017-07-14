@@ -759,6 +759,7 @@ a.study_detail-tabs-active {
 }
 
 .search_result-metadata {
+  color: $color-gray;
   display: inline;
   font-size: $h6-font-size;
 }
@@ -938,6 +939,7 @@ a.study_detail-tabs-active {
 
 .search_result-metadata-divider {
   @include margin(null 3px);
+  color: $color-gray-light;
   font-size: $h6-font-size;
 }
 
