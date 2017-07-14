@@ -12,38 +12,42 @@ class: search-results
       </li>
       <li>Search results</li>
     </ul>
+    <a class="saved_studies" href="#">2 saved studies</a>
   </div>
 </nav>
 <div class="search_result-search">
-  <form class="usa-grid" action="">
-    <div class="search_result-search-input">
-      <label class="" for="search_field-condition">Condition or disease</label>
-      <input id="search_field-condition" name="input-type-text" type="text" value="PTSD">
-    </div>
-    <div class="search_result-search-input">
-      <label class="" for="search_field-keyword">Additional search terms</label>
-      <input id="search_field-keyword" name="input-type-text" type="text" value="">
-    </div>
-    <div class="search_result-search-input">
-      <label class="" for="search_field-location">Location</label>
-      <input id="search_field-location" name="input-type-text" type="text" value="Palo Alto, CA">
-    </div>
-    <div class="search_result-search-input search_result-search-input-distance">
-      <label for="distance">Distance</label>
-      <select id="distance" name="distance">
-        <option></option>
-        <option value="50">50 miles</option>
-        <option value="100">100 miles</option>
-        <option value="250">250 miles</option>
-        <option value="500" selected>500 miles</option>
-        <option value="any">Any distance</option>
-      </select>
-    </div>
-    <button class="">
-      <span class="usa-sr-only">Modify search</span>
-      <i class="fa fa-search" aria-hidden="true"></i>
-    </button>
-  </form>
+  <div class="usa-grid">
+    <form class="" action="">
+      <div class="search_result-search-input">
+        <label class="" for="search_field-condition">Condition or disease</label>
+        <input id="search_field-condition" name="input-type-text" type="text" value="PTSD">
+      </div>
+      <div class="search_result-search-input">
+        <label class="" for="search_field-keyword">Additional search terms</label>
+        <input id="search_field-keyword" name="input-type-text" type="text" value="">
+      </div>
+      <div class="search_result-search-input">
+        <label class="" for="search_field-location">Location</label>
+        <input id="search_field-location" name="input-type-text" type="text" value="Palo Alto, CA">
+      </div>
+      <div class="search_result-search-input search_result-search-input-distance">
+        <label for="distance">Distance</label>
+        <select id="distance" name="distance">
+          <option></option>
+          <option value="50">50 miles</option>
+          <option value="100">100 miles</option>
+          <option value="250">250 miles</option>
+          <option value="500" selected>500 miles</option>
+          <option value="any">Any distance</option>
+        </select>
+      </div>
+      <button class="">
+        <span class="usa-sr-only">Modify search</span>
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+    </form>
+    <a class="search_result-link-advanced_search" href="#">Advanced search</a>
+  </div>
 </div>
 <nav class="search_result-info_bar">
   <div class="usa-grid">

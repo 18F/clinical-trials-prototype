@@ -642,6 +642,8 @@ a.study_detail-tabs-active {
 }
 
 .breadcrumbs {
+  display: inline-block;
+
   li {
     color: $color-gray;
     display: inline-block;
@@ -665,6 +667,10 @@ a.study_detail-tabs-active {
   a {
     text-decoration: none;
   }
+}
+
+.saved_studies {
+  float: right;
 }
 
 .box {
@@ -705,6 +711,8 @@ a.study_detail-tabs-active {
       height: 44px;
       margin-bottom: 4px !important;
       margin-left: -4px;
+      margin-right: 0;
+      width: 6.5%;
       vertical-align: bottom;
     }
   }
@@ -712,6 +720,16 @@ a.study_detail-tabs-active {
 
 [for=search_field-condition] {
   margin-top: 0
+}
+
+.search_result-link-advanced_search {
+  color: $color-white;
+  float: right;
+  margin-top: 4px;
+
+  &:hover {
+    color: $color-white;
+  }
 }
 
 .search_results-info {
@@ -935,7 +953,8 @@ a.study_detail-tabs-active {
 .search_result-search-input {
   @include media($medium-screen) {
     display: inline-block;
-    width: 26%;
+    margin-right: -5px;
+    width: 26.8%;
   }
 
   &:last-of-type {
@@ -947,7 +966,7 @@ a.study_detail-tabs-active {
 
 .search_result-search-input-distance {
   @include media($medium-screen) {
-    width: 12%;
+    width: 13.6%;
   }
 }
 
