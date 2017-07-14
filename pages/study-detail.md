@@ -48,7 +48,7 @@ class: study-detail
         </ul>
       </li>
       <li>
-        <a href="#locations">Contact and locations</a>
+        <a href="#contact-and-locations">Contact and locations</a>
       </li>
       <li>
         <a href="#more-information">More information</a>
@@ -135,6 +135,11 @@ class: study-detail
     </ul>
     <hr>
     <h2 id="how-to-participate">How to participate</h2>
+    <h3>Talk to a healthcare professional</h3>
+    <p>Participating in a clinical study is an important personal decision. We urge  you to learn everything you can about studies you’re considering and discuss all options with a healthcare professional.</p>
+    <ul>
+      <li><a href="">Questions to ask</a></li>
+    </ul>
     <h3 id="eligibility">Who’s eligibile?</h3>
     <ul>
       <li><a href="#">Ages Eligible for Study:</a> 18 Years to 90 Years (Adult, Senior)</li>
@@ -164,8 +169,9 @@ class: study-detail
     <h4>Estimated Enrollment:</h4>
     <p>200</p>
     <hr>
-    <h2 id="locations">Contact and locations</h2>
+    <h2 id="contact-and-locations">Contact and locations</h2>
     <p>To learn more about this study, you or your doctor may contact the study research staff using the contact information provided by the sponsor.</p>
+    <p>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the Contacts provided below. For general information, see <a href="">Learn About Clinical Studies</a>.</p>
     <h4>Main contact information</h4>
     <p>
       Jason Owen, PhD
