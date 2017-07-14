@@ -51,7 +51,7 @@ class: search-results
 </div>
 <nav class="search_result-info_bar">
   <div class="usa-grid">
-    <p class="search_result-count">1-16 out of 230 results for <b>“PTSD”</b> in <b>“Palo Alto, CA.”</b> Includes synonomous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>.</p>
+    <p class="search_result-count">Showing 1-16 out of 230 results for <b>“PTSD”</b> <b>“seeking participants”</b> in <b>“Palo Alto, CA.”</b> Includes synonomous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>.</p>
   </div>
 </nav>
 <div class="usa-grid">
@@ -129,6 +129,94 @@ class: search-results
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
+            </ul>
+          </div>
+        </article>
+      </li>
+      <li class="search_result-item">
+        <article>
+          <div class="usa-width-two-thirds">
+            <p class="search_result-metadata search_result-study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
+            <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p>
+            <h3 class="search_result-heading">
+              <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related <b>PTSD</b></a>
+            </h3>
+            <p class="search_result-metadata">Location: Palo Alto, CA and 46 other locations</p>
+            <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
+          </div>
+          <div class="usa-width-one-third">
+            <ul class="search_result-intervention">
+              <li>Behavioral: Personalized Attention Control Training (ACT)</li>
+            </ul>
+          </div>
+        </article>
+      </li>
+      <li class="search_result-item">
+        <article>
+          <div class="usa-width-two-thirds">
+            <p class="search_result-metadata search_result-study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
+            <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Penn State University</p>
+            <h3 class="search_result-heading">
+              <a href="javascript:void(0);">Efficacy of 60-minute Versus 90-minute Sessions in Treating <b>PTSD</b> Using Prolonged Exposure</a>
+            </h3>
+            <p class="search_result-metadata">Location: Palo Alto, CA</p>
+            <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata">Condition: <b>PTSD</b></p>
+          </div>
+          <div class="usa-width-one-third">
+            <ul class="search_result-intervention">
+              <li>Drug: Ketamine</li>
+            </ul>
+          </div>
+        </article>
+      </li>
+      <li class="search_result-item">
+        <article>
+          <div class="usa-width-two-thirds">
+            <p class="search_result-metadata search_result-study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
+            <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Cedars-Sinai Medical Center</p>
+            <h3 class="search_result-heading">
+              <a href="javascript:void(0);">Intensive Weekend Retreat Multi-Couple Group Therapy for <b>PTSD</b></a>
+            </h3>
+            <p class="search_result-metadata">Location: Palo Alto, CA</p>
+            <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata">Condition: <b>PTSD</b>, Substance Abuse</p>
+          </div>
+          <div class="usa-width-one-third">
+            <ul class="search_result-intervention">
+              <li>Drug: Ketamine, doxazosin</li>
+              <li>Drug: Doxazosin</li>
+              <li>Drug: Perindopril</li>
+            </ul>
+          </div>
+        </article>
+      </li>
+      <li class="search_result-item">
+        <article>
+          <span class="usa-label tooltip-label" aria-describedby="tooltip-text-content-2" tabindex="0">New</span>
+          <div class="tooltip">
+            <span class="tooltip-text" id="tooltip-text-content-2" role="tooltip">Study posted within the last 30 days</span>
+          </div>
+          <div class="usa-width-two-thirds">
+            <p class="search_result-metadata search_result-study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
+            <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Humana</p>
+            <h3 class="search_result-heading">
+              <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (<b>PTSD</b>)</a>
+            </h3>
+            <p class="search_result-metadata">Location: Palo Alto, CA and 2 other locations</p>
+            <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
+          </div>
+          <div class="usa-width-one-third">
+            <ul class="search_result-intervention">
+              <li>Behavioral: Personalized Attention Control Training (ACT)</li>
+              <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
+              <li>Behavioral: Control training</li>
             </ul>
           </div>
         </article>
