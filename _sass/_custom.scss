@@ -406,6 +406,37 @@ input[id="location"] {
   }
 }
 
+.footer-logos {
+  li {
+    display: inline;
+
+    &:not(:last-child) {
+      margin-right: 3%;
+    }
+  }
+
+  a {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.logo-dhs {
+  width: 12%;
+}
+
+.logo-usagov {
+  width: 32%;
+}
+
+.logo-nih {
+  width: 19%;
+}
+
+.logo-nlm {
+  width: 21%;
+}
+
 // Colors ------- //
 
 .usa-color-bg-primary-alt-lightest {
