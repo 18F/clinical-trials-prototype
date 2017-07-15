@@ -192,6 +192,7 @@ th {
       flex-direction: row;
       text-align: center;
       background-color: #f5f6f6;
+      background-color: $color-gray-lightest;
       font-size: 14px;
       flex: 1;
 
@@ -225,6 +226,7 @@ th {
 
     [type=radio] + label {
       @include padding(10px null 10px null);
+      background: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, #FFFFFF 100%);
       border-bottom: 1px solid $color-gray-light;
       border-left: 1px solid $color-gray-light;
       color: $color-primary;
@@ -236,7 +238,7 @@ th {
     }
 
     [type=radio]:checked + label {
-      background-color: $color-gray-lightest;
+      background: $color-gray-lightest;
       border-bottom-color: $color-gray-lightest;
       color: $color-base;
       font-weight: $font-bold;
@@ -655,7 +657,7 @@ input[id="location"] {
   }
 
   a {
-    background-color: #f5f6f6;
+    background: linear-gradient(0deg, #EEEEEE 0%, #FFFFFF 100%);
     border-bottom: 1px solid $color-gray-light;
     border-left: 1px solid $color-gray-light;
     border-top: 5px solid #8BA6C9;
@@ -666,7 +668,7 @@ input[id="location"] {
 }
 
 a.study_detail-tabs-active {
-  background-color: $color-white;
+  background: $color-white;
   border-bottom: 1px solid $color-white;
   border-top-color: $color-primary;
   color: $color-base;
