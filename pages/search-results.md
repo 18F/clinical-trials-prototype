@@ -12,7 +12,7 @@ class: search-results
       </li>
       <li>Search results</li>
     </ul>
-    <a class="saved_studies" href="#">2 saved studies</a>
+    <a class="saved_studies" href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i>2 saved studies</a>
   </div>
 </nav>
 <div class="search_result-search">

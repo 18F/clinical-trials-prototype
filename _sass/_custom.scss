@@ -719,6 +719,14 @@ a.study_detail-tabs-active {
 
 .saved_studies {
   float: right;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+
+  i {
+    color: $color-gray;
+    margin-right: 8px;
+  }
 }
 
 .box {
