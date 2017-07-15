@@ -1,0 +1,1208 @@
+// Mixins --------- //
+
+@mixin clip-margins {
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Grid --------- //
+
+// Fix usa-width-five-twelfths by removing right margin
+// TODO: fix in USWDS
+.usa-width-five-twelfths {
+  @include media($medium-screen) {
+    margin-right: 0;
+  }
+
+  :first-child {
+    margin-top: 0;
+  }
+}
+
+// Typography ------------ //
+
+a {
+  text-decoration-skip: ink;
+}
+
+.link-white {
+  color: $color-white;
+}
+
+.h5 {
+  @include h5;
+}
+
+.usa-content {
+  ul:not(.usa-accordion):not(.usa-accordion-bordered) {
+    max-width: $text-max-width;
+  }
+}
+
+.usa-serif {
+  font-family: $font-serif;
+  font-size: 1.5rem;
+  line-height: 1.7em;
+
+  p,
+  a,
+  li,
+  span {
+    font-size: 1.5rem;
+    line-height: 1.7em;
+  }
+}
+
+legend {
+  font-size: $base-font-size;
+  margin-bottom: .5em;
+}
+
+// Horizontal rule -------- //
+
+// could call it a .divider
+hr {
+  border-bottom: 0;
+  border-top: 1px solid $color-gray-light;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+}
+
+.hr-small {
+  border-top-color: $color-gray-light;
+  margin-bottom: 3rem;
+  margin-top: 3rem !important;
+}
+
+// Table ------------ //
+
+// TODO: fix in USWDS
+td,
+th {
+  @include clip-margins; // Remove top and bottom margins in table cells
+  vertical-align: initial; // Align table cell text on top not middle
+}
+
+// Checkbox and radio buttons ------ //
+
+// Bug fixes
+.usa-fieldset-inputs {
+  li {
+    position: relative;
+  }
+}
+
+[type=checkbox],
+[type=radio] {
+  cursor: pointer;
+  height: auto;
+}
+
+// Navigation ------------ //
+
+.usa-logo-text {
+  @include media($nav-width) {
+    font-size: 3.2rem;
+  }
+}
+
+.usa-navbar {
+  @include media($nav-width) {
+    height: 81px;
+  }
+}
+
+.usa-nav {
+  @include media($nav-width) {
+    padding-top: 2.4rem;
+  }
+}
+
+// Hero ------------ //
+
+.hero {
+  @include padding(5rem null);
+  background-color: $color-primary-darker;
+  color: $color-white;
+}
+
+.hero-heading {
+  font-size: 2rem;
+  max-width: 670px;
+}
+
+// Home
+.page-home {
+  .usa-width-seven-twelfths {
+    @include media($medium-screen) {
+      padding-left: 4rem;
+    }
+  }
+
+  .fa-map-marker {
+    left: 13px;
+    pointer-events: none;
+    position: relative;
+    top: -34px;
+  }
+}
+
+// Search ------------ //
+
+.trial-info {
+  > * {
+    max-width: 338px;
+  }
+
+  h2 {
+    @include h4;
+  }
+}
+
+.search-legend {
+  @include h4;
+  font-family: $font-serif;
+  margin-bottom: 1em;
+}
+
+.form-search-home {
+  label:not(.label-radio),
+  .legend-study-status,
+  label[for="location"] {
+    font-weight: $font-bold;
+  }
+
+  [type="submit"] {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 0;
+  }
+
+  .usa-fieldset-tabs {
+    ul {
+      display: flex;
+    }
+
+    li {
+      flex-direction: row;
+      text-align: center;
+      background-color: #f5f6f6;
+      background-color: $color-gray-lightest;
+      font-size: 14px;
+      flex: 1;
+
+      &:first-child {
+        .label-radio {
+          border-left: 1px solid #E4E2E0;
+        }
+      }
+
+      &:last-child {
+        .label-radio {
+          border-right: 1px solid #E4E2E0;
+        }
+      }
+    }
+
+    .label-radio::after {
+      content: "";
+      background-color: #DCE4EE;
+      position: absolute;
+      height: 5px;
+      top: -5px;
+      left: 0;
+      width: 100%;
+    }
+
+    [type=radio] + label::before,
+    [type=radio]:checked + label::before {
+      display: none;
+    }
+
+    [type=radio] + label {
+      @include padding(10px null 10px null);
+      background: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, #FFFFFF 100%);
+      border-bottom: 1px solid $color-gray-light;
+      border-left: 1px solid $color-gray-light;
+      color: $color-primary;
+      margin-bottom: 0;
+
+      &:hover {
+        color: $color-primary-darker;
+      }
+    }
+
+    [type=radio]:checked + label {
+      background: $color-gray-lightest;
+      border-bottom-color: $color-gray-lightest;
+      color: $color-base;
+      font-weight: $font-bold;
+
+      &::after {
+        background-color: $color-primary-darker;
+      }
+    }
+  }
+
+  .usa-form-hint {
+    color: #6e6e6e; // lightest accessible gray on $color-gray-light
+    font-size: $small-font-size;
+  }
+}
+
+.form-search-home-inner {
+  @include padding(null 2rem);
+  background-color: $color-gray-lightest;
+  border: 1px solid #E4E2E0;
+  border-top: none;
+
+  label:first-child {
+    margin-top: 0;
+    padding-top: 3rem;
+  }
+}
+
+.search-links {
+  margin-top: 3rem;
+
+  > :first-child {
+    margin-right: 3.5rem;
+  }
+
+  .fa {
+    color: $color-base;
+    margin-right: 1rem;
+
+    &:before {
+      font-size: 20px;
+    }
+  }
+}
+
+@mixin advanced-search-label {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.search-advanced {
+  .usa-accordion-content {
+    background-color: transparent;
+  }
+
+  .usa-width-one-third {
+    @include media($medium-screen) {
+      height: 870px;
+    }
+
+    &:nth-child(-n+2) {
+      @include media($medium-screen) {
+        border-right: 1px solid $color-gray-light;
+      }
+    }
+  }
+
+  legend {
+    @include advanced-search-label;
+  }
+
+  .form-label {
+    @include advanced-search-label;
+    font-weight: $font-bold;
+    margin-top: 0;
+  }
+}
+
+select[id="age-group"] {
+  max-width: 212px;
+}
+
+input[id="location"] {
+  padding-left: 28px;
+}
+
+.usa-input-grid-medium input {
+  margin-bottom: 0;
+}
+
+// Info callouts ------------ //
+
+.info-callouts {
+  background-color: $color-gray-lightest;
+
+  h2 {
+    @include h4;
+  }
+}
+
+.info-callouts-img {
+  text-align: center;
+}
+
+.card {
+  padding: 3rem;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  @include media($medium-screen) {
+    min-height: 230px;
+  }
+}
+
+// Footer
+.usa-footer-primary-section {
+  @include padding(3rem null 2rem null);
+  background-color: $color-primary-darkest;
+  color: $color-white;
+
+  a {
+    color: $color-primary-alt-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-primary-alt-lightest;
+      text-decoration: underline;
+    }
+  }
+
+  .footer-recources {
+    padding-right: 100px;
+  }
+}
+
+.usa-footer {
+  ul li {
+    line-height: 1.5;
+  }
+
+  li:not(first-child) {
+    margin-top: 0.8rem;
+  }
+}
+
+.footer-links-baseline {
+  font-size: $small-font-size;
+  margin-top: 3rem;
+
+  li {
+    display: inline;
+
+    &:not(:last-child) {
+      &:after {
+        content: "|";
+        margin-left: 5px;
+        margin-right: 2px;
+        opacity: 0.4;
+      }
+    }
+  }
+
+  a {
+    color: $color-white;
+  }
+}
+
+.footer-contact {
+  p {
+    font-size: 14px;
+    margin-top: 0;
+  }
+}
+
+.footer-logos {
+  border-top: 1px solid $color-primary-darker;
+  padding-top: 2rem;
+
+  li {
+    display: inline;
+
+    &:not(:last-child) {
+      margin-right: 3%;
+    }
+  }
+
+  a {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.logo-dhs {
+  width: 12%;
+}
+
+.logo-usagov {
+  width: 32%;
+}
+
+.logo-nih {
+  width: 19%;
+}
+
+.logo-nlm {
+  width: 21%;
+}
+
+// Colors ------- //
+
+.usa-color-bg-primary-alt-lightest {
+  background-color: $color-primary-alt-lightest;
+}
+
+.usa-color-bg-gray-dark {
+  background-color: $color-gray-dark;
+  color: $color-white;
+}
+
+.usa-color-bg-primary {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.usa-color-bg-gray-lightest {
+  background-color: $color-gray-lightest;
+}
+
+.usa-color-bg-gold-lightest {
+  background-color: $color-gold-lightest;
+}
+
+.usa-color-bg-primary-alt-lightest {
+  background-color: $color-primary-alt-lightest;
+}
+
+.usa-color-green {
+  color: $color-green;
+}
+
+.usa-color-secondary {
+  color: $color-secondary;
+}
+
+///////////////////////////////////
+// Study detail page ---------- //
+/////////////////////////////////
+
+.study_detail-page_links {
+  @include padding(2rem null);
+  float: right;
+  font-size: $h5-font-size;
+
+  @include media($medium-screen) {
+    margin-bottom: 57px;
+    margin-top: -57px !important;
+  }
+
+  a {
+    font-family: $font-sans;
+    font-weight: $font-bold;
+    text-decoration: none;
+  }
+
+  .fa {
+    color: $color-gray;
+    font-size: $base-font-size;
+    margin-right: 6px;
+  }
+}
+
+.study_detail-heading {
+  font-size: $h3-font-size;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+.divider-vertical {
+  border-right: 1px solid $color-gray-light;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+
+.study_detail-intro {
+  clear: right;
+
+  @include media($medium-screen) {
+    @include clip-margins;
+    margin-top: -20px;
+  }
+
+  .usa-alert-text {
+    font-size: $h5-font-size;
+    margin-top: 0 !important;
+  }
+
+  .usa-alert-body {
+    padding-left: 3.8rem;
+  }
+
+  .usa-alert-warning {
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.50);
+    margin-bottom: 1rem;
+    margin-top: 0;
+    padding: 13px;
+
+    @include media($medium-screen) {
+      background-size: 3.4rem;
+    }
+  }
+
+  h3 {
+    .fa {
+      margin-right: 4px;
+    }
+  }
+}
+
+.study_detail-intro-disclaimer {
+  background: linear-gradient(#FFFFFF, #EEEEEE);
+}
+
+.study_detail-meta {
+  margin-bottom: 0;
+}
+
+.study_detail-main {
+  .usa-width-one-fourth {
+    @include media($medium-screen) {
+      margin-right: 0;
+      padding-right: 1rem;
+      // width: 250px;
+      @include span-columns(3);
+    }
+  }
+
+  .usa-width-three-fourths {
+    @include media($medium-screen) {
+      padding-left: 1rem;
+      // width: calc(100% - 250px);
+      @include span-columns(9);
+    }
+  }
+}
+
+.study_detail-button-location {
+  @include margin(1rem null);
+  font-size: 1.5rem;
+
+  @include media($medium-screen) {
+    margin-right: 16px;
+  }
+
+  i {
+    margin-left: 5px;
+  }
+}
+
+.study_detail-link-eligibility {
+  font-size: $h5-font-size;
+  font-weight: $font-bold;
+  margin-bottom: 1em;
+  margin-top: 8px;
+  text-decoration: none;
+
+  i {
+    margin-left: 5px;
+  }
+}
+
+.study_detail-history {
+  color: $color-gray;
+  font-size: $h6-font-size;
+  margin-top: 0;
+}
+
+.study-status {
+  font-family: $font-sans;
+  font-size: $h6-font-size;
+  font-weight: $font-bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.study_detail-tabs {
+  border-bottom: 1px solid $color-gray-light;
+  margin-bottom: 6rem;
+  margin-top: 70px;
+  height: 46px;
+
+  li {
+    display: inline-block;
+
+    &:first-child {
+      a {
+        border-left: 1px solid $color-gray-light;
+      }
+    }
+
+    &:last-child {
+      a {
+        border-right: 1px solid $color-gray-light;
+      }
+    }
+  }
+
+  a {
+    background: linear-gradient(0deg, #EEEEEE 0%, #FFFFFF 100%);
+    border-bottom: 1px solid $color-gray-light;
+    border-left: 1px solid $color-gray-light;
+    border-top: 5px solid #8BA6C9;
+    margin-right: -4px;
+    padding: 23px 20px;
+    text-decoration: none;
+  }
+}
+
+a.study_detail-tabs-active {
+  background: $color-white;
+  border-bottom: 1px solid $color-white;
+  border-top-color: $color-primary;
+  color: $color-base;
+  font-weight: $font-bold;
+}
+
+// Breadcrumb navigation -------- //
+
+.sticky {
+  @include media($medium-screen) {
+    max-height: 100vh;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+  }
+}
+
+.submenu {
+  @include padding(1.5rem null);
+  border-bottom: 1px solid $color-gray-light;
+}
+
+.breadcrumbs {
+  display: inline-block;
+
+  li {
+    color: $color-gray;
+    display: inline-block;
+    font-size: 1.5rem;
+
+    &:not(:last-child):after {
+      @include margin(null 5px);
+      background-image: url('#{$image-path}/alerts/angle-arrow-down.png');
+      background-image: url('#{$image-path}/angle-arrow-down.svg');
+      background-repeat: no-repeat;
+      background-position: right 0 center;
+      background-size: 100%;
+      display: inline-block;
+      content: '';
+      height: 1rem;
+      width: 1rem;
+      transform: rotate(-90deg);
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.saved_studies {
+  float: right;
+}
+
+.box {
+  @include clip-margins;
+  padding: 2rem;
+}
+
+.usa-grid {
+  .search_result-search form {
+    @include margin(1rem null);
+  }
+}
+
+.search_result-search {
+  @include padding(3rem null);
+  background-color: $color-primary-darker;
+  color: $color-white;
+
+  label {
+    font-size: $small-font-size;
+    font-weight: $font-bold;
+
+    @include media($medium-screen) {
+      margin-top: 0;
+    }
+  }
+
+  button {
+    background-color: #4295CD;
+
+    &:hover {
+      background-color: $color-primary;
+    }
+
+    @include media($medium-screen) {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      height: 44px;
+      margin-bottom: 4px !important;
+      margin-left: -4px;
+      margin-right: 0;
+      width: 6.5%;
+      vertical-align: bottom;
+    }
+  }
+}
+
+[for=search_field-condition] {
+  margin-top: 0
+}
+
+.search_result-link-advanced_search {
+  color: $color-white;
+  float: right;
+  margin-top: 4px;
+
+  &:hover {
+    color: $color-white;
+  }
+}
+
+.search_results-info {
+  @include padding(2rem null);
+  border-bottom: 1px solid rgba(174, 176, 181, .43);
+  border-left: 1px solid #f1f1f1;
+  display: flex;
+  position: relative;
+
+  @include media($medium-screen) {
+    padding-left: 2rem;
+  }
+}
+
+.form-sort {
+  font-size: $small-font-size;
+  position: absolute;
+  right: 0;
+  top: 14px;
+
+  @include media($medium-screen) {
+    width: 127px;
+  }
+
+  label {
+    margin-left: -51px;
+    margin-top: 9px;
+    position: absolute;
+  }
+
+  select {
+    @include padding(0 0 0 null);
+    font-size: $small-font-size;
+    height: 35px;
+    margin: 0;
+  }
+}
+
+.search_results-heading {
+  @include padding(1rem null);
+  border-bottom: 1px solid #f1f1f1;
+  border-left: 1px solid #f1f1f1;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+}
+
+.search_results-search-heading {
+  @include h3;
+  color: $color-white;
+  font-family: $font-serif;
+}
+
+.search_results-search-heading:first-of-type {
+  margin-right: 8px;
+}
+
+.search_results-search-heading:last-of-type {
+  @include margin(null 1rem);
+}
+
+.search_result-metadata {
+  color: $color-gray;
+  display: inline;
+  font-size: 1.2rem;
+}
+
+.search_result-submitter {
+  color: $color-gray;
+}
+
+.search_result-study-status {
+  color: $color-gray;
+  font-weight: $font-bold;
+}
+
+.study-status-recruiting {
+  color: $color-green;
+}
+
+.study-status-suspended {
+  color: $color-secondary;
+}
+
+.study-status-enrolling {
+  color: #A77914;
+}
+
+.search_result-list {
+  > li {
+    border-bottom: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    padding: 2rem;
+
+    &:nth-of-type(odd) {
+      background-color: #FBFBFB;
+      // position: relative;
+    }
+  }
+}
+
+.link-subscribe {
+  font-size: $small-font-size;
+
+  i {
+    margin-right: 4px;
+  }
+}
+
+.search_result-item {
+  display: table;
+
+  .usa-label {
+    border-radius: 0;
+    cursor: default;
+    display: table;
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+  }
+
+  p {
+    @include margin(0.8rem null);
+  }
+}
+
+.search_result-heading {
+  @include margin(3px null);
+  font-family: $font-sans;
+  font-size: 2rem;
+  font-weight: $font-normal;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.search_result-intervention {
+  font-size: $h6-font-size;
+
+  li {
+    list-style-type: disc;
+  }
+}
+
+.search_result-filter {
+  font-size: $small-font-size;
+  margin-right: 0;
+
+  fieldset {
+    margin-top: 30px;
+
+    &:first-of-type {
+      margin-top: 15px;
+    }
+
+    li:last-child {
+      label {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  legend {
+    font-size: $small-font-size;
+  }
+
+  h5 {
+    margin: 0;
+  }
+
+  .form-label {
+    font-size: $small-font-size;
+    font-weight: $font-bold;
+  }
+
+  select {
+    font-size: $small-font-size;
+  }
+}
+
+.search_result-filter-heading {
+  border-bottom: 1px solid rgba(174, 176, 181, .43);
+  height: 63px;
+  line-height: 67px;
+}
+
+.search_result-filter-input-indent {
+  margin-left: 28px;
+}
+
+.search_result-filter-inner {
+  margin-right: 2rem;
+}
+
+.search-term-highlight {
+  font-weight: $font-bold;
+}
+
+.search_result-snippet {
+  font-size: $small-font-size;
+}
+
+.search_result-count {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.search_result-info_bar {
+  @include padding(1.2rem null);
+  box-shadow: 0 2px 4px 0 rgba(174,176,181,0.80);
+
+  .usa-grid {
+    position: relative;
+  }
+}
+
+.search_result-search-input {
+  @include media($medium-screen) {
+    display: inline-block;
+    margin-right: -5px;
+    width: 26.8%;
+  }
+
+  &:last-of-type {
+    @include media($medium-screen) {
+      margin-right: 0;
+    }
+  }
+}
+
+.search_result-search-input-distance {
+  @include media($medium-screen) {
+    width: 13.6%;
+  }
+}
+
+.search_result-metadata-divider {
+  @include margin(null 3px);
+  color: $color-gray-light;
+  font-size: $h6-font-size;
+}
+
+.pagination {
+  text-align: center;
+
+  ol {
+    list-style-type: none;
+    padding-left: 2rem;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    padding: 3px 10px;
+    text-decoration: none;
+
+    &.is-active {
+      background-color: $color-primary;
+      border-radius: 100%;
+      color: $color-white;
+    }
+  }
+
+  .fa-angle-right {
+    margin-left: 3px;
+  }
+}
+
+.page-study-detail-tabular-view {
+  thead th {
+    background-color: $color-primary-darkest;
+    color: $color-white;
+  }
+
+  th {
+    background-color: $color-gray-lightest;
+    font-weight: $font-bold;
+    width: 150px;
+  }
+}
+
+.term {
+  // background-image: url("data:image/svg+xml;charset=utf8, %3Csvg%20%20fill%3D%27%23112e51%27%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M19.415%2016.18l-9.044%203.744a.934.934%200%200%201-.74%200L.584%2016.18A.938.938%200%200%201%200%2015.314V.937A.937.937%200%200%201%201.296.072l.002.002.008.003L10%203.673%2018.694.075l.01-.003A.938.938%200%200%201%2020%20.936v14.376c0%20.393-.242.73-.585.868zM9.063%2017.66V5.314L1.875%202.34v12.346l7.188%202.974zm9.062-15.32l-7.188%202.974V17.66l7.188-2.974V2.34z%22%2F%3E%3C%2Fsvg%3E");
+  // background-repeat: no-repeat;
+  // background-size: .6em;
+  // background-position: 100% 50%;
+  // background-color: transparent;
+  // box-shadow: 0 0 0 4px transparent;
+  // border-bottom: none;
+  cursor: pointer;
+  display: inline-block;
+  // padding-right: .9em;
+
+  svg {
+    margin-left: 2px;
+    width: 13px;
+  }
+}
+
+// Logo ------- //
+
+.usa-header-basic {
+  .usa-navbar {
+    @include media($nav-width) {
+      width: 302px;
+    }
+  }
+
+  .usa-logo {
+    width: calc(100% - 58px - 1.5rem);
+
+    @include media($nav-width) {
+      // bottom: 12px;
+      width: 100%;
+    }
+
+    a {
+      @include media($nav-width) {
+        display: block;
+      }
+    }
+  }
+}
+
+.logo-icon {
+  float: left;
+  margin-right: 8px;
+  margin-top: 8px;
+  width: 40px;
+
+  @include media($nav-width) {
+    height: 36px;
+    margin-top: -1px;
+    width: auto;
+  }
+}
+
+.usa-logo-text {
+  color: #616265;
+  font-family: $helvetica;
+
+  @include media($nav-width) {
+    font-size: 15px;
+    line-height: 0.9;
+    padding-top: 10px;
+  }
+}
+
+.usa-logo-text-title {
+  font-weight: 500;
+}
+
+.usa-logo-text-website {
+  color: #20558a;
+  font-weight: $font-normal;
+
+  @include media($nav-width) {
+    font-size: 10px;
+  }
+}
+
+// Custom tooltip styles -------------- //
+
+// Tooltip container
+.tooltip {
+  display: inline-block;
+  position: absolute;
+  margin-top: -34px;
+
+  .usa-label {
+    cursor: default;
+
+    &:hover,
+    &:focus {
+      .tooltip-text {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.tooltip-label {
+  &:focus,
+  &:hover {
+    + .tooltip .tooltip-text {
+      opacity: 1;
+    }
+  }
+}
+
+.tooltip-text {
+  display: none;
+
+  @include media($medium-screen) {
+    @include margin(0 null 6px null);
+    background-color: $color-gray-dark;
+    border-radius: $border-radius;
+    bottom: 100%;
+    color: $color-white;
+    display: block;
+    font-size: 14px;
+    left: 0;
+    padding: 7px 10px;
+    width: 230px;
+    opacity: 0;
+    position: absolute; // Position the tooltip text
+    transition: all 0.1s ease-in-out;
+    transition-delay: 0.1s;
+    z-index: 1;
+
+    &::after {
+      border-width: 5px;
+      border-style: solid;
+      border-color: $color-base transparent transparent transparent;
+      content: " ";
+      left: 10%;
+      margin-left: -12px;
+      position: absolute;
+      top: 100%; // At the bottom of the tooltip
+    }
+  }
+}
