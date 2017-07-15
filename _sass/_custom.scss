@@ -438,7 +438,7 @@ input[id="location"] {
   }
 }
 
-.logo-dhs {
+.logo-dhhs {
   width: 12%;
 }
 
@@ -1075,7 +1075,13 @@ a.study_detail-tabs-active {
   // border-bottom: none;
   cursor: pointer;
   display: inline-block;
+  transition: background-color,.2s,box-shadow,.2s,color,.2s;
   // padding-right: .9em;
+
+  // &:hover {
+  //   box-shadow: 0 0 0 4px $color-gray-lighter;
+  //   background: $color-gray-lighter;
+  // }
 
   svg {
     margin-left: 2px;
