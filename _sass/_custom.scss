@@ -70,7 +70,7 @@ hr {
   border-bottom: 0;
   border-top: 1px solid $color-gray-light;
   margin-bottom: 6rem;
-  margin-top: 6rem !important;
+  margin-top: 6rem;
 }
 
 .hr-small {
@@ -360,6 +360,7 @@ input[id="location"] {
 
 // Footer
 .usa-footer-primary-section {
+  @include padding(3rem null 2rem null);
   background-color: $color-primary-darkest;
   color: $color-white;
 
@@ -372,9 +373,13 @@ input[id="location"] {
       text-decoration: underline;
     }
   }
+
+  .footer-recources {
+    padding-right: 100px;
+  }
 }
 
-.usa-footer-big {
+.usa-footer {
   ul li {
     line-height: 1.5;
   }
@@ -396,13 +401,20 @@ input[id="location"] {
         content: "|";
         margin-left: 5px;
         margin-right: 2px;
-        opacity: 0.7;
+        opacity: 0.4;
       }
     }
   }
 
   a {
     color: $color-white;
+  }
+}
+
+.footer-contact {
+  p {
+    font-size: 14px;
+    margin-top: 0;
   }
 }
 
@@ -435,6 +447,11 @@ input[id="location"] {
 
 .logo-nlm {
   width: 21%;
+}
+
+.footer-divider {
+  @include margin(2rem null);
+  border-top-color: $color-primary-darker;
 }
 
 // Colors ------- //
