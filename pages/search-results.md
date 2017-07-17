@@ -80,12 +80,16 @@ class: search-results
     </div>
     <div class="usa-grid-full search_results-heading">
       <div class="usa-width-two-thirds">
-        <p class="term"><b>Study summary</b>
+        <p class="term">
+          Study summary
           {% include svg/glossary.svg %}
         </p>
       </div>
       <div class="usa-width-one-third">
-        <p class="term" data-term="Intervention"><b>Intervention type</b>{% include svg/glossary.svg %}</p>
+        <p class="term" data-term="Intervention">
+          Intervention type
+          {% include svg/glossary.svg %}
+        </p>
       </div>
     </div>
     <ol class="search_result-list usa-unstyled-list">
