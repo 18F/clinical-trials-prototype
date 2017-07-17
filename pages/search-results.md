@@ -12,7 +12,11 @@ class: search-results
       </li>
       <li>Search results</li>
     </ul>
-    <a class="saved_studies" href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i>2 saved studies</a>
+    <div class="page-links">
+      <a class="saved_studies" href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i>2 saved studies</a>
+      <span class="divider-vertical"></span>
+      <button class="js-glossary-toggle button usa-button-unstyled term">{% include svg/glossary.svg %} Glossary</button>
+    </div>
   </div>
 </nav>
 <div class="search_result-search">
@@ -81,7 +85,7 @@ class: search-results
         </p>
       </div>
       <div class="usa-width-one-third">
-        <p class="term"><b>Intervention type</b>{% include svg/glossary.svg %}</p>
+        <p class="term" data-term="Intervention"><b>Intervention type</b>{% include svg/glossary.svg %}</p>
       </div>
     </div>
     <ol class="search_result-list usa-unstyled-list">

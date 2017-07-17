@@ -1,0 +1,22 @@
+[
+  {
+    "term": "Arm",
+    "definition": "A group or subgroup of participants in a clinical trial that receives specific interventions, or no intervention, according to the study protocol. This is decided before the trial begins."
+  },
+  {
+    "term": "Accepts healthy volunteers",
+    "definition": "Indicates whether a clinical study allows people who do not have the condition or related conditions or symptoms being studied to participate in that study. (See also Accepts Healthy Volunteers data element on ClinicalTrials.gov.)"
+  },
+  {
+    "term": "Clinical study",
+    "definition": "A research study using human subjects to evaluate biomedical or health-related outcomes. Two types of clinical studies are Interventional studies (or clinical trials) and Observational studies."
+  },
+  {
+    "term": "Intervention",
+    "definition": "A process or action that is the focus of a clinical study. Interventions include drugs, medical devices, procedures, vaccines, and other products that are either investigational or already available. Interventions can also include noninvasive approaches, such as surveys, education, and interviews."
+  },
+  {
+    "term": "Recruitment status",
+    "definition": "Indicates the current stage of a clinical study and whether it is or will be open for enrollment."
+  }
+]

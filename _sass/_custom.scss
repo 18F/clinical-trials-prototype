@@ -718,7 +718,6 @@ a.study_detail-tabs-active {
 }
 
 .saved_studies {
-  float: right;
   font-weight: bold;
   font-size: 15px;
   text-decoration: none;
@@ -1081,6 +1080,7 @@ a.study_detail-tabs-active {
   // background-color: transparent;
   // box-shadow: 0 0 0 4px transparent;
   // border-bottom: none;
+  border-bottom: 1px dotted;
   cursor: pointer;
   display: inline-block;
   transition: background-color,.2s,box-shadow,.2s,color,.2s;
@@ -1217,6 +1217,144 @@ a.study_detail-tabs-active {
       margin-left: -12px;
       position: absolute;
       top: 100%; // At the bottom of the tooltip
+    }
+  }
+}
+
+// Glossary ------- //
+
+.glossary {
+  background: $color-base;
+  color: $color-white;
+  width: 30rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 2rem;
+  transition: right .2s;
+  z-index: 9999;
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  input[type="search"] {
+    box-sizing: inherit;
+  }
+}
+
+.glossary[aria-hidden=true] {
+  right: -30rem;
+}
+
+.glossary div[aria-hidden=true] {
+  display: none !important;
+}
+
+.glossary__term {
+  appearance: none;
+  background-color: transparent;
+  // font-weight: $font-normal;
+  margin: 0;
+  padding: 0.85rem 1rem;
+  position: relative;
+  text-align: left;
+  width: 100%;
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &:after {
+    background-image: url('#{$image-path}/angle-arrow-down-hover.png');
+    background-image: url('#{$image-path}/angle-arrow-down-hover.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    height: 1rem;
+    right: 1rem;
+    top: 11px;
+    position: absolute;
+    width: 1rem;
+    content: "";
+    transform: rotate(-90deg);
+  }
+
+  &[aria-expanded="true"] {
+    // font-weight: $font-bold;
+
+    &:after {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+.glossary-heading {
+  margin-top: 0;
+}
+
+.glossary__definition {
+  color: $color-gray-lighter;
+  // font-size: 1.5rem;
+  padding: 0.85rem 1rem;
+}
+
+.js-accordion button {
+  width: 100%;
+}
+
+.accordion-trigger--expanded {
+  background-color: #112e51;
+}
+
+.js-glossary-toggle {
+  border-bottom: none;
+  color: $color-primary;
+  font-size: 1.5rem;
+  font-weight: $font-bold;
+  line-height: initial;
+
+  &:hover {
+    color: $color-primary-darker;
+  }
+
+  svg {
+    margin-right: 2px;
+  }
+}
+
+.page-links {
+  float: right;
+
+  svg {
+    margin-left: 0;
+    margin-right: 2px;
+  }
+}
+
+.js-glossary-close {
+  font-size: 20px;
+  float: right;
+}
+
+.js-glossary-search {
+  &::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button !important;
+  }
+}
+
+.glossary__content {
+  li {
+    border-bottom: 1px solid $color-gray-light;
+    margin-bottom: 0;
+
+    &:first-child {
+      border-top: 1px solid $color-gray-light;
     }
   }
 }

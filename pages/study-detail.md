@@ -101,8 +101,10 @@ class: study-detail
       <thead>
         <tr>
           <th scope="col">
-            <span class="term">Arms{% include svg/glossary.svg %}</span></th>
-          <th scope="col"><span class="term">Assigned intervention{% include svg/glossary.svg %}</span></th>
+            <span data-term="arm" class="term">Arms{% include svg/glossary.svg %}</span></th>
+          <th scope="col">
+            <span class="term" data-term="Intervention">Assigned intervention{% include svg/glossary.svg %}</span>
+          </th>
         </tr>
       </thead>
       <tbody>
