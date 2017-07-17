@@ -55,7 +55,7 @@ class: search-results
 </div>
 <nav class="search_result-info_bar">
   <div class="usa-grid">
-    <p class="search_result-count">Showing 1-16 out of 230 results for <b>“PTSD”</b> <b>“seeking participants”</b> in <b>“Palo Alto, CA.”</b> Includes synonomous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>.</p>
+    <p class="search_result-count">Showing 1-16 out of 230 results for <b>“PTSD”</b> <b>“seeking participants”</b> in <b>“Palo Alto, CA.”</b> Includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>.</p>
   </div>
 </nav>
 <div class="usa-grid">
