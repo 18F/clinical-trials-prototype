@@ -50,12 +50,12 @@ class: search-results
         <i class="fa fa-search" aria-hidden="true"></i>
       </button>
     </form>
-    <a class="search_result-link-advanced_search" href="#">Advanced search</a>
+    <a class="search_result-link-advanced_search" href="#0">Advanced search</a>
   </div>
 </div>
 <nav class="search_result-info_bar">
   <div class="usa-grid">
-    <p class="search_result-count">Showing 1-16 out of 230 results for <b>“PTSD”</b> <b>“seeking participants”</b> in <b>“Palo Alto, CA.”</b> Includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>.</p>
+    <p class="search_result-count">Showing 1-16 out of 230 results for:<br>“<b>PTSD</b>” (includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>) in “<b>Palo Alto, CA</b>” and “<b>seeking participants</b>.”</p>
   </div>
 </nav>
 <div class="usa-grid">
@@ -64,10 +64,12 @@ class: search-results
   </aside>
   <div class="usa-width-three-fourths">
     <div class="search_results-info">
-      <div class="usa-width-one-half">
+      <div class="usa-width-two-thirds">
         <a class="link-subscribe" href="javascript:void(0);"><i class="fa fa-rss" aria-hidden="true"></i>Subscribe to updates on this search (RSS)</a>
+        <span class="divider-vertical"></span>
+        <a class="link-subscribe" href="#0"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
       </div>
-      <div class="usa-width-one-half">
+      <div class="usa-width-one-third">
         <form class="form-sort" action="">
           <label for="options">Sort by:</label>
           <select name="options" id="options">
@@ -80,9 +82,8 @@ class: search-results
     </div>
     <div class="usa-grid-full search_results-heading">
       <div class="usa-width-two-thirds">
-        <p class="term">
+        <p>
           Study summary
-          {% include svg/glossary.svg %}
         </p>
       </div>
       <div class="usa-width-one-third">

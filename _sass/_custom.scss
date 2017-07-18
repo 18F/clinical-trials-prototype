@@ -538,7 +538,8 @@ input[id="location"] {
   }
 
   .usa-alert-text {
-    font-size: $h5-font-size;
+    font-size: 14px;
+    line-height: 17px;
     margin-top: 0 !important;
   }
 
@@ -575,6 +576,8 @@ input[id="location"] {
 }
 
 .study_detail-main {
+  margin-bottom: 6rem;
+
   .usa-width-one-fourth {
     @include media($medium-screen) {
       margin-right: 0;
@@ -586,9 +589,8 @@ input[id="location"] {
 
   .usa-width-three-fourths {
     @include media($medium-screen) {
-      padding-left: 1rem;
-      // width: calc(100% - 250px);
       @include span-columns(9);
+      padding-left: 1rem;
     }
   }
 }
@@ -779,7 +781,6 @@ a.study_detail-tabs-active {
 
 .search_result-link-advanced_search {
   color: $color-white;
-  float: right;
   margin-top: 4px;
 
   &:hover {
@@ -1082,6 +1083,7 @@ a.study_detail-tabs-active {
   // box-shadow: 0 0 0 4px transparent;
   // border-bottom: none;
   border-bottom: 1px dotted;
+  color: $color-primary-darkest;
   cursor: pointer;
   display: inline-block;
   transition: background-color,.2s,box-shadow,.2s,color,.2s;
