@@ -18,7 +18,7 @@ class: home
     <div class="usa-width-seven-twelfths">
       <form class="form-search-home" action="{{ site.baseurl }}/search-results/">
         <fieldset class="fieldset-search">
-          <legend class="search-legend">Find a study</legend>
+          <legend class="search-legend">Find a study <span class="usa-form-hint">(all fields are optional)</span></legend>
           <fieldset class="usa-fieldset-inputs usa-fieldset-tabs">
             <legend class="usa-sr-only">Study Status</legend>
             <ul class="usa-unstyled-list">

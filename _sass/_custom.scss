@@ -168,6 +168,11 @@ th {
   @include h4;
   font-family: $font-serif;
   margin-bottom: 1em;
+
+  .usa-form-hint {
+    font-size: 1.5rem;
+    font-weight: $font-normal;
+  }
 }
 
 .form-search-home {
@@ -248,11 +253,6 @@ th {
       }
     }
   }
-
-  .usa-form-hint {
-    color: #6e6e6e; // lightest accessible gray on $color-gray-light
-    font-size: $small-font-size;
-  }
 }
 
 .form-search-home-inner {
@@ -264,6 +264,11 @@ th {
   label:first-child {
     margin-top: 0;
     padding-top: 3rem;
+  }
+
+  .usa-form-hint {
+    color: #6e6e6e; // lightest accessible gray on $color-gray-light
+    font-size: $small-font-size;
   }
 }
 
@@ -879,6 +884,7 @@ a.study_detail-tabs-active {
     border-bottom: 1px solid #f1f1f1;
     border-left: 1px solid #f1f1f1;
     padding: 2rem;
+    width: 100%;
 
     &:nth-of-type(odd) {
       background-color: #FBFBFB;
