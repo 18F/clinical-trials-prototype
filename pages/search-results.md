@@ -89,7 +89,7 @@ class: search-results
       <div class="usa-width-one-third">
         <p class="term" data-term="Intervention">
           Intervention type
-          {% include svg/glossary.svg %}
+          <i class="fa fa-info-circle" aria-hidden="true"></i>
         </p>
       </div>
     </div>
@@ -97,7 +97,7 @@ class: search-results
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-recruiting">
+            <p class="search_result-metadata study-status study-status-recruiting">
               <i class="fa fa-circle" aria-hidden="true"></i>
               Recruiting
             </p>
@@ -126,7 +126,7 @@ class: search-results
             <span class="tooltip-text" id="tooltip-text-content-1" role="tooltip">Study posted within the last 30 days</span>
           </div>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Enrolling by invitation</p>
+            <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Enrolling by invitation</p>
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: The Cooper Health System</p>
             <h3 class="search_result-heading">
@@ -147,7 +147,7 @@ class: search-results
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
+            <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p>
             <h3 class="search_result-heading">
@@ -167,7 +167,7 @@ class: search-results
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
+            <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Penn State University</p>
             <h3 class="search_result-heading">
@@ -187,7 +187,7 @@ class: search-results
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
+            <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Cedars-Sinai Medical Center</p>
             <h3 class="search_result-heading">
@@ -213,7 +213,7 @@ class: search-results
             <span class="tooltip-text" id="tooltip-text-content-2" role="tooltip">Study posted within the last 30 days</span>
           </div>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
+            <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Humana</p>
             <h3 class="search_result-heading">
@@ -235,7 +235,7 @@ class: search-results
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
+            <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p>
             <h3 class="search_result-heading">
@@ -255,7 +255,7 @@ class: search-results
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
+            <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Penn State University</p>
             <h3 class="search_result-heading">
@@ -275,7 +275,7 @@ class: search-results
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
+            <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Cedars-Sinai Medical Center</p>
             <h3 class="search_result-heading">
@@ -301,7 +301,7 @@ class: search-results
             <span class="tooltip-text" id="tooltip-text-content-2" role="tooltip">Study posted within the last 30 days</span>
           </div>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata search_result-study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
+            <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
             <span class="search_result-metadata-divider">|</span>
             <p class="search_result-metadata search_result-submitter">Information from: Humana</p>
             <h3 class="search_result-heading">

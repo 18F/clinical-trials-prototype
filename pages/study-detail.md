@@ -48,6 +48,9 @@ class: study-detail
         </ul>
       </li>
       <li>
+        <a href="#primary-outcome-measure">Primary outcome measure</a>
+      </li>
+      <li>
         <a href="#contact-and-locations">Contact and locations</a>
       </li>
       <li>
@@ -101,9 +104,9 @@ class: study-detail
       <thead>
         <tr>
           <th scope="col">
-            <span data-term="arm" class="term">Arms{% include svg/glossary.svg %}</span></th>
+            <span data-term="arm" class="term">Arms <i class="fa fa-info-circle" aria-hidden="true"></i></span></th>
           <th scope="col">
-            <span class="term" data-term="Intervention">Assigned intervention{% include svg/glossary.svg %}</span>
+            <span class="term" data-term="Intervention">Assigned intervention <i class="fa fa-info-circle" aria-hidden="true"></i></span>
           </th>
         </tr>
       </thead>
@@ -171,6 +174,8 @@ class: study-detail
     <p>Actual or threatened interpersonal violence in the home</p>
     <h4>Estimated Enrollment:</h4>
     <p>200</p>
+    <hr>
+    <h2 id="primary-outcome-measure">Primary outcome measure</h2>
     <hr>
     <h2 id="contact-and-locations">Contact and locations</h2>
     <p>To learn more about this study, you or your doctor may contact the study research staff using the contact information provided by the sponsor.</p>
