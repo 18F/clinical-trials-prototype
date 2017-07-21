@@ -96,7 +96,23 @@ class: study-detail
     <p>c) Explain why human subjects must be used for this project. (i.e. purpose of study is to test efficacy of investigational device in individuals with specific condition; purpose of study is to examine specific behavioral traits in humans in classroom or other environment)</p>
     <p>The purpose of this study is to evaluate how Veterans and their partners interact with evidence-based mobile apps for improving PTSD symptoms.</p>
     <h3 id="primary-outcome-measures">Primary outcome measures</h3>
-    <p>Caregiver Burden [ Time Frame: 10 weeks ]<br>
+    <ul>
+      <li>Caregiver Burden [ Time Frame: 10 weeks ]<br>
+      Montgomery Burden Interview</li>
+      <li>Functional Well-Being [ Time Frame: 10 weeks ]<br>
+      Partner-rated Interpersonal Well-Being Scale</li>
+      <li>Personal Health Questionnaire Depression Scale [ Time Frame: 10 weeks ]<br>
+      8 Item scale measuring depression.</li>
+      <li>Generalized Anxiety Symptoms [ Time Frame: 10 weeks ]<br>
+      Generalized Anxiety Disorder-7 Scale (GAD-7)</li>
+      <li>PTSD Symptoms [ Time Frame: 10 weeks ]<br>
+      5 Item Partner-rated Posttraumatic Stress Disorder Checklist-5 (PCL-5)</li>
+      <li>Positive Relationship Behaviors [ Time Frame: 10 weeks ]<br>
+      Author-constructed relationship behaviors scale</li>
+      <li>Stress [ Time Frame: 10 weeks ]<br>
+      Perceived Stress Scale</li>
+    </ul>
+<!--     <p>Caregiver Burden [ Time Frame: 10 weeks ]<br>
     Montgomery Burden Interview</p>
     <p>Functional Well-Being [ Time Frame: 10 weeks ]<br>
     Partner-rated Interpersonal Well-Being Scale</p>
@@ -109,7 +125,7 @@ class: study-detail
     <p>Positive Relationship Behaviors [ Time Frame: 10 weeks ]<br>
     Author-constructed relationship behaviors scale</p>
     <p>Stress [ Time Frame: 10 weeks ]<br>
-    Perceived Stress Scale</p>
+    Perceived Stress Scale</p> -->
     <ul class="usa-accordion-bordered">
       <li>
         <button
@@ -120,14 +136,24 @@ class: study-detail
           Secondary outcome measures
         </button>
         <div id="secondary-outcome-measures-1" class="usa-accordion-content">
-          <p>Emotional Intimacy [ Time Frame: 10 weeks ]<br>
+          <ul>
+            <li>Emotional Intimacy [ Time Frame: 10 weeks ]<br>
+            Personal Assessment of Intimacy in Relationships (PAIR) Scale</li>
+            <li>Caregiving Self-Efficacy Scale [ Time Frame: 10 weeks ]<br>
+            Author-constructed questionnaire</li>
+            <li>Positive Partner Communication [ Time Frame: 10 weeks ]<br>
+            Measured with items combined from the Social Constraints Scale and Communication Danger Signs Scale</li>
+            <li>Relationship Self-Efficacy [ Time Frame: 10 weeks ]<br>
+            Author-constructed questionnaire</li>
+          </ul>
+<!--           <p>Emotional Intimacy [ Time Frame: 10 weeks ]<br>
           Personal Assessment of Intimacy in Relationships (PAIR) Scale</p>
           <p>Caregiving Self-Efficacy Scale [ Time Frame: 10 weeks ]<br>
           Author-constructed questionnaire</p>
           <p>Positive Partner Communication [ Time Frame: 10 weeks ]<br>
           Measured with items combined from the Social Constraints Scale and Communication Danger Signs Scale</p>
           <p>Relationship Self-Efficacy [ Time Frame: 10 weeks ]<br>
-          Author-constructed questionnaire</p>
+          Author-constructed questionnaire</p> -->
         </div>
       </li>
     </ul>

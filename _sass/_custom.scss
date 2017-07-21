@@ -791,7 +791,7 @@ a.study_detail-tabs-active {
 }
 
 .search_result-search {
-  @include padding(3rem null);
+  @include padding(3rem null 1.5rem null);
   background-color: $color-primary-alt-lightest;
 
   label {
@@ -1290,17 +1290,24 @@ a.study_detail-tabs-active {
 
 // Glossary ------- //
 
+$glossary-width: 364px;
+
 .glossary {
   background: $color-primary-darkest;
   color: $color-white;
-  width: 30rem;
+  width: 300px;
   position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
-  padding: 2rem;
+  overflow-y: auto;
+  padding: 2.4rem;
   transition: right .2s;
   z-index: 9999;
+
+  @include media($small-screen) {
+    width: $glossary-width;
+  }
 
   ul {
     padding: 0;
@@ -1312,11 +1319,21 @@ a.study_detail-tabs-active {
 
   input[type="search"] {
     box-sizing: inherit;
+    margin-bottom: 4rem;
+    max-width: 289px;
+  }
+
+  label {
+    margin-top: 2.6rem;
   }
 }
 
 .glossary[aria-hidden=true] {
-  right: -30rem;
+  right: -300px;
+
+  @include media($small-screen) {
+    right: -$glossary-width;
+  }
 }
 
 .glossary div[aria-hidden=true] {
@@ -1326,9 +1343,10 @@ a.study_detail-tabs-active {
 .glossary__term {
   appearance: none;
   background-color: transparent;
-  // font-weight: $font-normal;
+  font-family: $font-serif;
+  font-size: 17px;
   margin: 0;
-  padding: 0.85rem 1rem;
+  padding: 0.85rem 2.5rem 0.85rem 1rem;
   position: relative;
   text-align: left;
   width: 100%;
@@ -1363,14 +1381,12 @@ a.study_detail-tabs-active {
 
 .glossary-heading {
   display: inline;
-  font-size: 17px;
+  font-size: 22px;
   margin-top: 0;
 }
 
 .glossary__definition {
-  color: $color-cool-blue-lightest;
-  font-size: 1.5rem;
-  padding: 0.85rem 1rem 3rem 1rem;
+  padding: 0.85rem 1rem 2em 1rem;
 }
 
 .js-accordion button {
@@ -1408,6 +1424,7 @@ a.study_detail-tabs-active {
 .js-glossary-close {
   font-size: 20px;
   float: right;
+  width: initial;
 }
 
 .js-glossary-search {
@@ -1418,7 +1435,7 @@ a.study_detail-tabs-active {
 
 .glossary__content {
   li {
-    border-bottom: 1px solid $color-gray-light;
+    border-bottom: 1px solid $color-white;
     margin-bottom: 0;
 
     &:first-child {
