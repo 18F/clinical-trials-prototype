@@ -194,6 +194,10 @@ module.exports=[
   {
     "term": "Recruitment status",
     "definition": "Indicates the current stage of a clinical study and whether it is or will be open for enrollment."
+  },
+  {
+    "term": "Results posted",
+    "definition": "The study sponsor or responsible party has submitted results and they've been posted to ClinicalTrials.gov."
   }
 ]
 

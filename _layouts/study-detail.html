@@ -24,17 +24,24 @@ class: study-detail
       Save this study
     </a>
     <span class="divider-vertical"></span>
+    <button class="js-glossary-toggle button usa-button-unstyled term">{% include svg/glossary.svg %} Glossary</button>
+    <span class="divider-vertical"></span>
     <a href="#">
       <i class="fa fa-print" aria-hidden="true"></i>
-      Print
+      <span class="usa-sr-only">Print</span>
     </a>
-    <span class="divider-vertical"></span>
     <a href="#">
       <i class="fa fa-envelope-o" aria-hidden="true"></i>
-      Email
+      <span class="usa-sr-only">Email</span>
     </a>
-    <span class="divider-vertical"></span>
-    <button class="js-glossary-toggle button usa-button-unstyled term">{% include svg/glossary.svg %} Glossary</button>
+      <a class="link-subscribe" href="javascript:void(0);">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+        <span class="usa-sr-only">Subscribe to updates on this search (RSS)</span>
+      </a>
+      <a class="link-subscribe" href="#0">
+        <i class="fa fa-download" aria-hidden="true"></i>
+        <span class="usa-sr-only">Download search results</span>
+      </a>
   </div>
   <div class="study_detail-intro usa-width-seven-twelfths">
     <span class="study-status study-status-recruiting">
@@ -42,13 +49,34 @@ class: study-detail
       Recruiting
     </span>
     <h1 class="study_detail-heading">Use of Mobile Apps for Those With PTSD and Their Partners</h1>
-    <p class="study_detail-history study_detail-meta">
+    <div class="study_detail-date">
+      <ul class="usa-unstyled-list">
+        <li class="">
+          <p class="study_detail-meta">
+            Registration first posted:<br>
+            <span class="study_detail-meta-date">June 16, 2017</span>
+          </p>
+        </li>
+        <li class="">
+          <p class="study_detail-meta">
+            Update last posted:<br>
+            <span class="study_detail-meta-date">July 5, 2017</span>
+          </p>
+        </li>
+        <li class="">
+          <p class="study_detail-meta">
+            Results first posted:<br>
+            <span class="study_detail-meta-date">July 16, 2017</span>
+          </p>
+        </li>
+      </ul>
+    </div>
+<!--     <p class="study_detail-history study_detail-meta">
       Registration first posted: June 16, 2017,
       Update last posted: July 5, 2017,
       Results first posted: July 2017.
       <a href="#history">History of changes</a>.
-    </p>
-    <p class="study_detail-meta study_detail-identifier"><b>ClinicalTrials.gov identifier (NCT)</b>: NCT02780635</p>
+    </p> -->
     <div class="study_detail-intro-disclaimer">
       <div class="usa-alert usa-alert-warning">
         <div class="usa-alert-body">
@@ -61,16 +89,18 @@ class: study-detail
   </div>
   <div class="usa-width-five-twelfths">
     <aside class="study_detail-sidebar usa-color-bg-primary-alt-lightest">
-      <h2 class="sidebar-heading-primary term">Sponsored by <i class="fa fa-info-circle" aria-hidden="true"></i></h2>
+      <h2 class="sidebar-heading-primary term">Information provided by (Responsible party) <i class="fa fa-info-circle" aria-hidden="true"></i></h2>
       <p>Arizona State University</p>
       <h3 class="sidebar-heading-secondary">Primary contact</h3>
-      <span>
+      <p class="sidebar-content-secondary">
         Georgina Kafta
         <br>
         421-652-3159
         <br>
         <a href="#">GKafta@gmail.com</a>
-      </span>
+      </p>
+      <h3 class="sidebar-heading-secondary">ClinicalTrials.gov identifier (NCT)</h3>
+      <p class="sidebar-content-secondary">NCT02780635</p>
     </aside>
   </div>
 </div>

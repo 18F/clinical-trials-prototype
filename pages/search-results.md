@@ -16,6 +16,23 @@ class: search-results
       <a class="saved_studies" href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i>2 saved studies</a>
       <span class="divider-vertical"></span>
       <button class="js-glossary-toggle button usa-button-unstyled term">{% include svg/glossary.svg %} Glossary</button>
+      <span class="divider-vertical"></span>
+      <a href="#0">
+        <i class="fa fa-print" aria-hidden="true"></i>
+        <span class="usa-sr-only">Print</span>
+      </a>
+      <a href="#0">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <span class="usa-sr-only">Email</span>
+      </a>
+      <a class="link-subscribe" href="#0">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+        <span class="usa-sr-only">Subscribe to updates on this search (RSS)</span>
+      </a>
+      <a class="link-subscribe" href="#0">
+        <i class="fa fa-download" aria-hidden="true"></i>
+        <span class="usa-sr-only">Download search results</span>
+      </a>
     </div>
   </div>
 </nav>
@@ -64,27 +81,18 @@ class: search-results
   </aside>
   <div class="usa-width-three-fourths">
     <div class="search_results-info">
-      <div class="usa-width-two-thirds">
-        <a class="link-subscribe" href="javascript:void(0);"><i class="fa fa-rss" aria-hidden="true"></i>Subscribe to updates on this search (RSS)</a>
-        <span class="divider-vertical"></span>
-        <a class="link-subscribe" href="#0"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
-      </div>
-      <div class="usa-width-one-third">
-        <form class="form-sort" action="">
-          <label for="options">Sort by:</label>
-          <select name="options" id="options">
-            <option value="value1">Most relevant</option>
-            <option value="value2">Newest</option>
-            <option value="value3">Oldest</option>
-          </select>
-        </form>
-      </div>
+      <form class="form-sort" action="">
+        <label for="options">Sort by:</label>
+        <select name="options" id="options">
+          <option value="value1">Most relevant</option>
+          <option value="value2">Newest</option>
+          <option value="value3">Oldest</option>
+        </select>
+      </form>
     </div>
     <div class="usa-grid-full search_results-heading">
       <div class="usa-width-two-thirds">
-        <p>
-          Study summary
-        </p>
+        <p class="search_results-heading-study">Study details</p>
       </div>
       <div class="usa-width-one-third">
         <p class="term" data-term="Intervention">
@@ -101,8 +109,8 @@ class: search-results
               <i class="fa fa-circle" aria-hidden="true"></i>
               Recruiting
             </p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Latin American Cooperative Oncology Group</p>
+<!--             <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Latin American Cooperative Oncology Group</p> -->
             <h3 class="search_result-heading">
               <a href="{{ site.baseurl }}/study-detail/">Use of Mobile Apps for Those With <b>PTSD</b> and Their Partners</a>
             </h3>
@@ -127,8 +135,8 @@ class: search-results
           </div>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Enrolling by invitation</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: The Cooper Health System</p>
+<!--             <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: The Cooper Health System</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Yoga Online Feasibility to Reduce <b>PTSD</b></a>
             </h3>
@@ -148,8 +156,8 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p>
+<!--             <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related <b>PTSD</b></a>
             </h3>
@@ -168,8 +176,8 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Penn State University</p>
+<!--             <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Penn State University</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Efficacy of 60-minute Versus 90-minute Sessions in Treating <b>PTSD</b> Using Prolonged Exposure</a>
             </h3>
@@ -188,8 +196,8 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Cedars-Sinai Medical Center</p>
+<!--             <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Cedars-Sinai Medical Center</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Intensive Weekend Retreat Multi-Couple Group Therapy for <b>PTSD</b></a>
             </h3>
@@ -214,8 +222,8 @@ class: search-results
           </div>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Humana</p>
+<!--             <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Humana</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (<b>PTSD</b>)</a>
             </h3>
@@ -236,8 +244,8 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p>
+<!--             <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related <b>PTSD</b></a>
             </h3>
@@ -256,8 +264,8 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Penn State University</p>
+<!--             <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Penn State University</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Efficacy of 60-minute Versus 90-minute Sessions in Treating <b>PTSD</b> Using Prolonged Exposure</a>
             </h3>
@@ -276,8 +284,8 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Cedars-Sinai Medical Center</p>
+<!--             <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Cedars-Sinai Medical Center</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Intensive Weekend Retreat Multi-Couple Group Therapy for <b>PTSD</b></a>
             </h3>
@@ -302,8 +310,8 @@ class: search-results
           </div>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Humana</p>
+<!--             <span class="search_result-metadata-divider">|</span>
+            <p class="search_result-metadata search_result-submitter">Information from: Humana</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (<b>PTSD</b>)</a>
             </h3>

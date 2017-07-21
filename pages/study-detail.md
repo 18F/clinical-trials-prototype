@@ -23,16 +23,16 @@ class: study-detail
   <aside class="usa-width-one-fourth sticky">
     <ul class="usa-sidenav-list">
       <li>
-        <a class="usa-current" href="#overview">Overview</a>
+        <a class="usa-current" href="#study-description">Study description</a>
         <ul class="usa-sidenav-sub_list">
           <li>
             <a href="#purpose">Purpose</a>
           </li>
           <li>
-            <a href="#whats-being-tested">What’s being tested</a>
+            <a href="#primary-outcome-measures">Primary outcome measures</a>
           </li>
           <li>
-            <a href="#additional-study-details">Additional study details</a>
+            <a href="#whats-being-studied">What’s being studied</a>
           </li>
         </ul>
       </li>
@@ -48,38 +48,35 @@ class: study-detail
         </ul>
       </li>
       <li>
-        <a href="#primary-outcome-measure">Primary outcome measure</a>
-      </li>
-      <li>
         <a href="#contact-and-locations">Contact and locations</a>
       </li>
       <li>
-        <a href="#more-information">More information</a>
+        <a href="#additional-study-details">Additional study details</a>
         <ul class="usa-sidenav-sub_list">
           <li>
             <a href="#study-numbers">Study numbers</a>
           </li>
           <li>
-            <a href="#history">History of changes</a>
+            <a href="#important-dates">Important dates</a>
           </li>
           <li>
             <a href="#keywords">Keywords</a>
           </li>
-          <li>
-            <a href="#external-health-links">MedlinePlus resources</a>
-          </li>
         </ul>
+        <li>
+          <a href="#related-publications">Related publications</a>
+        </li>
       </li>
     </ul>
   </aside>
   <div class="usa-width-three-fourths usa-content">
-    <h2 id="overview">Overview</h2>
+    <h2 id="study-description">Study description</h2>
     <h3 id="purpose">Purpose</h3>
     <table>
       <thead>
         <tr>
           <th scope="col">Condition</th>
-          <th scope="col">What’s being tested</th>
+          <th scope="col">What’s being studied</th>
         </tr>
       </thead>
       <tbody>
@@ -98,8 +95,44 @@ class: study-detail
     <p>Understanding ways to improve the public health impact of public-facing, evidence-based mobile apps is critical. This study will test a low-cost, "high-touch" approach to improving the outcomes associated with use of the PTSD Coach and PTSD Family Coach mobile apps,which are already available to the general public and used by over 55,000 new users per year.This study will test whether the involvement of an intimate partner in the use of a mobile app for PTSD will result in changes in how the mobile apps are used and in relationship quality and PTSD symptoms over time. Additionally, this study will test whether the addition of a discussion board can improve engagement with the apps and/or outcomes. The study will also provide useful qualitative data that can inform the development of subsequent dyadic interventions using mobile technologies.</p>
     <p>c) Explain why human subjects must be used for this project. (i.e. purpose of study is to test efficacy of investigational device in individuals with specific condition; purpose of study is to examine specific behavioral traits in humans in classroom or other environment)</p>
     <p>The purpose of this study is to evaluate how Veterans and their partners interact with evidence-based mobile apps for improving PTSD symptoms.</p>
-    <h3 id="whats-being-tested">What’s being tested</h3>
-    <p>In interventional studies, participants are assigned to receive one or more interventions (or no intervention) so that researchers can evaluate the effects of the interventions on biomedical or health-related outcomes. Arm refers to each group or subgroup of participants in a clinical trial that receives specfic interventions (or no intervention) according to the study protocol.</p>
+    <h3 id="primary-outcome-measures">Primary outcome measures</h3>
+    <p>Caregiver Burden [ Time Frame: 10 weeks ]<br>
+    Montgomery Burden Interview</p>
+    <p>Functional Well-Being [ Time Frame: 10 weeks ]<br>
+    Partner-rated Interpersonal Well-Being Scale</p>
+    <p>Personal Health Questionnaire Depression Scale [ Time Frame: 10 weeks ]<br>
+    8 Item scale measuring depression.</p>
+    <p>Generalized Anxiety Symptoms [ Time Frame: 10 weeks ]<br>
+    Generalized Anxiety Disorder-7 Scale (GAD-7)</p>
+    <p>PTSD Symptoms [ Time Frame: 10 weeks ]<br>
+    5 Item Partner-rated Posttraumatic Stress Disorder Checklist-5 (PCL-5)</p>
+    <p>Positive Relationship Behaviors [ Time Frame: 10 weeks ]<br>
+    Author-constructed relationship behaviors scale</p>
+    <p>Stress [ Time Frame: 10 weeks ]<br>
+    Perceived Stress Scale</p>
+    <ul class="usa-accordion-bordered">
+      <li>
+        <button
+          class="usa-accordion-button"
+          id="secondary-outcome-measures"
+          aria-expanded="false"
+          aria-controls="secondary-outcome-measures-1">
+          Secondary outcome measures
+        </button>
+        <div id="secondary-outcome-measures-1" class="usa-accordion-content">
+          <p>Emotional Intimacy [ Time Frame: 10 weeks ]<br>
+          Personal Assessment of Intimacy in Relationships (PAIR) Scale</p>
+          <p>Caregiving Self-Efficacy Scale [ Time Frame: 10 weeks ]<br>
+          Author-constructed questionnaire</p>
+          <p>Positive Partner Communication [ Time Frame: 10 weeks ]<br>
+          Measured with items combined from the Social Constraints Scale and Communication Danger Signs Scale</p>
+          <p>Relationship Self-Efficacy [ Time Frame: 10 weeks ]<br>
+          Author-constructed questionnaire</p>
+        </div>
+      </li>
+    </ul>
+    <h3 id="whats-being-studied">What’s being studied</h3>
+    <!-- <p>In interventional studies, participants are assigned to receive one or more interventions (or no intervention) so that researchers can evaluate the effects of the interventions on biomedical or health-related outcomes. Arm refers to each group or subgroup of participants in a clinical trial that receives specfic interventions (or no intervention) according to the study protocol.</p> -->
     <table>
       <thead>
         <tr>
@@ -125,7 +158,7 @@ class: study-detail
         </tr>
       </tbody>
     </table>
-    <ul class="usa-accordion-bordered">
+<!--     <ul class="usa-accordion-bordered">
       <li>
         <button
           class="usa-accordion-button"
@@ -138,7 +171,7 @@ class: study-detail
           <p>Additional study details</p>
         </div>
       </li>
-    </ul>
+    </ul> -->
     <hr>
     <h2 id="how-to-participate">How to participate</h2>
     <h3>Talk to a healthcare professional</h3>
@@ -153,7 +186,7 @@ class: study-detail
       <li><a href="#">Accepts Healthy Volunteers:</a> No</li>
     </ul>
     <h3 id="criteria">What criteria do I need to meet?</h3>
-    <h4>Inclusion Criteria:</h4>
+    <h4 class="term">Inclusion Criteria  <i class="fa fa-info-circle" aria-hidden="true"></i>:</h4>
     <p>To be eligible to participate, participants must be either a Veteran with PTSD or living with a partner who is a Veteran with PTSD.</p>
     <h4>Veterans must be: </h4>
     <ul>
@@ -170,12 +203,10 @@ class: study-detail
       <li>Must have access to a smart phone using the iOS operating system</li>
       <li>Must be experiencing significant stress</li>
     </ul>
-    <h4>Exclusion Criteria:</h4>
+    <h4 class="term">Exclusion Criteria  <i class="fa fa-info-circle" aria-hidden="true"></i>:</h4>
     <p>Actual or threatened interpersonal violence in the home</p>
     <h4>Estimated Enrollment:</h4>
     <p>200</p>
-    <hr>
-    <h2 id="primary-outcome-measure">Primary outcome measure</h2>
     <hr>
     <h2 id="contact-and-locations">Contact and locations</h2>
     <p>To learn more about this study, you or your doctor may contact the study research staff using the contact information provided by the sponsor.</p>
@@ -249,28 +280,33 @@ class: study-detail
       <b>Contact:</b> Geraldo Queiroz, MD
     </p>
     <hr>
-    <h2 id="more-information">More information</h2>
-    <p>ClinicalTrials.gov is a registry of current and completed clinical research studies from around the world. It is managed by the National Institutes of Health, an agency of the U.S. Department of Health and Human Services that funds biomedical and behavioral research. Listing a trial on this site does not mean it is endorsed by NIH or the federal government. Please read the complete disclaimer for more details.</p>
+    <h2 id="additional-study-details">Additional study details</h2>
     <h3 id="study-numbers">Study numbers</h3>
     <p>
       ClinicalTrials.gov Identifier: NCT02780635
       <br>
       Other Study ID Numbers: 33003
     </p>
-    <h3 id="history">History of changes</h3>
+    <h3 id="important-dates">Important dates</h3>
     <ul>
-      <li><b>Study Start Date:</b> December 2015</li>
-      <li><b>Estimated Study Completion Date:</b> December 2017</li>
-      <li><b>Estimated Primary Completion Date:</b> December 2016 (Final data collection date for primary outcome measure)</li>
-      <li><b>Study First Received:</b> May 4, 2016</li>
-      <li><b>Last Updated:</b> May 24, 2016</li>
+      <li><b>Study start date:</b> December 2015</li>
+      <li><b>Estimated study completion date:</b> December 2017</li>
+      <li><b>Estimated primary completion date:</b> December 2016 (Final data collection date for primary outcome measure)</li>
+      <li><b>Study first received:</b> May 4, 2016</li>
+      <li><b>Last updated:</b> May 24, 2016</li>
     </ul>
-    <p>If you are the owner of this study and want to submit a correction, please email <a href="#">nlm@info.nlm.gov</a>.</p>
     <h3 id="sponsors">Sponsors and collaborators</h3>
-    <p>VA Palo Alto Health Care System</p>
-    <h3 id="keywords">Keywords provided by sponsor</h3>
+    <ul>
+      <li><b class="term" data-term="">Sponsors <i class="fa fa-info-circle" aria-hidden="true"></i>:</b> VA Palo Alto Health Care System</li>
+      <li><b class="term" data-term="">Collaborators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
+      <li><b class="term" data-term="">Investigators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
+      <li><b class="term" data-term="">Responsible party <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
+    </ul>
+    <h3 id="keywords">Keywords</h3>
     <p><a href="#">family</a>, <a href="#">caregiving</a>, <a href="#">ptsd</a>, <a href="#">couples</a></p>
-    <h3 id="external-health-links">MedlinePlus external health links</h3>
+    <p>If you are the owner of this study and want to submit a correction, please email <a href="#">nlm@info.nlm.gov</a>.</p>
+    <hr>
+    <h2 id="related-publications">Related publications</h2>
     <p>MedlinePlus is the National Institutes of Health's Web site for patients and their families and friends. Produced by the National Library of Medicine, the world’s largest medical library, it brings you information about diseases, conditions, and wellness issues in language you can understand. MedlinePlus offers reliable, up-to-date health information, anytime, anywhere, for free.</p>
     <ul>
       <li>
