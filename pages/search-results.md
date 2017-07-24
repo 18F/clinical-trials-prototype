@@ -15,7 +15,7 @@ class: search-results
     <div class="page-links">
       <a class="saved_studies" href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i>2 saved studies</a>
       <span class="divider-vertical"></span>
-      <button class="js-glossary-toggle button usa-button-unstyled term">{% include svg/glossary.svg %} Glossary</button>
+      <button class="js-glossary-toggle button usa-button-unstyled term"><i class="fa fa-info-circle" aria-hidden="true"></i>Glossary</button>
       <span class="divider-vertical"></span>
       <a href="#0">
         <i class="fa fa-print" aria-hidden="true"></i>
@@ -26,12 +26,12 @@ class: search-results
         <span class="usa-sr-only">Email</span>
       </a>
       <a class="link-subscribe" href="#0">
-        <i class="fa fa-rss" aria-hidden="true"></i>
-        <span class="usa-sr-only">Subscribe to updates on this search (RSS)</span>
-      </a>
-      <a class="link-subscribe" href="#0">
         <i class="fa fa-download" aria-hidden="true"></i>
         <span class="usa-sr-only">Download search results</span>
+      </a>
+      <a class="link-subscribe" href="#0">
+        <i class="fa fa-rss" aria-hidden="true"></i>
+        <span class="usa-sr-only">Subscribe to updates on this search (RSS)</span>
       </a>
     </div>
   </div>
@@ -41,14 +41,17 @@ class: search-results
     <form class="" action="">
       <div class="search_result-search-input">
         <label class="" for="search_field-condition">Condition or disease</label>
+        <span class="usa-form-hint">(e.g. cancer)</span>
         <input id="search_field-condition" name="input-type-text" type="text" value="PTSD">
       </div>
       <div class="search_result-search-input">
-        <label class="" for="search_field-keyword">Additional search terms</label>
+        <label class="" for="search_field-keyword">Other terms</label>
+        <span class="usa-form-hint">(e.g. NCT number)</span>
         <input id="search_field-keyword" name="input-type-text" type="text" value="">
       </div>
       <div class="search_result-search-input">
         <label class="" for="search_field-location">Location</label>
+        <span class="usa-form-hint">(e.g. Austin, TX)</span>
         <input id="search_field-location" name="input-type-text" type="text" value="Palo Alto, CA">
       </div>
       <div class="search_result-search-input search_result-search-input-distance">

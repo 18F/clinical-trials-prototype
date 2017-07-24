@@ -136,6 +136,7 @@ th {
 
 .hero-heading {
   font-size: 2rem;
+  line-height: 1.7;
   max-width: 670px;
 }
 
@@ -507,11 +508,6 @@ input[id="location"] {
   float: right;
   font-size: $h5-font-size;
 
-  @include media($medium-screen) {
-    margin-bottom: 57px;
-    margin-top: -57px !important;
-  }
-
   a {
     font-family: $font-sans;
     font-weight: $font-bold;
@@ -519,7 +515,7 @@ input[id="location"] {
   }
 
   .fa {
-    color: $color-gray;
+    // color: $color-gray;
     font-size: $base-font-size;
     margin-right: 6px;
   }
@@ -763,13 +759,9 @@ a.study_detail-tabs-active {
 }
 
 .saved_studies {
-  font-weight: bold;
-  font-size: 15px;
-  text-decoration: none;
-
   i {
-    color: $color-gray;
-    margin-right: 8px;
+    // color: $color-gray;
+    // margin-right: 8px;
   }
 }
 
@@ -795,12 +787,17 @@ a.study_detail-tabs-active {
   background-color: $color-primary-alt-lightest;
 
   label {
+    display: inline;
     font-size: $small-font-size;
     font-weight: $font-bold;
 
     @include media($medium-screen) {
       margin-top: 0;
     }
+  }
+
+  .usa-form-hint {
+    font-size: 14px;
   }
 
   button {
@@ -1416,8 +1413,15 @@ $glossary-width: 364px;
 .page-links {
   float: right;
 
-  a {
+  a,
+  button {
+    font-weight: bold;
+    font-size: 15px;
     text-decoration: none;
+
+    i {
+      margin-right: 8px;
+    }
   }
 }
 
