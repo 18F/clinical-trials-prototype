@@ -533,6 +533,10 @@ input[id="location"] {
 }
 
 .study_detail-intro {
+  padding-top: 6rem;
+}
+
+.study_detail-intro-main {
   clear: right;
 
   @include media($medium-screen) {
