@@ -330,7 +330,9 @@ class: study-detail
     </ul>
     <h3 id="keywords">Keywords</h3>
     <p><a href="#">family</a>, <a href="#">caregiving</a>, <a href="#">ptsd</a>, <a href="#">couples</a></p>
-    <p>If you are the owner of this study and want to submit a correction, please email <a href="#">nlm@info.nlm.gov</a>.</p>
+    <div class="whisperbox">
+      <p>If you are the owner of this study and want to submit a correction, please email <a href="#">nlm@info.nlm.gov</a>.</p>
+    </div>
     <hr>
     <h2 id="related-publications">Related publications</h2>
     <p>MedlinePlus is the National Institutes of Health's Web site for patients and their families and friends. Produced by the National Library of Medicine, the world’s largest medical library, it brings you information about diseases, conditions, and wellness issues in language you can understand. MedlinePlus offers reliable, up-to-date health information, anytime, anywhere, for free.</p>

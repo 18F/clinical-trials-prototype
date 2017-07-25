@@ -719,6 +719,17 @@ a.study_detail-tabs-active {
   font-weight: $font-bold;
 }
 
+.whisperbox {
+  @include padding(null 1em);
+  border: 1px solid $color-gray-lighter;
+  border-radius: 3px;
+
+  p, a {
+    font-family: $font-sans;
+    max-width: initial !important;
+  }
+}
+
 // Breadcrumb navigation -------- //
 
 .sticky {
