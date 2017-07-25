@@ -331,7 +331,7 @@ class: study-detail
     <h3 id="keywords">Keywords</h3>
     <p><a href="#">family</a>, <a href="#">caregiving</a>, <a href="#">ptsd</a>, <a href="#">couples</a></p>
     <div class="whisperbox">
-      <p>If you are the owner of this study and want to submit a correction, please email <a href="#">nlm@info.nlm.gov</a>.</p>
+      <p>If you are the owner of this study and want to submit a correction, please <a href="mailto:nlm@info.nlm.gov">contact our support team</a>.</p>
     </div>
     <hr>
     <h2 id="related-publications">Related publications</h2>
