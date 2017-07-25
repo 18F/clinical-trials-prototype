@@ -1059,6 +1059,10 @@ a.study_detail-tabs-active {
   margin-bottom: 0;
 }
 
+.search_result-count-showing {
+  color: $color-gray;
+}
+
 .search_result-info_bar {
   @include padding(1.2rem null);
   box-shadow: 0 2px 4px 0 rgba(174,176,181,0.80);
@@ -1079,6 +1083,11 @@ a.study_detail-tabs-active {
     @include media($medium-screen) {
       margin-right: 0;
     }
+  }
+
+  .usa-form-hint {
+    color: #727272; // Lightest gray on light blue background (#f5f9ff)
+    // color: $color-gray; // Lightest gray on light blue background (#f5f9ff)
   }
 }
 
@@ -1400,6 +1409,7 @@ $glossary-width: 364px;
   font-size: 1.5rem;
   font-weight: $font-bold;
   line-height: initial;
+  width: initial;
 
   &:hover {
     color: $color-primary-darker;
@@ -1411,7 +1421,12 @@ $glossary-width: 364px;
 }
 
 .page-links {
-  float: right;
+  margin-top: 10px;
+
+  @include media($medium-screen) {
+    float: right;
+    margin-top: 0;
+  }
 
   a,
   button {
