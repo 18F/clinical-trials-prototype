@@ -22,9 +22,9 @@ $color-primary-alt-lightest: #f5f9ff;
     margin-right: 0;
   }
 
-  :first-child {
-    margin-top: 0;
-  }
+  // :first-child {
+  //   margin-top: 0;
+  // }
 }
 
 // Typography ------------ //
@@ -64,6 +64,16 @@ a {
 legend {
   font-size: $base-font-size;
   margin-bottom: .5em;
+}
+
+.subheading {
+  font-size: 1.3rem;
+  font-weight: $font-normal;
+  text-transform: uppercase;
+  color: $color-gray;
+  display: block;
+  letter-spacing: 0.5px;
+  margin-top: 0;
 }
 
 // Horizontal rule -------- //
@@ -614,13 +624,11 @@ input[id="location"] {
 }
 
 .study_detail-identifier {
-  font-size: $h5-font-size;
-}
-
-.study_detail-history {
-  color: $color-gray;
-  font-size: $h6-font-size;
-  margin-top: 0;
+  @include media($medium-screen) {
+    margin-top: -5px;
+    margin-bottom: 11px;
+    text-align: right;
+  }
 }
 
 .study_detail-main {

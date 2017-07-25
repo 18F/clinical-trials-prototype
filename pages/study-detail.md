@@ -29,7 +29,7 @@ class: study-detail
             <a href="#purpose">Purpose</a>
           </li>
           <li>
-            <a href="#primary-outcome-measures">Primary outcome measures</a>
+            <a href="#outcome-measures">Outcome measures</a>
           </li>
           <li>
             <a href="#whats-being-studied">What’s being studied</a>
@@ -66,6 +66,9 @@ class: study-detail
         <li>
           <a href="#related-publications">Related publications</a>
         </li>
+        <li>
+          <a href="#medlineplus-resources">MedlinePlus resources</a>
+        </li>
       </li>
     </ul>
   </aside>
@@ -95,7 +98,8 @@ class: study-detail
     <p>Understanding ways to improve the public health impact of public-facing, evidence-based mobile apps is critical. This study will test a low-cost, "high-touch" approach to improving the outcomes associated with use of the PTSD Coach and PTSD Family Coach mobile apps,which are already available to the general public and used by over 55,000 new users per year.This study will test whether the involvement of an intimate partner in the use of a mobile app for PTSD will result in changes in how the mobile apps are used and in relationship quality and PTSD symptoms over time. Additionally, this study will test whether the addition of a discussion board can improve engagement with the apps and/or outcomes. The study will also provide useful qualitative data that can inform the development of subsequent dyadic interventions using mobile technologies.</p>
     <p>c) Explain why human subjects must be used for this project. (i.e. purpose of study is to test efficacy of investigational device in individuals with specific condition; purpose of study is to examine specific behavioral traits in humans in classroom or other environment)</p>
     <p>The purpose of this study is to evaluate how Veterans and their partners interact with evidence-based mobile apps for improving PTSD symptoms.</p>
-    <h3 id="primary-outcome-measures">Primary outcome measures</h3>
+    <h3 id="outcome-measures">Outcome measures</h3>
+    <h4>Primary outcome measures</h4>
     <ul>
       <li>Caregiver Burden [ Time Frame: 10 weeks ]<br>
       Montgomery Burden Interview</li>
@@ -112,50 +116,16 @@ class: study-detail
       <li>Stress [ Time Frame: 10 weeks ]<br>
       Perceived Stress Scale</li>
     </ul>
-<!--     <p>Caregiver Burden [ Time Frame: 10 weeks ]<br>
-    Montgomery Burden Interview</p>
-    <p>Functional Well-Being [ Time Frame: 10 weeks ]<br>
-    Partner-rated Interpersonal Well-Being Scale</p>
-    <p>Personal Health Questionnaire Depression Scale [ Time Frame: 10 weeks ]<br>
-    8 Item scale measuring depression.</p>
-    <p>Generalized Anxiety Symptoms [ Time Frame: 10 weeks ]<br>
-    Generalized Anxiety Disorder-7 Scale (GAD-7)</p>
-    <p>PTSD Symptoms [ Time Frame: 10 weeks ]<br>
-    5 Item Partner-rated Posttraumatic Stress Disorder Checklist-5 (PCL-5)</p>
-    <p>Positive Relationship Behaviors [ Time Frame: 10 weeks ]<br>
-    Author-constructed relationship behaviors scale</p>
-    <p>Stress [ Time Frame: 10 weeks ]<br>
-    Perceived Stress Scale</p> -->
-    <ul class="usa-accordion-bordered">
-      <li>
-        <button
-          class="usa-accordion-button"
-          id="secondary-outcome-measures"
-          aria-expanded="false"
-          aria-controls="secondary-outcome-measures-1">
-          Secondary outcome measures
-        </button>
-        <div id="secondary-outcome-measures-1" class="usa-accordion-content">
-          <ul>
-            <li>Emotional Intimacy [ Time Frame: 10 weeks ]<br>
-            Personal Assessment of Intimacy in Relationships (PAIR) Scale</li>
-            <li>Caregiving Self-Efficacy Scale [ Time Frame: 10 weeks ]<br>
-            Author-constructed questionnaire</li>
-            <li>Positive Partner Communication [ Time Frame: 10 weeks ]<br>
-            Measured with items combined from the Social Constraints Scale and Communication Danger Signs Scale</li>
-            <li>Relationship Self-Efficacy [ Time Frame: 10 weeks ]<br>
-            Author-constructed questionnaire</li>
-          </ul>
-<!--           <p>Emotional Intimacy [ Time Frame: 10 weeks ]<br>
-          Personal Assessment of Intimacy in Relationships (PAIR) Scale</p>
-          <p>Caregiving Self-Efficacy Scale [ Time Frame: 10 weeks ]<br>
-          Author-constructed questionnaire</p>
-          <p>Positive Partner Communication [ Time Frame: 10 weeks ]<br>
-          Measured with items combined from the Social Constraints Scale and Communication Danger Signs Scale</p>
-          <p>Relationship Self-Efficacy [ Time Frame: 10 weeks ]<br>
-          Author-constructed questionnaire</p> -->
-        </div>
-      </li>
+    <h4>Secondary outcome measures</h4>
+    <ul>
+      <li>Emotional Intimacy [ Time Frame: 10 weeks ]<br>
+      Personal Assessment of Intimacy in Relationships (PAIR) Scale</li>
+      <li>Caregiving Self-Efficacy Scale [ Time Frame: 10 weeks ]<br>
+      Author-constructed questionnaire</li>
+      <li>Positive Partner Communication [ Time Frame: 10 weeks ]<br>
+      Measured with items combined from the Social Constraints Scale and Communication Danger Signs Scale</li>
+      <li>Relationship Self-Efficacy [ Time Frame: 10 weeks ]<br>
+      Author-constructed questionnaire</li>
     </ul>
     <h3 id="whats-being-studied">What’s being studied</h3>
     <!-- <p>In interventional studies, participants are assigned to receive one or more interventions (or no intervention) so that researchers can evaluate the effects of the interventions on biomedical or health-related outcomes. Arm refers to each group or subgroup of participants in a clinical trial that receives specfic interventions (or no intervention) according to the study protocol.</p> -->
@@ -335,6 +305,9 @@ class: study-detail
     </div>
     <hr>
     <h2 id="related-publications">Related publications</h2>
+    <p>Content...</p>
+    <hr>
+    <h2 id="medlineplus-resources">MedlinePlus resources</h2>
     <p>MedlinePlus is the National Institutes of Health's Web site for patients and their families and friends. Produced by the National Library of Medicine, the world’s largest medical library, it brings you information about diseases, conditions, and wellness issues in language you can understand. MedlinePlus offers reliable, up-to-date health information, anytime, anywhere, for free.</p>
     <ul>
       <li>
