@@ -23,7 +23,7 @@ class: study-detail
   <aside class="usa-width-one-fourth sticky">
     <ul class="usa-sidenav-list">
       <li>
-        <a class="usa-current" href="#study-description">Study description</a>
+        <a href="#study-description">Study description</a>
         <ul class="usa-sidenav-sub_list">
           <li>
             <a href="#purpose">Purpose</a>
@@ -37,15 +37,7 @@ class: study-detail
         </ul>
       </li>
       <li>
-        <a href="#how-to-participate">How to participate</a>
-        <ul class="usa-sidenav-sub_list">
-          <li>
-            <a href="#eligibility">Eligibility requirements</a>
-          </li>
-          <li>
-            <a href="#criteria">Criteria</a>
-          </li>
-        </ul>
+        <a href="#eligibility">Eligibility requirements</a>
       </li>
       <li>
         <a href="#contact-and-locations">Contact and locations</a>
@@ -74,12 +66,12 @@ class: study-detail
   </aside>
   <div class="usa-width-three-fourths usa-content">
     <h2 id="study-description">Study description</h2>
-    <h3 id="purpose">Purpose</h3>
     <table>
       <thead>
         <tr>
           <th scope="col">Condition</th>
-          <th scope="col">What’s being studied</th>
+          <th scope="col">Intervention</th>
+          <th scope="col">Phase</th>
         </tr>
       </thead>
       <tbody>
@@ -89,9 +81,11 @@ class: study-detail
             <p>Behavioral: Mobile App + Mailed Materials for managing stress associated with PTSD</p>
             <p>Behavioral: Mobile App for managing stress associated with PTSD</p>
           </td>
+          <td>Phase 3</td>
         </tr>
       </tbody>
     </table>
+    <h3 id="purpose">Purpose</h3>
     <p>In layperson's language state the purpose of the study in 3-5 sentences.</p>
     <p>Previous research has demonstrated that intimate partners can positively influence those with PTSD to seek treatment. The investigators have preliminary evidence to demonstrate that mobile apps, such as PTSD Coach can be helpful for those with PTSD, and the current study will provide Veterans with PTSD and their partners with a mobile app designed to promote engagement with evidence-based treatments for PTSD. The purpose of this PILOT study is to evaluate methods for delivering a couples-based intervention to reduce PTSD symptoms and improve relationship quality in Veterans and their intimate partners.</p>
     <p>b) State what the Investigator(s) hope to learn from the study. Include an assessment of the importance of this new knowledge.</p>
@@ -169,13 +163,13 @@ class: study-detail
       </li>
     </ul> -->
     <hr>
-    <h2 id="how-to-participate">How to participate</h2>
+    <h2 id="eligibility-requirements">Eligibility requirements</h2>
     <h3>Talk to a healthcare professional</h3>
     <p>Participating in a clinical study is an important personal decision. We urge  you to learn everything you can about studies you’re considering and discuss all options with a healthcare professional.</p>
     <ul>
       <li><a href="">Questions to ask</a></li>
     </ul>
-    <h3 id="eligibility">Who’s eligibile?</h3>
+    <h3>Who’s eligibile?</h3>
     <ul>
       <li><a href="#">Ages Eligible for Study:</a> 18 Years to 90 Years (Adult, Senior)</li>
       <li><a href="#">Sexes Eligible for Study:</a> All</li>

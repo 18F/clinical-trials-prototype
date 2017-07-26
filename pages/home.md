@@ -28,7 +28,7 @@ class: home
               </li>
               <li>
                 <input id="study-with-results" type="radio" name="study-status" value="all-studies">
-                <label class="label-radio" for="study-with-results">With results</label>
+                <label class="label-radio" for="study-with-results">With results posted</label>
               </li>
               <li>
                 <input id="study-all" type="radio" name="study-status" value="all-studies">

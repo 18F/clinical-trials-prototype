@@ -1254,15 +1254,24 @@ a.study_detail-tabs-active {
 }
 
 .usa-logo-text-title {
+  display: none;
   font-weight: 500;
+
+  @include media($medium-screen) {
+    display: initial;
+  }
 }
 
 .usa-logo-text-website {
   color: #20558a;
-  font-weight: $font-normal;
+  font-weight: 500;
 
   @include media($nav-width) {
     font-size: 10px;
+  }
+
+  @include media($medium-screen) {
+    font-weight: $font-normal;
   }
 }
 
