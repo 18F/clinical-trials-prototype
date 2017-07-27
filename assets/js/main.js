@@ -172,32 +172,345 @@ new Glossary(terms);
 },{"../src/glossary":23,"./terms.json":4}],4:[function(require,module,exports){
 module.exports=[
   {
-    "term": "Arm",
-    "definition": "A group or subgroup of participants in a clinical trial that receives specific interventions, or no intervention, according to the study protocol. This is decided before the trial begins."
+    "term":"ACCEPTS HEALTHY VOLUNTEERS",
+    "definition":"Indicates whether a clinical study allows people who do not have the condition or related conditions or symptoms being studied to participate in that study."
   },
   {
-    "term": "Accepts healthy volunteers",
-    "definition": "Indicates whether a clinical study allows people who do not have the condition or related conditions or symptoms being studied to participate in that study. (See also Accepts Healthy Volunteers data element on ClinicalTrials.gov.)"
+    "term":"ACTIVE COMPARATOR ARM",
+    "definition":"A group of participants that receives an intervention that is considered to be effective."
   },
   {
-    "term": "Clinical study",
-    "definition": "A research study using human subjects to evaluate biomedical or health-related outcomes. Two types of clinical studies are Interventional studies (or clinical trials) and Observational studies."
+    "term":"ACTIVE, NOT RECRUITING",
+    "definition":"The clinical study is ongoing (that is, participants are receiving an intervention or being examined), but potential participants are not currently being recruited or enrolled."
   },
   {
-    "term": "Expanded access",
-    "definition": "A process regulated by the Food and Drug Administration (FDA) that allows manufacturers to provide investigational new drugs to patients with serious diseases or conditions who cannot participate in a clinical trial. One of several Study Types. For more information on expanded access, visit the Expanded Access: Information for Patients page on the FDA Web site."
+    "term":"ADVERSE EVENT",
+    "definition":"An unfavorable change in the health of a participant, including abnormal laboratory findings, that happens during a clinical study or within a certain time period after the study has ended. This change may or may not be caused by the intervention being studied."
   },
   {
-    "term": "Intervention",
-    "definition": "A process or action that is the focus of a clinical study. Interventions include drugs, medical devices, procedures, vaccines, and other products that are either investigational or already available. Interventions can also include noninvasive approaches, such as surveys, education, and interviews."
+    "term":"ALLOCATION",
+    "definition":"A clinical trial design strategy used to assign participants to an arm of a study. Types of Allocations include randomized and nonrandomized."
   },
   {
-    "term": "Recruitment status",
-    "definition": "Indicates the current stage of a clinical study and whether it is or will be open for enrollment."
+    "term":"ARM",
+    "definition":"A group or subgroup of participants in a clinical trial that receives specific interventions, or no intervention, according to the study protocol. This is decided before the trial begins. Types of arms include Experimental, Active Comparator, Placebo Comparator, Sham Comparator, and No Intervention."
   },
   {
-    "term": "Results posted",
-    "definition": "The study sponsor or responsible party has submitted results and they've been posted to ClinicalTrials.gov."
+    "term":"BASELINE CHARACTERISTICS",
+    "definition":"Data collected at the beginning of a clinical study for all participants and for each comparison group. These data include demographics, such as age and gender, and study-specific measures (for example, systolic blood pressure, prior antidepressant treatment)."
+  },
+  {
+    "term":"BLINDING",
+    "definition":"A clinical trial design strategy in which one or more parties involved in the trial, such as the investigator or participants, do not know which participants have been assigned which interventions. Types of Masking include Open Label, Single Blind Masking, and Double Blind Masking."
+  },
+  {
+    "term":"CENTRAL CONTACT",
+    "definition":"The name and contact information for the person who can address enrollment questions for any location of the study. Each location where the study is being conducted has a facility contact and usually a backup. Those individuals might be better suited to answer your enrollment questions."
+  },
+  {
+    "term":"CERTAIN AGREEMENTS",
+    "definition":"As required by Section 801 of the Food and Drug Administration Amendments Act, in general, a description of any agreement between the Sponsor of a clinical study and the Principal Investigator (PI) that does not allow the PI to discuss the results of the study or publish the study results in a scientific or academic journal after the trial is completed. (This does not apply if the PI is an employee of the Sponsor.)"
+  },
+  {
+    "term":"CLINICAL STUDY",
+    "definition":"A research study using human subjects to evaluate biomedical or health-related outcomes. Two types of clinical studies are Interventional studies (or clinical trials) and Observational studies."
+  },
+  {
+    "term":"COLLABORATOR",
+    "definition":"A collaborator is an organization other than the sponsor that provides support for a clinical study. This support may include funding, design, implementation, data analysis, or reporting."
+  },
+  {
+    "term":"COMPLETED",
+    "definition":"The clinical study has ended normally, and participants are no longer being examined or treated (that is, the \"last subject, last visit\" has occurred)."
+  },
+  {
+    "term":"CONDITION",
+    "definition":"The disease, disorder, syndrome, illness, or injury that is being studied. On ClinicalTrials.gov, conditions may also include other health-related issues, such as lifespan, quality of life, and health risks."
+  },
+  {
+    "term":"CONTROLLED TRIAL",
+    "definition":"A type of clinical trial in which observations made during the trial are compared to a standard, called the control. The control may be observations of a group of participants in the same trial or observations from outside the trial (for example, from an earlier trial, which is called a historical control)."
+  },
+  {
+    "term":"CROSS-OVER DESIGN",
+    "definition":"Describes a clinical trial in which groups of participants receive two or more interventions in a particular order. For example, a two-by-two cross-over design involves two groups of participants. One group receives drug A during the initial phase of the trial, followed by drug B during a later phase. The other group receives drug B during the initial phase, followed by drug A. So during the trial, participants \"cross over\" to the other drug. All participants receive drug A and drug B at some point during the trial but in a different order, depending on the group to which they are assigned."
+  },
+  {
+    "term":"DATA MONITORING COMMITTEE (DMC)",
+    "definition":"A group of independent scientists who monitor the safety and scientific integrity of a clinical trial. The group can recommend to the study sponsor that the study be stopped if it is not effective, is harming participants, or is unlikely to serve its scientific purpose. Members are chosen based on the scientific skills and knowledge needed to monitor the particular trial. Also referred to as a data safety and monitoring board (DSMB)."
+  },
+  {
+    "term":"DOUBLE BLIND MASKING",
+    "definition":"A type of masking in which two or more parties involved in the clinical trial do not know which participants have been assigned which interventions. Typically, the parties include the investigator and participants."
+  },
+  {
+    "term":"ELIGIBILITY CRITERIA",
+    "definition":"The requirements that people who want to participate in a clinical study must meet or the characteristics they must have. Eligibility criteria include both inclusion criteria and exclusion criteria."
+  },
+  {
+    "term":"ENROLLING BY INVITATION",
+    "definition":"A clinical study that selects its participants from a population, or group of people, decided on in advance by the researchers. These studies are not open to everyone who meets the eligibility criteria but only to people in that particular population, who are specifically invited to participate."
+  },
+  {
+    "term":"ENROLLMENT",
+    "definition":"The number of participants in a clinical study."
+  },
+  {
+    "term":"EXCLUSION CRITERIA",
+    "definition":"The factors, or reasons, that prevent a person from participating in a clinical study."
+  },
+  {
+    "term":"EXPANDED ACCESS",
+    "definition":"A process regulated by the Food and Drug Administration (FDA) that allows manufacturers to provide investigational new drugs to patients with serious diseases or conditions who cannot participate in a clinical trial. One of several Study Types. For more information on expanded access, visit the Expanded Access: Information for Patients page on the FDA Web site."
+  },
+  {
+    "term":"EXPERIMENTAL ARM",
+    "definition":"A group of participants that receives the intervention that is the focus of the study."
+  },
+  {
+    "term":"FACTORIAL DESIGN",
+    "definition":"Describes a clinical study in which groups of participants receive one of several combinations of interventions. For example, a two-by-two factorial design involves four groups of participants. Each group receives one of the following pairs of interventions: 1) drug A and drug B, 2) drug A and a placebo, 3) a placebo and drug B, or 4) a placebo and a placebo. So during the trial, all possible combinations of the two drugs (A and B) and the placebos are given to different groups of participants."
+  },
+  {
+    "term":"FACILITY CONTACT",
+    "definition":"The name and contact information for the person who can address enrollment questions for a specific location or facility where the study is being conducted."
+  },
+  {
+    "term":"FOOD AND DRUG ADMINISTRATION (FDA)",
+    "definition":"An agency within the U.S. Department of Health and Human Services. FDA is responsible for protecting the public health by making sure that human and veterinary drugs, vaccines and other biological products, medical devices, the Nation's food supply, cosmetics, dietary supplements, and products that give off radiation are safe, effective, and secure."
+  },
+  {
+    "term":"Food and Drug Administration Amendments Act, Section 801",
+    "definition":"Section 801 of U.S. Public Law 110-85, which was enacted on September 27, 2007. It amends Section 402 of the U.S. Public Health Service Act to expand ClinicalTrials.gov and create a clinical study results database. For more information on FDAAA 801, see the History, Policies, and Laws page on this site."
+  },
+  {
+    "term":"FUNDER TYPE",
+    "definition":"Describes the organization that provides funding or support for a clinical study. Support may include providing facilities, expertise, or financial resources. Organizations listed as sponsors and collaborators for a study are considered the funders of the study. There are four types of funders:",
+    "definition":"National Institutes of Health"
+  },
+  {
+    "term":"GENDERS ELIGIBLE FOR STUDY",
+    "definition":"The physical gender of people who may participate in a clinical study (female, male, or both)."
+  },
+  {
+    "term":"HEALTH AUTHORITY",
+    "definition":"A national or international health organization that has authority over a clinical study."
+  },
+  {
+    "term":"HUMAN SUBJECTS REVIEW BOARD",
+    "definition":"A group of people who review, approve, and monitor the clinical study protocol. Their role is to protect the rights and welfare of human research subjects participating in a study. The group typically includes people with varying backgrounds, including a community member, to make sure that research activities conducted by an organization are completely and adequately reviewed. Also known as an institutional review board (IRB) or ethics committee."
+  },
+  {
+    "term":"INCLUSION CRITERIA",
+    "definition":"The factors, or reasons, that allow a person to participate in a clinical study."
+  },
+  {
+    "term":"INFORMED CONSENT",
+    "definition":"A process used by researchers to communicate with potential and enrolled participants about a clinical study. As part of the informed consent process, researchers:"
+  },
+  {
+    "term":"INTERVENTION",
+    "definition":"A process or action that is the focus of a clinical study. Interventions include drugs, medical devices, procedures, vaccines, and other products that are either investigational or already available. Interventions can also include noninvasive approaches, such as surveys, education, and interviews."
+  },
+  {
+    "term":"INTERVENTION MODEL",
+    "definition":"The general design of the strategy for assigning interventions to participants in a clinical study. Types of Intervention Models include Single Group design, Parallel design, Cross-over design, and Factorial design."
+  },
+  {
+    "term":"INTERVENTIONAL STUDY",
+    "definition":"A clinical study in which participants are assigned to receive one or more interventions (or no intervention) so that researchers can evaluate the effects of the interventions on biomedical or health-related outcomes. The assignments are determined by the study protocol. Participants may receive diagnostic, therapeutic, or other types of interventions."
+  },
+  {
+    "term":"INVESTIGATIONAL NEW DRUG",
+    "definition":"A drug or biological product that is used in a clinical trial but has not been approved by the Food and Drug Administration (FDA) (the drug is either not available for a doctor to prescribe or is available but has not been approved by FDA for the use being studied)."
+  },
+  {
+    "term":"INVESTIGATOR",
+    "definition":"A researcher involved in a clinical study. Related terms include Site Principal Investigator, Site Sub-Investigator, Study Chair, Study Director, and Study Principal Investigator."
+  },
+  {
+    "term":"LISTED LOCATION COUNTRIES",
+    "definition":"Countries in which research facilities for a study are located. A country is listed only once, even if there is more than one facility in the country. The list includes all countries as of the Last Updated date; any country for which all facilities were removed from the study record are listed under Removed Location Countries."
+  },
+  {
+    "term":"MASKING",
+    "definition":"A clinical trial design strategy in which one or more parties involved in the trial, such as the investigator or participants, do not know which participants have been assigned which interventions. Types of Masking include Open Label, Single Blind Masking, and Double Blind Masking."
+  },
+  {
+    "term":"NCT NUMBER (or ClinicalTrials.gov Identifier)",
+    "definition":"A unique identification code is given to each clinical study registered on ClinicalTrials.gov. Because the format is \"NCT\" followed by an 8-digit number (for example, NCT00000419), this identifier is also known as the NCT Number."
+  },
+  {
+    "term":"NO INTERVENTION ARM",
+    "definition":"A group of participants that does not receive any interventions during a clinical study."
+  },
+  {
+    "term":"NOT YET RECRUITING",
+    "definition":"The clinical study has not started recruiting participants."
+  },
+  {
+    "term":"OBSERVATIONAL STUDY",
+    "definition":"A clinical study in which participants identified as belonging to study groups are assessed for biomedical or health outcomes. Participants may receive diagnostic, therapeutic, or other types of interventions, but the investigator does not assign participants to specific interventions (as in an Interventional study)."
+  },
+  {
+    "term":"OBSERVATIONAL STUDY MODEL",
+    "definition":"The general design of the strategy for identifying and following up with participants during Observational studies. Types of Observational Study Models include Cohort, Case-control, Case-only, Case-cross-over, Ecologic or community studies, Family-based, and Other."
+  },
+  {
+    "term":"OPEN LABEL",
+    "definition":"Describes a clinical trial in which masking is not used. This means that all parties involved in the trial know which participants have been assigned which interventions."
+  },
+  {
+    "term":"OTHER ADVERSE EVENT",
+    "definition":"An adverse event that is not a serious adverse event, meaning that it does not result in death, is not life-threatening, does not require inpatient hospitalization or extend a current hospital stay, does not result in an ongoing or significant incapacity or interfere substantially with normal life functions, and does not cause a congenital anomaly or birth defect; it also does not put the participant in danger and does not require medical or surgical intervention to prevent one of the results listed above."
+  },
+  {
+    "term":"OTHER STUDY ID NUMBERS",
+    "definition":"Identification numbers assigned to the clinical study protocol by the study sponsor, funders, or others. These numbers include unique identifiers from other registries and National Institutes of Health grant numbers."
+  },
+  {
+    "term":"OUTCOME MEASURE",
+    "definition":"A planned measurement described in the protocol that is used to determine the effect of interventions on participants in a clinical trial. For Observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of Outcome Measures include Primary Outcome Measure and Secondary Outcome Measure."
+  },
+  {
+    "term":"PARALLEL DESIGN",
+    "definition":"Describes a clinical trial in which two or more groups of participants receive different interventions. For example, a two-arm parallel design involves two groups of participants. One group receives drug A, and the other group receives drug B. So during the trial, participants in one group receive drug A \"in parallel\" to participants in the other group, who receive drug B. One type of Intervention Model (design)."
+  },
+  {
+    "term":"PARTICIPANT FLOW",
+    "definition":"A summary of the progress of participants through each stage of a clinical study, by study arm. This includes the number of participants who started, completed, and dropped out of the study."
+  },
+  {
+    "term":"PHASE",
+    "definition":"Food and Drug Administration (FDA) descriptions of the clinical trial of a drug based on the study's characteristics, such as the objective and number of participants. There are five phases."
+  },
+  {
+    "term":"PLACEBO",
+    "definition":"A substance that does not contain active ingredients and is made to be physically indistinguishable (that is, it looks and tastes identical) from the actual drug being studied."
+  },
+  {
+    "term":"PLACEBO COMPARATOR ARM",
+    "definition":"A group of participants that receives a placebo during a clinical study."
+  },
+  {
+    "term":"PRIMARY COMPLETION DATE",
+    "definition":"The date on which the last participant in a clinical study was examined or received an intervention and that data for the primary outcome measure were collected. Whether the clinical study ended according to the protocol or was terminated does not affect this date. The \"estimated primary completion date\" is the date that the researchers think will be the primary completion date for the study. The primary completion date is the term used on ClinicalTrials.gov for \"completion date\" as defined in Section 801 of the Food and Drug Administration Amendments Act of 2007."
+  },
+  {
+    "term":"PRIMARY OUTCOME MEASURE",
+    "definition":"The planned outcome measure in the protocol that is the most important for evaluating the effect of an intervention. Most clinical studies have one primary outcome measure, but some may have more than one."
+  },
+  {
+    "term":"PRIMARY PURPOSE",
+    "definition":"The main reason for the clinical trial. The types of Primary Purposes are Treatment, Prevention, Diagnostic, Supportive Care, Screening, Health Services Research, Basic Science, and Other."
+  },
+  {
+    "term":"PRINCIPAL INVESTIGATOR (PI)",
+    "definition":"The person who is responsible for the scientific and technical direction of the entire clinical study."
+  },
+  {
+    "term":"PROTOCOL",
+    "definition":"The written description of a clinical study. It includes the study's objectives, design, and methods. It may also include relevant scientific background and statistical information."
+  },
+  {
+    "term":"RANDOMIZED ALLOCATION",
+    "definition":"A strategy in which participants are assigned to arms of a clinical trial by chance."
+  },
+  {
+    "term":"RECRUITING",
+    "definition":"The clinical study is currently recruiting participants."
+  },
+  {
+    "term":"RECRUITMENT STATUS",
+    "definition":"Indicates the current stage of a clinical study and whether it is or will be open for enrollment."
+  },
+  {
+    "term":"REGISTRATION FIRST SUBMITTED",
+    "definition":"The date the summary clinical study protocol information was first submitted to ClinicalTrials.gov. There is typically a delay of a few days between the submitted date and when the study information is available on ClinicalTrials.gov."
+  },
+  {
+    "term":"REGISTRATION FIRST POSTED",
+    "definition":"The date the clinical study appears on ClinicalTrials.gov."
+  },
+  {
+    "term":"REMOVED LOCATION COUNTRIES",
+    "definition":"Countries that appeared under Listed Location Countries but were removed from the study record by the data provider."
+  },
+  {
+    "term":"REPORTING OR COMPARISON GROUP",
+    "definition":"A grouping of participants in a clinical study that is used in summarizing the data collected during the study. This grouping may be the same as or different from a study arm."
+  },
+  {
+    "term":"RESPONSIBLE PARTY",
+    "definition":"The person responsible for submitting information about a clinical study to ClinicalTrials.gov and updating that information. Usually the sponsor, investigator, or lead."
+  },
+  {
+    "term":"RESULTS FIRST SUBMITTED",
+    "definition":"The date the results of a clinical study was first submitted to the ClinicalTrials.gov results database."
+  },
+  {
+    "term":"RESULTS FIRST POSTED",
+    "definition":"The date the results of a clinical study was first submitted to the ClinicalTrials.gov results database."
+  },
+  {
+    "term":"SECONDARY OUTCOME MEASURE",
+    "definition":"A planned outcome measure in the protocol that is not as important as the primary outcome measure but is still of interest in evaluating the effect of an intervention. Most clinical studies have more than one secondary outcome measure."
+  },
+  {
+    "term":"SERIOUS ADVERSE EVENT",
+    "definition":"An adverse event that results in death, is life-threatening, requires inpatient hospitalization or extends a current hospital stay, results in an ongoing or significant incapacity or interferes substantially with normal life functions, or causes a congenital anomaly or birth defect. Medical events that do not result in death, are not life-threatening, or do not require hospitalization may be considered serious adverse events if they put the participant in danger or require medical or surgical intervention to prevent one of the results listed above."
+  },
+  {
+    "term":"SHAM COMPARATOR ARM",
+    "definition":"A group of participants that receives a procedure or device that is made to be indistinguishable from the actual procedure or device being studied but does not contain active processes or components."
+  },
+  {
+    "term":"SINGLE BLIND MASKING",
+    "definition":"A type of Masking in which one party involved in the clinical trial, either the investigator or participants, does not know which participants have been assigned which interventions."
+  },
+  {
+    "term":"SINGLE GROUP INTERVENTION MODEL DESIGN",
+    "definition":"A clinical trial in which all participants receive the same intervention."
+  },
+  {
+    "term":"SPONSOR",
+    "definition":"The sponsor is the organization or person who oversees the clinical study and is responsible for analyzing the study data."
+  },
+  {
+    "term":"STUDY COMPLETION DATE",
+    "definition":"The date on which the final data for a clinical study were collected because the last study participant made the final visit to the study location (that is, \"last subject, last visit\"). The \"estimated study completion date\" is the date that the researchers think will be the completion date for the study."
+  },
+  {
+    "term":"STUDY DESIGN",
+    "definition":"The investigative methods used in the clinical study."
+  },
+  {
+    "term":"STUDY START DATE",
+    "definition":"The date enrollment of participants for a clinical study began."
+  },
+  {
+    "term":"SUSPENDED",
+    "definition":"The clinical study has stopped recruiting or enrolling participants early, but it may start again."
+  },
+  {
+    "term":"TERMINATED",
+    "definition":"The clinical study has stopped recruiting or enrolling participants early and will not start again. Participants are no longer being examined or treated."
+  },
+  {
+    "term":"UNKNOWN RECRUITMENT STATUS",
+    "definition":"A study on ClinicalTrials.gov whose last known status was recruiting, not yet recruiting, or active, not recruiting but the study has passed its completion date and the status has not been verified within the past two years. Studies with an unknown status are considered closed studies."
+  },
+  {
+    "term":"UPDATE LAST SUBMITTED",
+    "definition":"The date the responsible party last submitted an update about the study to ClinicalTrials.gov."
+  },
+  {
+    "term":"UPDATE LAST POSTED",
+    "definition":"The date the responsible party’s latest update about the study was posted to ClinicalTrials.gov."
+  },
+  {
+    "term":"WITHDRAWN",
+    "definition":"The clinical study stopped before enrolling its first participant."
   }
 ]
 
