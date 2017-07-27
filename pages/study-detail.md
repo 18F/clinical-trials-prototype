@@ -32,18 +32,18 @@ class: study-detail
             <a href="#outcome-measures">Outcome measures</a>
           </li>
           <li>
-            <a href="#whats-being-studied">What’s being studied</a>
+            <a href="#interventions">Interventions</a>
           </li>
         </ul>
       </li>
       <li>
-        <a href="#eligibility">Eligibility requirements</a>
+        <a href="#eligibility-criteria">Eligibility criteria</a>
       </li>
       <li>
         <a href="#contact-and-locations">Contact and locations</a>
       </li>
       <li>
-        <a href="#additional-study-details">Additional study details</a>
+        <a href="#administrative-information">Administrative information</a>
         <ul class="usa-sidenav-sub_list">
           <li>
             <a href="#study-numbers">Study numbers</a>
@@ -99,7 +99,7 @@ class: study-detail
     <p>c) Explain why human subjects must be used for this project. (i.e. purpose of study is to test efficacy of investigational device in individuals with specific condition; purpose of study is to examine specific behavioral traits in humans in classroom or other environment)</p>
     <p>The purpose of this study is to evaluate how Veterans and their partners interact with evidence-based mobile apps for improving PTSD symptoms.</p>
     <h3 id="outcome-measures">Outcome measures</h3>
-    <h4>Primary outcome measures</h4>
+    <h4 class="term" data-term="Primary outcome measures">Primary outcome measures <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <ul>
       <li>Caregiver Burden [ Time Frame: 10 weeks ]<br>
       Montgomery Burden Interview</li>
@@ -116,7 +116,7 @@ class: study-detail
       <li>Stress [ Time Frame: 10 weeks ]<br>
       Perceived Stress Scale</li>
     </ul>
-    <h4>Secondary outcome measures</h4>
+    <h4 class="term" data-term="Secondary outcome measures">Secondary outcome measures <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <ul>
       <li>Emotional Intimacy [ Time Frame: 10 weeks ]<br>
       Personal Assessment of Intimacy in Relationships (PAIR) Scale</li>
@@ -127,61 +127,47 @@ class: study-detail
       <li>Relationship Self-Efficacy [ Time Frame: 10 weeks ]<br>
       Author-constructed questionnaire</li>
     </ul>
-    <h3 id="whats-being-studied">What’s being studied</h3>
-    <!-- <p>In interventional studies, participants are assigned to receive one or more interventions (or no intervention) so that researchers can evaluate the effects of the interventions on biomedical or health-related outcomes. Arm refers to each group or subgroup of participants in a clinical trial that receives specfic interventions (or no intervention) according to the study protocol.</p> -->
-    <table>
-      <thead>
-        <tr>
-          <th scope="col">
-            <span data-term="arm" class="term">Arms <i class="fa fa-info-circle" aria-hidden="true"></i></span></th>
-          <th scope="col">
-            <span class="term" data-term="Intervention">Assigned intervention <i class="fa fa-info-circle" aria-hidden="true"></i></span>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">
-            <p>Experimental: App + Couples Coach Intervention</p>
-            <p>Both members of the couple will receive a mobile app for PTSD: PTSD Coach for the Veteran and PTSD Family Coach for the partner/spouse. Those assigned to this arm will also receive mailed materials that are designed to help increase positive communication strategies.</p>
-          </th>
-          <td>
-            <p>Behavioral: Mobile App + Mailed Materials for managing stress associated with PTSD</p>
-            <p>PTSD Coach and PTSD Family Coach mobile apps plus mailed "Couples Coach" intervention materials and discussion board added to PTSD Family Coach app</p>
-            <p>Behavioral: Mobile App for managing stress associated with PTSD</p>
-            <p>PTSD Coach and PTSD Family Coach mobile apps</p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-<!--     <ul class="usa-accordion-bordered">
+    <h3 id="interventions">Interventions</h3>
+    <h4 class="term" data-term="arm">Arms <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <ul>
+      <li>Experimental: App + Couples Coach Intervention</li>
+      <li>Both members of the couple will receive a mobile app for PTSD: PTSD Coach for the Veteran and PTSD Family Coach for the partner/spouse. Those assigned to this arm will also receive mailed materials that are designed to help increase positive communication strategies.</li>
+    </ul>
+    <h4 class="term" data-term="Intervention">Assigned intervention <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <ul>
+      <li>Behavioral: Mobile App + Mailed Materials for managing stress associated with PTSD</li>
+      <li>PTSD Coach and PTSD Family Coach mobile apps plus mailed "Couples Coach" intervention materials and discussion board added to PTSD Family Coach app</li>
+      <li>Behavioral: Mobile App for managing stress associated with PTSD</li>
+      <li>PTSD Coach and PTSD Family Coach mobile apps</li>
+    </ul>
+    <ul class="usa-accordion-bordered">
       <li>
         <button
           class="usa-accordion-button"
-          id="additional-study-details"
+          id="detailed-description-1"
           aria-expanded="false"
-          aria-controls="amendment-1">
-          Additional study details
+          aria-controls="detailed-description">
+          Detailed description
         </button>
-        <div id="amendment-1" class="usa-accordion-content">
+        <div id="detailed-description" class="usa-accordion-content">
           <p>Additional study details</p>
         </div>
       </li>
-    </ul> -->
+    </ul>
     <hr>
-    <h2 id="eligibility-requirements">Eligibility requirements</h2>
-    <h3>Talk to a healthcare professional</h3>
-    <p>Participating in a clinical study is an important personal decision. We urge  you to learn everything you can about studies you’re considering and discuss all options with a healthcare professional.</p>
-    <ul>
-      <li><a href="">Questions to ask</a></li>
-    </ul>
-    <h3>Who’s eligibile?</h3>
-    <ul>
-      <li><a href="#">Ages Eligible for Study:</a> 18 Years to 90 Years (Adult, Senior)</li>
-      <li><a href="#">Sexes Eligible for Study:</a> All</li>
-      <li><a href="#">Accepts Healthy Volunteers:</a> No</li>
-    </ul>
-    <h3 id="criteria">What criteria do I need to meet?</h3>
+    <h2 id="eligibility-criteria">Eligibility criteria</h2>
+    <div class="whisperbox">
+      <h3>Information from the National Library of Medicine</h3>
+      <p>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the contacts provided below. For general information, see Learn About Clinical Studies.</p>
+    </div>
+    <h4 class="term" data-term="">Ages eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <p>18 Years to 90 Years (Adult, Senior)</p>
+    <h4 class="term" data-term="">Sexes eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <p>All</p>
+    <h4 class="term" data-term="Accepts healthy volunteers">Accepts healthy volunteers <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <p>No</p>
+    <h4 class="term" data-term="enrollment">Estimated enrollment <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <p>200</p>
     <h4 class="term" data-term="Inclusion criteria">Inclusion criteria  <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <p>To be eligible to participate, participants must be either a Veteran with PTSD or living with a partner who is a Veteran with PTSD.</p>
     <h4>Veterans must be: </h4>
@@ -205,8 +191,11 @@ class: study-detail
     <p>200</p>
     <hr>
     <h2 id="contact-and-locations">Contact and locations</h2>
-    <p>To learn more about this study, you or your doctor may contact the study research staff using the contact information provided by the sponsor.</p>
-    <p>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the Contacts provided below. For general information, see <a href="">Learn About Clinical Studies</a>.</p>
+    <div class="whisperbox">
+      <h3>Information from the National Library of Medicine</h3>
+      <p>To learn more about this study, you or your doctor may contact the study research staff using the contact information provided by the sponsor.</p>
+      <p>Please refer to this study by its ClinicalTrials.gov identifier (NCT number): NCT02780635</p>
+    </div>
     <h3>Central contact</h3>
     <p>
       Jason Owen, PhD
@@ -236,7 +225,7 @@ class: study-detail
       <br>
       <b>Contact:</b> Geraldo Queiroz, MD
     </p>
-    <hr class="hr-small">
+    <br>
     <p>
       Centro Regional Integrado de Oncologia (CRIO)
       <br>
@@ -244,31 +233,7 @@ class: study-detail
       <br>
       <b>Contact:</b> Geraldo Queiroz, MD
     </p>
-    <hr class="hr-small">
-    <p>
-      Hospital da Cidade de Passo Fundo
-      <br>
-      Passo Fundo, Rio Grande do Sul, Brazil
-      <br>
-      <b>Contact:</b> Geraldo Queiroz, MD
-    </p>
-    <hr class="hr-small">
-    <p>
-      Centro de Pesquisa do Setor de Ginecologia e Mama do Hospital
-      <br>
-      Goiânia, Goiás, Brazil
-      <br>
-      <b>Contact:</b> Geraldo Queiroz, MD
-    </p>
-    <hr class="hr-small">
-    <p>
-      Centro Regional Integrado de Oncologia (CRIO)
-      <br>
-      Passo Fundo, Rio Grande do Sul, Brazil
-      <br>
-      <b>Contact:</b> Geraldo Queiroz, MD
-    </p>
-    <hr class="hr-small">
+    <br>
     <p>
       Hospital da Cidade de Passo Fundo
       <br>
@@ -277,7 +242,7 @@ class: study-detail
       <b>Contact:</b> Geraldo Queiroz, MD
     </p>
     <hr>
-    <h2 id="additional-study-details">Additional study details</h2>
+    <h2 id="administrative-information">Administrative information</h2>
     <h3 id="study-numbers">Study numbers</h3>
     <p>
       ClinicalTrials.gov Identifier: NCT02780635
@@ -295,9 +260,9 @@ class: study-detail
     <h3 id="sponsors">Sponsors and collaborators</h3>
     <ul>
       <li><b class="term" data-term="Sponsor">Sponsors <i class="fa fa-info-circle" aria-hidden="true"></i>:</b> VA Palo Alto Health Care System</li>
-      <li><b class="term" data-term="Collaborator">Collaborators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
-      <li><b class="term" data-term="Investigator">Investigators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
-      <li><b class="term" data-term="Responsible party">Responsible party <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
+      <li><b class="term" data-term="Collaborator">Collaborators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b> Premier Research Group plc; Tonix Pharmaceuticals, Inc.</li>
+      <li><b class="term" data-term="Investigator">Investigators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b> Tonix Pharmaceuticals, Inc.</li>
+      <li><b class="term" data-term="Responsible party">Responsible party <i class="fa fa-info-circle" aria-hidden="true"></i>:</b> Premier Research Group plc; Greg Sullivan, MD</li>
     </ul>
     <h3 id="keywords">Keywords</h3>
     <p><a href="#">family</a>, <a href="#">caregiving</a>, <a href="#">ptsd</a>, <a href="#">couples</a></p>
@@ -306,20 +271,23 @@ class: study-detail
     </div>
     <hr>
     <h2 id="related-publications">Related publications</h2>
-    <p>Content...</p>
-    <hr>
-    <h2 id="medlineplus-resources">MedlinePlus resources</h2>
-    <p>MedlinePlus is the National Institutes of Health's Web site for patients and their families and friends. Produced by the National Library of Medicine, the world’s largest medical library, it brings you information about diseases, conditions, and wellness issues in language you can understand. MedlinePlus offers reliable, up-to-date health information, anytime, anywhere, for free.</p>
     <ul>
-      <li>
-        <a href="#">What Can I Do If I Think I Have PTSD?</a>
-      </li>
-      <li>
-        <a href="#">PTSD Treatment Programs in the U.S. Department of Veterans Affairs</a>
-      </li>
-      <li>
-        <a href="#">Sleep and Posttraumatic Stress Disorder (PTSD)</a>
-      </li>
+      <li>  Cui R, Zhou L, Lin S, Xue Y, Duan L, Xia Z, Jin Z, Zhang H, Zhang J, Song Z, Yan X. The feasibility of light microscopic measurements of intercellular spaces in squamous epithelium in the lower-esophagus of GERD patients. Dis Esophagus. 2011 Jan;24(1):1-5. doi: 10.1111/j.1442-2050.2010.01083.x.</li>
+      <li>Tobey NA, Carson JL, Alkiek RA, Orlando RC. Dilated intercellular spaces: a morphological feature of acid reflux--damaged human esophageal epithelium. Gastroenterology. 1996 Nov;111(5):1200-5.</li>
+      <li>Chu CL, Zhen YB, Lv GP, Li CQ, Li Z, Qi QQ, Gu XM, Yu T, Zhang TG, Zhou CJ, Rui-Ji, Li YQ. Microalterations of esophagus in patients with non-erosive reflux disease: in-vivo diagnosis by confocal laser endomicroscopy and its relationship with gastroesophageal reflux. Am J Gastroenterol. 2012 Jun;107(6):864-74. doi: 10.1038/ajg.2012.44. Epub 2012 Mar 13.</li>
     </ul>
+    <hr>
+    <h2 id="resource-links">Resource links</h2>
+    <div class="whisperbox">
+      <h3>Resource links provided by the National Library of Medicine</h3>
+      <p>Here are some resources that are related to this study record and fall out of the scope of this study.</p>
+      <h4><a href="#0">MedlinePlus related topics</a></h4>
+      <ul>
+        <li><a href="#0">What Can I Do If I Think I Have PTSD?</a></li>
+        <li><a href="#0">PTSD Treatment Programs in the U.S. Department of Veterans Affairs</a></li>
+        <li><a href="#0">Sleep and Posttraumatic Stress Disorder (PTSD)</a></li>
+      </ul>
+      <h4><a href="#0">U.S. FDA resources</a></h4>
+    </div>
   </div>
 </div>

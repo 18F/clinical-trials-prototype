@@ -532,6 +532,7 @@ input[id="location"] {
 
 .study_detail-heading {
   font-size: $h3-font-size;
+  margin-bottom: 0;
   margin-top: 7px;
 }
 
@@ -542,7 +543,7 @@ input[id="location"] {
 }
 
 .study_detail-intro {
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 
 .study_detail-intro-main {
@@ -572,7 +573,7 @@ input[id="location"] {
     background-color: transparent;
     border-radius: 3px;
     box-shadow: 0 0 2px 0 rgba(0,0,0,0.50);
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     margin-top: 0;
     padding: 13px;
 
@@ -624,8 +625,8 @@ input[id="location"] {
 
 .study_detail-identifier {
   @include media($medium-screen) {
-    margin-top: -5px;
-    margin-bottom: 11px;
+    margin-top: 0;
+    margin-bottom: 5px;
     text-align: right;
   }
 }
@@ -659,6 +660,7 @@ input[id="location"] {
 .study_detail-button-location {
   @include margin(1rem null);
   font-size: 1.5rem;
+  margin-top: 0;
 
   @include media($medium-screen) {
     margin-right: 16px;
@@ -690,8 +692,8 @@ input[id="location"] {
 .study_detail-tabs {
   border-bottom: 1px solid $color-gray-light;
   margin-bottom: 6rem;
-  margin-top: 70px;
-  height: 46px;
+  margin-top: 55px;
+  height: 35px;
 
   li {
     display: inline-block;
@@ -717,7 +719,7 @@ input[id="location"] {
     font-weight: $font-bold;
     font-size: 15px;
     margin-right: -4px;
-    padding: 23px 20px;
+    padding: 12px 44px;
     text-decoration: none;
 
     &:hover {
@@ -824,10 +826,11 @@ a {
 .search_result-search {
   @include padding(3rem null 1.5rem null);
   background-color: $color-primary-alt-lightest;
+  border-bottom: 1px solid $color-gray-lightest;
 
   label {
     display: inline;
-    font-size: $small-font-size;
+    font-size: 13px;
     font-weight: $font-bold;
 
     @include media($medium-screen) {
@@ -864,7 +867,7 @@ a {
 }
 
 .search_result-link-advanced_search {
-  font-size: 15px;
+  font-size: 13px;
   margin-top: 4px;
 
   @include media($medium-screen) {
@@ -1033,7 +1036,8 @@ a {
   }
 
   fieldset {
-    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 15px;
 
     &:first-of-type {
       margin-top: 15px;
@@ -1058,6 +1062,7 @@ a {
 
   .form-label {
     font-weight: $font-bold;
+    margin-top: 15px;
 
     @include media($medium-screen) {
       font-size: $small-font-size;
@@ -1066,16 +1071,26 @@ a {
 
   select {
     font-size: $small-font-size;
+    margin-bottom: 20px;
   }
 
   .hr-small {
+    border-top-color: $color-primary-darkest;
     border-top-width: 3px;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem !important;
+    opacity: 0.64;
+  }
+
+  .usa-color-green {
+    color: #2C803E;
   }
 }
 
 .search_result-filter-heading {
   border-bottom: 1px solid rgba(174, 176, 181, .43);
   height: 63px;
+  font-size: 15px;
   line-height: 67px;
   padding-left: 2rem;
 }
@@ -1108,12 +1123,14 @@ a {
 
 .search_result-count-showing {
   color: $color-gray;
+  display: inline-block;
+  margin-bottom: 0.5em;
 }
 
 .search_result-info_bar {
   @include padding(1.2rem null);
   box-shadow: 0 2px 4px 0 rgba(174,176,181,0.80);
-  font-size: 14px;
+  font-size: 13px;
 
   .usa-grid {
     position: relative;
@@ -1144,8 +1161,7 @@ a {
   }
 
   .usa-form-hint {
-    color: #717171; // Lightest gray on light blue background (#f5f9ff)
-    // color: $color-gray; // Lightest gray on light blue background (#f5f9ff)
+    color: $color-gray;
   }
 }
 
@@ -1210,7 +1226,7 @@ a {
   // background-color: transparent;
   // box-shadow: 0 0 0 4px transparent;
   // border-bottom: none;
-  border-bottom: 1px dotted;
+  border-bottom: 1px dashed;
   color: $color-primary-darkest;
   cursor: pointer;
   display: inline-block;
@@ -1530,7 +1546,7 @@ $glossary-width: 364px;
 
 a {
   &.page-links-icon_link {
-    font-size: 17px;
+    font-size: 18px;
   }
 }
 
