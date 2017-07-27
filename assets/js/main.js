@@ -286,7 +286,6 @@ module.exports=[
   {
     "term":"FUNDER TYPE",
     "definition":"Describes the organization that provides funding or support for a clinical study. Support may include providing facilities, expertise, or financial resources. Organizations listed as sponsors and collaborators for a study are considered the funders of the study. There are four types of funders:",
-    "definition":"National Institutes of Health"
   },
   {
     "term":"GENDERS ELIGIBLE FOR STUDY",
