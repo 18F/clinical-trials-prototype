@@ -448,6 +448,10 @@ module.exports=[
     "definition":"The date the results of a clinical study was first submitted to the ClinicalTrials.gov results database."
   },
   {
+    "term":"RESULTS POSTED",
+    "definition":"The research team has submitted their study results to ClinicalTrials.gov and they’ve been posted on the site."
+  },
+  {
     "term":"RESULTS FIRST POSTED",
     "definition":"The date the results of a clinical study was first submitted to the ClinicalTrials.gov results database."
   },
@@ -486,6 +490,10 @@ module.exports=[
   {
     "term":"STUDY START DATE",
     "definition":"The date enrollment of participants for a clinical study began."
+  },
+  {
+    "term":"STUDY TYPE",
+    "definition":"There a few kinds of clinical studies. Study types include: interventional studies (or clinical trials), observational studies, and expanded access."
   },
   {
     "term":"SUSPENDED",
