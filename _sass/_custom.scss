@@ -1,5 +1,5 @@
 // Variables -------- //
-$color-primary-alt-lightest: #f5f9ff;
+$color-primary-alt-lightest: #ecf8fb;
 
 // Mixins --------- //
 
@@ -87,7 +87,6 @@ hr {
 }
 
 .hr-small {
-  border-top-color: $color-gray-light;
   margin-bottom: 3rem;
   margin-top: 3rem !important;
 }
@@ -682,20 +681,6 @@ input[id="location"] {
   }
 }
 
-.sidebar-heading-primary {
-  font-family: $font-sans;
-  font-size: $h4-font-size;
-}
-
-.sidebar-heading-secondary {
-  font-family: $font-sans;
-  font-size: $h5-font-size;
-}
-
-.sidebar-content-secondary {
-  font-size: 15px;
-}
-
 .study_detail-tabs {
   border-bottom: 1px solid $color-gray-light;
   margin-bottom: 6rem;
@@ -806,7 +791,13 @@ a.study_detail-tabs-active {
   padding: 2rem;
 
   p {
+    font-size: $h5-font-size;
     margin-top: 0;
+  }
+
+  h2 {
+    font-family: $font-sans;
+    font-size: $h5-font-size;
   }
 }
 
@@ -884,10 +875,7 @@ a.study_detail-tabs-active {
   position: absolute;
   right: 0;
   top: 14px;
-
-  @include media($medium-screen) {
-    width: 127px;
-  }
+  width: 127px;
 
   label {
     margin-left: -51px;
@@ -1030,8 +1018,13 @@ a.study_detail-tabs-active {
 }
 
 .search_result-filter {
-  font-size: $small-font-size;
+  background-color: $color-primary-alt-lightest;
+  box-shadow: inset 0px 14px 4px -12px rgba(174, 176, 181, 0.8);
   margin-right: 0;
+
+  @include media($medium-screen) {
+    font-size: $small-font-size;
+  }
 
   fieldset {
     margin-top: 30px;
@@ -1048,7 +1041,9 @@ a.study_detail-tabs-active {
   }
 
   legend {
-    font-size: $small-font-size;
+    @include media($medium-screen) {
+      font-size: $small-font-size;
+    }
   }
 
   h5 {
@@ -1056,12 +1051,19 @@ a.study_detail-tabs-active {
   }
 
   .form-label {
-    font-size: $small-font-size;
     font-weight: $font-bold;
+
+    @include media($medium-screen) {
+      font-size: $small-font-size;
+    }
   }
 
   select {
     font-size: $small-font-size;
+  }
+
+  .hr-small {
+    border-top-width: 3px;
   }
 }
 
@@ -1069,6 +1071,7 @@ a.study_detail-tabs-active {
   border-bottom: 1px solid rgba(174, 176, 181, .43);
   height: 63px;
   line-height: 67px;
+  padding-left: 2rem;
 }
 
 .search_result-filter-input-indent {
@@ -1076,7 +1079,12 @@ a.study_detail-tabs-active {
 }
 
 .search_result-filter-inner {
-  margin-right: 2rem;
+  @include padding(null 2rem 2rem 2rem);
+}
+
+.button-clear_filters {
+  color: $color-primary-darkest;
+  font-weight: $font-bold;
 }
 
 .search-term-highlight {
@@ -1089,7 +1097,6 @@ a.study_detail-tabs-active {
 
 .search_result-count {
   display: inline-block;
-  font-size: 14px;
   margin-bottom: 0;
 }
 
@@ -1100,9 +1107,20 @@ a.study_detail-tabs-active {
 .search_result-info_bar {
   @include padding(1.2rem null);
   box-shadow: 0 2px 4px 0 rgba(174,176,181,0.80);
+  font-size: 14px;
 
   .usa-grid {
     position: relative;
+  }
+}
+
+.filter-remove {
+  margin-top: 0.5em;
+
+  a {
+    color: $color-primary-darkest;
+    font-weight: $font-bold;
+    text-decoration: none;
   }
 }
 
@@ -1120,7 +1138,7 @@ a.study_detail-tabs-active {
   }
 
   .usa-form-hint {
-    color: #727272; // Lightest gray on light blue background (#f5f9ff)
+    color: #717171; // Lightest gray on light blue background (#f5f9ff)
     // color: $color-gray; // Lightest gray on light blue background (#f5f9ff)
   }
 }
@@ -1473,14 +1491,24 @@ $glossary-width: 364px;
 
   a,
   button {
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: $font-normal;
+    font-size: 14px;
     text-decoration: none;
-
-    i {
-      margin-right: 8px;
-    }
   }
+
+  i {
+    margin-right: 10px;
+  }
+}
+
+.link-compound {
+  i {
+    margin-right: 4px;
+  }
+}
+
+a.page-links-icon_link {
+  font-size: $base-font-size;
 }
 
 .js-glossary-close {

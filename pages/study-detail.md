@@ -201,7 +201,7 @@ class: study-detail
     <h2 id="contact-and-locations">Contact and locations</h2>
     <p>To learn more about this study, you or your doctor may contact the study research staff using the contact information provided by the sponsor.</p>
     <p>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the Contacts provided below. For general information, see <a href="">Learn About Clinical Studies</a>.</p>
-    <h4>Main contact information</h4>
+    <h3>Central contact</h3>
     <p>
       Jason Owen, PhD
       <br>
@@ -210,7 +210,8 @@ class: study-detail
       <a href="#">jason.owen@va.gov</a>
     </p>
     <br>
-    <h4 class="usa-color-green">Recruiting facilities currently recruiting</h4>
+    <h3>Locations</h3>
+    <h4>United States, California</h4>
     <p>
       VA Palo Alto Health Care System Menlo Park Division
       <br>
@@ -221,6 +222,7 @@ class: study-detail
       <b>Contact:</b> Georgina Kafta | 421-652-3159
     </p>
     <hr class="hr-small">
+    <h4>Brazil</h4>
     <p>
       Centro de Pesquisa do Setor de Ginecologia e Mama do Hospital
       <br>
@@ -244,8 +246,7 @@ class: study-detail
       <br>
       <b>Contact:</b> Geraldo Queiroz, MD
     </p>
-    <br>
-    <h4 class="usa-color-secondary">Recruiting facilities closed to recruiting</h4>
+    <hr class="hr-small">
     <p>
       Centro de Pesquisa do Setor de Ginecologia e Mama do Hospital
       <br>

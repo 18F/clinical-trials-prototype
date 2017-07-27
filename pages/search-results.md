@@ -13,23 +13,25 @@ class: search-results
       <li>Search results</li>
     </ul>
     <div class="page-links">
-      <a class="saved_studies" href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i>2 saved studies</a>
+      <button class="js-glossary-toggle button usa-button-unstyled term link-compound"><i class="fa fa-info-circle" aria-hidden="true"></i>Glossary</button>
       <span class="divider-vertical"></span>
-      <button class="js-glossary-toggle button usa-button-unstyled term"><i class="fa fa-info-circle" aria-hidden="true"></i>Glossary</button>
+      <a class="link-compound" href="#">
+        <i class="fa fa-bookmark-o" aria-hidden="true"></i>Save this study
+      </a>
       <span class="divider-vertical"></span>
-      <a href="#0">
+      <a class="page-links-icon_link" href="#">
         <i class="fa fa-print" aria-hidden="true"></i>
         <span class="usa-sr-only">Print</span>
       </a>
-      <a href="#0">
+      <a class="page-links-icon_link" href="#">
         <i class="fa fa-envelope-o" aria-hidden="true"></i>
         <span class="usa-sr-only">Email</span>
       </a>
-      <a class="link-subscribe" href="#0">
+      <a class="page-links-icon_link" class="link-subscribe" href="#0">
         <i class="fa fa-download" aria-hidden="true"></i>
         <span class="usa-sr-only">Download search results</span>
       </a>
-      <a class="link-subscribe" href="#0">
+      <a class="page-links-icon_link" class="link-subscribe" href="#0">
         <i class="fa fa-rss" aria-hidden="true"></i>
         <span class="usa-sr-only">Subscribe to updates on this search (RSS)</span>
       </a>
@@ -41,7 +43,7 @@ class: search-results
     <form class="" action="">
       <div class="search_result-search-input">
         <label class="" for="search_field-condition">Condition or disease</label>
-        <span class="usa-form-hint">(e.g. cancer)</span>
+        <span class="usa-form-hint">(e.g. breast cancer)</span>
         <input id="search_field-condition" name="input-type-text" type="text" value="PTSD">
       </div>
       <div class="search_result-search-input">
@@ -76,7 +78,11 @@ class: search-results
 <nav class="search_result-info_bar">
   <div class="usa-grid">
     <p class="search_result-count">
-      <span class="search_result-count-showing">Showing 1-16 out of 230 results for:</span><br>“<b>PTSD</b>” (includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>) in “<b>Palo Alto, CA</b>” and “<b>seeking participants</b>.”</p>
+      <span class="search_result-count-showing">Showing 1-16 out of 230 results for:</span><br>“<b>PTSD</b>” (includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>) in “<b>Palo Alto, CA</b>” and “<b>seeking participants</b>.”
+    </p>
+    <div class="filter-remove">
+      <a href="#0">Seeking participants <i class="fa fa-times-circle" aria-hidden="true"></i></a>
+    </div>
   </div>
 </nav>
 <div class="usa-grid">
