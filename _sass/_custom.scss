@@ -648,6 +648,12 @@ input[id="location"] {
       padding-left: 1rem;
     }
   }
+
+  .usa-sidenav-list {
+    > li:first-child {
+      border-top: 1px solid $color-gray;
+    }
+  }
 }
 
 .study_detail-button-location {
@@ -708,19 +714,27 @@ input[id="location"] {
     border-bottom: 1px solid $color-gray-light;
     border-left: 1px solid $color-gray-light;
     border-top: 5px solid #8BA6C9;
+    font-weight: $font-bold;
+    font-size: 15px;
     margin-right: -4px;
     padding: 23px 20px;
     text-decoration: none;
+
+    &:hover {
+      background: $color-white;
+    }
   }
 }
 
-a.study_detail-tabs-active {
-  background: $color-white;
-  border-bottom: 1px solid $color-white;
-  border-top-color: $color-primary;
-  color: $color-base;
-  font-weight: $font-bold;
+a {
+  &.study_detail-tabs-active {
+    background: $color-white;
+    border-bottom: 1px solid $color-white;
+    border-top-color: $color-primary;
+    color: $color-base;
+  }
 }
+
 
 .whisperbox {
   @include padding(null 1em);
@@ -967,14 +981,6 @@ a.study_detail-tabs-active {
       background-color: #FBFBFB;
       // position: relative;
     }
-  }
-}
-
-.link-subscribe {
-  font-size: $small-font-size;
-
-  i {
-    margin-right: 4px;
   }
 }
 
@@ -1503,12 +1509,21 @@ $glossary-width: 364px;
 
 .link-compound {
   i {
-    margin-right: 4px;
+    margin-right: 5px;
   }
 }
 
-a.page-links-icon_link {
-  font-size: $base-font-size;
+a {
+  &.page-links-icon_link {
+    font-size: 17px;
+  }
+}
+
+.saved_studies-count {
+  @include padding(null 5px);
+  background-color: $color-primary;
+  border-radius: 3px;
+  color: $color-white;
 }
 
 .js-glossary-close {

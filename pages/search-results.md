@@ -16,7 +16,7 @@ class: search-results
       <button class="js-glossary-toggle button usa-button-unstyled term link-compound"><i class="fa fa-info-circle" aria-hidden="true"></i>Glossary</button>
       <span class="divider-vertical"></span>
       <a class="link-compound" href="#">
-        <i class="fa fa-bookmark-o" aria-hidden="true"></i>Save this study
+        <i class="fa fa-bookmark-o" aria-hidden="true"></i>Saved studies <span class="saved_studies-count">2</span>
       </a>
       <span class="divider-vertical"></span>
       <a class="page-links-icon_link" href="#">
@@ -27,11 +27,11 @@ class: search-results
         <i class="fa fa-envelope-o" aria-hidden="true"></i>
         <span class="usa-sr-only">Email</span>
       </a>
-      <a class="page-links-icon_link" class="link-subscribe" href="#0">
+      <a class="page-links-icon_link" href="#0">
         <i class="fa fa-download" aria-hidden="true"></i>
         <span class="usa-sr-only">Download search results</span>
       </a>
-      <a class="page-links-icon_link" class="link-subscribe" href="#0">
+      <a class="page-links-icon_link" href="#0">
         <i class="fa fa-rss" aria-hidden="true"></i>
         <span class="usa-sr-only">Subscribe to updates on this search (RSS)</span>
       </a>

@@ -4,7 +4,7 @@ permalink: /study-detail/advanced-view/
 class: study-detail-tabular-view
 ---
 
-<section class="study_detail-tabs usa-serif">
+<section class="study_detail-tabs">
   <div class="usa-grid">
     <ul class="usa-grid usa-unstyled-list">
       <li>
@@ -14,7 +14,7 @@ class: study-detail-tabular-view
         <a class="study_detail-tabs-active" href="{{ site.baseurl }}/advanced-view/">Advanced view</a>
       </li>
       <li>
-        <a href="#0">Study results not yet posted</a>
+        <a href="#0">Study results</a>
       </li>
     </ul>
   </div>
