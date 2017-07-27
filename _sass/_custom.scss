@@ -1413,7 +1413,21 @@ $glossary-width: 364px;
   display: none !important;
 }
 
+@mixin sentence-case() {
+  text-transform: lowercase;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+// // USAGE:
+// .form-label {
+//   @include sentence-case();
+// }
+
 .glossary__term {
+  @include sentence-case();
   appearance: none;
   background-color: transparent;
   font-family: $font-serif;
