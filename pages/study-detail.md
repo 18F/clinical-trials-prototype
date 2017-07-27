@@ -69,9 +69,15 @@ class: study-detail
     <table>
       <thead>
         <tr>
-          <th scope="col">Condition</th>
-          <th scope="col">Intervention</th>
-          <th scope="col">Phase</th>
+          <th scope="col">
+            <span class="term" data-term="Condition">Condition <i class="fa fa-info-circle" aria-hidden="true"></i></span>
+          </th>
+          <th scope="col">
+            <span class="term" data-term="Intervention">Intervention <i class="fa fa-info-circle" aria-hidden="true"></i></span>
+          </th>
+          <th scope="col">
+            <span class="term" data-term="Phase">Phase <i class="fa fa-info-circle" aria-hidden="true"></i></span>
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -176,7 +182,7 @@ class: study-detail
       <li><a href="#">Accepts Healthy Volunteers:</a> No</li>
     </ul>
     <h3 id="criteria">What criteria do I need to meet?</h3>
-    <h4 class="term">Inclusion Criteria  <i class="fa fa-info-circle" aria-hidden="true"></i>:</h4>
+    <h4 class="term" data-term="Inclusion criteria">Inclusion criteria  <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <p>To be eligible to participate, participants must be either a Veteran with PTSD or living with a partner who is a Veteran with PTSD.</p>
     <h4>Veterans must be: </h4>
     <ul>
@@ -193,7 +199,7 @@ class: study-detail
       <li>Must have access to a smart phone using the iOS operating system</li>
       <li>Must be experiencing significant stress</li>
     </ul>
-    <h4 class="term">Exclusion Criteria  <i class="fa fa-info-circle" aria-hidden="true"></i>:</h4>
+    <h4 class="term" data-term="Exclusion criteria">Exclusion criteria  <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <p>Actual or threatened interpersonal violence in the home</p>
     <h4>Estimated Enrollment:</h4>
     <p>200</p>
@@ -288,10 +294,10 @@ class: study-detail
     </ul>
     <h3 id="sponsors">Sponsors and collaborators</h3>
     <ul>
-      <li><b class="term" data-term="">Sponsors <i class="fa fa-info-circle" aria-hidden="true"></i>:</b> VA Palo Alto Health Care System</li>
-      <li><b class="term" data-term="">Collaborators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
-      <li><b class="term" data-term="">Investigators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
-      <li><b class="term" data-term="">Responsible party <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
+      <li><b class="term" data-term="Sponsor">Sponsors <i class="fa fa-info-circle" aria-hidden="true"></i>:</b> VA Palo Alto Health Care System</li>
+      <li><b class="term" data-term="Collaborator">Collaborators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
+      <li><b class="term" data-term="Investigator">Investigators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
+      <li><b class="term" data-term="Responsible party">Responsible party <i class="fa fa-info-circle" aria-hidden="true"></i>:</b></li>
     </ul>
     <h3 id="keywords">Keywords</h3>
     <p><a href="#">family</a>, <a href="#">caregiving</a>, <a href="#">ptsd</a>, <a href="#">couples</a></p>
