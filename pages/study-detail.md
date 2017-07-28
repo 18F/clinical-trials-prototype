@@ -209,40 +209,67 @@ class: study-detail
     <br>
     <h3>Locations</h3>
     <h4>United States, California</h4>
-    <p>
-      VA Palo Alto Health Care System Menlo Park Division
-      <br>
-      Menlo Park, California
-      <br>
-      United States, 94025
-      <br>
-      <b>Contact:</b> Georgina Kafta | 421-652-3159
-    </p>
+    <div class="study-location">
+      <p>
+        <span class="study-status study-status-recruiting">
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          Recruiting
+        </span>
+        <br>
+        VA Palo Alto Health Care System Menlo Park Division
+        <br>
+        Menlo Park, California
+        <br>
+        United States, 94025
+        <br>
+        <b>Contact:</b> Georgina Kafta | 421-652-3159
+      </p>
+    </div>
     <hr class="hr-small">
     <h4>Brazil</h4>
-    <p>
-      Centro de Pesquisa do Setor de Ginecologia e Mama do Hospital
-      <br>
-      Goiânia, Goiás, Brazil
-      <br>
-      <b>Contact:</b> Geraldo Queiroz, MD
-    </p>
+    <div class="study-location">
+      <p>
+        <span class="study-status study-status-recruiting">
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          Recruiting
+        </span>
+        <br>
+        Centro de Pesquisa do Setor de Ginecologia e Mama do Hospital
+        <br>
+        Goiânia, Goiás, Brazil
+        <br>
+        <b>Contact:</b> Geraldo Queiroz, MD
+      </p>
+    </div>
     <br>
-    <p>
-      Centro Regional Integrado de Oncologia (CRIO)
-      <br>
-      Passo Fundo, Rio Grande do Sul, Brazil
-      <br>
-      <b>Contact:</b> Geraldo Queiroz, MD
-    </p>
-    <br>
-    <p>
-      Hospital da Cidade de Passo Fundo
-      <br>
-      Passo Fundo, Rio Grande do Sul, Brazil
-      <br>
-      <b>Contact:</b> Geraldo Queiroz, MD
-    </p>
+    <div class="study-location">
+      <p>
+        <span class="study-status study-status-recruiting">
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          Recruiting
+        </span>
+        <br>
+        Centro Regional Integrado de Oncologia (CRIO)
+        <br>
+        Passo Fundo, Rio Grande do Sul, Brazil
+        <br>
+        <b>Contact:</b> Geraldo Queiroz, MD
+      </p>
+    </div>
+    <div class="study-location">
+      <p>
+        <span class="study-status study-status-recruiting">
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          Recruiting
+        </span>
+        <br>
+        Hospital da Cidade de Passo Fundo
+        <br>
+        Passo Fundo, Rio Grande do Sul, Brazil
+        <br>
+        <b>Contact:</b> Geraldo Queiroz, MD
+      </p>
+    </div>
     <hr>
     <h2 id="administrative-information">Administrative information</h2>
     <h3 id="study-numbers">Study numbers</h3>
@@ -290,7 +317,7 @@ class: study-detail
     </ul>
     <h4>Official title</h4>
     <p>Use of Mobile Apps for Those With PTSD and Their Partners</p>
-    <h4 class="term" data-term="">Additional relevant MeSH terms <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h4 class="term" data-term="MEDICAL SUBJECT HEADINGS (MeSH)">Additional relevant MeSH terms <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <p>Heart failure, heart diseases, cardiovascular diseases</p>
     <hr>
     <h2 id="related-publications">Related publications</h2>

@@ -743,6 +743,20 @@ a {
   }
 }
 
+.study-location {
+  position: relative;
+
+  .study-status {
+    font-family: $font-sans;
+    font-size: 1.3rem;
+
+    // @include media($medium-screen) {
+    //   position: absolute;
+    //   right: 0;
+    //   top: 0;
+    // }
+  }
+}
 
 .whisperbox {
   @include clip-margins;

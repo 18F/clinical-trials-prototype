@@ -288,8 +288,8 @@ module.exports=[
     "definition":"Describes the organization that provides funding or support for a clinical study. Support may include providing facilities, expertise, or financial resources. Organizations listed as sponsors and collaborators for a study are considered the funders of the study. There are four types of funders:",
   },
   {
-    "term":"GENDERS ELIGIBLE FOR STUDY",
-    "definition":"The physical gender of people who may participate in a clinical study (female, male, or both)."
+    "term":"GENDER-BASED ELIGIBILITY FOR STUDY",
+    "definition":"Whether eligibility to participate in a clinical study is based on gender. Gender means a person’s self-representation of gender identity."
   },
   {
     "term":"HEALTH AUTHORITY",
@@ -334,6 +334,10 @@ module.exports=[
   {
     "term":"MASKING",
     "definition":"A clinical trial design strategy in which one or more parties involved in the trial, such as the investigator or participants, do not know which participants have been assigned which interventions. Types of Masking include Open Label, Single Blind Masking, and Double Blind Masking."
+  },
+  {
+    "term":"MEDICAL SUBJECT HEADINGS (MeSH)",
+    "definition":"The National Library of Medicine’s controlled vocabulary thesaurus used for indexing articles for PubMed."
   },
   {
     "term":"NCT NUMBER (or ClinicalTrials.gov Identifier)",
@@ -381,7 +385,7 @@ module.exports=[
   },
   {
     "term":"PHASE",
-    "definition":"Food and Drug Administration (FDA) descriptions of the clinical trial of a drug based on the study's characteristics, such as the objective and number of participants. There are five phases. <ul><li>hi</li><li>sup</li></ul>"
+    "definition":"Food and Drug Administration (FDA) descriptions of the clinical trial of a drug based on the study's characteristics, such as the objective and number of participants. There are five phases."
   },
   {
     "term":"PLACEBO",
@@ -462,6 +466,10 @@ module.exports=[
   {
     "term":"SERIOUS ADVERSE EVENT",
     "definition":"An adverse event that results in death, is life-threatening, requires inpatient hospitalization or extends a current hospital stay, results in an ongoing or significant incapacity or interferes substantially with normal life functions, or causes a congenital anomaly or birth defect. Medical events that do not result in death, are not life-threatening, or do not require hospitalization may be considered serious adverse events if they put the participant in danger or require medical or surgical intervention to prevent one of the results listed above."
+  },
+  {
+    "term":"SEXES ELIGIBLE FOR STUDY",
+    "definition":"The sex of people who may participate in a clinical study (all, female, male). Sex is a person’s classification as female or male based on biological distinctions."
   },
   {
     "term":"SHAM COMPARATOR ARM",
