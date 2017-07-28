@@ -162,9 +162,9 @@ class: study-detail
       <p><b>Information from the National Library of Medicine</b></p>
       <p><i>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the contacts provided below. For general information, <a href="#0">Learn about clinical studies</a>.</i></p>
     </div>
-    <h4 class="term" data-term="">Ages eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h4 class="">Ages eligible for study</h4>
     <p>18 Years to 90 Years (adult, senior)</p>
-    <h4 class="term" data-term="">Sexes eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h4 class="term" data-term="Sexes eligible for study">Sexes eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <p>All</p>
     <h4 class="term" data-term="Accepts healthy volunteers">Accepts healthy volunteers <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <p>No</p>
