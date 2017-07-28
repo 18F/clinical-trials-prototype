@@ -739,14 +739,21 @@ a {
 
 
 .whisperbox {
-  @include padding(null 1em);
+  @include clip-margins;
+  @include padding(1em);
   border: 1px solid $color-gray-lighter;
-  border-radius: 3px;
 
   p, a {
     font-family: $font-sans;
     max-width: initial !important;
   }
+}
+
+// Whisperbox with content
+.whisperbox-alt {
+  @include padding(18px 25px);
+  background-color: rgba(236, 248, 251, .24);
+  max-width: 630px;
 }
 
 // Breadcrumb navigation -------- //

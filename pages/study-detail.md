@@ -19,7 +19,7 @@ class: study-detail
     </ul>
   </div>
 </section>
-<div class="usa-grid usa-serif study_detail-main">
+<div class="usa-grid study_detail-main">
   <aside class="usa-width-one-fourth sticky">
     <ul class="usa-sidenav-list">
       <li>
@@ -63,8 +63,10 @@ class: study-detail
         </li>
       </li>
     </ul>
+    <br><br>
+    <a class="usa-button usa-button-gray" href="#">Return to top <i class="fa fa-chevron-up" aria-hidden="true"></i></a>
   </aside>
-  <div class="usa-width-three-fourths usa-content">
+  <div class="usa-width-three-fourths usa-content usa-serif">
     <h2 id="study-description">Study description</h2>
     <table>
       <thead>
@@ -156,9 +158,9 @@ class: study-detail
     </ul>
     <hr>
     <h2 id="eligibility-criteria">Eligibility criteria</h2>
-    <div class="whisperbox">
-      <h3>Information from the National Library of Medicine</h3>
-      <p>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the contacts provided below. For general information, see Learn About Clinical Studies.</p>
+    <div class="whisperbox whisperbox-alt">
+      <p><b>Information from the National Library of Medicine</b></p>
+      <p><i>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the contacts provided below. For general information, see Learn About Clinical Studies.</i></p>
     </div>
     <h4 class="term" data-term="">Ages eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <p>18 Years to 90 Years (Adult, Senior)</p>
@@ -191,10 +193,10 @@ class: study-detail
     <p>200</p>
     <hr>
     <h2 id="contact-and-locations">Contact and locations</h2>
-    <div class="whisperbox">
-      <h3>Information from the National Library of Medicine</h3>
-      <p>To learn more about this study, you or your doctor may contact the study research staff using the contact information provided by the sponsor.</p>
-      <p>Please refer to this study by its ClinicalTrials.gov identifier (NCT number): NCT02780635</p>
+    <div class="whisperbox whisperbox-alt">
+      <p><b>Information from the National Library of Medicine</b></p>
+      <p><i>To learn more about this study, you or your doctor may contact the study research staff using the contact information provided by the sponsor.</i></p>
+      <p><i>Please refer to this study by its ClinicalTrials.gov identifier (NCT number): <b>NCT02780635</b></i></p>
     </div>
     <h3>Central contact</h3>
     <p>
@@ -278,9 +280,9 @@ class: study-detail
     </ul>
     <hr>
     <h2 id="resource-links">Resource links</h2>
-    <div class="whisperbox">
-      <h3>Resource links provided by the National Library of Medicine</h3>
-      <p>Here are some resources that are related to this study record and fall out of the scope of this study.</p>
+    <div class="whisperbox whisperbox-alt">
+      <p><b>Resource links provided by the National Library of Medicine</b></p>
+      <p><i>Here are some resources that are related to this study record and fall out of the scope of this study.</i></p>
       <h4><a href="#0">MedlinePlus related topics</a></h4>
       <ul>
         <li><a href="#0">What Can I Do If I Think I Have PTSD?</a></li>
