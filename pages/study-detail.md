@@ -241,7 +241,6 @@ class: study-detail
         <b>Contact:</b> Geraldo Queiroz, MD
       </p>
     </div>
-    <br>
     <div class="study-location">
       <p>
         <span class="study-status study-status-recruiting">
@@ -322,9 +321,9 @@ class: study-detail
     <hr>
     <h2 id="related-publications">Related publications</h2>
     <ul>
-      <li>  Cui R, Zhou L, Lin S, Xue Y, Duan L, Xia Z, Jin Z, Zhang H, Zhang J, Song Z, Yan X. The feasibility of light microscopic measurements of intercellular spaces in squamous epithelium in the lower-esophagus of GERD patients. Dis Esophagus. 2011 Jan;24(1):1-5. doi: 10.1111/j.1442-2050.2010.01083.x.</li>
-      <li>Tobey NA, Carson JL, Alkiek RA, Orlando RC. Dilated intercellular spaces: a morphological feature of acid reflux--damaged human esophageal epithelium. Gastroenterology. 1996 Nov;111(5):1200-5.</li>
-      <li>Chu CL, Zhen YB, Lv GP, Li CQ, Li Z, Qi QQ, Gu XM, Yu T, Zhang TG, Zhou CJ, Rui-Ji, Li YQ. Microalterations of esophagus in patients with non-erosive reflux disease: in-vivo diagnosis by confocal laser endomicroscopy and its relationship with gastroesophageal reflux. Am J Gastroenterol. 2012 Jun;107(6):864-74. doi: 10.1038/ajg.2012.44. Epub 2012 Mar 13.</li>
+      <li><a href="#0">Cui R, Zhou L, Lin S, Xue Y, Duan L, Xia Z, Jin Z, Zhang H, Zhang J, Song Z, Yan X. The feasibility of light microscopic measurements of intercellular spaces in squamous epithelium in the lower-esophagus of GERD patients. Dis Esophagus. 2011 Jan;24(1):1-5. doi: 10.1111/j.1442-2050.2010.01083.x.</a></li>
+      <li><a href="#0">Tobey NA, Carson JL, Alkiek RA, Orlando RC. Dilated intercellular spaces: a morphological feature of acid reflux--damaged human esophageal epithelium. Gastroenterology. 1996 Nov;111(5):1200-5.</a></li>
+      <li><a href="#0">Chu CL, Zhen YB, Lv GP, Li CQ, Li Z, Qi QQ, Gu XM, Yu T, Zhang TG, Zhou CJ, Rui-Ji, Li YQ. Microalterations of esophagus in patients with non-erosive reflux disease: in-vivo diagnosis by confocal laser endomicroscopy and its relationship with gastroesophageal reflux. Am J Gastroenterol. 2012 Jun;107(6):864-74. doi: 10.1038/ajg.2012.44. Epub 2012 Mar 13.</a></li>
     </ul>
     <hr>
     <h2 id="resource-links">Resource links</h2>
