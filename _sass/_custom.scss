@@ -1065,8 +1065,12 @@ a {
 
   legend {
     @include media($medium-screen) {
-      font-size: $small-font-size;
+      //
     }
+  }
+
+  .form-heading-small {
+    font-size: $small-font-size;
   }
 
   h5 {
@@ -1415,10 +1419,6 @@ $glossary-width: 364px;
     padding: 0;
   }
 
-  li {
-    list-style-type: none;
-  }
-
   input[type="search"] {
     box-sizing: inherit;
     margin-bottom: 4rem;
@@ -1449,11 +1449,6 @@ $glossary-width: 364px;
     text-transform: uppercase;
   }
 }
-
-// // USAGE:
-// .form-label {
-//   @include sentence-case();
-// }
 
 .glossary__term {
   @include sentence-case();
@@ -1504,6 +1499,11 @@ $glossary-width: 364px;
 
 .glossary__definition {
   padding: 0.85rem 1rem 2em 1rem;
+
+  > ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
 }
 
 .js-accordion button {
@@ -1528,6 +1528,29 @@ $glossary-width: 364px;
 
   svg {
     margin-right: 2px;
+  }
+}
+
+
+.js-glossary-close {
+  font-size: 20px;
+  float: right;
+  width: initial;
+}
+
+.js-glossary-search {
+  &::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button !important;
+  }
+}
+
+.glossary__item {
+  border-bottom: 1px solid $color-white;
+  list-style-type: none;
+  margin-bottom: 0;
+
+  &:first-child {
+    border-top: 1px solid $color-gray-light;
   }
 }
 
@@ -1568,27 +1591,4 @@ a {
   background-color: $color-primary;
   border-radius: 3px;
   color: $color-white;
-}
-
-.js-glossary-close {
-  font-size: 20px;
-  float: right;
-  width: initial;
-}
-
-.js-glossary-search {
-  &::-webkit-search-cancel-button {
-    -webkit-appearance: searchfield-cancel-button !important;
-  }
-}
-
-.glossary__content {
-  li {
-    border-bottom: 1px solid $color-white;
-    margin-bottom: 0;
-
-    &:first-child {
-      border-top: 1px solid $color-gray-light;
-    }
-  }
 }

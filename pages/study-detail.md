@@ -160,10 +160,10 @@ class: study-detail
     <h2 id="eligibility-criteria">Eligibility criteria</h2>
     <div class="whisperbox whisperbox-alt">
       <p><b>Information from the National Library of Medicine</b></p>
-      <p><i>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the contacts provided below. For general information, see Learn About Clinical Studies.</i></p>
+      <p><i>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the contacts provided below. For general information, <a href="#0">Learn about clinical studies</a>.</i></p>
     </div>
     <h4 class="term" data-term="">Ages eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
-    <p>18 Years to 90 Years (Adult, Senior)</p>
+    <p>18 Years to 90 Years (adult, senior)</p>
     <h4 class="term" data-term="">Sexes eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <p>All</p>
     <h4 class="term" data-term="Accepts healthy volunteers">Accepts healthy volunteers <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
@@ -247,17 +247,24 @@ class: study-detail
     <h2 id="administrative-information">Administrative information</h2>
     <h3 id="study-numbers">Study numbers</h3>
     <p>
-      ClinicalTrials.gov Identifier: NCT02780635
+      ClinicalTrials.gov identifier (NCT number): NCT02780635
       <br>
-      Other Study ID Numbers: 33003
+      Other study ID numbers: 33003
     </p>
     <h3 id="important-dates">Important dates</h3>
     <ul>
+      <li><b>Registration first submitted:</b> May 4, 2016</li>
+      <li><b>Registration first submitted that met QC criteria:</b> June 22, 2017</li>
+      <li><b>Registration first posted:</b> May 4, 2016</li>
+      <li><b>Update last submitted:</b> June 14, 2016</li>
+      <li><b>Update last submitted that met QC criteria:</b> June 23, 2017</li>
+      <li><b>Update last posted:</b> May 4, 2016</li>
+      <li><b>Results first submitted:</b> N/A</li>
+      <li><b>Results first submitted that met QC criteria:</b> N/A</li>
+      <li><b>Results first posted:</b> N/A</li>
       <li><b>Study start date:</b> December 2015</li>
       <li><b>Estimated study completion date:</b> December 2017</li>
-      <li><b>Estimated primary completion date:</b> December 2016 (Final data collection date for primary outcome measure)</li>
-      <li><b>Study first received:</b> May 4, 2016</li>
-      <li><b>Last updated:</b> May 24, 2016</li>
+      <li><b>Estimated primary completion date:</b> December 2016 (final data collection date for primary outcome measure)</li>
     </ul>
     <h3 id="sponsors">Sponsors and collaborators</h3>
     <ul>
@@ -266,11 +273,25 @@ class: study-detail
       <li><b class="term" data-term="Investigator">Investigators <i class="fa fa-info-circle" aria-hidden="true"></i>:</b> Tonix Pharmaceuticals, Inc.</li>
       <li><b class="term" data-term="Responsible party">Responsible party <i class="fa fa-info-circle" aria-hidden="true"></i>:</b> Premier Research Group plc; Greg Sullivan, MD</li>
     </ul>
-    <h3 id="keywords">Keywords</h3>
-    <p><a href="#">family</a>, <a href="#">caregiving</a>, <a href="#">ptsd</a>, <a href="#">couples</a></p>
     <div class="whisperbox">
       <p>If you are the owner of this study and want to submit a correction, please <a href="mailto:nlm@info.nlm.gov">contact our support team</a>.</p>
     </div>
+    <h3 id="keywords">Keywords</h3>
+    <p><a href="#">family</a>, <a href="#">caregiving</a>, <a href="#">ptsd</a>, <a href="#">couples</a></p>
+    <h3>Study details</h3>
+    <h4 class="term" data-term="Study type">Study type <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <p>Interventional</p>
+    <h4 class="term" data-term="Study design">Study design <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <ul>
+      <li><span class="term" data-term="Allocation">Allocation <i class="fa fa-info-circle" aria-hidden="true"></i></span>: randomized</li>
+      <li><span class="term" data-term="Intervention model">Intervention model <i class="fa fa-info-circle" aria-hidden="true"></i></span>: factorial assignment</li>
+      <li><span class="term" data-term="Masking">Masking <i class="fa fa-info-circle" aria-hidden="true"></i></span>: no masking</li>
+      <li><span class="term" data-term="Primary purpose">Primary purpose <i class="fa fa-info-circle" aria-hidden="true"></i></span>: treatment</li>
+    </ul>
+    <h4>Official title</h4>
+    <p>Use of Mobile Apps for Those With PTSD and Their Partners</p>
+    <h4 class="term" data-term="">Additional relevant MeSH terms <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <p>Heart failure, heart diseases, cardiovascular diseases</p>
     <hr>
     <h2 id="related-publications">Related publications</h2>
     <ul>
@@ -282,7 +303,6 @@ class: study-detail
     <h2 id="resource-links">Resource links</h2>
     <div class="whisperbox whisperbox-alt">
       <p><b>Resource links provided by the National Library of Medicine</b></p>
-      <p><i>Here are some resources that are related to this study record and fall out of the scope of this study.</i></p>
       <h4><a href="#0">MedlinePlus related topics</a></h4>
       <ul>
         <li><a href="#0">What Can I Do If I Think I Have PTSD?</a></li>

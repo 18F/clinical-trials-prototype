@@ -381,7 +381,7 @@ module.exports=[
   },
   {
     "term":"PHASE",
-    "definition":"Food and Drug Administration (FDA) descriptions of the clinical trial of a drug based on the study's characteristics, such as the objective and number of participants. There are five phases."
+    "definition":"Food and Drug Administration (FDA) descriptions of the clinical trial of a drug based on the study's characteristics, such as the objective and number of participants. There are five phases. <ul><li>hi</li><li>sup</li></ul>"
   },
   {
     "term":"PLACEBO",
