@@ -657,6 +657,12 @@ input[id="location"] {
   }
 }
 
+.link-return_to_top {
+  font-size: 15px;
+  font-weight: $font-bold;
+  text-decoration: none;
+}
+
 .study_detail-button-location {
   @include margin(1rem null);
   font-size: 1.5rem;

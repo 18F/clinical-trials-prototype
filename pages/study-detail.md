@@ -64,7 +64,7 @@ class: study-detail
       </li>
     </ul>
     <br><br>
-    <a class="usa-button usa-button-gray" href="#">Return to top <i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+    <a class="link-return_to_top" href="#">Return to top <i class="fa fa-chevron-up" aria-hidden="true"></i></a>
   </aside>
   <div class="usa-width-three-fourths usa-content usa-serif">
     <h2 id="study-description">Study description</h2>
