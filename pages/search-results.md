@@ -78,7 +78,7 @@ class: search-results
 <nav class="search_result-info_bar">
   <div class="usa-grid">
     <p class="search_result-count">
-      <span class="search_result-count-showing">Showing 1-16 out of 230 results for:</span><br><b>PTSD</b> (includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>) in <b>Palo Alto, CA</b>.
+      <span class="search_result-count-showing">Showing 1-16 out of 230 results for:</span><br><b>PTSD</b> (includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>) in <b>Palo Alto, CA</b>
     </p>
     <div class="filter-remove">
       <a href="#0">Seeking participants <i class="fa fa-times-circle" aria-hidden="true"></i></a>
@@ -108,7 +108,7 @@ class: search-results
     </div> -->
     <div class="usa-grid-full search_results-heading">
       <div class="usa-width-two-thirds">
-        <p class="search_results-heading-study">Study details</p>
+        <p class="search_results-heading-study">Study details - <a href="#0">show more</a></p>
       </div>
       <div class="usa-width-one-third">
         <p class="term" data-term="Intervention">
