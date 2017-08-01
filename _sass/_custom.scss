@@ -917,15 +917,21 @@ a {
 
 .form-sort {
   font-size: $small-font-size;
-  position: absolute;
-  right: 0;
-  top: 14px;
-  width: 127px;
+
+
+  @include media($medium-screen) {
+    position: absolute;
+    right: 30px;
+    top: 14px;
+    width: 127px;
+  }
 
   label {
-    margin-left: -51px;
-    margin-top: 9px;
-    position: absolute;
+    @include media($medium-screen) {
+      margin-left: -51px;
+      margin-top: 9px;
+      position: absolute;
+    }
   }
 
   select {
@@ -937,12 +943,17 @@ a {
 }
 
 .search_results-heading {
-  @include padding(1rem null);
+  @include padding(1.3rem null);
   border-bottom: 1px solid #f1f1f1;
   border-left: 1px solid #f1f1f1;
+  display: none;
   font-size: 1.5rem;
   font-weight: $font-bold;
   padding-left: 2rem;
+
+  @include media($medium-screen) {
+    display: block;
+  }
 }
 
 .search_results-heading-study {
@@ -1054,6 +1065,20 @@ a {
   }
 }
 
+.search_result-intervention-heading {
+  @include h6;
+
+  @include media($medium-screen) {
+    @include sr-only;
+  }
+}
+
+.search_results-main {
+  @media (min-width: 820px) {
+    width: 77%;
+  }
+}
+
 .search_result-filter {
   background-color: $color-primary-alt-lightest;
   box-shadow: inset 0px 14px 4px -12px rgba(174, 176, 181, 0.8);
@@ -1061,6 +1086,10 @@ a {
 
   @include media($medium-screen) {
     font-size: $small-font-size;
+  }
+
+  @media (min-width: 820px) {
+    width: 23%;
   }
 
   fieldset {
@@ -1120,11 +1149,11 @@ a {
 }
 
 .search_result-filter-heading {
+  @include padding(15px null 15px 20px);
   border-bottom: 1px solid rgba(174, 176, 181, .43);
-  height: 63px;
+  // height: 63px;
   font-size: 15px;
-  line-height: 67px;
-  padding-left: 2rem;
+  // line-height: 67px;
 }
 
 .search_result-filter-input-indent {

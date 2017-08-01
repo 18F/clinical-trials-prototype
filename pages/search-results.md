@@ -78,28 +78,34 @@ class: search-results
 <nav class="search_result-info_bar">
   <div class="usa-grid">
     <p class="search_result-count">
-      <span class="search_result-count-showing">Showing 1-16 out of 230 results for:</span><br>“<b>PTSD</b>” (includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>) in “<b>Palo Alto, CA</b>” and “<b>seeking participants</b>.”
+      <span class="search_result-count-showing">Showing 1-16 out of 230 results for:</span><br><b>PTSD</b> (includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>) in <b>Palo Alto, CA</b>.
     </p>
     <div class="filter-remove">
       <a href="#0">Seeking participants <i class="fa fa-times-circle" aria-hidden="true"></i></a>
     </div>
+    <form class="form-sort" action="">
+      <label for="options">Sort by:</label>
+      <select name="options" id="options">
+        <option value="most-relevant">Most relevant</option>
+        <option value="newest">Newest</option>
+      </select>
+    </form>
   </div>
 </nav>
 <div class="usa-grid">
   <aside class="search_result-filter usa-width-one-fourth">
     {% include search-results-filter.html %}
   </aside>
-  <div class="usa-width-three-fourths">
-    <div class="search_results-info">
+  <div class="usa-width-three-fourths search_results-main">
+<!--     <div class="search_results-info">
       <form class="form-sort" action="">
         <label for="options">Sort by:</label>
         <select name="options" id="options">
-          <option value="value1">Most relevant</option>
-          <option value="value2">Newest</option>
-          <option value="value3">Oldest</option>
+          <option value="most-relevant">Most relevant</option>
+          <option value="newest">Newest</option>
         </select>
       </form>
-    </div>
+    </div> -->
     <div class="usa-grid-full search_results-heading">
       <div class="usa-width-two-thirds">
         <p class="search_results-heading-study">Study details</p>
@@ -119,8 +125,6 @@ class: search-results
               <i class="fa fa-circle" aria-hidden="true"></i>
               Recruiting
             </p>
-<!--             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Latin American Cooperative Oncology Group</p> -->
             <h3 class="search_result-heading">
               <a href="{{ site.baseurl }}/study-detail/">Use of Mobile Apps for Those With <b>PTSD</b> and Their Partners</a>
             </h3>
@@ -129,6 +133,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
+            <h3 class="search_result-intervention-heading">Intervention type</h3>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
@@ -145,8 +150,6 @@ class: search-results
           </div>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Enrolling by invitation</p>
-<!--             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: The Cooper Health System</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Yoga Online Feasibility to Reduce <b>PTSD</b></a>
             </h3>
@@ -155,6 +158,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
+            <h3 class="search_result-intervention-heading">Intervention type</h3>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
@@ -166,8 +170,6 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
-<!--             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related <b>PTSD</b></a>
             </h3>
@@ -176,6 +178,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
           </div>
           <div class="usa-width-one-third">
+            <h3 class="search_result-intervention-heading">Intervention type</h3>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
             </ul>
@@ -186,8 +189,6 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-<!--             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Penn State University</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Efficacy of 60-minute Versus 90-minute Sessions in Treating <b>PTSD</b> Using Prolonged Exposure</a>
             </h3>
@@ -196,6 +197,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
+            <h3 class="search_result-intervention-heading">Intervention type</h3>
             <ul class="search_result-intervention">
               <li>Drug: Ketamine</li>
             </ul>
@@ -206,8 +208,6 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
-<!--             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Cedars-Sinai Medical Center</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Intensive Weekend Retreat Multi-Couple Group Therapy for <b>PTSD</b></a>
             </h3>
@@ -216,6 +216,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Substance Abuse</p>
           </div>
           <div class="usa-width-one-third">
+            <h3 class="search_result-intervention-heading">Intervention type</h3>
             <ul class="search_result-intervention">
               <li>Drug: Ketamine, doxazosin</li>
               <li>Drug: Doxazosin</li>
@@ -232,8 +233,6 @@ class: search-results
           </div>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-<!--             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Humana</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (<b>PTSD</b>)</a>
             </h3>
@@ -242,6 +241,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
           </div>
           <div class="usa-width-one-third">
+            <h3 class="search_result-intervention-heading">Intervention type</h3>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
@@ -254,8 +254,6 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
-<!--             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Arizona State University</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related <b>PTSD</b></a>
             </h3>
@@ -264,6 +262,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
           </div>
           <div class="usa-width-one-third">
+            <h3 class="search_result-intervention-heading">Intervention type</h3>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
             </ul>
@@ -274,8 +273,6 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-<!--             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Penn State University</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Efficacy of 60-minute Versus 90-minute Sessions in Treating <b>PTSD</b> Using Prolonged Exposure</a>
             </h3>
@@ -284,6 +281,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
+            <h3 class="search_result-intervention-heading">Intervention type</h3>
             <ul class="search_result-intervention">
               <li>Drug: Ketamine</li>
             </ul>
@@ -294,8 +292,6 @@ class: search-results
         <article>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
-<!--             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Cedars-Sinai Medical Center</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Intensive Weekend Retreat Multi-Couple Group Therapy for <b>PTSD</b></a>
             </h3>
@@ -304,6 +300,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Substance Abuse</p>
           </div>
           <div class="usa-width-one-third">
+            <h3 class="search_result-intervention-heading">Intervention type</h3>
             <ul class="search_result-intervention">
               <li>Drug: Ketamine, doxazosin</li>
               <li>Drug: Doxazosin</li>
@@ -320,8 +317,6 @@ class: search-results
           </div>
           <div class="usa-width-two-thirds">
             <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-<!--             <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata search_result-submitter">Information from: Humana</p> -->
             <h3 class="search_result-heading">
               <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (<b>PTSD</b>)</a>
             </h3>
@@ -330,6 +325,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
           </div>
           <div class="usa-width-one-third">
+            <h3 class="search_result-intervention-heading">Intervention type</h3>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
