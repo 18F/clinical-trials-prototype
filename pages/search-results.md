@@ -133,7 +133,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
-            <h3 class="search_result-intervention-heading">Intervention type</h3>
+            <h4 class="search_result-intervention-heading">Intervention type</h4>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
@@ -158,7 +158,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
-            <h3 class="search_result-intervention-heading">Intervention type</h3>
+            <h4 class="search_result-intervention-heading">Intervention type</h4>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
@@ -178,7 +178,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
           </div>
           <div class="usa-width-one-third">
-            <h3 class="search_result-intervention-heading">Intervention type</h3>
+            <h4 class="search_result-intervention-heading">Intervention type</h4>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
             </ul>
@@ -197,7 +197,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
-            <h3 class="search_result-intervention-heading">Intervention type</h3>
+            <h4 class="search_result-intervention-heading">Intervention type</h4>
             <ul class="search_result-intervention">
               <li>Drug: Ketamine</li>
             </ul>
@@ -216,7 +216,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Substance Abuse</p>
           </div>
           <div class="usa-width-one-third">
-            <h3 class="search_result-intervention-heading">Intervention type</h3>
+            <h4 class="search_result-intervention-heading">Intervention type</h4>
             <ul class="search_result-intervention">
               <li>Drug: Ketamine, doxazosin</li>
               <li>Drug: Doxazosin</li>
@@ -241,7 +241,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
           </div>
           <div class="usa-width-one-third">
-            <h3 class="search_result-intervention-heading">Intervention type</h3>
+            <h4 class="search_result-intervention-heading">Intervention type</h4>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
@@ -262,7 +262,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
           </div>
           <div class="usa-width-one-third">
-            <h3 class="search_result-intervention-heading">Intervention type</h3>
+            <h4 class="search_result-intervention-heading">Intervention type</h4>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
             </ul>
@@ -281,7 +281,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b></p>
           </div>
           <div class="usa-width-one-third">
-            <h3 class="search_result-intervention-heading">Intervention type</h3>
+            <h4 class="search_result-intervention-heading">Intervention type</h4>
             <ul class="search_result-intervention">
               <li>Drug: Ketamine</li>
             </ul>
@@ -300,7 +300,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Substance Abuse</p>
           </div>
           <div class="usa-width-one-third">
-            <h3 class="search_result-intervention-heading">Intervention type</h3>
+            <h4 class="search_result-intervention-heading">Intervention type</h4>
             <ul class="search_result-intervention">
               <li>Drug: Ketamine, doxazosin</li>
               <li>Drug: Doxazosin</li>
@@ -325,7 +325,7 @@ class: search-results
             <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
           </div>
           <div class="usa-width-one-third">
-            <h3 class="search_result-intervention-heading">Intervention type</h3>
+            <h4 class="search_result-intervention-heading">Intervention type</h4>
             <ul class="search_result-intervention">
               <li>Behavioral: Personalized Attention Control Training (ACT)</li>
               <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>

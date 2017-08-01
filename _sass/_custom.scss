@@ -1067,6 +1067,7 @@ a {
 
 .search_result-intervention-heading {
   @include h6;
+  margin-top: 1rem;
 
   @include media($medium-screen) {
     @include sr-only;
