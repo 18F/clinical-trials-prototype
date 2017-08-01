@@ -223,6 +223,8 @@ class: study-detail
         United States, 94025
         <br>
         <b>Contact:</b> Georgina Kafta | 421-652-3159
+        <br>
+        <a href="#0">GKafta@gmail.com</a>
       </p>
     </div>
     <hr class="hr-small">
@@ -238,7 +240,9 @@ class: study-detail
         <br>
         Goiânia, Goiás, Brazil
         <br>
-        <b>Contact:</b> Geraldo Queiroz, MD
+        <b>Contact:</b> Jason Owen, PhD | 650-493-5000 ext 23478
+        <br>
+        <a href="#0">jason.owen@va.gov</a>
       </p>
     </div>
     <div class="study-location">

@@ -3477,7 +3477,7 @@ Glossary.prototype.initList = function() {
 Glossary.prototype.linkTerms = function() {
   var terms = document.querySelectorAll('[data-term]');
   forEach(terms, function(term) {
-    term.setAttribute('title', 'Click to define');
+    term.setAttribute('title', 'What does this mean?');
     term.setAttribute('tabIndex', 0);
     term.setAttribute('data-term', (term.getAttribute('data-term') || '').toLowerCase());
   });
