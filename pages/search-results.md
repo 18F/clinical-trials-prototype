@@ -78,7 +78,7 @@ class: search-results
 <nav class="search_result-info_bar">
   <div class="usa-grid">
     <p class="search_result-count">
-      <span class="search_result-count-showing">Showing 1-16 out of 230 results for:</span><br><b>PTSD</b> (includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>) in <b>Palo Alto, CA</b>
+      <span class="search_result-count-showing">Showing 1-16 out of 230 results for:</span><br><b>PTSD</b> (includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>) within <b>500 miles</b> of <b>Palo Alto, CA</b>
     </p>
     <div class="filter-remove">
       <a href="#0">Seeking participants <i class="fa fa-times-circle" aria-hidden="true"></i></a>
