@@ -1076,7 +1076,7 @@ a {
 
 .search_results-main {
   @media (min-width: 820px) {
-    width: 77%;
+    width: 76%;
   }
 }
 
@@ -1090,7 +1090,7 @@ a {
   }
 
   @media (min-width: 820px) {
-    width: 23%;
+    width: 24%;
   }
 
   fieldset {
@@ -1115,7 +1115,7 @@ a {
   }
 
   .form-heading-small {
-    font-size: $small-font-size;
+    font-size: 15px;
   }
 
   h5 {
@@ -1146,6 +1146,14 @@ a {
 
   .usa-color-green {
     color: #2C803E;
+  }
+
+  .fa-info-circle {
+    font-size: 15px;
+  }
+
+  .fa-times-circle {
+    font-size: 17px;
   }
 }
 
