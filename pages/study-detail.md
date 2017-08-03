@@ -68,7 +68,7 @@ class: study-detail
   </aside>
   <div class="usa-width-three-fourths usa-content usa-serif">
     <h2 id="study-description">Study description</h2>
-    <table>
+<!--     <table>
       <thead>
         <tr>
           <th scope="col">
@@ -92,7 +92,21 @@ class: study-detail
           <td>Phase 3</td>
         </tr>
       </tbody>
-    </table>
+    </table> -->
+    <div class="usa-grid-full whisperbox whisperbox-alt-2 usa-serif">
+      <div class="usa-width-one-fourth">
+        <h3 class="term" data-term="Condition">Condition <i class="fa fa-info-circle" aria-hidden="true"></i></h3>
+        <p>PTSD</p>
+        <hr>
+        <h3 class="term" data-term="Phase">Phase <i class="fa fa-info-circle" aria-hidden="true"></i></h3>
+        <p>Phase 3</p>
+      </div>
+      <div class="usa-width-three-fourths">
+        <h3 class="term" data-term="Intervention">Intervention <i class="fa fa-info-circle" aria-hidden="true"></i></h3>
+        <p>Behavioral: Mobile App + Mailed Materials for managing stress associated with PTSD</p>
+        <p>Behavioral: Mobile App for managing stress associated with PTSD</p>
+      </div>
+    </div>
     <h3 id="purpose">Purpose</h3>
     <p>In layperson's language state the purpose of the study in 3-5 sentences.</p>
     <p>Previous research has demonstrated that intimate partners can positively influence those with PTSD to seek treatment. The investigators have preliminary evidence to demonstrate that mobile apps, such as PTSD Coach can be helpful for those with PTSD, and the current study will provide Veterans with PTSD and their partners with a mobile app designed to promote engagement with evidence-based treatments for PTSD. The purpose of this PILOT study is to evaluate methods for delivering a couples-based intervention to reduce PTSD symptoms and improve relationship quality in Veterans and their intimate partners.</p>
