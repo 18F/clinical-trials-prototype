@@ -892,6 +892,10 @@ a {
     font-family: $font-sans;
     font-size: $h5-font-size;
   }
+
+  .term {
+    display: table;
+  }
 }
 
 .usa-grid {
