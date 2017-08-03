@@ -54,8 +54,7 @@ a {
 
   p,
   a,
-  li,
-  span {
+  li {
     font-size: 1.5rem;
     line-height: 1.7em;
   }
@@ -773,7 +772,7 @@ a {
 // Whisperbox with content
 .whisperbox-alt {
   @include padding(18px 25px);
-  background-color: rgba(236, 248, 251, .24);
+  // background-color: rgba(236, 248, 251, .24);
   max-width: 630px;
 }
 
@@ -798,6 +797,12 @@ a {
 .nlm-nih-logo {
   float: right;
   width: 70px;
+}
+
+.heading-border-top {
+  border-top: 4px solid $color-primary-darker;
+  margin-top: 35px !important;
+  padding-top: 1em;
 }
 
 // Breadcrumb navigation -------- //
@@ -854,7 +859,7 @@ a {
 .study_detail-sidebar {
   @include clip-margins;
   background-color: $color-primary-alt-lightest;
-  border-top: 5px solid $color-primary-darker;
+  border-top: 4px solid $color-primary-darker;
   padding: 2rem;
 
   p {

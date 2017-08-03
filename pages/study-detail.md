@@ -163,15 +163,35 @@ class: study-detail
       <h3 class="whisperbox-heading">Information from the National Library of Medicine</h3>
       <p><i>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the contacts provided below. For general information, <a href="#0">Learn about clinical studies</a>.</i></p>
     </div>
-    <h4 class="">Ages eligible for study</h4>
-    <p>18 Years to 90 Years (adult, senior)</p>
-    <h4 class="term" data-term="Sexes eligible for study">Sexes eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
-    <p>All</p>
-    <h4 class="term" data-term="Accepts healthy volunteers">Accepts healthy volunteers <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
-    <p>No</p>
-    <h4 class="term" data-term="enrollment">Estimated enrollment <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
-    <p>200</p>
-    <h4 class="term" data-term="Inclusion criteria">Inclusion criteria  <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <div class="usa-grid-full">
+      <div class="usa-width-one-half">
+        <h4 class="heading-border-top">Ages eligible for study</h4>
+        <p>18 Years to 90 Years (adult, senior)</p>
+      </div>
+      <div class="usa-width-one-half">
+        <h4 class="heading-border-top" data-term="Sexes eligible for study">
+          <span class="term">Sexes eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        </h4>
+        <p>All</p>
+      </div>
+    </div>
+    <div class="usa-grid-full">
+      <div class="usa-width-one-half">
+        <h4 class="heading-border-top" data-term="Accepts healthy volunteers">
+          <span class="term">Accepts healthy volunteers <i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        </h4>
+        <p>No</p>
+      </div>
+      <div class="usa-width-one-half">
+        <h4 class="heading-border-top" data-term="enrollment">
+          <span class="term">Estimated enrollment <i class="fa fa-info-circle" aria-hidden="true"></i></span>
+        </h4>
+        <p>200</p>
+      </div>
+    </div>
+    <h4 class="heading-border-top" data-term="Inclusion criteria">
+      <span class="term">Inclusion criteria  <i class="fa fa-info-circle" aria-hidden="true"></i></span>
+    </h4>
     <p>To be eligible to participate, participants must be either a Veteran with PTSD or living with a partner who is a Veteran with PTSD.</p>
     <h4>Veterans must be: </h4>
     <ul>
