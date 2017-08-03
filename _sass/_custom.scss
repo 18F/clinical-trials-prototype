@@ -664,6 +664,7 @@ input[id="location"] {
 
 .study_detail-button-location {
   @include margin(1rem null);
+  @include padding(1.4rem null);
   font-size: 1.5rem;
   margin-top: 0;
 
@@ -683,13 +684,14 @@ input[id="location"] {
 }
 
 .study_detail-link-eligibility {
-  font-size: $h5-font-size;
+  font-size: $base-font-size;
   font-weight: $font-bold;
   margin-bottom: 1em;
   margin-top: 8px;
   text-decoration: none;
 
   i {
+    font-size: 15px;
     margin-left: 5px;
   }
 }
@@ -788,6 +790,10 @@ a {
 
   hr {
     margin: 0;
+  }
+
+  .term {
+    display: table;
   }
 }
 
