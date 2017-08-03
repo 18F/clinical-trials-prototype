@@ -103,30 +103,30 @@ class: study-detail
     <h3 id="outcome-measures">Outcome measures</h3>
     <h4 class="term" data-term="Primary outcome measures">Primary outcome measures <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <ul>
-      <li>Caregiver Burden [ Time Frame: 10 weeks ]<br>
+      <li><b>Caregiver Burden [ Time Frame: 10 weeks ]</b><br>
       Montgomery Burden Interview</li>
-      <li>Functional Well-Being [ Time Frame: 10 weeks ]<br>
+      <li><b>Functional Well-Being [ Time Frame: 10 weeks ]</b><br>
       Partner-rated Interpersonal Well-Being Scale</li>
-      <li>Personal Health Questionnaire Depression Scale [ Time Frame: 10 weeks ]<br>
+      <li><b>Personal Health Questionnaire Depression Scale [ Time Frame: 10 weeks ]</b><br>
       8 Item scale measuring depression.</li>
-      <li>Generalized Anxiety Symptoms [ Time Frame: 10 weeks ]<br>
+      <li><b>Generalized Anxiety Symptoms [ Time Frame: 10 weeks ]</b><br>
       Generalized Anxiety Disorder-7 Scale (GAD-7)</li>
-      <li>PTSD Symptoms [ Time Frame: 10 weeks ]<br>
+      <li><b>PTSD Symptoms [ Time Frame: 10 weeks ]</b><br>
       5 Item Partner-rated Posttraumatic Stress Disorder Checklist-5 (PCL-5)</li>
-      <li>Positive Relationship Behaviors [ Time Frame: 10 weeks ]<br>
+      <li><b>Positive Relationship Behaviors [ Time Frame: 10 weeks ]</b><br>
       Author-constructed relationship behaviors scale</li>
-      <li>Stress [ Time Frame: 10 weeks ]<br>
+      <li><b>Stress [ Time Frame: 10 weeks ]</b><br>
       Perceived Stress Scale</li>
     </ul>
     <h4 class="term" data-term="Secondary outcome measures">Secondary outcome measures <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <ul>
-      <li>Emotional Intimacy [ Time Frame: 10 weeks ]<br>
+      <li><b>Emotional Intimacy [ Time Frame: 10 weeks ]</b><br>
       Personal Assessment of Intimacy in Relationships (PAIR) Scale</li>
-      <li>Caregiving Self-Efficacy Scale [ Time Frame: 10 weeks ]<br>
+      <li><b>Caregiving Self-Efficacy Scale [ Time Frame: 10 weeks ]</b><br>
       Author-constructed questionnaire</li>
-      <li>Positive Partner Communication [ Time Frame: 10 weeks ]<br>
+      <li><b>Positive Partner Communication [ Time Frame: 10 weeks ]</b><br>
       Measured with items combined from the Social Constraints Scale and Communication Danger Signs Scale</li>
-      <li>Relationship Self-Efficacy [ Time Frame: 10 weeks ]<br>
+      <li><b>Relationship Self-Efficacy [ Time Frame: 10 weeks ]</b><br>
       Author-constructed questionnaire</li>
     </ul>
     <h3 id="interventions">Interventions</h3>
@@ -146,7 +146,6 @@ class: study-detail
       <li>
         <button
           class="usa-accordion-button"
-          id="detailed-description-1"
           aria-expanded="false"
           aria-controls="detailed-description">
           Detailed description
