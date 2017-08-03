@@ -159,7 +159,8 @@ class: study-detail
     <hr>
     <h2 id="eligibility-criteria">Eligibility criteria</h2>
     <div class="whisperbox whisperbox-alt">
-      <p><b>Information from the National Library of Medicine</b></p>
+      <img class="nlm-nih-logo" src="{{ site.baseurl }}/assets/img/NIH_NLM_ABRV_BLK_4.png" alt="">
+      <h3 class="whisperbox-heading">Information from the National Library of Medicine</h3>
       <p><i>Choosing to participate in a study is an important personal decision. Talk with your doctor and family members or friends about deciding to join a study. To learn more about this study, you or your doctor may contact the study research staff using the contacts provided below. For general information, <a href="#0">Learn about clinical studies</a>.</i></p>
     </div>
     <h4 class="">Ages eligible for study</h4>
@@ -194,7 +195,8 @@ class: study-detail
     <hr>
     <h2 id="contact-and-locations">Contact and locations</h2>
     <div class="whisperbox whisperbox-alt">
-      <p><b>Information from the National Library of Medicine</b></p>
+      <img class="nlm-nih-logo" src="{{ site.baseurl }}/assets/img/NIH_NLM_ABRV_BLK_4.png" alt="">
+      <h3 class="whisperbox-heading">Information from the National Library of Medicine</h3>
       <p><i>To learn more about this study, you or your doctor may contact the study research staff using the contact information provided by the sponsor.</i></p>
       <p><i>Please refer to this study by its ClinicalTrials.gov identifier (NCT number): <b>NCT02780635</b></i></p>
     </div>
@@ -332,14 +334,17 @@ class: study-detail
     <hr>
     <h2 id="resource-links">Resource links</h2>
     <div class="whisperbox whisperbox-alt">
-      <p><b>Resource links provided by the National Library of Medicine</b></p>
-      <h4><a href="#0">MedlinePlus related topics</a></h4>
-      <ul>
-        <li><a href="#0">What Can I Do If I Think I Have PTSD?</a></li>
-        <li><a href="#0">PTSD Treatment Programs in the U.S. Department of Veterans Affairs</a></li>
-        <li><a href="#0">Sleep and Posttraumatic Stress Disorder (PTSD)</a></li>
-      </ul>
-      <h4><a href="#0">U.S. FDA resources</a></h4>
+      <img class="nlm-nih-logo" src="{{ site.baseurl }}/assets/img/NIH_NLM_ABRV_BLK_4.png" alt="">
+      <h3 class="whisperbox-heading">Information from the National Library of Medicine</h3>
+      <div class="whisperbox-related_links">
+        <h4 class="whisperbox-related_links-heading"><a href="#0">MedlinePlus</a> related topics</h4>
+        <ul>
+          <li><a href="#0">What Can I Do If I Think I Have PTSD?</a></li>
+          <li><a href="#0">PTSD Treatment Programs in the U.S. Department of Veterans Affairs</a></li>
+          <li><a href="#0">Sleep and Posttraumatic Stress Disorder (PTSD)</a></li>
+        </ul>
+        <h4 class="whisperbox-related_links-heading"><a href="#0">U.S. FDA resources</a></h4>
+      </div>
     </div>
   </div>
 </div>

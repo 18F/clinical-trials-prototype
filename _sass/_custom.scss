@@ -4,11 +4,11 @@ $color-primary-alt-lightest: #ecf8fb;
 // Mixins --------- //
 
 @mixin clip-margins {
-  :first-child {
+  > :first-child {
     margin-top: 0;
   }
 
-  :last-child {
+  > :last-child {
     margin-bottom: 0;
   }
 }
@@ -775,6 +775,29 @@ a {
   @include padding(18px 25px);
   background-color: rgba(236, 248, 251, .24);
   max-width: 630px;
+}
+
+.whisperbox-heading {
+  display: inline;
+  font-family: $font-sans;
+  font-size: 15px;
+}
+
+.whisperbox-related_links * {
+  font-family: $font-serif !important;
+}
+
+.whisperbox-related_links-heading {
+  font-weight: $font-normal;
+
+  a {
+    font-size: 17px;
+  }
+}
+
+.nlm-nih-logo {
+  float: right;
+  width: 70px;
 }
 
 // Breadcrumb navigation -------- //
