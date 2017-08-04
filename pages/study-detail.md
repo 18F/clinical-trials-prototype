@@ -115,7 +115,7 @@ class: study-detail
     <p>c) Explain why human subjects must be used for this project. (i.e. purpose of study is to test efficacy of investigational device in individuals with specific condition; purpose of study is to examine specific behavioral traits in humans in classroom or other environment)</p>
     <p>The purpose of this study is to evaluate how Veterans and their partners interact with evidence-based mobile apps for improving PTSD symptoms.</p>
     <h3 id="outcome-measures">Outcome measures</h3>
-    <h4 class="term" data-term="Primary outcome measures">Primary outcome measures <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h4 class="term font-normal" data-term="Primary outcome measures">Primary outcome measures <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <ul>
       <li><b>Caregiver Burden [ Time Frame: 10 weeks ]</b><br>
       Montgomery Burden Interview</li>
@@ -132,7 +132,7 @@ class: study-detail
       <li><b>Stress [ Time Frame: 10 weeks ]</b><br>
       Perceived Stress Scale</li>
     </ul>
-    <h4 class="term" data-term="Secondary outcome measures">Secondary outcome measures <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h4 class="term font-normal" data-term="Secondary outcome measures">Secondary outcome measures <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <ul>
       <li><b>Emotional Intimacy [ Time Frame: 10 weeks ]</b><br>
       Personal Assessment of Intimacy in Relationships (PAIR) Scale</li>
@@ -144,12 +144,12 @@ class: study-detail
       Author-constructed questionnaire</li>
     </ul>
     <h3 id="interventions">Interventions</h3>
-    <h4 class="term" data-term="arm">Arms <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h4 class="term h5-font-size" data-term="arm">Arms <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <ul>
       <li>Experimental: App + Couples Coach Intervention</li>
       <li>Both members of the couple will receive a mobile app for PTSD: PTSD Coach for the Veteran and PTSD Family Coach for the partner/spouse. Those assigned to this arm will also receive mailed materials that are designed to help increase positive communication strategies.</li>
     </ul>
-    <h4 class="term" data-term="Intervention">Assigned intervention <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h4 class="term h5-font-size" data-term="Intervention">Assigned intervention <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <ul>
       <li>Behavioral: Mobile App + Mailed Materials for managing stress associated with PTSD</li>
       <li>PTSD Coach and PTSD Family Coach mobile apps plus mailed "Couples Coach" intervention materials and discussion board added to PTSD Family Coach app</li>
@@ -178,11 +178,11 @@ class: study-detail
     </div>
     <div class="usa-grid-full">
       <div class="usa-width-one-half">
-        <h4 class="heading-border-top">Ages eligible for study</h4>
+        <h4 class="heading-border-top h5-font-size">Ages eligible for study</h4>
         <p>18 Years to 90 Years (adult, senior)</p>
       </div>
       <div class="usa-width-one-half">
-        <h4 class="heading-border-top">
+        <h4 class="heading-border-top h5-font-size">
           <span class="term" data-term="Sexes eligible for study">Sexes eligible for study <i class="fa fa-info-circle" aria-hidden="true"></i></span>
         </h4>
         <p>All</p>
@@ -190,23 +190,23 @@ class: study-detail
     </div>
     <div class="usa-grid-full">
       <div class="usa-width-one-half">
-        <h4 class="heading-border-top">
+        <h4 class="heading-border-top h5-font-size">
           <span class="term" data-term="Accepts healthy volunteers">Accepts healthy volunteers <i class="fa fa-info-circle" aria-hidden="true"></i></span>
         </h4>
         <p>No</p>
       </div>
       <div class="usa-width-one-half">
-        <h4 class="heading-border-top">
+        <h4 class="heading-border-top h5-font-size">
           <span class="term" data-term="enrollment">Estimated enrollment <i class="fa fa-info-circle" aria-hidden="true"></i></span>
         </h4>
         <p>200</p>
       </div>
     </div>
-    <h4 class="heading-border-top">
+    <h4 class="heading-border-top h5-font-size">
       <span class="term" data-term="Inclusion criteria">Inclusion criteria  <i class="fa fa-info-circle" aria-hidden="true"></i></span>
     </h4>
     <p>To be eligible to participate, participants must be either a Veteran with PTSD or living with a partner who is a Veteran with PTSD.</p>
-    <h4>Veterans must be: </h4>
+    <h5>Veterans must be: </h5>
     <ul>
       <li>A veteran of the U.S. Armed Forces</li>
       <li>Must have a previous diagnosis of PTSD</li>
@@ -214,16 +214,16 @@ class: study-detail
       <li>Must have access to a smart phone using the iOS operating stem</li>
       <li>Must not have previously used PTSD Coach.</li>
     </ul>
-    <h4>Partners of Veterans must be:</h4>
+    <h5>Partners of Veterans must be:</h5>
     <ul>
       <li>An intimate partner of a Veteran</li>
       <li>Living with that partner</li>
       <li>Must have access to a smart phone using the iOS operating system</li>
       <li>Must be experiencing significant stress</li>
     </ul>
-    <h4 class="term" data-term="Exclusion criteria">Exclusion criteria  <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h5 class="term" data-term="Exclusion criteria">Exclusion criteria  <i class="fa fa-info-circle" aria-hidden="true"></i></h5>
     <p>Actual or threatened interpersonal violence in the home</p>
-    <h4>Estimated Enrollment:</h4>
+    <h5>Estimated Enrollment:</h5>
     <p>200</p>
     <hr>
     <h2 id="contact-and-locations">Contact and locations</h2>
@@ -243,7 +243,7 @@ class: study-detail
     </p>
     <br>
     <h3>Locations</h3>
-    <h4>United States, California</h4>
+    <h4 class="font-normal">United States, California</h4>
     <div class="study-location">
       <p>
         <span class="study-status study-status-recruiting">
@@ -263,7 +263,7 @@ class: study-detail
       </p>
     </div>
     <hr class="hr-small">
-    <h4>Brazil</h4>
+    <h4 class="font-normal">Brazil</h4>
     <div class="study-location">
       <p>
         <span class="study-status study-status-recruiting">
@@ -344,18 +344,18 @@ class: study-detail
     <h3 id="keywords">Keywords</h3>
     <p><a href="#">family</a>, <a href="#">caregiving</a>, <a href="#">ptsd</a>, <a href="#">couples</a></p>
     <h3>Study details</h3>
-    <h4 class="term" data-term="Study type">Study type <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h4 class="term h5-font-size" data-term="Study type">Study type <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <p>Interventional</p>
-    <h4 class="term" data-term="Study design">Study design <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h4 class="term h5-font-size" data-term="Study design">Study design <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <ul>
       <li><span class="term" data-term="Allocation">Allocation <i class="fa fa-info-circle" aria-hidden="true"></i></span>: randomized</li>
       <li><span class="term" data-term="Intervention model">Intervention model <i class="fa fa-info-circle" aria-hidden="true"></i></span>: factorial assignment</li>
       <li><span class="term" data-term="Masking">Masking <i class="fa fa-info-circle" aria-hidden="true"></i></span>: no masking</li>
       <li><span class="term" data-term="Primary purpose">Primary purpose <i class="fa fa-info-circle" aria-hidden="true"></i></span>: treatment</li>
     </ul>
-    <h4>Official title</h4>
+    <h4 class="h5-font-size">Official title</h4>
     <p>Use of Mobile Apps for Those With PTSD and Their Partners</p>
-    <h4 class="term" data-term="MEDICAL SUBJECT HEADINGS (MeSH)">Additional relevant MeSH terms <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
+    <h4 class="term h5-font-size" data-term="MEDICAL SUBJECT HEADINGS (MeSH)">Additional relevant MeSH terms <i class="fa fa-info-circle" aria-hidden="true"></i></h4>
     <p>Heart failure, heart diseases, cardiovascular diseases</p>
     <hr>
     <h2 id="related-publications">Related publications</h2>

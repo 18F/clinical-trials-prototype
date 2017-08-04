@@ -13,7 +13,7 @@ class: search-results
       <li>Search results</li>
     </ul>
     <div class="page-links">
-      <button class="js-glossary-toggle button usa-button-unstyled term link-compound"><i class="fa fa-info-circle" aria-hidden="true"></i>Glossary</button>
+      <button class="js-glossary-toggle button usa-button-unstyled link-compound"><i class="fa fa-info-circle" aria-hidden="true"></i>Glossary</button>
       <span class="divider-vertical"></span>
       <a class="link-compound" href="#">
         <i class="fa fa-bookmark-o" aria-hidden="true"></i>Saved studies <span class="saved_studies-count">2</span>
