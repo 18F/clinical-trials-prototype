@@ -1219,11 +1219,21 @@ a {
 }
 
 .search_result-filter-heading {
-  @include padding(15px null 15px 20px);
+  @include padding(15px 20px);
   border-bottom: 1px solid rgba(174, 176, 181, .43);
   // height: 63px;
   font-size: 15px;
+  position: relative;
   // line-height: 67px;
+}
+
+.filter-toggle {
+  color: $color-base;
+  transform: rotate(-90deg);
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 4px;
 }
 
 .search_result-filter-input-indent {
