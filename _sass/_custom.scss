@@ -1380,7 +1380,7 @@ a {
     width: calc(100% - 58px - 1.5rem);
 
     @include media($nav-width) {
-      // bottom: 12px;
+      bottom: 16px;
       width: 100%;
     }
 
@@ -1426,15 +1426,19 @@ a {
 }
 
 .usa-logo-text-website {
-  color: #20558a;
-  font-weight: 500;
+  color: $color-base;
+  font-family: $font-sans;
 
   @include media($nav-width) {
-    font-size: 10px;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 3px;
   }
 
   @include media($medium-screen) {
     font-weight: $font-normal;
+    color: #20558a;
+    -webkit-text-stroke: .5px #20558a;
   }
 }
 
