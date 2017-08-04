@@ -777,6 +777,10 @@ a {
     font-family: $font-sans;
     max-width: initial !important;
   }
+
+  p {
+    color: $color-gray-dark;
+  }
 }
 
 // Whisperbox with content
@@ -790,6 +794,10 @@ a {
 
   p, a {
     font-family: $font-serif;
+  }
+
+  p {
+    color: $color-base;
   }
 
   h3 {
@@ -1342,7 +1350,11 @@ a {
 }
 
 .term {
-  border-bottom: 1px dashed;
+  background-image: linear-gradient(to right, $color-primary-darkest 33%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 4px 1px;
+  background-repeat: repeat-x;
+  // border-bottom: 1px dotted;
   color: $color-primary-darkest;
   cursor: pointer;
   display: table;
