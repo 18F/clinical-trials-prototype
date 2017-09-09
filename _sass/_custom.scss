@@ -163,9 +163,16 @@ th {
     padding-bottom: 6px;
   }
 }
+.usa-nav-primary button[aria-expanded=true] span {
+  @include media($nav-width) {
+    border-bottom: 0.4rem solid $color-primary;
+  }
+}
 
 .usa-nav-link[aria-expanded="true"]:hover span {
-  color: $color-white;
+  @include media($nav-width) {
+    color: $color-white;
+  }
 }
 
 // Hero ------------ //
