@@ -177,7 +177,7 @@ module.exports=[
   },
   {
     "term":"ACTIVE COMPARATOR ARM",
-    "definition":"A group of participants that receives an intervention that is considered to be effective."
+    "definition":"A group of participants that receives an <span class=\"term\" data-term=\"Intervention\">intervention</span> that is considered to be effective."
   },
   {
     "term":"ACTIVE, NOT RECRUITING",
@@ -193,7 +193,7 @@ module.exports=[
   },
   {
     "term":"ARM",
-    "definition":"A group or subgroup of participants in a clinical trial that receives specific interventions, or no intervention, according to the study protocol. This is decided before the trial begins. Types of arms include Experimental, Active Comparator, Placebo Comparator, Sham Comparator, and No Intervention."
+    "definition":"A group or subgroup of participants in a clinical trial that receives specific <span class=\"term\" data-term=\"Intervention\">interventions</span>, or no intervention, according to the study protocol. This is decided before the trial begins. Types of arms include <span class=\"term\" data-term=\"Experimental arm\">experimental</span>, <span class=\"term\" data-term=\"Active Comparator\">active comparator</span>, <span class=\"term\" data-term=\"placebo comparator\">placebo comparator</span>, <span class=\"term\" data-term=\"sham comparator\">sham comparator</span>, and <span class=\"term\" data-term=\"no intervention arm\">no intervention</span>."
   },
   {
     "term":"BASELINE CHARACTERISTICS",
@@ -201,7 +201,7 @@ module.exports=[
   },
   {
     "term":"BLINDING",
-    "definition":"A clinical trial design strategy in which one or more parties involved in the trial, such as the investigator or participants, do not know which participants have been assigned which interventions. Types of Masking include Open Label, Single Blind Masking, and Double Blind Masking."
+    "definition":"A clinical trial design strategy in which one or more parties involved in the trial, such as the investigator or participants, do not know which participants have been assigned which interventions. Types of Masking include <span class=\"term\" data-term=\"open label\">open label</span>, <span class=\"term\" data-term=\"single blind masking\">single blind masking</span>, and <span class=\"term\" data-term=\"double blind masking\">double blind masking</span>."
   },
   {
     "term":"CENTRAL CONTACT",
@@ -209,11 +209,15 @@ module.exports=[
   },
   {
     "term":"CERTAIN AGREEMENTS",
-    "definition":"As required by Section 801 of the Food and Drug Administration Amendments Act, in general, a description of any agreement between the Sponsor of a clinical study and the Principal Investigator (PI) that does not allow the PI to discuss the results of the study or publish the study results in a scientific or academic journal after the trial is completed. (This does not apply if the PI is an employee of the Sponsor.)"
+    "definition":"As required by <span class=\"term\" data-term=\"Section 801 of the Food and Drug Administration Amendments Act (FDAAA 801)\">Section 801 of the Food and Drug Administration Amendments Act</span>, in general, a description of any agreement between the Sponsor of a clinical study and the Principal Investigator (PI) that does not allow the PI to discuss the results of the study or publish the study results in a scientific or academic journal after the trial is completed. (This does not apply if the PI is an employee of the Sponsor.)"
   },
   {
     "term":"CLINICAL STUDY",
     "definition":"A research study using human subjects to evaluate biomedical or health-related outcomes. Two types of clinical studies are Interventional studies (or clinical trials) and Observational studies."
+  },
+  {
+    "term":"CLOSED STUDIES",
+    "definition":"Clinical studies that are no longer recruiting participants because they have enough participants already, have ended, or have been stopped for some reason. This term also describes studies with very specific <span class=\"term\" data-term=\"Eligibility Criteria\">Eligibility Criteria</span> that recruit participants by invitation only. Recruitment statuses for closed studies appear in red text in ClinicalTrials.gov search results and study records. These statuses are: <ul><li><span class=\"term\" data-term=\"Active, not recruiting\">Active, not recruiting</span></li><li><span class=\"term\" data-term=\"Completed\">Completed</span></li><li><span class=\"term\" data-term=\"Terminated\">Terminated</span></li><li><span class=\"term\" data-term=\"Suspended\">Suspended</span></li><li><span class=\"term\" data-term=\"Withdrawn\">Withdrawn</span></li><li><span class=\"term\" data-term=\"Enrolling by invitation\">Enrolling by invitation</span></li><li><span class=\"term\" data-term=\"Temporarily not available for expanded access\">Temporarily not available for expanded access</span></li><li><span class=\"term\" data-term=\"No longer available for expanded access\">No longer available for expanded access</span></li><li><span class=\"term\" data-term=\"Approved for marketing\">Approved for marketing</span></li><li><span class=\"term\" data-term=\"Unknown\">Unknown</span></li></ul>"
   },
   {
     "term":"COLLABORATOR",
@@ -245,7 +249,7 @@ module.exports=[
   },
   {
     "term":"ELIGIBILITY CRITERIA",
-    "definition":"The requirements that people who want to participate in a clinical study must meet or the characteristics they must have. Eligibility criteria include both inclusion criteria and exclusion criteria."
+    "definition":"The requirements that people who want to participate in a clinical study must meet or the characteristics they must have. Eligibility criteria include both <span class=\"term\" data-term=\"inclusion criteria\">inclusion criteria</span> and <span class=\"term\" data-term=\"exclusion criteria\">exclusion criteria</span>."
   },
   {
     "term":"ENROLLING BY INVITATION",
@@ -285,7 +289,7 @@ module.exports=[
   },
   {
     "term":"FUNDER TYPE",
-    "definition":"Describes the organization that provides funding or support for a clinical study. Support may include providing facilities, expertise, or financial resources. Organizations listed as sponsors and collaborators for a study are considered the funders of the study. There are four types of funders:",
+    "definition":"Describes the organization that provides funding or support for a clinical study. Support may include providing facilities, expertise, or financial resources. Organizations listed as sponsors and collaborators for a study are considered the funders of the study. There are four types of funders: <ul><li>National Institutes of Health</li><li>Other U.S. Federal agencies (for example: Food and Drug Administration, Centers for Disease Control and Prevention, or U.S. Department of Veterans Affairs)</li><li>Industry (pharmaceutical and device companies)</li><li>All others (including individuals, universities, and community-based organizations)</li></ul>",
   },
   {
     "term":"GENDER-BASED ELIGIBILITY FOR STUDY",
@@ -305,7 +309,7 @@ module.exports=[
   },
   {
     "term":"INFORMED CONSENT",
-    "definition":"A process used by researchers to communicate with potential and enrolled participants about a clinical study. As part of the informed consent process, researchers:"
+    "definition":"A process used by researchers to communicate with potential and enrolled participants about a clinical study. As part of the informed consent process, researchers: <ul><li>Provide all the important information about the study, so potential participants can decide whether to enroll or, if they are already enrolled, whether to continue to participate</li><li>Make sure that potential participants understand the risks and potential benefits of participating in the study and the alternatives to the research being conducted</li><li>Stress that enrolling in, and staying in, a clinical study is completely voluntary. Because giving consent to participate in research is not a contract, participants may leave a study at any time.</li></ul> The goal of the informed consent process is to protect participants. It begins when a potential participant first asks for information about a study and continues throughout the study until the study ends. The researcher and potential participant have discussions that include answering the participant's questions about the research. All the important information about the study must also be given to the potential participant in a written document that is clear and easy to understand. The informed consent document is reviewed and approved by the human subjects review board before the document is given to potential participants. Generally, a person must sign an informed consent document to enroll in a clinical study."
   },
   {
     "term":"INTERVENTION",
@@ -313,7 +317,7 @@ module.exports=[
   },
   {
     "term":"INTERVENTION MODEL",
-    "definition":"The general design of the strategy for assigning interventions to participants in a clinical study. Types of Intervention Models include Single Group design, Parallel design, Cross-over design, and Factorial design."
+    "definition":"The general design of the strategy for assigning interventions to participants in a clinical study. Types of Intervention Models include <span class=\"term\" data-term=\"SINGLE GROUP INTERVENTION MODEL DESIGN\">single group design</span>, <span class=\"term\" data-term=\"parallel design\">parallel design</span>, <span class=\"term\" data-term=\"cross-over design\">cross-over design</span>, and <span class=\"term\" data-term=\"factorial design\">factorial design</span>."
   },
   {
     "term":"INTERVENTIONAL STUDY",
@@ -321,19 +325,27 @@ module.exports=[
   },
   {
     "term":"INVESTIGATIONAL NEW DRUG",
-    "definition":"A drug or biological product that is used in a clinical trial but has not been approved by the Food and Drug Administration (FDA) (the drug is either not available for a doctor to prescribe or is available but has not been approved by FDA for the use being studied)."
+    "definition":"A drug or biological product that is used in a clinical trial but has not been approved by the <span class=\"term\" data-term=\"Food and Drug Administration (FDA)\">Food and Drug Administration (FDA)</span> (the drug is either not available for a doctor to prescribe or is available but has not been approved by FDA for the use being studied)."
   },
   {
     "term":"INVESTIGATOR",
     "definition":"A researcher involved in a clinical study. Related terms include Site Principal Investigator, Site Sub-Investigator, Study Chair, Study Director, and Study Principal Investigator."
   },
   {
+    "term":"LAST UPDATED DATE",
+    "definition":"The last updated date is the most recent date on which changes to a study record were submitted to ClinicalTrials.gov. There may be a delay between the last updated date and when the updated study information is available on ClinicalTrials.gov. Also, this date may be different from the <span class=\"term\" data-term=\"Last Verified date\">last verified date</span>."
+  },
+  {
+    "term":"LAST VERIFIED DATE",
+    "definition":"The Last Verified date is the most recent date on which all of a clinical study’s information on ClinicalTrials.gov was confirmed as accurate and current by the responsible party. This date may be different from the Last Updated date. If a study with a status of Recruiting; Not yet recruiting; or Active, not recruiting has not been confirmed within the past 2 years, the study's Recruitment status is shown as <span class=\"term\" data-term=\"Unknown\">unknown</span>. (See also <a href=\"https://prsinfo.clinicaltrials.gov/definitions.html#VerificationDate\">Record Verification Date</a> data element on ClinicalTrials.gov.)"
+  },
+  {
     "term":"LISTED LOCATION COUNTRIES",
-    "definition":"Countries in which research facilities for a study are located. A country is listed only once, even if there is more than one facility in the country. The list includes all countries as of the Last Updated date; any country for which all facilities were removed from the study record are listed under Removed Location Countries."
+    "definition":"Countries in which research facilities for a study are located. A country is listed only once, even if there is more than one facility in the country. The list includes all countries as of the <span class=\"term\" data-term=\"last updated date\">last updated date</span>; any country for which all facilities were removed from the <span class=\"term\" data-term=\"study record\">study record</span> are listed under <span class=\"term\" data-term=\"removed location countries\">removed location countries</span>."
   },
   {
     "term":"MASKING",
-    "definition":"A clinical trial design strategy in which one or more parties involved in the trial, such as the investigator or participants, do not know which participants have been assigned which interventions. Types of Masking include Open Label, Single Blind Masking, and Double Blind Masking."
+    "definition":"A clinical trial design strategy in which one or more parties involved in the trial, such as the investigator or participants, do not know which participants have been assigned which interventions. Types of masking include <span class=\"term\" data-term=\"open label\">open label</span>, <span class=\"term\" data-term=\"single blind masking\">single blind masking</span>, and <span class=\"term\" data-term=\"double blind masking\">double blind masking</span>."
   },
   {
     "term":"MEDICAL SUBJECT HEADINGS (MeSH)",
@@ -364,8 +376,12 @@ module.exports=[
     "definition":"Describes a clinical trial in which masking is not used. This means that all parties involved in the trial know which participants have been assigned which interventions."
   },
   {
+    "term":"OPEN STUDIES",
+    "definition":"Clinical studies that are currently recruiting participants, will be recruiting participants in the future, or involve drugs that are available for expanded access. Recruitment statuses for open studies appear in green text in ClinicalTrials.gov search results and study records. These statuses are: <ul><li><span class=\"term\" data-term=\"Recruiting\">Recruiting</span></li><li><span class=\"term\" data-term=\"Not yet recruiting\">Not yet recruiting</span></li><li><span class=\"term\" data-term=\"Available for expanded access\">Available for expanded access</span></li></ul>"
+  },
+  {
     "term":"OTHER ADVERSE EVENT",
-    "definition":"An adverse event that is not a serious adverse event, meaning that it does not result in death, is not life-threatening, does not require inpatient hospitalization or extend a current hospital stay, does not result in an ongoing or significant incapacity or interfere substantially with normal life functions, and does not cause a congenital anomaly or birth defect; it also does not put the participant in danger and does not require medical or surgical intervention to prevent one of the results listed above."
+    "definition":"An adverse event that is not a <span class=\"term\" data-term=\"serious adverse event\">serious adverse event</span>, meaning that it does not result in death, is not life-threatening, does not require inpatient hospitalization or extend a current hospital stay, does not result in an ongoing or significant incapacity or interfere substantially with normal life functions, and does not cause a congenital anomaly or birth defect; it also does not put the participant in danger and does not require medical or surgical intervention to prevent one of the results listed above."
   },
   {
     "term":"OTHER STUDY ID NUMBERS",
@@ -373,7 +389,7 @@ module.exports=[
   },
   {
     "term":"OUTCOME MEASURE",
-    "definition":"A planned measurement described in the protocol that is used to determine the effect of interventions on participants in a clinical trial. For Observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of Outcome Measures include Primary Outcome Measure and Secondary Outcome Measure."
+    "definition":"A planned measurement described in the protocol that is used to determine the effect of interventions on participants in a clinical trial. For observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of outcome measures include <span class=\"term\" data-term=\"primary outcome measure\">primary outcome measure</span> and <span class=\"term\" data-term=\"secondary outcome measure\">secondary outcome measure</span>."
   },
   {
     "term":"PARALLEL DESIGN",
@@ -385,7 +401,27 @@ module.exports=[
   },
   {
     "term":"PHASE",
-    "definition":"Food and Drug Administration (FDA) descriptions of the clinical trial of a drug based on the study's characteristics, such as the objective and number of participants. There are five phases."
+    "definition":"Food and Drug Administration (FDA) <a href=\"https://www.fda.gov/drugs/resourcesforyou/consumers/ucm143534.htm\">descriptions</a> of the clinical trial of a drug based on the study's characteristics, such as the objective and number of participants. There are five phases: <ul><li><span class=\"term\" data-term=\"Early Phase 1 (formerly listed as Phase 0)\">Early Phase 1 (formerly listed as Phase 0)</span></li><li><span class=\"term\" data-term=\"Phase 1\">Phase 1</span></li><li><span class=\"term\" data-term=\"Phase 2\">Phase 2</span></li><li><span class=\"term\" data-term=\"Phase 3\">Phase 3</span></li><li><span class=\"term\" data-term=\"Phase 4\">Phase 4</span></li></ul>"
+  },
+  {
+    "term":"Early Phase 1 (formerly listed as Phase 0)",
+    "definition":"Exploratory study involving very limited human exposure to the drug, with no therapeutic or diagnostic goals (for example, screening studies, microdose studies)"
+  },
+  {
+    "term":"Phase 1",
+    "definition":"Studies that are usually conducted with healthy volunteers and that emphasize safety. The goal is to find out what the drug's most frequent and serious adverse events are and, often, how the drug is metabolized and excreted."
+  },
+  {
+    "term":"Phase 2",
+    "definition":"Studies that gather preliminary data on effectiveness (whether the drug works in people who have a certain disease or condition). For example, participants receiving the drug may be compared to similar participants receiving a different treatment, usually an inactive substance, called a placebo, or a different drug. Safety continues to be evaluated, and short-term adverse events are studied."
+  },
+  {
+    "term":"Phase 3",
+    "definition":"Studies that gather more information about safety and effectiveness by studying different populations and different dosages and by using the drug in combination with other drugs."
+  },
+  {
+    "term":"Phase 4",
+    "definition":"Studies occurring after FDA has approved a drug for marketing. These including postmarket requirement and commitment studies that are required of or agreed to by the study sponsor. These studies gather additional information about a drug's safety, efficacy, or optimal use."
   },
   {
     "term":"PLACEBO",
@@ -425,7 +461,7 @@ module.exports=[
   },
   {
     "term":"RECRUITMENT STATUS",
-    "definition":"Indicates the current stage of a clinical study and whether it is or will be open for enrollment."
+    "definition":"Indicates the current stage of a clinical study and whether it is or will be open for enrollment. The possible recruitment statuses are: <p><b>Open</b></p><ul><li><span class=\"term\" data-term=\"Recruiting\">Recruiting</span></li><li><span class=\"term\" data-term=\"Not yet recruiting\">Not yet recruiting</span></li><li><span class=\"term\" data-term=\"Available for expanded access\">Available for expanded access</span></li></ul><p><b>Closed</b></p><ul><li><span class=\"term\" data-term=\"Active, not recruiting\">Active, not recruiting</span></li><li><span class=\"term\" data-term=\"Completed\">Completed</span></li><li><span class=\"term\" data-term=\"Terminated\">Terminated</span></li><li><span class=\"term\" data-term=\"Suspended\">Suspended</span></li><li><span class=\"term\" data-term=\"Withdrawn\">Withdrawn</span></li><li><span class=\"term\" data-term=\"Enrolling by invitation\">Enrolling by invitation</span></li><li><span class=\"term\" data-term=\"Temporarily not available for expanded access\">Temporarily not available for expanded access</span></li><li><span class=\"term\" data-term=\"No longer available for expanded access\">No longer available for expanded access</span></li><li><span class=\"term\" data-term=\"Approved for marketing\">Approved for marketing</span></li><li><span class=\"term\" data-term=\"Unknown\">Unknown</span></li></ul>"
   },
   {
     "term":"REGISTRATION FIRST SUBMITTED",
@@ -437,7 +473,7 @@ module.exports=[
   },
   {
     "term":"REMOVED LOCATION COUNTRIES",
-    "definition":"Countries that appeared under Listed Location Countries but were removed from the study record by the data provider."
+    "definition":"Countries that appeared under <span class=\"term\" data-term=\"Listed Location Countries\">listed location countries</span> but were removed from the <span class=\"term\" data-term=\"study record\">study record</span> by the data provider."
   },
   {
     "term":"REPORTING OR COMPARISON GROUP",
@@ -462,6 +498,10 @@ module.exports=[
   {
     "term":"SECONDARY OUTCOME MEASURE",
     "definition":"A planned outcome measure in the protocol that is not as important as the primary outcome measure but is still of interest in evaluating the effect of an intervention. Most clinical studies have more than one secondary outcome measure."
+  },
+  {
+    "term":"SECTION 801 OF THE FOOD AND DRUG ADMINISTRATION AMENDMENTS ACT (FDAAA 801)",
+    "definition":"Section 801 of U.S. Public Law 110-85, which was enacted on September 27, 2007. It amends Section 402 of the U.S. Public Health Service Act to expand the clinical study registry known as ClinicalTrials.gov and create a clinical study results database. For more information on FDAAA 801, see the <a href=\"https://clinicaltrials.gov/ct2/about-site/history\">History, Policies, and Laws</a> page on this site."
   },
   {
     "term":"SERIOUS ADVERSE EVENT",
@@ -496,12 +536,16 @@ module.exports=[
     "definition":"The investigative methods used in the clinical study."
   },
   {
+    "term":"STUDY RECORD",
+    "definition":"An entry on ClinicalTrials.gov that contains summary protocol information about a clinical study, such as Recruitment Status; Eligibility Criteria; contact information; and, in some cases, summary results. Each study record is assigned a ClinicalTrials.gov Identifier (NCT Number)."
+  },
+  {
     "term":"STUDY START DATE",
     "definition":"The date enrollment of participants for a clinical study began."
   },
   {
     "term":"STUDY TYPE",
-    "definition":"There a few kinds of clinical studies. Study types include: interventional studies (or clinical trials), observational studies, and expanded access."
+    "definition":"There a few kinds of clinical studies. Study types include: <span class=\"term\" data-term=\"INTERVENTIONAL STUDY\">interventional studies (or clinical trials)</span>, <span class=\"term\" data-term=\"observational study\">observational studies</span>, and <span class=\"term\" data-term=\"expanded access\">expanded access</span>."
   },
   {
     "term":"SUSPENDED",
@@ -513,7 +557,7 @@ module.exports=[
   },
   {
     "term":"UNKNOWN RECRUITMENT STATUS",
-    "definition":"A study on ClinicalTrials.gov whose last known status was recruiting, not yet recruiting, or active, not recruiting but the study has passed its completion date and the status has not been verified within the past two years. Studies with an unknown status are considered closed studies."
+    "definition":"A study on ClinicalTrials.gov whose last known status was recruiting, not yet recruiting, or active, not recruiting but the study has passed its completion date and the status has not been verified within the past two years. Studies with an unknown status are considered <span class=\"term\" data-term=\"closed studies\">closed studies</span>."
   },
   {
     "term":"UPDATE LAST SUBMITTED",

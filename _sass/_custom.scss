@@ -1382,6 +1382,7 @@ li {
   }
 }
 
+
 // Logo ------- //
 
 .usa-header-basic {
@@ -1552,6 +1553,16 @@ $glossary-width: 364px;
 
   label {
     margin-top: 2.6rem;
+  }
+
+  .term {
+    background-image: linear-gradient(to right, $color-white 33%, rgba(255,255,255,0) 0%);
+    color: $color-white;
+    display: inline;
+  }
+
+  a {
+    color: $color-white;
   }
 }
 
