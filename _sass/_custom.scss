@@ -142,6 +142,32 @@ th {
   }
 }
 
+// Navigation style edits
+
+.usa-nav-primary > li > a {
+  @include media($nav-width) {
+    padding: 1rem 1.5rem;
+  }
+}
+
+.usa-nav-link.current-parent span {
+  color: $color-primary;
+  padding-bottom: 1rem;
+}
+
+.usa-nav-link:hover span,
+.usa-nav-primary a.usa-current span {
+  @include media($nav-width) {
+    border-bottom: 0.4rem solid $color-primary;
+    color: $color-base;
+    padding-bottom: 6px;
+  }
+}
+
+.usa-nav-link[aria-expanded="true"]:hover span {
+  color: $color-white;
+}
+
 // Hero ------------ //
 
 .hero {
