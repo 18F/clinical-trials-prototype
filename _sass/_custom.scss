@@ -1620,7 +1620,6 @@ $glossary-width: 364px;
 }
 
 .glossary__term {
-  @include sentence-case();
   appearance: none;
   background-color: transparent;
   font-family: $font-serif;
