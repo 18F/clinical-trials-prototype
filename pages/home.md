@@ -9,7 +9,7 @@ class: home
     <h2 class="hero-heading">ClinicalTrials.gov is the largest online database of privately and publicly funded clinical studies conducted around the world.</h2>
   </div>
 </section>
-<section class="usa-section">
+<section class="usa-section home-main">
   <div class="usa-grid">
     <div class="usa-width-five-twelfths trial-info">
       <h2>Explore more than 240,000 research studies in 201 countries</h2>

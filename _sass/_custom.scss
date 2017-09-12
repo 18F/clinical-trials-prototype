@@ -207,13 +207,24 @@ th {
 
 // Search ------------ //
 
+.home-main {
+  @include media($medium-screen) {
+    padding-bottom: 3rem;
+    padding-top: 45px;
+  }
+}
+
 .trial-info {
   > * {
     max-width: 338px;
   }
 
   h2 {
-    @include h4;
+    font-size: $h4-font-size;
+
+    @include media($medium-screen) {
+      margin-top: 0;
+    }
   }
 }
 
