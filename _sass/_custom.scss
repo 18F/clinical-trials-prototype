@@ -404,6 +404,10 @@ input[id="location"] {
 .info-callouts {
   background-color: $color-gray-lightest;
 
+  @include media($medium-screen) {
+    @include padding(3.5rem null);
+  }
+
   h2 {
     @include h4;
   }
@@ -431,7 +435,7 @@ input[id="location"] {
 
 // Footer
 .usa-footer-primary-section {
-  @include padding(3rem null 2rem null);
+  @include padding(4rem null 2rem null);
   background-color: $color-primary-darkest;
   color: $color-white;
 
