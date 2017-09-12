@@ -178,7 +178,7 @@ th {
 // Hero ------------ //
 
 .hero {
-  @include padding(5rem null);
+  @include padding(4.5rem null);
   background-color: $color-primary-darker;
   color: $color-white;
 }
