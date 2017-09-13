@@ -68,8 +68,8 @@ class: search-results
         </select>
       </div>
       <button class="">
-        <span class="usa-sr-only">Modify search</span>
         <i class="fa fa-search" aria-hidden="true"></i>
+        <span class="search_result-button-modify">Modify search</span>
       </button>
     </form>
     <a class="search_result-link-advanced_search" href="#0">Advanced search</a>

@@ -961,7 +961,7 @@ a {
 }
 
 .search_result-search {
-  @include padding(3rem null 1.5rem null);
+  @include padding(2.5rem null 1.5rem null);
   background-color: $color-primary-alt-lightest;
   border-bottom: 1px solid $color-gray-lightest;
 
@@ -1003,6 +1003,14 @@ a {
   margin-top: 0
 }
 
+.search_result-button-modify {
+  margin-left: 4px;
+
+  @include media($medium-screen) {
+    @include sr-only;
+  }
+}
+
 .search_result-link-advanced_search {
   font-size: 13px;
   margin-top: 4px;
@@ -1026,7 +1034,6 @@ a {
 
 .form-sort {
   font-size: $small-font-size;
-
 
   @include media($medium-screen) {
     position: absolute;
