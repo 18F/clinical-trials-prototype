@@ -193,7 +193,7 @@ module.exports=[
   },
   {
     "term":"Arm",
-    "definition":"A group or subgroup of participants in a clinical trial that receives specific <span class=\"term\" data-term=\"Intervention\">interventions</span>, or no intervention, according to the study protocol. This is decided before the trial begins. Types of arms include: <span class=\"term\" data-term=\"Experimental arm\">experimental</span>, <span class=\"term\" data-term=\"Active Comparator\">active comparator</span>, <span class=\"term\" data-term=\"placebo comparator\">placebo comparator</span>, <span class=\"term\" data-term=\"sham comparator\">sham comparator</span>, and <span class=\"term\" data-term=\"no intervention arm\">no intervention</span>."
+    "definition":"A group or subgroup of participants in a clinical trial that receives specific <span class=\"term\" data-term=\"Intervention\">interventions</span>, or no intervention, according to the study protocol. This is decided before the trial begins. Types of arms include: <span class=\"term\" data-term=\"Experimental arm\">experimental</span>, <span class=\"term\" data-term=\"Active comparator arm\">active comparator</span>, <span class=\"term\" data-term=\"placebo comparator\">placebo comparator</span>, <span class=\"term\" data-term=\"sham comparator\">sham comparator</span>, and <span class=\"term\" data-term=\"no intervention arm\">no intervention</span>."
   },
   {
     "term":"Baseline characteristics",
