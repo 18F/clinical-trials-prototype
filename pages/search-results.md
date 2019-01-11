@@ -24,7 +24,7 @@ class: search-results
         <span class="usa-sr-only">Print</span>
       </a>
       <a class="page-links-icon_link" href="#">
-        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
         <span class="usa-sr-only">Email</span>
       </a>
       <a class="page-links-icon_link" href="#0">
@@ -41,7 +41,7 @@ class: search-results
 <div class="search_result-search">
   <div class="usa-grid">
     <form class="" action="">
-      <div class="search_result-search-input">
+<!--       <div class="search_result-search-input">
         <label class="" for="search_field-condition">Condition or disease</label>
         <span class="usa-form-hint">(e.g. breast cancer)</span>
         <input id="search_field-condition" name="input-type-text" type="text" value="PTSD">
@@ -50,7 +50,7 @@ class: search-results
         <label class="" for="search_field-keyword">Other terms</label>
         <span class="usa-form-hint">(e.g. NCT number)</span>
         <input id="search_field-keyword" name="input-type-text" type="text" value="">
-      </div>
+      </div> -->
       <div class="search_result-search-input">
         <label class="" for="search_field-location">Location</label>
         <span class="usa-form-hint">(e.g. Austin, TX)</span>
@@ -78,11 +78,11 @@ class: search-results
 <nav class="search_result-info_bar">
   <div class="usa-grid">
     <p class="search_result-count">
-      <span class="search_result-count-showing">Showing 1-10 out of 230 results for:</span><br><b>PTSD</b> (includes synonymous conditions like <b>shell-shock</b>, <b>post traumatic stress disorder</b>, and <a href="#0">5 related terms</a>) within <b>500 miles</b> of <b>Palo Alto, CA</b>
+      <span class="search_result-count-showing">Showing 1-10 out of 230 results for:</span> <b>Palo Alto</b>.
     </p>
-    <div class="filter-remove">
+<!--     <div class="filter-remove">
       <a href="#0">Seeking participants <i class="fa fa-times-circle" aria-hidden="true"></i></a>
-    </div>
+    </div> -->
     <form class="form-sort" action="">
       <label for="options">Sort by:</label>
       <select name="options" id="options">
@@ -121,24 +121,23 @@ class: search-results
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata study-status study-status-recruiting">
-              <i class="fa fa-circle" aria-hidden="true"></i>
-              Recruiting
-            </p>
             <h3 class="search_result-heading">
-              <a href="{{ site.baseurl }}/study-detail/">Use of Mobile Apps for Those With <b>PTSD</b> and Their Partners</a>
+              <a href="{{ site.baseurl }}/study-detail/">Western Pacific Med Corp Western Pacific Reseda</a>
             </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA and 46 other locations</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b></p>
+            <p class="search_result-metadata">
+              <span>7232 Canby Avenue</span>
+              <span>Reseda, CA 91335</span>
+              <span>Tel: 818-705-5561</span>
+              <span><a href="#">Website</a></span>
+              <span><a href="#">Directions</a></span>
+            </p>
           </div>
           <div class="usa-width-one-third">
             <h4 class="search_result-intervention-heading">Intervention type</h4>
-            <ul class="search_result-intervention">
-              <li>Behavioral: Personalized Attention Control Training (ACT)</li>
-              <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
-              <li>Behavioral: Control training</li>
-            </ul>
+            <p class="search_result-metadata">
+              <span>1.5 miles</span>
+              <span><a href="#">More info</a></span>
+            </p>
           </div>
         </article>
       </li>

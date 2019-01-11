@@ -6,68 +6,31 @@ class: home
 
 <section class="hero">
   <div class="usa-grid">
-    <h2 class="hero-heading">ClinicalTrials.gov is the largest online database of privately and publicly funded clinical studies conducted around the world.</h2>
+    <h2>Find treatment facilities</h2>
+    <h2 class="hero-heading">Search for treatment facilities for substance abuse, addiction, and mental health problems in the United States or U.S. Territories confidentially and anonymously.</h2>
   </div>
 </section>
 <section class="usa-section home-main">
   <div class="usa-grid">
-    <div class="usa-width-five-twelfths trial-info">
-      <h2>Explore more than 240,000 research studies in 201 countries</h2>
-      <p>ClinicalTrials.gov is a resource provided by the U.S. National Library of Medicine. Listing a study does not mean it has been evaluated by the U.S. federal government. <a href="https://clinicaltrials.gov/ct2/about-studies/learn#Considerations">Know the risks of clinical studies</a> and talk to a healthcare professional before participating.</p>
-    </div>
     <div class="usa-width-seven-twelfths">
       <form class="form-search-home" action="{{ site.baseurl }}/search-results/">
         <fieldset class="fieldset-search">
-          <legend class="search-legend">Find a study <span class="usa-form-hint">(all fields are optional)</span></legend>
-          <fieldset class="usa-fieldset-inputs usa-fieldset-tabs">
-            <legend class="usa-sr-only">Study Status</legend>
-            <ul class="usa-unstyled-list">
-              <li>
-                <input id="study-recruiting" type="radio" checked name="study-status" value="recruiting">
-                <label class="label-radio" for="study-recruiting">Seeking participants</label>
-              </li>
-              <li>
-                <input id="study-with-results" type="radio" name="study-status" value="all-studies">
-                <label class="label-radio" for="study-with-results">With results posted</label>
-              </li>
-              <li>
-                <input id="study-all" type="radio" name="study-status" value="all-studies">
-                <label class="label-radio" for="study-all">Show all studies</label>
-              </li>
-            </ul>
-          </fieldset>
-          <div class="form-search-home-inner">
-            <label for="condition">Condition or disease</label>
-            <span class="usa-form-hint">For example: cancer, oxytoine, or radiation</span>
-            <input id="condition" name="condition" type="text">
-            <label for="keywords">Additional search terms</label>
-            <span class="usa-form-hint">For example: NCT number, drug name, or investigator name</span>
-            <input id="keywords" name="keywords" type="text">
-            <div class="usa-input-grid usa-input-grid-medium">
+<!--           <legend class="search-legend">Find treatment facilities</legend>
+ -->          <div class="form-search-home-inner1">
+            <div class="usa-input-grid">
               <label for="location">Location</label>
+              <span class="usa-form-hint">Address, city, state, or zip code</span>
               <input id="location" name="location" type="text">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-            </div>
-            <div class="usa-input-grid usa-input-grid-small">
-              <label for="distance">Distance</label>
-              <select id="distance" name="distance">
-                <option></option>
-                <option value="50">50 miles</option>
-                <option value="100">100 miles</option>
-                <option value="250">250 miles</option>
-                <option value="500">500 miles</option>
-                <option value="any">Any distance</option>
-              </select>
+              <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
             </div>
             <input type="submit" value="Search">
-            <a href="#">Advanced Search</a>
           </div>
         </fieldset>
       </form>
-      <div class="search-links">
-        <a href="#"><i class="fa fa-globe"></i>Search on the map</a>
-        <a href="#"><i class="fa fa-book"></i>Browse by topic</a>
-      </div>
+    </div>
+    <div class="usa-width-five-twelfths trial-info">
+      <h2>Find treatment facilities confidentially and anonymously</h2>
+      <p>Your personal information and the search criteria you enter into the Locator is secure and anonymous. SAMHSA does not collect or maintain any information you provide.</p>
     </div>
   </div>
 </section>
@@ -78,7 +41,7 @@ class: home
 <!--       <div class="info-callouts-img">
         {% include svg/search.svg %}
       </div> -->
-      <h2>Learn about clinical studies</h2>
+      <h2>Learn about substance abuse treatment</h2>
       <p>Clinical studies aim to answer scientific questions and find the best ways to prevent, diagnose, or treat diseases and medical conditions. These studies involve research using human volunteers, or participants.</p>
       <ul>
         <li><a href="">Types and phases of clinical studies</a></li>

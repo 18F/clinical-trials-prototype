@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ site.title }}</title>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/img/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
   <body class="page-{{ page.class }}">
     <div id="glossary" class="glossary"
@@ -27,6 +27,9 @@
       </div>
     </div>
     <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+    <div class="usa-banner">
+      <div class="usa-grid"><i class="fas fa-briefcase-medical"></i> Behavioral Health Treatment Services Locator</div>
+    </div>
     <header class="usa-header usa-header-basic" role="banner">
       <div class="usa-nav-container">
         <div class="usa-navbar">
@@ -36,11 +39,11 @@
               <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">ClinicalTrials.gov</a>
             </em> -->
           <a href="{{ header.href | default: site.baseurl }}/" title="Home">
-            <img class="logo-icon" src="{{ site.baseurl }}/assets/img/nih.png" alt="">
-            <em class="usa-logo-text">
-              <span class="usa-logo-text-title">U.S. National Library of Medicine</span>
-              <span class="usa-logo-text-website">ClinicalTrials.gov</span>
-            </em>
+            <img class="logo-icon" src="https://www.samhsa.gov/sites/all/themes/omega_samhsa/images/SAMHSA-logo-blue.png" alt="">
+<!--             <em class="usa-logo-text">
+              <span class="usa-logo-text-title">SAMHSA</span>
+              <span class="usa-logo-text-website">Behavioral Health Treatment Services Locator</span>
+            </em> -->
           </a>
           </div>
         </div>
@@ -52,7 +55,7 @@
             <li>
               <button class="
               usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="side-nav-1">
-                <span>Find a study or research</span>
+                <span>Find treatment</span>
               </button>
               <ul id="side-nav-1" class="usa-nav-submenu">
                 <li>
@@ -73,12 +76,7 @@
             </li>
             <li>
               <a class="usa-nav-link" href="#">
-                <span>Researchers</span>
-              </a>
-            </li>
-            <li>
-              <a class="usa-nav-link" href="#">
-                <span>Submit a study</span>
+                <span>Submit a treatment facility</span>
               </a>
             </li>
           </ul>

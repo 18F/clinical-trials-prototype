@@ -1,5 +1,9 @@
 // Variables -------- //
 $color-primary-alt-lightest: #ecf8fb;
+$med-green: #1a6986;
+$dark-green: #1e384b;
+$light-green: #aac9d4;
+$green-background: #dfe7ee;
 
 // Mixins --------- //
 
@@ -178,14 +182,17 @@ th {
 // Hero ------------ //
 
 .hero {
-  @include padding(4.5rem null);
+  @include padding(4.5rem null 7rem null);
   background-color: $color-primary-darker;
+  background-color: $med-green;
   color: $color-white;
 }
 
 .hero-heading {
   font-size: 2rem;
+  font-weight: normal;
   line-height: 1.7;
+  margin-top: 0;
   max-width: 670px;
 }
 
@@ -193,24 +200,32 @@ th {
 .page-home {
   .usa-width-seven-twelfths {
     @include media($medium-screen) {
-      padding-left: 4rem;
+//      padding-left: 4rem;
     }
   }
 
-  .fa-map-marker {
+  .fa-map-marker-alt {
     left: 13px;
     pointer-events: none;
     position: relative;
-    top: -34px;
+    top: -37px;
   }
 }
 
 // Search ------------ //
 
 .home-main {
+  background-color: $green-background;
+
   @include media($medium-screen) {
     padding-bottom: 3rem;
     padding-top: 45px;
+  }
+
+  .usa-grid {
+    background: white;
+    margin-top: -80px;
+    padding: 32px;
   }
 }
 
@@ -246,7 +261,12 @@ th {
     font-weight: $font-bold;
   }
 
+  [for="location"] {
+    margin-top: 0;
+  }
+
   [type="submit"] {
+    background-color: $med-green;
     display: inline-block;
     margin-right: 20px;
     margin-top: 0;
@@ -402,7 +422,7 @@ input[id="location"] {
 // Info callouts ------------ //
 
 .info-callouts {
-  background-color: $color-gray-lightest;
+  background-color: $green-background;
 
   @include media($medium-screen) {
     @include padding(3.5rem null);
@@ -437,10 +457,12 @@ input[id="location"] {
 .usa-footer-primary-section {
   @include padding(4rem null 2rem null);
   background-color: $color-primary-darkest;
+  background-color: $dark-green;
   color: $color-white;
 
   a {
     color: $color-primary-alt-light;
+    color: $light-green;
     text-decoration: none;
 
     &:hover {
@@ -494,7 +516,7 @@ input[id="location"] {
 }
 
 .footer-logos {
-  border-top: 1px solid $color-primary-darker;
+  border-top: 1px solid $med-green;
   padding-top: 2rem;
 
   li {
@@ -1038,7 +1060,7 @@ a {
   @include media($medium-screen) {
     position: absolute;
     right: 30px;
-    top: 14px;
+    top: -6px;
     width: 127px;
   }
 
@@ -1093,7 +1115,10 @@ a {
 .search_result-metadata {
   color: $color-gray;
   display: inline;
-  font-size: 1.2rem;
+
+  span {
+    display: block;
+  }
 }
 
 .search_result-submitter {
@@ -1320,13 +1345,12 @@ a {
 .search_result-count-showing {
   color: $color-gray;
   display: inline-block;
-  margin-bottom: 0.5em;
 }
 
 .search_result-info_bar {
   @include padding(1.2rem null);
   box-shadow: 0 2px 4px 0 rgba(174,176,181,0.80);
-  font-size: 13px;
+  font-size: 15px;
 
   .usa-grid {
     position: relative;
@@ -1451,7 +1475,7 @@ li {
     width: calc(100% - 58px - 1.5rem);
 
     @include media($nav-width) {
-      bottom: 16px;
+      bottom: 4px;
       width: 100%;
     }
 
@@ -1470,8 +1494,7 @@ li {
   width: 40px;
 
   @include media($nav-width) {
-    height: 36px;
-    margin-top: -1px;
+    height: 66px;
     width: auto;
   }
 }
@@ -1780,4 +1803,14 @@ a {
   background-color: $color-primary;
   border-radius: 3px;
   color: $color-white;
+}
+
+.usa-banner {
+  .usa-grid {
+    @include padding(2px null);
+  }
+}
+
+.fa-briefcase-medical {
+  margin-right: 4px;
 }
