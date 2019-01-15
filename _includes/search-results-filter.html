@@ -7,67 +7,91 @@
 
 <div class="search_result-filter-inner">
   <fieldset class="usa-fieldset-inputs">
-    <legend class="term" data-term="Recruitment status">
-      Recruiting status <i class="fa fa-info-circle" aria-hidden="true"></i>
-    </legend>
+    <legend class="term" data-term="SEXES ELIGIBLE FOR STUDY">Type of care <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
     <ul class="usa-unstyled-list">
       <li>
-        <input id="seeking-participants" type="checkbox" name="study" value="seeking-participants">
-        <label class="usa-color-green" for="seeking-participants">Seeking participants</label>
-      </li>
-      <li class="search_result-filter-input-indent">
-        <input id="recruiting" type="checkbox" name="study" value="recruiting">
-        <label class="usa-color-green" for="recruiting">Recruiting</label>
-      </li>
-      <li class="search_result-filter-input-indent">
-        <input id="not-yet-recruiting" type="checkbox" name="study" value="not-yet-recruiting">
-        <label class="usa-color-green" for="not-yet-recruiting">Not yet recruiting</label>
-      </li>
-      <li class="search_result-filter-input-indent">
-        <input id="enrolling-by-invitation" type="checkbox" name="study" value="enrolling-by-invitation">
-        <label class="usa-color-green" for="enrolling-by-invitation">Enrolling by invitation</label>
+        <input id="all-sex" type="radio" name="gender" value="all" checked>
+        <label for="all-sex">Substance abuse</label>
       </li>
       <li>
-        <input id="active-not-recruiting" type="checkbox" name="study" value="active-not-recruiting">
-        <label for="active-not-recruiting">Active, not recruiting</label>
+        <input id="female" type="radio" name="gender" value="female">
+        <label for="female">Mental health</label>
       </li>
       <li>
-        <input id="suspended" type="checkbox" name="study" value="suspended">
-        <label for="suspended">Suspended</label>
-      </li>
-      <li>
-        <input id="terminated" type="checkbox" name="study" value="terminated">
-        <label for="terminated">Terminated</label>
-      </li>
-      <li>
-        <input id="unknown-status" type="checkbox" name="study" value="unknown-status">
-        <label for="unknown-status">Unknown status</label>
+        <input id="male" type="radio" name="gender" value="male">
+        <label for="male">Substance abuse and mental health</label>
       </li>
     </ul>
   </fieldset>
   <fieldset class="usa-fieldset-inputs">
-    <legend class="term form-heading-small" data-term="Expanded access">Expanded access <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
-    <i class="fa fa-plus" aria-hidden="true" style="float: right; margin-top: -22px;"></i>
-<!--     <ul class="usa-unstyled-list">
+    <legend class="term" data-term="Study type">Facility type <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
+    <ul class="usa-unstyled-list">
+      <li>
+        <input id="interventional" type="checkbox" name="type" value="interventional">
+        <label for="interventional">Health care center</label>
+      </li>
+      <li>
+        <input id="observational" type="checkbox" name="type" value="observational">
+        <label for="observational">Buprenorphine physicians</label>
+      </li>
+      <li>
+        <input id="expanded-access" type="checkbox" name="type" value="expanded-access">
+        <label for="expanded-access">Veterans Affairs</label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset class="usa-fieldset-inputs">
+    <legend class="term" data-term="Recruitment status">
+      Accepting new patients <i class="fa fa-info-circle" aria-hidden="true"></i>
+    </legend>
+    <ul class="usa-unstyled-list">
+      <li>
+        <input id="seeking-participants" type="checkbox" name="study" value="seeking-participants">
+        <label class="" for="seeking-participants">Accepting new patients</label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset class="usa-fieldset-inputs">
+    <legend class="term" data-term="Expanded access">Languages spoken <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
+    <!-- <i class="fa fa-plus" aria-hidden="true" style="float: right; margin-top: -22px;"></i> -->
+    <ul class="usa-unstyled-list">
       <li>
         <input id="available" type="checkbox" name="expanded-access" value="available">
-        <label for="available">Available</label>
+        <label for="available">Spanish (98)</label>
       </li>
       <li>
         <input id="no-longer-available" type="checkbox" name="expanded-access" value="no-longer-available">
-        <label for="no-longer-available">No longer available</label>
+        <label for="available">Any Chinese language (35)</label>
       </li>
       <li>
         <input id="temporarily-not-available" type="checkbox" name="expanded-access" value="temporarily-not-available">
-        <label for="temporarily-not-available">Temporarily not available</label>
+        <label for="available">Afrikans (5)</label>
       </li>
       <li>
         <input id="approved-for-marketing" type="checkbox" name="expanded-access" value="approved-for-marketing">
-        <label for="approved-for-marketing">Approved for marketing</label>
+        <label for="available">Arabic (5)</label>
       </li>
-    </ul> -->
+    </ul>
+    <a class="search-show-more" href="#">[+] Show more</a>
   </fieldset>
-  <hr class="hr-small">
+  <fieldset class="usa-fieldset-inputs">
+    <legend class="term" data-term="Accepts healthy volunteers">Financial assistance <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
+    <ul class="usa-unstyled-list">
+      <li>
+        <input id="all-accepts-healthy-volunteers" type="radio" name="accepts-healthy-volunteers" value="all" checked>
+        <label for="all-accepts-healthy-volunteers">Any</label>
+      </li>
+      <li>
+        <input id="yes" type="radio" name="accepts-healthy-volunteers" value="yes">
+        <label for="yes">Yes</label>
+      </li>
+      <li>
+        <input id="no" type="radio" name="accepts-healthy-volunteers" value="no">
+        <label for="no">No</label>
+      </li>
+    </ul>
+  </fieldset>
+<!--   <hr class="hr-small">
   <fieldset class="usa-fieldset-inputs">
     <legend class="term" data-term="phase">Study phase <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
     <ul class="usa-unstyled-list">
@@ -102,58 +126,6 @@
     <option value="value2">Option B</option>
     <option value="value3">Option C</option>
   </select>
-  <fieldset class="usa-fieldset-inputs">
-    <legend class="form-heading-small term" data-term="SEXES ELIGIBLE FOR STUDY">Sex <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
-    <ul class="usa-unstyled-list">
-      <li>
-        <input id="all-sex" type="radio" name="gender" value="all" checked>
-        <label for="all-sex">All</label>
-      </li>
-      <li>
-        <input id="female" type="radio" name="gender" value="female">
-        <label for="female">Female</label>
-      </li>
-      <li>
-        <input id="male" type="radio" name="gender" value="male">
-        <label for="male">Male</label>
-      </li>
-    </ul>
-  </fieldset>
-  <fieldset class="usa-fieldset-inputs">
-    <legend class="term form-heading-small" data-term="Accepts healthy volunteers">Accepts healthy volunteers <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
-    <ul class="usa-unstyled-list">
-      <li>
-        <input id="all-accepts-healthy-volunteers" type="radio" name="accepts-healthy-volunteers" value="all" checked>
-        <label for="all-accepts-healthy-volunteers">All</label>
-      </li>
-      <li>
-        <input id="yes" type="radio" name="accepts-healthy-volunteers" value="yes">
-        <label for="yes">Yes</label>
-      </li>
-      <li>
-        <input id="no" type="radio" name="accepts-healthy-volunteers" value="no">
-        <label for="no">No</label>
-      </li>
-    </ul>
-  </fieldset>
-  <hr class="hr-small">
-  <fieldset class="usa-fieldset-inputs">
-    <legend class="term" data-term="Study type">Study type <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
-    <ul class="usa-unstyled-list">
-      <li>
-        <input id="interventional" type="checkbox" name="type" value="interventional">
-        <label for="interventional">Interventional</label>
-      </li>
-      <li>
-        <input id="observational" type="checkbox" name="type" value="observational">
-        <label for="observational">Observational</label>
-      </li>
-      <li>
-        <input id="expanded-access" type="checkbox" name="type" value="expanded-access">
-        <label for="expanded-access">Expanded access</label>
-      </li>
-    </ul>
-  </fieldset>
   <hr class="hr-small">
   <fieldset class="usa-fieldset-inputs">
     <legend class="term" data-term="Funder type">Funder type <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
@@ -193,7 +165,7 @@
         <label for="without-results">Without results</label>
       </li>
     </ul>
-  </fieldset>
+  </fieldset> -->
   <hr class="hr-small">
   <a class="button-clear_filters" href="#0">Clear all filters <i class="fa fa-times-circle" aria-hidden="true"></i></a>
 </div>

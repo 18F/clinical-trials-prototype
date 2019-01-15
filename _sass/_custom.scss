@@ -269,7 +269,7 @@ th {
     background-color: $med-green;
     display: inline-block;
     margin-right: 20px;
-    margin-top: 0;
+    // margin-top: 0;
   }
 
   .usa-fieldset-tabs {
@@ -336,6 +336,15 @@ th {
         background-color: $color-primary-darker;
       }
     }
+  }
+}
+
+.form-search-home-location {
+  margin-left: -16px;
+
+  i {
+    font-size: inherit;
+    margin-right: 4px;
   }
 }
 
@@ -533,8 +542,8 @@ input[id="location"] {
   }
 }
 
-.logo-dhhs {
-  width: 12%;
+.logo-hhs {
+  width: 24%;
 }
 
 .logo-usagov {

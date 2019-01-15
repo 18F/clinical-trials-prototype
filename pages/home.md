@@ -22,6 +22,9 @@ class: home
               <span class="usa-form-hint">Address, city, state, or zip code</span>
               <input id="location" name="location" type="text">
               <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+              <a class="form-search-home-location" href="#">
+                <i class="material-icons">my_location</i><span>Use my current location</span>
+              </a>
             </div>
             <input type="submit" value="Search">
           </div>
@@ -42,10 +45,10 @@ class: home
         {% include svg/search.svg %}
       </div> -->
       <h2>Learn about substance abuse treatment</h2>
-      <p>Clinical studies aim to answer scientific questions and find the best ways to prevent, diagnose, or treat diseases and medical conditions. These studies involve research using human volunteers, or participants.</p>
+      <p>SAMHSA aims to answer questions and find the best ways to prevent, diagnose, or substance abuse, addiction, and mental health problems.</p>
       <ul>
-        <li><a href="">Types and phases of clinical studies</a></li>
-        <li><a href="#">Who conducts clinical studies</a></li>
+        <li><a href="">Types of treatment</a></li>
+        <li><a href="#">Who conducts treatment</a></li>
         <li><a href="#">How the government is involved</a></li>
       </ul>
     </section>
@@ -54,19 +57,20 @@ class: home
         {% include svg/clipboard.svg %}
       </div> -->
       <h2>Know the risks and benefits</h2>
-      <p>Information on ClinicalTrials.gov is provided and updated by the sponsor or principal investigator of the clinical study. ClinicalTrials.gov is not involved in the studies themselves.</p>
+      <p>Information on SAMHSA is provided and updated by survey responses.</p>
       <ul>
-        <li><a href="">Risks and benefits of clinical studies</a></li>
-        <li><a href="">How participants are protected</a></li>
-        <li><a href="">How to read the study record</a></li>
+        <li><a href="">Risks and benefits</a></li>
+        <li><a href="">How veterans are protected</a></li>
+        <li><a href="">How to choose a facility</a></li>
       </ul>
     </section>
     <section class="usa-width-one-third">
 <!--       <div class="info-callouts-img">
         {% include svg/phone.svg %}
       </div> -->
-      <h2>Talk to a healthcare professional</h2>
-      <p>Participating in a clinical study is an important personal decision. We urge  you to learn everything you can about studies you’re considering and discuss all options with a healthcare professional.</p>
+      <h2>Call SAMHSA's National Helpline</h2>
+      <p>1-800-662-HELP (4357)</p>
+      <p>Free and confidential information in English and Spanish for individuals and family members facing substance abuse and mental health issues. 24 hours a day, 7 days a week.</p>
       <ul>
         <li><a href="">Questions to ask</a></li>
       </ul>
