@@ -16,7 +16,7 @@ class: search-results
       <button class="js-glossary-toggle button usa-button-unstyled link-compound"><i class="fa fa-info-circle" aria-hidden="true"></i>Glossary</button>
       <span class="divider-vertical"></span>
       <a class="link-compound" href="#">
-        <i class="fa fa-bookmark-o" aria-hidden="true"></i>Saved studies <span class="saved_studies-count">2</span>
+        <i class="fa fa-bookmark-o" aria-hidden="true"></i>Saved facilities <span class="saved_studies-count">2</span>
       </a>
       <span class="divider-vertical"></span>
       <a class="page-links-icon_link" href="#">
@@ -106,9 +106,9 @@ class: search-results
         </select>
       </form>
     </div> -->
-    <div class="usa-grid-full search_results-heading">
+<!--     <div class="usa-grid-full search_results-heading">
       <div class="usa-width-two-thirds">
-        <p class="search_results-heading-study">Study details - <a href="#0">show more</a></p>
+        <p class="search_results-heading-study">Facilities</p>
       </div>
       <div class="usa-width-one-third">
         <p class="term" data-term="Intervention">
@@ -116,7 +116,7 @@ class: search-results
           <i class="fa fa-info-circle" aria-hidden="true"></i>
         </p>
       </div>
-    </div>
+    </div> -->
     <ol class="search_result-list usa-unstyled-list">
       <li class="search_result-item">
         <article>
@@ -143,193 +143,93 @@ class: search-results
       </li>
       <li class="search_result-item">
         <article>
-          <span class="usa-label tooltip-label" aria-describedby="tooltip-text-content-1" tabindex="0">New</span>
-          <div class="tooltip">
-            <span class="tooltip-text" id="tooltip-text-content-1" role="tooltip">Study posted within the last 30 days</span>
-          </div>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Enrolling by invitation</p>
             <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Yoga Online Feasibility to Reduce <b>PTSD</b></a>
+              <a href="{{ site.baseurl }}/study-detail/">Western Pacific Med Corp Western Pacific Reseda</a>
             </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b></p>
+            <p class="search_result-metadata">
+              <span>7232 Canby Avenue</span>
+              <span>Reseda, CA 91335</span>
+              <span>Tel: 818-705-5561</span>
+              <span><a href="#">Website</a></span>
+              <span><a href="#">Directions</a></span>
+            </p>
           </div>
           <div class="usa-width-one-third">
             <h4 class="search_result-intervention-heading">Intervention type</h4>
-            <ul class="search_result-intervention">
-              <li>Behavioral: Personalized Attention Control Training (ACT)</li>
-              <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
-            </ul>
+            <p class="search_result-metadata">
+              <span>1.5 miles</span>
+              <span><a href="#">More info</a></span>
+            </p>
           </div>
         </article>
       </li>
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
             <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related <b>PTSD</b></a>
+              <a href="{{ site.baseurl }}/study-detail/">Western Pacific Med Corp Western Pacific Reseda</a>
             </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA and 46 other locations</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
+            <p class="search_result-metadata">
+              <span>7232 Canby Avenue</span>
+              <span>Reseda, CA 91335</span>
+              <span>Tel: 818-705-5561</span>
+              <span><a href="#">Website</a></span>
+              <span><a href="#">Directions</a></span>
+            </p>
           </div>
           <div class="usa-width-one-third">
             <h4 class="search_result-intervention-heading">Intervention type</h4>
-            <ul class="search_result-intervention">
-              <li>Behavioral: Personalized Attention Control Training (ACT)</li>
-            </ul>
+            <p class="search_result-metadata">
+              <span>1.5 miles</span>
+              <span><a href="#">More info</a></span>
+            </p>
           </div>
         </article>
       </li>
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
             <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Efficacy of 60-minute Versus 90-minute Sessions in Treating <b>PTSD</b> Using Prolonged Exposure</a>
+              <a href="{{ site.baseurl }}/study-detail/">Western Pacific Med Corp Western Pacific Reseda</a>
             </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b></p>
+            <p class="search_result-metadata">
+              <span>7232 Canby Avenue</span>
+              <span>Reseda, CA 91335</span>
+              <span>Tel: 818-705-5561</span>
+              <span><a href="#">Website</a></span>
+              <span><a href="#">Directions</a></span>
+            </p>
           </div>
           <div class="usa-width-one-third">
             <h4 class="search_result-intervention-heading">Intervention type</h4>
-            <ul class="search_result-intervention">
-              <li>Drug: Ketamine</li>
-            </ul>
+            <p class="search_result-metadata">
+              <span>1.5 miles</span>
+              <span><a href="#">More info</a></span>
+            </p>
           </div>
         </article>
       </li>
       <li class="search_result-item">
         <article>
           <div class="usa-width-two-thirds">
-            <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
             <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Intensive Weekend Retreat Multi-Couple Group Therapy for <b>PTSD</b></a>
+              <a href="{{ site.baseurl }}/study-detail/">Western Pacific Med Corp Western Pacific Reseda</a>
             </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b>, Substance Abuse</p>
+            <p class="search_result-metadata">
+              <span>7232 Canby Avenue</span>
+              <span>Reseda, CA 91335</span>
+              <span>Tel: 818-705-5561</span>
+              <span><a href="#">Website</a></span>
+              <span><a href="#">Directions</a></span>
+            </p>
           </div>
           <div class="usa-width-one-third">
             <h4 class="search_result-intervention-heading">Intervention type</h4>
-            <ul class="search_result-intervention">
-              <li>Drug: Ketamine, doxazosin</li>
-              <li>Drug: Doxazosin</li>
-              <li>Drug: Perindopril</li>
-            </ul>
-          </div>
-        </article>
-      </li>
-      <li class="search_result-item">
-        <article>
-          <span class="usa-label tooltip-label" aria-describedby="tooltip-text-content-2" tabindex="0">New</span>
-          <div class="tooltip">
-            <span class="tooltip-text" id="tooltip-text-content-2" role="tooltip">Study posted within the last 30 days</span>
-          </div>
-          <div class="usa-width-two-thirds">
-            <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-            <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (<b>PTSD</b>)</a>
-            </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA and 2 other locations</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
-          </div>
-          <div class="usa-width-one-third">
-            <h4 class="search_result-intervention-heading">Intervention type</h4>
-            <ul class="search_result-intervention">
-              <li>Behavioral: Personalized Attention Control Training (ACT)</li>
-              <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
-              <li>Behavioral: Control training</li>
-            </ul>
-          </div>
-        </article>
-      </li>
-      <li class="search_result-item">
-        <article>
-          <div class="usa-width-two-thirds">
-            <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Suspended</p>
-            <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Safety and Efficacy Study of TNX-102 SL in Patients With Military-related <b>PTSD</b></a>
-            </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA and 46 other locations</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
-          </div>
-          <div class="usa-width-one-third">
-            <h4 class="search_result-intervention-heading">Intervention type</h4>
-            <ul class="search_result-intervention">
-              <li>Behavioral: Personalized Attention Control Training (ACT)</li>
-            </ul>
-          </div>
-        </article>
-      </li>
-      <li class="search_result-item">
-        <article>
-          <div class="usa-width-two-thirds">
-            <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-            <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Efficacy of 60-minute Versus 90-minute Sessions in Treating <b>PTSD</b> Using Prolonged Exposure</a>
-            </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b></p>
-          </div>
-          <div class="usa-width-one-third">
-            <h4 class="search_result-intervention-heading">Intervention type</h4>
-            <ul class="search_result-intervention">
-              <li>Drug: Ketamine</li>
-            </ul>
-          </div>
-        </article>
-      </li>
-      <li class="search_result-item">
-        <article>
-          <div class="usa-width-two-thirds">
-            <p class="search_result-metadata study-status study-status-suspended-"><i class="fa fa-circle" aria-hidden="true"></i> Terminated</p>
-            <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Intensive Weekend Retreat Multi-Couple Group Therapy for <b>PTSD</b></a>
-            </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b>, Substance Abuse</p>
-          </div>
-          <div class="usa-width-one-third">
-            <h4 class="search_result-intervention-heading">Intervention type</h4>
-            <ul class="search_result-intervention">
-              <li>Drug: Ketamine, doxazosin</li>
-              <li>Drug: Doxazosin</li>
-              <li>Drug: Perindopril</li>
-            </ul>
-          </div>
-        </article>
-      </li>
-      <li class="search_result-item">
-        <article>
-          <span class="usa-label tooltip-label" aria-describedby="tooltip-text-content-3" tabindex="0">New</span>
-          <div class="tooltip">
-            <span class="tooltip-text" id="tooltip-text-content-3" role="tooltip">Study posted within the last 30 days</span>
-          </div>
-          <div class="usa-width-two-thirds">
-            <p class="search_result-metadata study-status study-status-recruiting"><i class="fa fa-circle" aria-hidden="true"></i> Recruiting</p>
-            <h3 class="search_result-heading">
-              <a href="javascript:void(0);">Attention Control Treatment for Post Traumatic Stress Disorder (<b>PTSD</b>)</a>
-            </h3>
-            <p class="search_result-metadata">Location: Palo Alto, CA and 2 other locations</p>
-            <span class="search_result-metadata-divider">|</span>
-            <p class="search_result-metadata">Condition: <b>PTSD</b>, Depression</p>
-          </div>
-          <div class="usa-width-one-third">
-            <h4 class="search_result-intervention-heading">Intervention type</h4>
-            <ul class="search_result-intervention">
-              <li>Behavioral: Personalized Attention Control Training (ACT)</li>
-              <li>Behavioral: Non-personalized Attention Control Training (ACT)</li>
-              <li>Behavioral: Control training</li>
-            </ul>
+            <p class="search_result-metadata">
+              <span>1.5 miles</span>
+              <span><a href="#">More info</a></span>
+            </p>
           </div>
         </article>
       </li>

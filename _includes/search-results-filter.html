@@ -7,7 +7,7 @@
 
 <div class="search_result-filter-inner">
   <fieldset class="usa-fieldset-inputs">
-    <legend class="term" data-term="SEXES ELIGIBLE FOR STUDY">Type of care <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
+    <legend class="term" data-term="SEXES ELIGIBLE FOR STUDY">Service type <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
     <ul class="usa-unstyled-list">
       <li>
         <input id="all-sex" type="radio" name="gender" value="all" checked>
@@ -24,36 +24,57 @@
     </ul>
   </fieldset>
   <fieldset class="usa-fieldset-inputs">
-    <legend class="term" data-term="Study type">Facility type <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
-    <ul class="usa-unstyled-list">
-      <li>
-        <input id="interventional" type="checkbox" name="type" value="interventional">
-        <label for="interventional">Health care center</label>
-      </li>
-      <li>
-        <input id="observational" type="checkbox" name="type" value="observational">
-        <label for="observational">Buprenorphine physicians</label>
-      </li>
-      <li>
-        <input id="expanded-access" type="checkbox" name="type" value="expanded-access">
-        <label for="expanded-access">Veterans Affairs</label>
-      </li>
-    </ul>
-  </fieldset>
-  <fieldset class="usa-fieldset-inputs">
     <legend class="term" data-term="Recruitment status">
-      Accepting new patients <i class="fa fa-info-circle" aria-hidden="true"></i>
+      Service setting <i class="fa fa-info-circle" aria-hidden="true"></i>
     </legend>
     <ul class="usa-unstyled-list">
       <li>
         <input id="seeking-participants" type="checkbox" name="study" value="seeking-participants">
-        <label class="" for="seeking-participants">Accepting new patients</label>
+        <label class="" for="seeking-participants">In-patient</label>
+      </li>
+      <li>
+        <input id="Out-patient" type="checkbox" name="study" value="Out-patient">
+        <label class="" for="Out-patient">Out-patient</label>
       </li>
     </ul>
   </fieldset>
   <fieldset class="usa-fieldset-inputs">
+    <legend class="term" data-term="Study type">Medications seeking <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
+    <ul class="usa-unstyled-list">
+      <li>
+        <input id="interventional" type="checkbox" name="type" value="interventional">
+        <label for="interventional">Buprenorphine</label>
+      </li>
+      <li>
+        <input id="observational" type="checkbox" name="type" value="observational">
+        <label for="observational">Methodone</label>
+      </li>
+      <li>
+        <input id="expanded-access" type="checkbox" name="type" value="expanded-access">
+        <label for="expanded-access">OTP</label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset class="usa-fieldset-inputs">
+    <legend class="term" data-term="Accepts healthy volunteers">Financial assistance <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
+    <ul class="usa-unstyled-list">
+      <li>
+        <input id="all-accepts-healthy-volunteers" type="radio" name="accepts-healthy-volunteers" value="all" checked>
+        <label for="all-accepts-healthy-volunteers">Any</label>
+      </li>
+      <li>
+        <input id="yes" type="radio" name="accepts-healthy-volunteers" value="yes">
+        <label for="yes">Yes</label>
+      </li>
+      <li>
+        <input id="no" type="radio" name="accepts-healthy-volunteers" value="no">
+        <label for="no">No</label>
+      </li>
+    </ul>
+  </fieldset>
+<!--   <fieldset class="usa-fieldset-inputs">
     <legend class="term" data-term="Expanded access">Languages spoken <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
-    <!-- <i class="fa fa-plus" aria-hidden="true" style="float: right; margin-top: -22px;"></i> -->
+    <i class="fa fa-plus" aria-hidden="true" style="float: right; margin-top: -22px;"></i>
     <ul class="usa-unstyled-list">
       <li>
         <input id="available" type="checkbox" name="expanded-access" value="available">
@@ -73,24 +94,7 @@
       </li>
     </ul>
     <a class="search-show-more" href="#">[+] Show more</a>
-  </fieldset>
-  <fieldset class="usa-fieldset-inputs">
-    <legend class="term" data-term="Accepts healthy volunteers">Financial assistance <i class="fa fa-info-circle" aria-hidden="true"></i></legend>
-    <ul class="usa-unstyled-list">
-      <li>
-        <input id="all-accepts-healthy-volunteers" type="radio" name="accepts-healthy-volunteers" value="all" checked>
-        <label for="all-accepts-healthy-volunteers">Any</label>
-      </li>
-      <li>
-        <input id="yes" type="radio" name="accepts-healthy-volunteers" value="yes">
-        <label for="yes">Yes</label>
-      </li>
-      <li>
-        <input id="no" type="radio" name="accepts-healthy-volunteers" value="no">
-        <label for="no">No</label>
-      </li>
-    </ul>
-  </fieldset>
+  </fieldset> -->
 <!--   <hr class="hr-small">
   <fieldset class="usa-fieldset-inputs">
     <legend class="term" data-term="phase">Study phase <i class="fa fa-info-circle" aria-hidden="true"></i></legend>

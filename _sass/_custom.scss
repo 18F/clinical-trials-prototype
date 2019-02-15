@@ -1169,9 +1169,8 @@ a {
     padding: 2rem;
     width: 100%;
 
-    &:nth-of-type(odd) {
+    &:nth-of-type(even) {
       background-color: #FBFBFB;
-      // position: relative;
     }
   }
 }
